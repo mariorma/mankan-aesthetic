@@ -784,12 +784,14 @@ main {
 
 .log-item-head a {
   text-decoration: underline;
+  text-decoration-color: var(--line);
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.26em;
+  text-underline-offset: 0.3em;
 }
 
 .log-item-head a:hover {
   color: var(--moss);
+  text-decoration-color: currentColor;
 }
 
 .log-points {
@@ -810,20 +812,17 @@ main {
 .log-steal {
   max-width: 38rem;
   margin-top: 1rem;
-  color: var(--moss);
+  color: var(--muted);
   font-size: 0.98rem;
   line-height: 1.8;
 }
 
 .log-steal-label {
-  display: inline-block;
-  margin-right: 0.55rem;
-  padding: 0.05rem 0.5rem;
-  border: 1px solid var(--moss);
-  font-family: var(--sans);
-  font-size: 0.68rem;
-  letter-spacing: 0.14em;
-  vertical-align: 0.1em;
+  margin-right: 0.7rem;
+  color: var(--moss);
+  font-family: var(--serif);
+  font-size: 0.84rem;
+  letter-spacing: 0.1em;
 }
 
 .log-links {
@@ -899,11 +898,19 @@ main {
 }
 
 .issue-flag {
-  padding: 0.05rem 0.5rem;
-  border: 1px solid var(--moss);
   color: var(--moss);
-  font-size: 0.68rem;
-  letter-spacing: 0.14em;
+  font-family: var(--serif);
+  font-size: 0.84rem;
+  letter-spacing: 0.1em;
+}
+
+.archived .toc-num {
+  white-space: nowrap;
+  font-size: 0.9rem;
+}
+
+.archived .toc a {
+  grid-template-columns: 3.4rem minmax(0, 1fr) auto;
 }
 
 .issue-title {
@@ -1060,6 +1067,10 @@ main {
 
   .log-item .lesson {
     max-width: 100%;
+  }
+
+  .archived .toc a {
+    grid-template-columns: 3.1rem minmax(0, 1fr);
   }
 }
 

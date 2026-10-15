@@ -46,7 +46,7 @@ function ArchivePage() {
         ))}
       </ol>
 
-      <section className="block" aria-labelledby="archived-notes">
+      <section className="block archived" aria-labelledby="archived-notes">
         <header className="section-head">
           <h2 id="archived-notes">本期存档 · 审美提升提炼笔记</h2>
           <p>当初写的三篇提炼笔记，留个存档。以后不再做每日提炼，想翻还能翻。</p>
@@ -54,7 +54,7 @@ function ArchivePage() {
         <nav className="toc" aria-label="审美提升">
           {notes.map((note) => (
             <a key={note.id} href={`${pageHref("archive", "notes")}#${note.id}`}>
-              <span className="toc-num">{note.date.slice(5)}</span>
+              <span className="toc-num">{note.date.slice(5).replace("-", ".")}</span>
               <span className="toc-title">{note.title}</span>
               <span className="toc-kicker">{note.kicker}</span>
               <span className="toc-excerpt">{note.paragraphs[0]}</span>
