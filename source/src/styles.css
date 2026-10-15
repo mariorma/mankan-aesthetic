@@ -187,8 +187,9 @@ main {
 .lede {
   max-width: 36rem;
   margin-top: 2.35rem;
+  font-family: var(--serif);
   font-size: 1.2rem;
-  line-height: 2;
+  line-height: 1.9;
 }
 
 .lede-next {
@@ -233,53 +234,77 @@ main {
 
 .plate {
   flex: none;
-  width: 8.5rem;
-  margin: 0 0 0.35rem;
+  width: 15rem;
+  margin: 0 0 0.15rem;
 }
 
-.plate-frame {
-  position: relative;
-  height: 11rem;
+.plate img,
+.spread img,
+.lesson img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  background: #e7e2d9;
+}
+
+.plate img {
   border: 1px solid var(--ink);
-  background: transparent;
 }
 
-.plate-v,
-.plate-h {
-  position: absolute;
-  background: #3f534c59;
+.spread img,
+.lesson img {
+  border: 1px solid var(--line);
 }
 
-.plate-v {
-  top: 0.65rem;
-  bottom: 0.65rem;
-  left: 33.3%;
-  width: 1px;
-}
-
-.plate-h {
-  top: 36%;
-  right: 0.65rem;
-  left: 0.65rem;
-  height: 1px;
-}
-
-.plate-mass {
-  position: absolute;
-  top: 26%;
-  left: 42%;
-  width: 36%;
-  height: 48%;
-  border: 1.5px solid var(--ink);
-  background: transparent;
-}
-
-.plate figcaption {
+.plate figcaption,
+.spread figcaption,
+.lesson figcaption {
   margin-top: 0.7rem;
   color: var(--muted);
   font-family: var(--serif);
-  font-size: 0.78rem;
   line-height: 1.7;
+}
+
+.plate figcaption {
+  font-size: 0.78rem;
+}
+
+.spread {
+  margin-top: 2.75rem;
+}
+
+.spread figcaption,
+.lesson figcaption {
+  max-width: 36rem;
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+.lesson {
+  margin: 1.05rem 0 0.15rem;
+}
+
+.credit {
+  display: block;
+  margin-top: 0.28rem;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  line-height: 1.55;
+}
+
+.credit a,
+.about-block a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+.credit a:hover,
+.about-block a:hover {
+  color: var(--ink);
 }
 
 .block {
@@ -406,7 +431,9 @@ main {
 
 .deck {
   max-width: 34rem;
+  font-family: var(--serif);
   font-size: 1.08rem;
+  line-height: 1.85;
 }
 
 .entries {
@@ -459,8 +486,9 @@ main {
   letter-spacing: 0.02em;
 }
 
-.entry-body p + p {
-  margin-top: 0.95rem;
+.entry-body p + p,
+.entry-body .lesson + p {
+  margin-top: 1.05rem;
 }
 
 .practice {
@@ -554,11 +582,7 @@ main {
   }
 
   .plate {
-    width: 7.5rem;
-  }
-
-  .plate-frame {
-    height: 9.75rem;
+    width: 100%;
   }
 
   .lede {

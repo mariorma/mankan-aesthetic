@@ -1,4 +1,5 @@
-import { entries } from "./entries";
+import { entries, type Figure } from "./entries";
+import { FigureView } from "./Figure";
 import { entryHref, pageHref } from "./paths";
 import { mount, Shell } from "./Shell";
 
@@ -20,6 +21,24 @@ const habits = [
   },
 ];
 
+const cover: Figure = {
+  file: "quiet-wall.webp",
+  alt: "人站在空墙的右侧，左侧留出大片空白",
+  width: 864,
+  height: 1152,
+  caption: "兴趣点偏在一侧，\n空处把视线送回去。",
+  credit: "示意人像，为本站生成",
+};
+
+const opener: Figure = {
+  file: "timber-light.webp",
+  alt: "安静的室内：左侧一根深色木柱，大片白墙上落着窗格形状的光",
+  width: 1152,
+  height: 864,
+  caption: "柱、墙、一块光。先看谁作主。",
+  credit: "示意空间，为本站生成",
+};
+
 function Home() {
   return (
     <Shell page="home">
@@ -29,18 +48,7 @@ function Home() {
             <p className="eyebrow">个人审美笔记</p>
             <h1>慢看</h1>
           </div>
-          <figure className="plate">
-            <div className="plate-frame" aria-hidden="true">
-              <span className="plate-v" />
-              <span className="plate-h" />
-              <span className="plate-mass" />
-            </div>
-            <figcaption>
-              兴趣点偏在一侧，
-              <br />
-              空处把视线送回去。
-            </figcaption>
-          </figure>
+          <FigureView page="home" figure={cover} className="plate" priority />
         </div>
         <p className="lede">
           用看图学审美。主线是品味：构图、光影、气质。不是把图堆多，也不是比谁更露骨。
@@ -48,6 +56,7 @@ function Home() {
         <p className="lede lede-next">
           一张图值不值得停一下，先看它把注意力放在哪里，光从哪来，留白是否在说话。二次元和游戏原画以后可以接上，用的仍是这一套眼睛。
         </p>
+        <FigureView page="home" figure={opener} className="spread" priority />
         <a className="go" href={pageHref("home", "entries")}>
           阅读十二条笔记
           <span className="go-arrow" aria-hidden="true" />

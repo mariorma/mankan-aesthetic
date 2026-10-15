@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { entries } from "./entries";
+import { FigureView } from "./Figure";
 import { mount, Shell } from "./Shell";
 
 function scrollToHash() {
@@ -48,6 +49,9 @@ function EntriesPage() {
             </div>
             <div className="entry-body">
               <h2>{entry.title}</h2>
+              {entry.figure && (
+                <FigureView page="entries" figure={entry.figure} className="lesson" />
+              )}
               {entry.paragraphs.map((paragraph) => (
                 <p key={paragraph}>{paragraph}</p>
               ))}

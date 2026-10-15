@@ -1,3 +1,13 @@
+export type Figure = {
+  file: string;
+  alt: string;
+  width: number;
+  height: number;
+  caption: string;
+  credit: string;
+  creditHref?: string;
+};
+
 export type Entry = {
   id: string;
   number: string;
@@ -6,6 +16,7 @@ export type Entry = {
   excerpt: string;
   paragraphs: string[];
   practice: string;
+  figure?: Figure;
 };
 
 export const entries: Entry[] = [
@@ -20,6 +31,14 @@ export const entries: Entry[] = [
       "三分法适合入门，把兴趣点放在分割线附近；正中构图也可以，但要有对称或仪式感作为理由。没有取舍的构图，看起来就像还没开始看。",
     ],
     practice: "找十张你喜欢的图，用手指画出主要分割线，看主体究竟落在哪。",
+    figure: {
+      file: "timber-light.webp",
+      alt: "安静的室内：左侧一根深色木柱，大片白墙上落着窗格形状的光",
+      width: 1152,
+      height: 864,
+      caption: "柱子定住左边，光落在空墙上。骨架清楚，后面的风格才有地方放。",
+      credit: "示意空间，为本站生成",
+    },
   },
   {
     id: "light",
@@ -32,6 +51,14 @@ export const entries: Entry[] = [
       "正面打平的闪光会把皮肤、衣服和背景压成一块，层次没了，气质也跟着薄。侧光、窗边的光、逆光勾出的轮廓，都是在用明暗说「这里重要」。",
     ],
     practice: "同一件杯子，在窗边看两次：一次正对窗，一次侧对窗，只比较哪次更有体积。",
+    figure: {
+      file: "window-light.webp",
+      alt: "人坐在窗边，侧光落在半边脸上，另一侧是柔和的影子",
+      width: 864,
+      height: 1152,
+      caption: "光从窗的左侧来，一边脸颊有体积，另一边留在影子里。",
+      credit: "示意人像，为本站生成",
+    },
   },
   {
     id: "temperament",
@@ -44,6 +71,14 @@ export const entries: Entry[] = [
       "人站得很普通也没关系，只要视线、肩线和背景安静地对齐，画面就会有分寸。先用一个词说出气质，再回头看姿势有没有拆这个词的台。",
     ],
     practice: "只用「克制、松弛、锐利、温」里的一个词形容一张图。说不出，就先别评价姿势。",
+    figure: {
+      file: "quiet-seat.webp",
+      alt: "人穿深蓝色长衣，安静地坐在木凳上，身后是素色格子门",
+      width: 864,
+      height: 1152,
+      caption: "深色衣服、收着的手、安静的格子门，说的是同一句。",
+      credit: "示意人像，为本站生成",
+    },
   },
   {
     id: "unrefined",
@@ -104,6 +139,14 @@ export const entries: Entry[] = [
       "两大块高饱和撞在一起，眼睛会累，也容易显得土。环境色已经很吵的时候，人身上就少再加颜色。",
     ],
     practice: "把一张图收成三块颜色，说出谁是主色。说不出来，通常就是还没和谐。",
+    figure: {
+      file: "muted-still.webp",
+      alt: "亚麻布上的一只青瓷杯、一张暖白纸和一根枯枝",
+      width: 1152,
+      height: 864,
+      caption: "青瓷、暖纸、枯枝，只有三种近亲色。暖白是主色，其余都让着它。",
+      credit: "示意静物，为本站生成",
+    },
   },
   {
     id: "negative-space",
@@ -116,6 +159,15 @@ export const entries: Entry[] = [
       "留白也要有形状：大到让主体发飘，碎到像漏洞，都不算好的负空间。好的留白有方向，会把视线送回主体。",
     ],
     practice: "把同一张图在心里裁两次：一次几乎贴边，一次四周留出一圈，比较哪次主体更清楚。",
+    figure: {
+      file: "ceramic-space.webp",
+      alt: "浅色陶瓶靠在画面右侧，左侧是大片空墙，近处有几只小杯",
+      width: 1400,
+      height: 2100,
+      caption: "瓶子偏在右侧，左边整面留空。留白有方向，视线才会走回去。",
+      credit: "照片：Thanh Truc Ho / Pexels",
+      creditHref: "https://www.pexels.com/photo/elegant-ceramic-teapot-and-cup-set-still-life-33118329/",
+    },
   },
   {
     id: "styling",
