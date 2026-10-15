@@ -37,6 +37,9 @@ function About() {
           只有「负空间」那条用了 Pexels 上的一张照片，作者 Thanh Truc Ho，图注里写了名字并链到原图。无商业用途·侵权立删。
         </p>
         <p>
+          「积累」页里是学习时抓来的原图（MilK、Fonts In Use 等），每张都标了来源并链回原页，无商业用途·侵权立删；抓不到的就写「原图未取到」，不拿假图糊弄。
+        </p>
+        <p>
           哪张图权利人想撤，在<a href="https://github.com/mariorma/mankan-aesthetic">这个仓库</a>留言就行，看到就从页面拿掉。
         </p>
       </section>

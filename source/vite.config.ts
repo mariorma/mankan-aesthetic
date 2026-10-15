@@ -14,6 +14,8 @@ export default defineConfig({
         about: resolve(root, "about/index.html"),
         entries: resolve(root, "entries/index.html"),
         notes: resolve(root, "notes/index.html"),
+        archive: resolve(root, "archive/index.html"),
+        log: resolve(root, "log/index.html"),
         notFound: resolve(root, "404.html"),
       },
     },

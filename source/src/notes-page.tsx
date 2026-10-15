@@ -1,15 +1,17 @@
 import { notes } from "./notes";
 import { FigureView } from "./Figure";
+import { pageHref } from "./paths";
 import { mount, Shell } from "./Shell";
 
 function NotesPage() {
   return (
     <Shell page="notes">
       <header className="mast">
-        <p className="eyebrow">审美提升 · 每日笔记</p>
+        <p className="eyebrow">本期存档 · 不再更新</p>
         <h1>审美提升</h1>
         <p className="deck">
-          每天看一点好东西，用大白话记下学到了什么、对看图有什么用。新的放在最上面。
+          当初写的三篇提炼笔记，留个存档。以后不再做每日提炼；想翻还能翻。原生态的学习记录在
+          <a href={pageHref("notes", "log")}>「积累」</a>。
         </p>
       </header>
       <div className="notes">

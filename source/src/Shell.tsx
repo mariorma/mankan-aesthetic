@@ -6,7 +6,7 @@ import "./styles.css";
 const nav = [
   { id: "home", label: "首页" },
   { id: "entries", label: "条目" },
-  { id: "notes", label: "审美提升" },
+  { id: "archive", label: "往期" },
   { id: "about", label: "关于" },
 ] as const;
 
@@ -32,6 +32,13 @@ export function Shell({ page, children }: { page: PageId; children: ReactNode })
                 {item.label}
               </a>
             ))}
+            <a
+              className="nav-log"
+              href={pageHref(page, "log")}
+              aria-current={page === "log" ? "page" : undefined}
+            >
+              积累
+            </a>
           </nav>
         </div>
       </header>

@@ -1,6 +1,5 @@
 import { chapterEntries, chapters, type Figure } from "./entries";
 import { FigureView } from "./Figure";
-import { notes } from "./notes";
 import { entryHref, pageHref } from "./paths";
 import { mount, Shell } from "./Shell";
 
@@ -48,8 +47,6 @@ const today: Figure = {
   caption: "深色长衣，手放在膝上，背景的格子门很安静。三样东西像在说一件事。",
   credit: "示意 · 为本站生成",
 };
-
-const latestNote = notes[0];
 
 function Home() {
   return (
@@ -100,18 +97,6 @@ function Home() {
           <p>固定栏目。每次挑一张，说清楚它好在哪。</p>
         </header>
         <FigureView page="home" figure={today} className="spread" />
-      </section>
-
-      <section className="block" aria-labelledby="notes-heading">
-        <header className="section-head">
-          <h2 id="notes-heading">审美提升</h2>
-          <p>每天看一点好东西，用大白话记下学到了什么。</p>
-        </header>
-        <a className="note-peek" href={pageHref("home", "notes")}>
-          <span className="note-peek-date">{latestNote.date}</span>
-          <span className="note-peek-title">{latestNote.title}</span>
-          <span className="go-arrow" aria-hidden="true" />
-        </a>
       </section>
 
       <section className="block" aria-labelledby="use-heading">
