@@ -13,6 +13,7 @@ export default defineConfig({
         main: resolve(root, "index.html"),
         about: resolve(root, "about/index.html"),
         entries: resolve(root, "entries/index.html"),
+        notes: resolve(root, "notes/index.html"),
         notFound: resolve(root, "404.html"),
       },
     },

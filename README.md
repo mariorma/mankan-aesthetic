@@ -4,7 +4,9 @@
 
 线上地址：<https://mariorma.github.io/mankan-aesthetic/>
 
-仓库根目录是已经构建好的静态站点，GitHub Pages 从 `main` 分支的根目录直接托管：`index.html`、`about/`、`entries/`、`assets/`。
+仓库根目录是已经构建好的静态站点，GitHub Pages 从 `main` 分支的根目录直接托管：`index.html`、`about/`、`entries/`、`notes/`、`assets/`。
+
+「审美提升」是每日品味笔记栏目，内容在 `source/src/notes.ts`。加新一篇：复制一个对象放到数组最前面，填日期、标题、图和几句大白话即可。
 
 示例图在 `source/public/images/`：多数标「示意 · 为本站生成」。负空间那一条是 Pexels 照片（Thanh Truc Ho），图注带「无商业用途·侵权立删」。署名在关于页。
 

@@ -6,6 +6,7 @@ import "./styles.css";
 const nav = [
   { id: "home", label: "首页" },
   { id: "entries", label: "条目" },
+  { id: "notes", label: "审美提升" },
   { id: "about", label: "关于" },
 ] as const;
 
@@ -19,6 +20,7 @@ export function Shell({ page, children }: { page: PageId; children: ReactNode })
         <div className="wrap header-inner">
           <a className="brand" href={pageHref(page, "home")}>
             慢看
+            <span className="brand-sub">用看图学审美</span>
           </a>
           <nav className="nav" aria-label="页面">
             {nav.map((item) => (

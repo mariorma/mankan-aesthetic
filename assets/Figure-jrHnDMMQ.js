@@ -1,0 +1,2 @@
+import{j as e,a as d}from"./Shell-CHBW36lj.js";function h({page:t,figure:s,className:a,priority:i=!1}){const n=s.caption.split(`
+`);return e.jsxs("figure",{className:a,children:[e.jsx("img",{src:d(t,s.file),alt:s.alt,width:s.width,height:s.height,loading:i?"eager":"lazy",decoding:"async"}),e.jsxs("figcaption",{children:[n.map((r,c)=>e.jsxs("span",{children:[c>0&&e.jsx("br",{}),r]},r)),e.jsx("span",{className:"credit",children:s.creditHref?e.jsx("a",{href:s.creditHref,rel:"noreferrer",children:s.credit}):s.credit})]})]})}export{h as F};

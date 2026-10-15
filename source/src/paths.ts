@@ -1,13 +1,14 @@
-export type PageId = "home" | "entries" | "about" | "missing";
+export type PageId = "home" | "entries" | "notes" | "about" | "missing";
 
 const depth: Record<PageId, 0 | 1> = {
   home: 0,
   entries: 1,
+  notes: 1,
   about: 1,
   missing: 0,
 };
 
-export function pageHref(from: PageId, to: "home" | "entries" | "about"): string {
+export function pageHref(from: PageId, to: "home" | "entries" | "notes" | "about"): string {
   const prefix = depth[from] === 0 ? "./" : "../";
   return to === "home" ? prefix : `${prefix}${to}/`;
 }

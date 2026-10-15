@@ -32,9 +32,9 @@ function EntriesPage() {
   return (
     <Shell page="entries">
       <header className="mast">
-        <p className="eyebrow">四章 · 十二则</p>
+        <p className="eyebrow">四章 · 十二条</p>
         <h1>条目</h1>
-        <p className="deck">每章一句题记。手边放一张你自己的图。</p>
+        <p className="deck">每条讲一个判断，两三句就说完。看的时候，手边放一张自己的图。</p>
       </header>
       {chapters.map((chapter) => (
         <section key={chapter.id} className="chapter" aria-labelledby={`chapter-${chapter.id}`}>
@@ -68,7 +68,7 @@ function EntriesPage() {
         </section>
       ))}
       <p className="afterword">
-        二次元和游戏原画不另起炉灶。第 06 条写了和写实共通的地方；以后若要加，也从剪影、光和气质这里长出去。
+        二次元和游戏原画不另算一套。第 06 条讲了它和照片相通的地方；以后要加，也还是从轮廓、光和气质这几件事接着说。
       </p>
     </Shell>
   );
