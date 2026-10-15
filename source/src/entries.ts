@@ -19,13 +19,22 @@ export type Entry = {
   figure?: Figure;
 };
 
+export type Chapter = {
+  id: string;
+  title: string;
+  epigraph: string;
+  ids: string[];
+};
+
+const made = "示意 · 为本站生成";
+
 export const entries: Entry[] = [
   {
     id: "composition",
     number: "01",
     kicker: "结构",
-    title: "构图基础",
-    excerpt: "构图是一张图的骨架，先决定主体、陪衬和空隙谁作主。",
+    title: "柱在左，光落在空墙上。",
+    excerpt: "骨架清楚，风格才有地方放。",
     paragraphs: [
       "构图是一张图的骨架。先把画面看成几个大块：主体、陪衬、空隙，再决定主体站在哪里。",
       "三分法适合入门，把兴趣点放在分割线附近；正中构图也可以，但要有对称或仪式感作为理由。没有取舍的构图，看起来就像还没开始看。",
@@ -36,16 +45,16 @@ export const entries: Entry[] = [
       alt: "安静的室内：左侧一根深色木柱，大片白墙上落着窗格形状的光",
       width: 1152,
       height: 864,
-      caption: "柱子定住左边，光落在空墙上。骨架清楚，后面的风格才有地方放。",
-      credit: "示意空间，为本站生成",
+      caption: "柱定住左边。",
+      credit: made,
     },
   },
   {
     id: "light",
     number: "02",
     kicker: "光",
-    title: "光影层次",
-    excerpt: "光是用来分层的，不是用来把一切打亮。",
+    title: "窗只照亮半边脸。",
+    excerpt: "到处都亮，体积就会扁。",
     paragraphs: [
       "光不是把脸照亮就结束。好看的光通常有层次：主光定形，阴影给体积，暗一点的地方留住细节。",
       "正面打平的闪光会把皮肤、衣服和背景压成一块，层次没了，气质也跟着薄。侧光、窗边的光、逆光勾出的轮廓，都是在用明暗说「这里重要」。",
@@ -56,16 +65,16 @@ export const entries: Entry[] = [
       alt: "人坐在窗边，侧光落在半边脸上，另一侧是柔和的影子",
       width: 864,
       height: 1152,
-      caption: "光从窗的左侧来，一边脸颊有体积，另一边留在影子里。",
-      credit: "示意人像，为本站生成",
+      caption: "半边脸有体积。",
+      credit: made,
     },
   },
   {
     id: "temperament",
     number: "03",
     kicker: "人",
-    title: "气质与姿势",
-    excerpt: "姿势是形状，气质是整张图有没有说同一句话。",
+    title: "衣服、手和门，说同一句。",
+    excerpt: "姿势好看不够，整张图得说齐。",
     paragraphs: [
       "姿势是身体摆出的形状，气质是整张图的态度。一个漂亮的姿势，如果光线乱、背景吵、衣服和表情各说各话，气质仍然是散的。",
       "人站得很普通也没关系，只要视线、肩线和背景安静地对齐，画面就会有分寸。先用一个词说出气质，再回头看姿势有没有拆这个词的台。",
@@ -76,16 +85,16 @@ export const entries: Entry[] = [
       alt: "人穿深蓝色长衣，安静地坐在木凳上，身后是素色格子门",
       width: 864,
       height: 1152,
-      caption: "深色衣服、收着的手、安静的格子门，说的是同一句。",
-      credit: "示意人像，为本站生成",
+      caption: "衣服和门，说同一句。",
+      credit: made,
     },
   },
   {
     id: "unrefined",
     number: "04",
     kicker: "判断",
-    title: "为何有的图显得「土」",
-    excerpt: "图显得土，多半是因为每样东西都想被看见。",
+    title: "每样东西都想被看见。",
+    excerpt: "土，多半是信号在打架。",
     paragraphs: [
       "「土」很少是因为题材老，更多是因为信号在打架。颜色又多又饱和，贴纸和字压过主体，光线平，背景的杂物没清，比例也被拉得不自然。",
       "土，常常是每样东西都想被看见。有品味的画面会做减法，让一个决定压过其余的决定。",
@@ -96,8 +105,8 @@ export const entries: Entry[] = [
     id: "east-west",
     number: "05",
     kicker: "比较",
-    title: "东亚影像与西方时尚",
-    excerpt: "两边的差别多在重心，不在高低。",
+    title: "差别在重心，不在高低。",
+    excerpt: "看留白、光的软硬、身体收或开。",
     paragraphs: [
       "两边都有高级，也都有俗气，不必收成「东方含蓄、西方大胆」。可以观察的差别多在重心：不少东亚影像更在意皮肤的均匀、线条的干净，以及人与留白的关系；不少西方时尚摄影更强调姿态的张力、材质的粗粝和光的戏剧性。",
       "这是习惯，不是高低。借的是结构，不必把更大胆当成更高级。",
@@ -108,8 +117,8 @@ export const entries: Entry[] = [
     id: "illustration",
     number: "06",
     kicker: "风格",
-    title: "二次元与写实的共通点",
-    excerpt: "二次元把写实里已有的决定画得更明确。",
+    title: "缩到拇指，剪影还在。",
+    excerpt: "立绘和人像做的是同一件事。",
     paragraphs: [
       "二次元不是另一套物理。它把写实里已经存在的决定画得更明确：轮廓、色块、眼神里的高光、服装的剪影。",
       "好看的立绘和好看的人像在做同一件事，让剪影在很小的时候仍然认得出来，并给视线一个落点。以后若要谈动画或游戏原画，可以从这些共通点进去，而不是先追风格名词。",
@@ -120,8 +129,8 @@ export const entries: Entry[] = [
     id: "one-line",
     number: "07",
     kicker: "语言",
-    title: "如何用一句话评价一张图",
-    excerpt: "少说好看，改说注意力放在哪里。",
+    title: "少说好看，说注意力在哪。",
+    excerpt: "一句话里要有观察，有理由。",
     paragraphs: [
       "少说「好看」，也少说「不行」。试着说出注意力被放在哪里，以及这个决定干不干净。比如：光从左侧来，脸有体积，可背景的亮斑把视线抢走了。",
       "一句话里有观察，有理由，品味就比形容词站得住。评价不是审判作者，是训练自己的眼睛。",
@@ -132,8 +141,8 @@ export const entries: Entry[] = [
     id: "color",
     number: "08",
     kicker: "色彩",
-    title: "色彩和谐入门",
-    excerpt: "和谐是颜色少，而且彼此有亲属关系。",
+    title: "青瓷、暖纸、枯枝，是近亲。",
+    excerpt: "颜色少，而且彼此认识。",
     paragraphs: [
       "和谐不是颜色多，是少而有亲属关系。入门先限制三种角色：主色、辅色、一点强调。饱和度彼此接近，明度拉开，画面就会稳。",
       "两大块高饱和撞在一起，眼睛会累，也容易显得土。环境色已经很吵的时候，人身上就少再加颜色。",
@@ -144,16 +153,16 @@ export const entries: Entry[] = [
       alt: "亚麻布上的一只青瓷杯、一张暖白纸和一根枯枝",
       width: 1152,
       height: 864,
-      caption: "青瓷、暖纸、枯枝，只有三种近亲色。暖白是主色，其余都让着它。",
-      credit: "示意静物，为本站生成",
+      caption: "三种近亲色。",
+      credit: made,
     },
   },
   {
     id: "negative-space",
     number: "09",
     kicker: "空间",
-    title: "负空间",
-    excerpt: "留白不是浪费，是让主体被读到的空气。",
+    title: "瓶子偏右，左边整面是空。",
+    excerpt: "留白有方向，视线才走得回去。",
     paragraphs: [
       "负空间是主体周围没有被填满的地方。它不是浪费，是让主体能被读到的空气。塞满的画面每个角落都在说话，结果没有一句被听见。",
       "留白也要有形状：大到让主体发飘，碎到像漏洞，都不算好的负空间。好的留白有方向，会把视线送回主体。",
@@ -164,8 +173,8 @@ export const entries: Entry[] = [
       alt: "浅色陶瓶靠在画面右侧，左侧是大片空墙，近处有几只小杯",
       width: 1400,
       height: 2100,
-      caption: "瓶子偏在右侧，左边整面留空。留白有方向，视线才会走回去。",
-      credit: "照片：Thanh Truc Ho / Pexels",
+      caption: "瓶子偏右，左边留空。",
+      credit: "照片 · Thanh Truc Ho / Pexels · 无商业用途·侵权立删",
       creditHref: "https://www.pexels.com/photo/elegant-ceramic-teapot-and-cup-set-still-life-33118329/",
     },
   },
@@ -173,8 +182,8 @@ export const entries: Entry[] = [
     id: "styling",
     number: "10",
     kicker: "造型",
-    title: "服装造型与氛围",
-    excerpt: "衣服先看剪影和材质，再看它和场景是否同一句话。",
+    title: "先挡住脸，只看衣服。",
+    excerpt: "剪影和房间，得是同一种天气。",
     paragraphs: [
       "衣服首先是剪影和材质，然后才是款式。硬的肩线、软的垂坠、大块素色、一点点纹理，都会改掉气质。",
       "造型和场景得说同一句话：松弛的海边不必配一身过亮的硬装饰；窗光下的室内人像，复杂图案也容易和光斑打架。氛围是衣服、光线和背景一起答应下来的事。",
@@ -185,8 +194,8 @@ export const entries: Entry[] = [
     id: "emphasis",
     number: "11",
     kicker: "注意力",
-    title: "视线与画面重心",
-    excerpt: "清晰度是注意力的预算，只能重点花在一处。",
+    title: "眯起眼，剩下的才是重心。",
+    excerpt: "清晰度只能重点花在一处。",
     paragraphs: [
       "人会先看最亮、最清晰、对比最强的地方，也会看眼睛。眼睛、首饰上的高光、背景里的招牌若同时在抢，重心就散了。",
       "只留一个最强的对比，其余都降下去。虚化背景不是为了炫耀镜头，是把清晰度当成注意力的预算。",
@@ -197,8 +206,8 @@ export const entries: Entry[] = [
     id: "crop",
     number: "12",
     kicker: "分寸",
-    title: "裁切与分寸",
-    excerpt: "分寸就是知道再往前一步就过了。",
+    title: "再往前一步，就过了。",
+    excerpt: "切在关节上，呼吸就断了。",
     paragraphs: [
       "裁切是构图的最后一刀。切在关节上，肢体像被硬生生断开；切得太满，画面会喘不过气。头顶留一丝、脚下留一丝，通常更完整。",
       "分寸就是知道再往前一步就过了：表情、曝光、颜色的浓淡，都适用这一条。过了线，技术再好也会显得急。",
@@ -206,3 +215,40 @@ export const entries: Entry[] = [
     practice: "对一张几乎满版的图，想象四周各让出一指宽，看呼吸有没有回来。",
   },
 ];
+
+export const chapters: Chapter[] = [
+  {
+    id: "structure",
+    title: "结构",
+    epigraph: "先看见骨头。肉是后来的事。",
+    ids: ["composition", "negative-space", "crop"],
+  },
+  {
+    id: "light",
+    title: "光",
+    epigraph: "光是，有影子才成立。",
+    ids: ["light", "color", "emphasis"],
+  },
+  {
+    id: "person",
+    title: "人与气质",
+    epigraph: "人与房间，说同一句话。",
+    ids: ["temperament", "styling", "east-west"],
+  },
+  {
+    id: "eye",
+    title: "练眼",
+    epigraph: "少说好看。说你看见了什么。",
+    ids: ["one-line", "unrefined", "illustration"],
+  },
+];
+
+const byId = new Map(entries.map((entry) => [entry.id, entry]));
+
+export function chapterEntries(chapter: Chapter): Entry[] {
+  return chapter.ids.map((id) => {
+    const entry = byId.get(id);
+    if (!entry) throw new Error(`缺少条目 ${id}`);
+    return entry;
+  });
+}
