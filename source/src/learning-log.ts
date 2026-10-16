@@ -34,6 +34,199 @@ export type LogDay = {
 // 以后加一天：复制一个 LogDay 对象放到数组最前面，日期新的在上面。
 export const learningLog: LogDay[] = [
   {
+    date: "2026-10-16",
+    title: "例行：MacGuffin + magCulture",
+    summary:
+      "下午例行新开了 MacGuffin 和 magCulture。一个用物件词收整期，一个用商品卡把尺寸、编辑、设计写在一行里。能下到的原图放在对应条目下，下不到的写明了。",
+    sections: [
+      {
+        id: "routine-2026-10-16",
+        label: "例行 · 下午 14:00",
+        intro:
+          "新开 MacGuffin（物的一生）和 magCulture Journal。X 上 @MacGuffinMag、@magculture、@foam_amsterdam 都偏旧或偏薄；增量看了 @presentcorrect 和 Aperture 短名单。",
+        items: [
+          {
+            heading: "MacGuffin（新开）",
+            href: "https://www.macguffinmagazine.com/",
+            points: [
+              "定位是 The Life of Things：每期只围着一个物件转，从熟悉的到被忽视的都挖。About 写得很干：extraordinary stories about ordinary things。编辑 Kirsten Algera & Ernst van der Hoeven，设计 Sandra Kassenaar。",
+              "当期 N°16 The Mirror，210×275 mm，194 页，双语（英）。开篇引 Agnès Varda：自拍的工具是镜子；反过来，你看见世界。",
+              "一个词收整期，再按学科切开：Claude glass、镜面球、健身自拍、面部识别、电影里的镜子、灵长类自我意识实验。",
+              "内页分三章 Self / Shadow / Space，不是无限 feed。封面把手写 M 左右翻转，当镜子的暗示：标识还认得出来，但有一点不安。",
+              "首页几乎只有刊头、本期一大段 deck、「Read full story」，再加一篇十周年缝纫档案。没有卡片堆，没有图标。",
+            ],
+            steal:
+              "期主题用一个摸得到的物件词（镜子、床、绳子）；首页只留一期一句加一段 deck；组图换学科角度，不重复同一景别。刊头别每周换字体，熟悉标识轻轻改一下就够。",
+            links: [
+              {
+                label: "N°16 The Mirror",
+                href: "https://www.macguffinmagazine.com/issues/macguffin-the-mirror",
+              },
+              {
+                label: "magCulture 商品页（三章写在这里）",
+                href: "https://magculture.com/products/macguffin-16-the-mirror",
+              },
+            ],
+            figures: [
+              {
+                file: "log-mg-mirror-cover.webp",
+                alt: "MacGuffin 第 16 期 The Mirror 封面：一人拿手机自拍，绿色手写 M 压在画面上",
+                width: 800,
+                height: 1037,
+                caption: "封面：手写大 M 压在自拍上，刊头字很小，主题 The Mirror 放在下面。",
+                credit: "原图 · MacGuffin N°16 The Mirror 封面 · 无商业用途·侵权立删",
+                creditHref: "https://www.macguffinmagazine.com/issues/macguffin-the-mirror",
+              },
+            ],
+          },
+          {
+            heading: "magCulture Journal（新开）",
+            href: "https://magculture.com/",
+            points: [
+              "伦敦杂志店 + Journal + Podcast。首页一句 We love magazines，是策展口吻，不是内容农场。",
+              "商品卡统一写尺寸、页数、城市、刊期、编辑、设计，等于一份可检索的独立刊名录。",
+              "Journal 这篇是 Ida Yndal, Tinted Issue（2026-10-05，Jeremy Leslie）。栏目眉题固定 At work with:，正文是工作周访谈，语气正常，不诗意。",
+              "Ida 夸 MacGuffin：视觉有刺激但不乱，正文可读，永远知道从哪开始读。这是排版底线。",
+              "Tinted Issue #1：200×285 mm，216 页 openbound，哥本哈根。主题 The Illusion of Hierarchy。站旨 Every person, every perspective, holds its own tint。声明不用生成式 AI。",
+              "Velvet Pages #2：300×400 mm，56 页活页，报纸开本。主题 Reading is Hot，一句就带态度。",
+              "MacGuffin #16 在店里仍是常客。商品页把 Self / Shadow / Space 写清楚，商品文案本身就是编辑摘要。",
+            ],
+            steal:
+              "固定眉题（At work with 这种专名）；条目 meta 学商品卡：规格、谁编、谁设计、一句判断。期主题句加规格一行就够，不必长导语。",
+            links: [
+              {
+                label: "Ida Yndal, Tinted Issue",
+                href: "https://magculture.com/blogs/journal/ida-yndal-tinted-issue",
+              },
+              {
+                label: "Tinted Issue #1",
+                href: "https://magculture.com/products/tinted-issue-1",
+              },
+              {
+                label: "Velvet Pages #2",
+                href: "https://magculture.com/products/velvet-pages-2",
+              },
+            ],
+          },
+          {
+            heading: "X · @presentcorrect",
+            href: "https://x.com/presentcorrect",
+            points: [
+              "10-09：1952 彩票收藏第 30 张。10-03：中世纪日本彩票 Autumn 组图。09-30：1960s / 80s / 90s 办公器物静物。",
+              "文案仍只写年代和物件名，零形容词。方法昨天记过，今天把能下到的原图存下来。",
+            ],
+            steal: "同一类物件并置；图注只标年代和物名。静物棚拍就是平面构成：留白、对齐、同色系。",
+            figures: [
+              {
+                file: "log-pc-lottery-1952.webp",
+                alt: "一张日本短期宝くじ，票面为昭和28年第4回，娃娃与鲤鱼旗",
+                width: 1080,
+                height: 1350,
+                caption:
+                  "收藏帖里的第 30 张。票面印着昭和28年、第4回短期宝くじ，字和图在同一张纸上。",
+                credit:
+                  "Present & Correct / X @presentcorrect · 1952 lottery ticket #30 · 无商业用途·侵权立删",
+                creditHref: "https://x.com/presentcorrect",
+              },
+              {
+                file: "log-pc-jp-lottery-1.webp",
+                alt: "一张日本彩票，票面为昭和29年第26回东京都10日くじ，两个和服人物",
+                width: 1080,
+                height: 1350,
+                caption: "同一组日本彩票里的一张。昭和29年、第26回東京都10日くじ，看版式和配色就够。",
+                credit:
+                  "Present & Correct / X @presentcorrect · Mid-century Japanese lottery · Autumn · 无商业用途·侵权立删",
+                creditHref: "https://x.com/presentcorrect",
+              },
+              {
+                file: "log-pc-office-1.webp",
+                alt: "透明塑料盒里的红剪刀，黄底上压着绿、蓝两块",
+                width: 1400,
+                height: 1050,
+                caption: "办公器物静物之一：透明盒、黄底、红剪刀对齐，背景留白。",
+                credit:
+                  "Present & Correct / X @presentcorrect · 1960s–1990s office wares · 无商业用途·侵权立删",
+                creditHref: "https://x.com/presentcorrect",
+              },
+            ],
+          },
+          {
+            heading: "X · @MacGuffinMag",
+            href: "https://x.com/MacGuffinMag",
+            points: [
+              "账号几乎休眠，最近一条停在 2019。历史帖仍有用：为 Nº5 THE CABINET 连发物件研究图，Lalanne Cat Bar、IKEA Billy、Sottsass Carlton、Josef Frank Norden Flora。",
+              "文案模板就一句：Researching MacGuffin NºX THE OBJECT，后面接物件名、作者、年代。",
+            ],
+            steal: "研究日记式图注：物件名 + 作者 + 年份，零形容词。和 Present & Correct 的年代/物名是同一族。",
+            figures: [
+              {
+                file: "log-mg-lalanne-catbar.webp",
+                alt: "黄铜猫形酒吧柜 Lalanne Cat Bar，柜身打开，里面摆着酒瓶",
+                width: 592,
+                height: 592,
+                caption: "Lalanne Cat Bar，1968。图注只需要物件名、作者、年份。",
+                credit:
+                  "MacGuffin research dump / X @MacGuffinMag · Lalanne Cat Bar 1968 · 无商业用途·侵权立删",
+                creditHref: "https://x.com/MacGuffinMag",
+              },
+              {
+                file: "log-mg-sottsass-carlton.webp",
+                alt: "Ettore Sottsass 的 Carlton 书架，彩色几何块叠在水磨石底座上",
+                width: 900,
+                height: 986,
+                caption: "Sottsass Carlton，Memphis，1981。同一套研究日记写法。",
+                credit:
+                  "MacGuffin research dump / X @MacGuffinMag · Sottsass Carlton / Memphis 1981 · 无商业用途·侵权立删",
+                creditHref: "https://x.com/MacGuffinMag",
+              },
+            ],
+          },
+          {
+            heading: "X · @aperturefnd",
+            href: "https://x.com/aperturefnd",
+            points: [
+              "10-08：2026 Paris Photo–Aperture PhotoBook Awards，35 本短名单。",
+              "同账号还有 Duane Michals、Aaryan Sinha Portfolio Prize、Friedlander 讨论等长文。跟的是摄影书节奏：翻页、序列，不是九宫格。",
+            ],
+            steal: "短名单当找书入口，学序列，不学机构官腔。",
+            links: [
+              {
+                label: "35 本短名单帖",
+                href: "https://x.com/i/status/2108220941058940998",
+              },
+            ],
+            imageNote: "原图未取到（这条帖没有附图，短名单页打不开），外链留着。",
+          },
+          {
+            heading: "X · @magculture",
+            href: "https://x.com/magculture",
+            points: [
+              "近帖偏店铺活动和转发，图片策展已经迁到网站和 Instagram。",
+              "有图的一条是 2024 年 Backstage Talks 活动海报，薄，不够当参考。",
+            ],
+            steal: "学站，不学这条时间线。策展语气以 Journal 和商品页为准。",
+          },
+          {
+            heading: "X · @foam_amsterdam",
+            href: "https://x.com/foam_amsterdam",
+            points: [
+              "时间线停在 2022：Foam Talent 作品发布、Paul Kooiker 展览。",
+              "署名习惯是 © 作者，再加系列名。",
+            ],
+            steal: "机构账号的图注可以对齐成：系列名 + ©。账号本身偏旧，不跟新帖。",
+          },
+          {
+            heading: "宽搜索（反面）",
+            points: [
+              "搜 photobook、still life、editorial，近帖被 K-pop 专辑和 AI prompt 海报刷掉。安静一点的只剩博物馆静物转发，比如 Coorte 的草莓、梵高的手套和橙子。",
+            ],
+            steal: "优先杂志官号和静物店号，别靠宽关键词。",
+          },
+        ],
+      },
+    ],
+  },
+  {
     date: "2026-10-15",
     title: "一天两轮：手动深挖 + 下午例行",
     summary:
