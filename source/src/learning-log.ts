@@ -34,6 +34,192 @@ export type LogDay = {
 // 以后加一天：复制一个 LogDay 对象放到数组最前面，日期新的在上面。
 export const learningLog: LogDay[] = [
   {
+    date: "2026-10-17",
+    title: "例行：The Gentlewoman + Fantastic Man",
+    summary:
+      "下午例行新开了 The Gentlewoman 和 Fantastic Man。一个用 Library 判断副题收人物长访，一个用 A–Z 索引加封面一人。MACK 正确号是 MACK_books，离 X 前的摄影书组图也下了。能下到的原图放在对应条目下。",
+    sections: [
+      {
+        id: "routine-2026-10-17",
+        label: "例行 · 下午 14:00",
+        intro:
+          "新开 The Gentlewoman（Library）和 Fantastic Man（姐妹刊）。X 上 @thegentlewoman / @fantasticman 偏旧；纠正 @MACK_books；@lensculture 奖赛多；presentcorrect / aperturefnd 无增量新帖。",
+        items: [
+          {
+            heading: "The Gentlewoman（新开）",
+            href: "https://thegentlewoman.co.uk/",
+            points: [
+              "Gert Jonkers & Jop van Bennekom 系，主编 Penny Martin，半年刊。官网 thegentlewoman.co.uk（thegentlewoman.com 会跳过去）。",
+              "首页：大封面 splash + 极短眉题（如 Tough）+ 人名/合作一句 deck。几乎无导航噪音，无卡片堆。",
+              "Library 收 n°1–34 共 160+ 人物。列表用一句判断副题 + 姓名：Cheerful undertaker、Lichenology 101、On what listening looks like。",
+              "单篇 Autumn Durald Arkapaw（n°34）：顶栏姓名 → Interview by / Portraits by → Issue nº；开篇先钉住人再进长访；文末贡献者小传分栏 + Styling/Hair/Make-up。",
+              "纸刊（magCulture 细读 #12）：Parts 全页分章扉 + 粗网点；篇末 References 双页当标点；时装故事用地名当标题。Futura 常作刊头锚。",
+            ],
+            steal:
+              "TOC/条目标题改成判断副题；credit 按 Interview / Photo / Styling 分行；章与章用扉页或细线，别用卡片。",
+            links: [
+              {
+                label: "Library",
+                href: "https://thegentlewoman.co.uk/library",
+              },
+              {
+                label: "Autumn Durald Arkapaw",
+                href: "https://thegentlewoman.co.uk/library/autumn-durald-arkapaw",
+              },
+              {
+                label: "magCulture · Gentlewoman #12 结构",
+                href: "https://magculture.com/blogs/journal/details-the-gentlewoman-12",
+              },
+            ],
+            figures: [
+              {
+                file: "log-tgw-34-cover.webp",
+                alt: "The Gentlewoman 第 34 期封面 splash",
+                width: 1155,
+                height: 1500,
+                caption: "n°34 封面：人像占满，刊名很小，首页 splash 就这一张。",
+                credit: "原图 · The Gentlewoman n°34 cover · 无商业用途·侵权立删",
+                creditHref: "https://thegentlewoman.co.uk/",
+              },
+              {
+                file: "log-tgw-autumn-durald.webp",
+                alt: "Autumn Durald Arkapaw 横向肖像",
+                width: 1400,
+                height: 583,
+                caption: "Library 内页用图：宽画幅人像，图注写穿什么比写氛围感有用。",
+                credit:
+                  "原图 · The Gentlewoman Library · Autumn Durald Arkapaw · 无商业用途·侵权立删",
+                creditHref:
+                  "https://thegentlewoman.co.uk/library/autumn-durald-arkapaw",
+              },
+            ],
+          },
+          {
+            heading: "Fantastic Man（新开）",
+            href: "https://www.fantasticman.com/",
+            points: [
+              "同团队男刊。首页 = 刊头 + 当期一句 + A–Z Index（The Top 100 greatest hits），档案导航，不是无限 feed。",
+              "封面课：一人特写占满 + 刊名/期号极小。例：Lev Tanju n°38、Armani n°37（Alasdair McLellan）、Ocean Vuong n°34（Collier Schorr，主题 ON WRITING）。",
+              "内页 Giorgio Armani：眉题一句判断；署名 From Fantastic Man n°37 — Text by … Photography by …；小标题 BLAZER REVOLUTION 等分段。",
+            ],
+            steal:
+              "hero 一人 + 极小字；期主题可以是动作词（ON WRITING）；长文用全大写短章名打断。",
+            links: [
+              {
+                label: "Giorgio Armani 文",
+                href: "https://www.fantasticman.com/article/giorgio-armani",
+              },
+              {
+                label: "Index",
+                href: "https://www.fantasticman.com/article/index",
+              },
+            ],
+            figures: [
+              {
+                file: "log-fm-38-lev-tanju.webp",
+                alt: "Fantastic Man 第 38 期 Lev Tanju 封面",
+                width: 1376,
+                height: 1701,
+                caption: "封面：一人占满，身份判断写在文案里，刊名让路。",
+                credit:
+                  "Fantastic Man / X @fantasticman · n°38 Lev Tanju · 无商业用途·侵权立删",
+                creditHref: "https://x.com/i/status/1778447409288188408",
+              },
+              {
+                file: "log-fm-37-armani.webp",
+                alt: "Fantastic Man 第 37 期 Giorgio Armani 封面",
+                width: 1376,
+                height: 1701,
+                caption: "Armani 封面：近景肖像，摄影 Alasdair McLellan。",
+                credit:
+                  "Fantastic Man / X @fantasticman · n°37 Armani · 无商业用途·侵权立删",
+                creditHref: "https://x.com/i/status/1714949852222697562",
+              },
+            ],
+          },
+          {
+            heading: "X · @MACK_books",
+            href: "https://x.com/MACK_books",
+            points: [
+              "昨天 mackbooks 解析到空号；正确是 MACK_books。账号已于 2024-11 离开 X，历史帖仍有摄影书内页。",
+              "典型帖：书名 + 一句判断 + 📸 作者；常配 3–4 张书页/封面。COSMOS（Collier Schorr）、The Color Black、Ray’s a Laugh（Billingham）等。",
+            ],
+            steal: "组图学翻页序列和纸白，不学九宫格；图注写书名+作者即可。",
+            links: [
+              {
+                label: "COSMOS 帖",
+                href: "https://x.com/i/status/1856370336599814398",
+              },
+              {
+                label: "The Color Black 帖",
+                href: "https://x.com/i/status/1857423687806247360",
+              },
+            ],
+            figures: [
+              {
+                file: "log-mack-cosmos-1.webp",
+                alt: "Collier Schorr COSMOS 摄影书内页或封面",
+                width: 1385,
+                height: 1800,
+                caption: "COSMOS：书页竖构图，看裁切和留白，不看滤镜。",
+                credit:
+                  "MACK / X @MACK_books · Collier Schorr COSMOS · 无商业用途·侵权立删",
+                creditHref: "https://x.com/MACK_books",
+              },
+              {
+                file: "log-mack-color-black-1.webp",
+                alt: "The Color Black 书相关静物/建筑图",
+                width: 1024,
+                height: 806,
+                caption: "The Color Black：物件与建筑并置，文案只点书名和摄影师。",
+                credit:
+                  "MACK / X @MACK_books · The Color Black · 无商业用途·侵权立删",
+                creditHref: "https://x.com/MACK_books",
+              },
+            ],
+          },
+          {
+            heading: "X · @thegentlewoman / @fantasticman",
+            points: [
+              "两号都偏休眠（TGW 停 2023，FM 停 2024）。学封面与时装组图即可，别等新帖。",
+              "TGW 有用历史图：Cathy Horyn 农场肖像；UNIQLO : C 棚拍组图。",
+            ],
+            steal: "封面文案模板：人名 + 一句身份判断 + 摄影师。",
+            figures: [
+              {
+                file: "log-tgw-cathy-horyn.webp",
+                alt: "Cathy Horyn 在农场的肖像",
+                width: 1400,
+                height: 1118,
+                caption: "长访配图：环境人像，不是棚拍网红闪片。",
+                credit:
+                  "The Gentlewoman / X @thegentlewoman · Cathy Horyn · 无商业用途·侵权立删",
+                creditHref: "https://x.com/i/status/1706667794564325559",
+              },
+            ],
+          },
+          {
+            heading: "X · 其他",
+            points: [
+              "@lensculture 近帖几乎全是奖赛征稿；偶有作品如 Kyosei Yoshiike Salvage，可当下家入口，不跟时间线。",
+              "@BlindMagazine 解析到的是 2015 西语空壳号，不是摄影刊。@printedmatter 近期可读帖为 0。",
+              "@presentcorrect / @aperturefnd 自昨天笔记后再无增量有图帖。",
+            ],
+            steal: "优先杂志/出版社官号；宽搜索和奖赛号噪声大。",
+            imageNote:
+              "lensculture-yoshiike-salvage.jpg 已下到 staging，若上站可转 webp 挂在本条；不挂就只留外链。",
+            links: [
+              {
+                label: "Yoshiike Salvage 帖",
+                href: "https://x.com/i/status/1809322072876908639",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     date: "2026-10-16",
     title: "例行：MacGuffin + magCulture",
     summary:
