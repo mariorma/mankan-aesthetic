@@ -34,6 +34,186 @@ export type LogDay = {
 // 以后加一天：复制一个 LogDay 对象放到数组最前面，日期新的在上面。
 export const learningLog: LogDay[] = [
   {
+    date: "2026-10-18",
+    title: "例行：MACK 官网 + Buffalo Zine",
+    summary:
+      "下午例行新开了 MACK 官网和 Buffalo Zine。MACK 商品页用规格行和封面 credit 当编辑摘要；Buffalo 首页把文字做成图物件，Issue 22 把纸重装订写进规格。X 上 presentcorrect 无增量新帖，补下了更早的彩票和 diary 静物；Aperture 短名单文跟 MACK/SPBH 新品闭环；新跟安静号 photobookstore。",
+    sections: [
+      {
+        id: "routine-2026-10-18",
+        label: "例行 · 下午 14:00",
+        intro:
+          "新开 MACK Books 官网（规格行 / 封面 credit）和 Buffalo Zine（文字当图 · Issue 22）。The Plant / Present & Correct 站页太薄，今日不深挖。X：presentcorrect / aperturefnd 无新帖；补静物旧图；安静号 @photobookstore。",
+        items: [
+          {
+            heading: "MACK Books 官网（新开）",
+            href: "https://mackbooks.co.uk/",
+            points: [
+              "昨天只挖了离 X 的 @MACK_books；今天挖官网。New Books 几乎是人名/书名列表，极简。",
+              "Faces and Phases（Zanele Muholi）：书名→作者→金句→一段判断→Cover photograph：人名, 地点, 年. © → 规格一行 Debossed leather hardcover with tipped-in image / 17×24 cm / 464 pages / October 2026 / ISBN。",
+              "American Teen（Joseph Szabo）同模板：Debossed linen hardcover with tipped-in image / 25×25 cm / 240 pages / August 2026；With new texts by Sofia Coppola and Kim Gordon。",
+              "Bounty（Steve McQueen，Irma Boom 设计）：Debossed hardcover / 24×24 cm / 132 pages / March 2026。文案是判断不是卖点堆砌。",
+            ],
+            steal:
+              "条目 meta 偷规格行；封面 credit 写谁·地点·年·©；贡献者可写 With new texts by…。",
+            links: [
+              {
+                label: "New Books",
+                href: "https://mackbooks.co.uk/collections/new-books",
+              },
+              {
+                label: "Faces and Phases",
+                href: "https://mackbooks.co.uk/products/faces-and-phases-zanele-muholi",
+              },
+              {
+                label: "American Teen",
+                href: "https://mackbooks.co.uk/products/american-teen-joseph-szabo",
+              },
+              {
+                label: "Bounty",
+                href: "https://mackbooks.co.uk/products/bounty",
+              },
+            ],
+            figures: [
+              {
+                file: "log-mack-faces-phases.webp",
+                alt: "Zanele Muholi Faces and Phases 书封面",
+                width: 1599,
+                height: 1529,
+                caption: "封面 credit 写完整：谁、地点、年、©。规格行在文末一行收束。",
+                credit:
+                  "原图 · MACK · Faces and Phases / Zanele Muholi · 无商业用途·侵权立删",
+                creditHref:
+                  "https://mackbooks.co.uk/products/faces-and-phases-zanele-muholi",
+              },
+              {
+                file: "log-mack-american-teen.webp",
+                alt: "Joseph Szabo American Teen 书封面",
+                width: 1599,
+                height: 1529,
+                caption: "同站规格模板：装帧·尺寸·页数·月份·ISBN；另有 With new texts by…。",
+                credit:
+                  "原图 · MACK · American Teen / Joseph Szabo · 无商业用途·侵权立删",
+                creditHref:
+                  "https://mackbooks.co.uk/products/american-teen-joseph-szabo",
+              },
+            ],
+          },
+          {
+            heading: "Buffalo Zine（新开）",
+            href: "https://www.buffalozine.com/",
+            points: [
+              "首页大量 BZ22_TEXT_*.jpg——文字排成视觉物件，不是无限电商卡。",
+              "Issue 22 SS’26：白话写「真有关系的人」、第一人称、社区；造型是本人衣服不是强加。",
+              "规格硬信息：300 pages · 100gsm uncoated · wire bound · 17×24 cm · 0.7 kg。",
+            ],
+            steal:
+              "文字可当图物件；纸重/装订写进 meta；人物条目写本人穿着比氛围感造型老实。",
+            links: [
+              {
+                label: "Issue 22",
+                href: "https://www.buffalozine.com/products/issue-22",
+              },
+            ],
+            figures: [
+              {
+                file: "log-bz22-covers-1.webp",
+                alt: "Buffalo Zine 第 22 期多封面拼图",
+                width: 1600,
+                height: 1142,
+                caption: "多封面并置：看裁切和字让路，不看电商促销条。",
+                credit:
+                  "原图 · Buffalo Zine Issue 22 covers · 无商业用途·侵权立删",
+                creditHref: "https://www.buffalozine.com/products/issue-22",
+              },
+              {
+                file: "log-bz22-text-1a.webp",
+                alt: "Buffalo Zine 首页文字排成图物件",
+                width: 726,
+                height: 1024,
+                caption: "首页课：文字即视觉块，不是导航副标题。",
+                credit:
+                  "原图 · Buffalo Zine homepage text-as-image · 无商业用途·侵权立删",
+                creditHref: "https://www.buffalozine.com/",
+              },
+            ],
+          },
+          {
+            heading: "Aperture 短名单（机构向增量）",
+            href: "https://aperture.org/editorial/announcing-the-2026-photobook-awards-shortlist/",
+            points: [
+              "列表格式固定：作者·书名·出版社·Design by…；封面组图摄影 Daniel Salemi。",
+              "短名单含 MACK 的 Sohrab Hura Snow、Keisha Scarville Passports；SPBH 的 Jesse Glazzard、Nick Haymes Chronograph——和今天官网新品线闭环。",
+              "@aperturefnd 自 10-08 短名单帖后无新帖。",
+            ],
+            steal: "条目 meta 学 Design by 一行；短名单当下周找图书单，不学奖赛官腔。",
+            links: [
+              {
+                label: "2026 PhotoBook Awards Shortlist",
+                href: "https://aperture.org/editorial/announcing-the-2026-photobook-awards-shortlist/",
+              },
+            ],
+            figures: [
+              {
+                file: "log-aperture-2026-shortlist.webp",
+                alt: "Aperture 2026 摄影书奖短名单封面组图",
+                width: 1024,
+                height: 682,
+                caption: "短名单页头图：书脊/封面并置，看序列不看奖杯。",
+                credit:
+                  "原图 · Aperture · 2026 PhotoBook Awards / photo Daniel Salemi · 无商业用途·侵权立删",
+                creditHref:
+                  "https://aperture.org/editorial/announcing-the-2026-photobook-awards-shortlist/",
+              },
+            ],
+          },
+          {
+            heading: "X · @presentcorrect / @photobookstore",
+            points: [
+              "@presentcorrect 自 10-09 彩票#30 后再无新帖；补下 09-23 彩票 27&28、09-17 多国 diary 静物、1932 eclipse viewers。",
+              "@photobookstore（新安静号）：书店更新帖 = 书名串 + 封面/内页组图；例 Mark Steinmetz Rivers & Towns。",
+              "@MACK_books 已离 X，今日以官网为准。theplantmag 用户名不存在。",
+            ],
+            steal:
+              "静物继续同系列并置、文案只写年代/物名；书店更新帖比奖赛征稿安静。",
+            figures: [
+              {
+                file: "log-pc-lottery-27.webp",
+                alt: "1955 年彩票收藏静物",
+                width: 1080,
+                height: 1350,
+                caption: "图注只写年代和物名，零形容词。",
+                credit:
+                  "Present & Correct / X @presentcorrect · lottery 1955 #27 · 无商业用途·侵权立删",
+                creditHref: "https://x.com/i/status/2102816209075093510",
+              },
+              {
+                file: "log-pc-diaries-intl-1.webp",
+                alt: "多国手账本静物棚拍",
+                width: 1600,
+                height: 1200,
+                caption: "同功能物件成组：日本/法国/意大利/波兰 diary。",
+                credit:
+                  "Present & Correct / X @presentcorrect · diaries · 无商业用途·侵权立删",
+                creditHref: "https://x.com/i/status/2100648388870001139",
+              },
+              {
+                file: "log-pbs-steinmetz.webp",
+                alt: "Mark Steinmetz Rivers and Towns 摄影书页",
+                width: 1440,
+                height: 1009,
+                caption: "书店帖：书名 + 翻页组图，学序列和纸白。",
+                credit:
+                  "Photobookstore / X @photobookstore · Mark Steinmetz · 无商业用途·侵权立删",
+                creditHref: "https://x.com/i/status/1821457712917401790",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     date: "2026-10-17",
     title: "例行：The Gentlewoman + Fantastic Man",
     summary:
