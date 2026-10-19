@@ -34,6 +34,166 @@ export type LogDay = {
 // 以后加一天：复制一个 LogDay 对象放到数组最前面，日期新的在上面。
 export const learningLog: LogDay[] = [
   {
+    date: "2026-10-19",
+    title: "例行：SPBH Editions + TBW Books",
+    summary:
+      "下午例行新开了 SPBH Editions 和 TBW Books。SPBH 官网 Launching Soon 空壳，改从 MACK 分销页挖 Glazzard / Chronograph 的规格行与判断文案；TBW 商品页规格更密（plates、tip-in、edition、afterword）。X 上 presentcorrect 有日彩票秋色和办公文具增量；新跟安静号 Bintphotobooks（人名–书名单封面模板，账号已停更）。",
+    sections: [
+      {
+        id: "routine-2026-10-19",
+        label: "例行 · 下午 14:00",
+        intro:
+          "新开 SPBH Editions（官网空壳 → MACK 分销页）和 TBW Books（规格块 / tip-in）。X：presentcorrect 增量静物；Bintphotobooks 安静模板。",
+        items: [
+          {
+            heading: "SPBH Editions（新开·官网空壳）",
+            href: "https://spbheditions.com/",
+            points: [
+              "官网 GoDaddy「Launching Soon」，无商品/书目——今天不学官网信息架构。",
+              "新品挂 MACK，标 SPBH Editions；与昨天 Aperture 短名单闭环。",
+              "The Sound of Dirt and Beauty（Jesse Glazzard）：Paperback 21×29.7 cm / 168 pages / August 2026；正文写装帧像他自己以前的 stapled zine。",
+              "Chronograph（Nick Haymes）：Paperback with dustjacket 20.3×27 cm / 448 pages；Signed on press；页脚外刊评语墙（W / Guardian / Observer…）。",
+              "Printed Matter 有 SPBH 出版社目录；The Drawer 封面 CDN 只有约 240px，不够上站。",
+            ],
+            steal:
+              "官网空壳就换分销页；装帧动机写进正文一句；外刊评语可成「别人怎么说」区块。",
+            links: [
+              {
+                label: "Glazzard on MACK",
+                href: "https://mackbooks.co.uk/products/the-sound-of-dirt-and-beauty-jesse-glazzard",
+              },
+              {
+                label: "Chronograph on MACK",
+                href: "https://mackbooks.co.uk/products/chronograph-nick-haymes",
+              },
+              {
+                label: "SPBH @ Printed Matter",
+                href: "https://www.printedmatter.org/catalog/publisher/12147",
+              },
+            ],
+            figures: [
+              {
+                file: "log-spbh-glazzard.webp",
+                alt: "Jesse Glazzard The Sound of Dirt and Beauty 书封面",
+                width: 1400,
+                height: 1339,
+                caption: "SPBH 挂 MACK：规格行完整；装帧动机写进判断文案。",
+                credit:
+                  "原图 · SPBH Editions / MACK · Jesse Glazzard · 无商业用途·侵权立删",
+                creditHref:
+                  "https://mackbooks.co.uk/products/the-sound-of-dirt-and-beauty-jesse-glazzard",
+              },
+              {
+                file: "log-spbh-chronograph.webp",
+                alt: "Nick Haymes Chronograph 书封面",
+                width: 1400,
+                height: 1339,
+                caption: "同印记另一本：dustjacket 写进规格；评语墙当外部判断。",
+                credit:
+                  "原图 · SPBH Editions / MACK · Chronograph / Nick Haymes · 无商业用途·侵权立删",
+                creditHref:
+                  "https://mackbooks.co.uk/products/chronograph-nick-haymes",
+              },
+            ],
+            imageNote:
+              "Printed Matter · Vince Aletti The Drawer 封面 CDN≈240px，原图不够上站；外链 https://www.printedmatter.org/catalog/61582 留着。",
+          },
+          {
+            heading: "TBW Books（新开）",
+            href: "https://tbwbooks.com/",
+            points: [
+              "Oakland 摄影书社；首页 Pre-order 列表 + 短句推介（backdrop tip-in 一句说清）。",
+              "Sheila（John Divola）：Hardcover / 86 pages, 51 plates / 10.5×9 in / mm 对照；私人肖像与同期 Zuma 等代表作并置叙述。",
+              "California Anonymous（Ken Light）：Hardcover with original cloth backdrop tip-in and printed edges / Edition of 748——限量与实物碎片写进规格。",
+              "Ken Graves Was a Genius.：Clothbound + printed edges / With an afterword by Emily Keegin——贡献者行对照昨天 MACK 的 With new texts by…。",
+            ],
+            steal:
+              "规格可含 plates、双单位、tip-in、edition；私人∥代表作是编辑结构。",
+            links: [
+              {
+                label: "Sheila",
+                href: "https://tbwbooks.com/products/shelia",
+              },
+              {
+                label: "California Anonymous",
+                href: "https://tbwbooks.com/products/california-anonymous",
+              },
+              {
+                label: "Ken Graves Was a Genius.",
+                href: "https://tbwbooks.com/products/ken-graves-was-a-genius",
+              },
+            ],
+            figures: [
+              {
+                file: "log-tbw-sheila.webp",
+                alt: "John Divola Sheila 书封面",
+                width: 1080,
+                height: 1260,
+                caption: "规格块：页数·plates·寸/毫米；私人与代表作同页。",
+                credit:
+                  "原图 · TBW Books · Sheila / John Divola · 无商业用途·侵权立删",
+                creditHref: "https://tbwbooks.com/products/shelia",
+              },
+              {
+                file: "log-tbw-california.webp",
+                alt: "Ken Light California Anonymous 书封面",
+                width: 1080,
+                height: 1260,
+                caption: "tip-in 原背景布碎片写进规格；Edition of 748。",
+                credit:
+                  "原图 · TBW Books · California Anonymous / Ken Light · 无商业用途·侵权立删",
+                creditHref: "https://tbwbooks.com/products/california-anonymous",
+              },
+            ],
+          },
+          {
+            heading: "X · @presentcorrect / @Bintphotobooks",
+            points: [
+              "@presentcorrect 增量：10-03 日彩票秋色 3 图；10-02 办公文具 60s–90s 4 图；10-09 彩票#30 仍最新原创。",
+              "@photobookstore 无新帖；补 Saul Leiter Selected Works（caption 写 Benrido collotype 尺寸）。",
+              "@Bintphotobooks（新安静号）：「人名 – 书名」+ 单封面；2019 起停更——学模板。",
+              "@dashwoodbooks / @foam_amsterdam / @printedmatter 近帖停更或为空。",
+            ],
+            steal:
+              "同系列换一个季节词继续；书店帖可写印刷工艺；人名–书名单封面极简。",
+            figures: [
+              {
+                file: "log-pc-jp-lottery-1.webp",
+                alt: "日本中世纪彩票秋色静物",
+                width: 960,
+                height: 1200,
+                caption: "同系列换季节：文案只写 Mid century Japanese lottery · Autumn。",
+                credit:
+                  "Present & Correct / X @presentcorrect · JP lottery autumn · 无商业用途·侵权立删",
+                creditHref: "https://x.com/i/status/2106380573006553466",
+              },
+              {
+                file: "log-pc-office-1.webp",
+                alt: "1960–1990 年代办公文具静物",
+                width: 1200,
+                height: 900,
+                caption: "年代并置：60s / 90s / 80s office wares，零形容词。",
+                credit:
+                  "Present & Correct / X @presentcorrect · office wares · 无商业用途·侵权立删",
+                creditHref: "https://x.com/i/status/2105351726748373033",
+              },
+              {
+                file: "log-bint-leiter.webp",
+                alt: "Saul Leiter 摄影书封面帖",
+                width: 1200,
+                height: 812,
+                caption: "安静号模板：人名 – 书名 + 单封面。",
+                credit:
+                  "Bint photoBooks / X @Bintphotobooks · Saul Leiter · 无商业用途·侵权立删",
+                creditHref: "https://x.com/i/status/1180119246640168960",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     date: "2026-10-18",
     title: "例行：MACK 官网 + Buffalo Zine",
     summary:
@@ -495,7 +655,7 @@ export const learningLog: LogDay[] = [
                 creditHref: "https://x.com/presentcorrect",
               },
               {
-                file: "log-pc-jp-lottery-1.webp",
+                file: "log-pc-jp-lottery-26.webp",
                 alt: "一张日本彩票，票面为昭和29年第26回东京都10日くじ，两个和服人物",
                 width: 1080,
                 height: 1350,
@@ -505,7 +665,7 @@ export const learningLog: LogDay[] = [
                 creditHref: "https://x.com/presentcorrect",
               },
               {
-                file: "log-pc-office-1.webp",
+                file: "log-pc-office-1016.webp",
                 alt: "透明塑料盒里的红剪刀，黄底上压着绿、蓝两块",
                 width: 1400,
                 height: 1050,
