@@ -1,8 +1,9 @@
+import { useEffect, useRef, useState } from "react";
 import type { Figure } from "./entries";
 import { FigureView } from "./Figure";
 import { mount, Shell } from "./Shell";
 
-// 左右各写各的：不要互链，不要在文案里点名另一栏。
+// 两面各写各的：不要互链，不要在文案里点名另一面的内容。
 
 const credit = "无商业用途·侵权立删";
 
@@ -121,18 +122,56 @@ function Spec({ rows }: { rows: { k: string; v: string }[] }) {
   );
 }
 
+type Face = "biao" | "li";
+
 function Home() {
+  const [face, setFace] = useState<Face>("biao");
+  const flipped = useRef(false);
+
+  useEffect(() => {
+    if (!flipped.current) return;
+    document.getElementById("flip-tab")?.focus({ preventScroll: true });
+  }, [face]);
+
+  function flip() {
+    flipped.current = true;
+    setFace((current) => (current === "biao" ? "li" : "biao"));
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+  }
+
+  const toInside = face === "biao";
+
   return (
     <Shell page="home" bleed>
       <header className="split-issue">
         <p className="issue-label">本期 · No.02</p>
-        <h1>左雅，右俗。</h1>
-        <p>宽屏左右两半。窄屏先左后右。</p>
+        <h1>表雅，里俗。</h1>
+        <p className="face-lead">一次看一面。点边上的半圆翻过去。</p>
+        <p className="face-hint">{toInside ? "对面是里。" : "对面是表。"}</p>
       </header>
 
-      <div className="split">
-        <section className="col col-ya" aria-labelledby="ya-title">
-          <p className="col-kicker">雅</p>
+      <div className="flip-stage">
+        {toInside ? <FaceBiao /> : <FaceLi />}
+        <button
+          id="flip-tab"
+          type="button"
+          className={toInside ? "flip-tab flip-tab-li" : "flip-tab flip-tab-biao"}
+          onClick={flip}
+          aria-label={toInside ? "翻到里面，俗" : "翻回表面，雅"}
+        >
+          <span>{toInside ? "里·俗" : "表·雅"}</span>
+        </button>
+      </div>
+    </Shell>
+  );
+}
+
+function FaceBiao() {
+  return (
+        <section className="face face-biao" aria-labelledby="ya-title">
+          <div className="face-inner">
+          <p className="col-kicker">表 · 雅</p>
           <h2 id="ya-title">规格写全</h2>
           <p className="col-lede">
             判断就一句。
@@ -191,12 +230,22 @@ function Home() {
               ]}
             />
           </div>
+          </div>
         </section>
+  );
+}
 
-        <section className="col col-su" aria-labelledby="su-title">
-          <p className="col-kicker">俗</p>
+function FaceLi() {
+  return (
+        <section className="face face-li" aria-labelledby="su-title">
+          <div className="face-inner">
+          <p className="col-kicker">里 · 俗</p>
           <h2 id="su-title">喜欢的几张</h2>
-          <p className="col-lede">人好看就说好看。图挨近一点，字别端着。</p>
+          <p className="col-lede">
+            人好看就说好看。
+            <br />
+            图挨近一点，字别端着。
+          </p>
 
           <section className="su-zone" aria-labelledby="su-people">
             <h3 id="su-people">人</h3>
@@ -223,9 +272,8 @@ function Home() {
             <FigureView page="home" figure={retracer} className="su-fig" />
             <FigureView page="home" figure={voices} className="su-fig su-follow" />
           </section>
+          </div>
         </section>
-      </div>
-    </Shell>
   );
 }
 
