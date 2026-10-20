@@ -10,7 +10,17 @@ const nav = [
   { id: "about", label: "关于" },
 ] as const;
 
-export function Shell({ page, children }: { page: PageId; children: ReactNode }) {
+export function Shell({
+  page,
+  children,
+  bleed = false,
+  footerNote,
+}: {
+  page: PageId;
+  children: ReactNode;
+  bleed?: boolean;
+  footerNote?: ReactNode;
+}) {
   return (
     <div className="site">
       <a className="skip" href="#content">
@@ -42,13 +52,14 @@ export function Shell({ page, children }: { page: PageId; children: ReactNode })
           </nav>
         </div>
       </header>
-      <main id="content" className="wrap">
+      <main id="content" className={bleed ? "bleed" : "wrap"}>
         {children}
       </main>
       <footer className="site-footer">
         <div className="wrap footer-inner">
           <p>慢看 · 用看图学审美</p>
           <p>零成本试跑。不设赞助、课程售卖或邮箱收集。</p>
+          {footerNote}
         </div>
       </footer>
     </div>
