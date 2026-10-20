@@ -34,6 +34,164 @@ export type LogDay = {
 // 以后加一天：复制一个 LogDay 对象放到数组最前面，日期新的在上面。
 export const learningLog: LogDay[] = [
   {
+    date: "2026-10-20",
+    title: "例行：Loose Joints + Perimeter Books",
+    summary:
+      "下午例行新开了 Loose Joints Publishing 和 Perimeter Books。LJ 单书页规格极密（plates 分色、mm、LJ 编号、Designed/Edited/Text by）；Perimeter 是书店+自有 Editions，Vendor 行分流，文末一行规格，Retracer 还有可移位的 unbound 文本。X 上 presentcorrect 有增量（秋彩票换旁白 4 新图）；出版社官号多停更，Loose Joints 无可靠 X 官号。",
+    sections: [
+      {
+        id: "routine-2026-10-20",
+        label: "例行 · 下午 14:00",
+        intro:
+          "新开 Loose Joints（书名网格 + 规格块）和 Perimeter Books（Vendor 行 + Program 活动栏）。X：presentcorrect 秋彩票增量；出版社 X 多停更。",
+        items: [
+          {
+            heading: "Loose Joints Publishing（新开）",
+            href: "https://loosejoints.biz/",
+            points: [
+              "马赛店 + 伦敦通信地址；首页作者–书名–欧元价大图网格；集合分流 Current / Forthcoming / Out of print / Signed。",
+              "Don't Worry Boys（Stanley Stellar）：192pp / 45 colour + 55 duotone plates / 219×290 mm / quarterbound hardcover / LJ227 September 2026。",
+              "Frozen Features（Jason Fulford）：104pp / 54 colour plates / 240×300 mm / paper hardcover + double silkscreen + loose insert / LJ226。",
+              "In the Beginning（Roe Ethridge）：三册 facsimile + rubber band；各册分行写页数装帧（36 / 88 / 16pp，皆 200×250 mm）；LJ218 February 2026。",
+            ],
+            steal:
+              "规格可写 plates 分色种与内部编号；lede 一句判断压在长文前；多卷书每册分行。",
+            links: [
+              {
+                label: "Don't Worry Boys",
+                href: "https://loosejoints.biz/products/dont-worry-boys",
+              },
+              {
+                label: "Frozen Features",
+                href: "https://loosejoints.biz/products/frozen-features",
+              },
+              {
+                label: "In the Beginning",
+                href: "https://loosejoints.biz/products/in-the-beginning",
+              },
+            ],
+            figures: [
+              {
+                file: "log-lj-dont-worry-boys.webp",
+                alt: "Stanley Stellar Don't Worry Boys 书页静物",
+                width: 1200,
+                height: 788,
+                caption: "LJ 规格块：plates 分色 + mm + quarterbound + LJ227。",
+                credit:
+                  "原图 · Loose Joints · Don't Worry Boys / Stanley Stellar · 无商业用途·侵权立删",
+                creditHref: "https://loosejoints.biz/products/dont-worry-boys",
+              },
+              {
+                file: "log-lj-frozen-features.webp",
+                alt: "Jason Fulford Frozen Features 书封面静物",
+                width: 1200,
+                height: 788,
+                caption: "silkscreen + loose insert 写进规格；lede 讲 montage。",
+                credit:
+                  "原图 · Loose Joints · Frozen Features / Jason Fulford · 无商业用途·侵权立删",
+                creditHref: "https://loosejoints.biz/products/frozen-features",
+              },
+              {
+                file: "log-lj-in-the-beginning.webp",
+                alt: "Roe Ethridge In the Beginning 三册套装",
+                width: 1200,
+                height: 788,
+                caption: "多卷书分行规格：三册 facsimile + rubber band。",
+                credit:
+                  "原图 · Loose Joints · In the Beginning / Roe Ethridge · 无商业用途·侵权立删",
+                creditHref: "https://loosejoints.biz/products/in-the-beginning",
+              },
+            ],
+            imageNote:
+              "Loose Joints 出版社无可靠 X 官号（@loosejoints / @loose_joints 皆非本社）；学站不学帖。",
+          },
+          {
+            heading: "Perimeter Books（新开）",
+            href: "https://www.perimeterbooks.com/",
+            points: [
+              "墨尔本书店 + 分销 + Perimeter Editions；首页新品网格（含大量 LJ 分销）+ Program 活动 + 15 年海报 + 自有书列。",
+              "Retracer（Karl Halliday / June Meadow）：120 pages / 21×27 cm / Swiss-bound softcover；Paul Boyé 文本 loose unbound 可夹进不同章节。",
+              "Some Voices Carry（Arini Byng / Perimeter Editions）：80 pages / 24×32 cm / OTA-bind softcover with flaps；Special Edition 30 册含签名印。",
+              "Direct Bodily Empathy：160 pages / 24×16 cm / OTA flaps；联名馆名写进规格行。",
+            ],
+            steal:
+              "Vendor 行分流出版方；文末一行规格够短；编辑装置（unbound insert）可写进商品说明。",
+            links: [
+              {
+                label: "Retracer",
+                href: "https://www.perimeterbooks.com/products/karl-halliday-retracer",
+              },
+              {
+                label: "Some Voices Carry",
+                href: "https://www.perimeterbooks.com/products/arini-byng-some-voices-carry",
+              },
+              {
+                label: "Direct Bodily Empathy",
+                href: "https://www.perimeterbooks.com/products/direct-bodily-empathy-sensing-sound",
+              },
+            ],
+            figures: [
+              {
+                file: "log-perimeter-retracer.webp",
+                alt: "Karl Halliday Retracer 书与内页",
+                width: 1000,
+                height: 750,
+                caption: "Swiss-bound；文案写 unbound 文本可移位。",
+                credit:
+                  "原图 · Perimeter Books · Retracer / Karl Halliday · 无商业用途·侵权立删",
+                creditHref:
+                  "https://www.perimeterbooks.com/products/karl-halliday-retracer",
+              },
+              {
+                file: "log-perimeter-byng.webp",
+                alt: "Arini Byng Some Voices Carry 书封面",
+                width: 1000,
+                height: 750,
+                caption: "OTA flaps + Special Edition 签名印尺寸写进文案。",
+                credit:
+                  "原图 · Perimeter Editions · Some Voices Carry / Arini Byng · 无商业用途·侵权立删",
+                creditHref:
+                  "https://www.perimeterbooks.com/products/arini-byng-some-voices-carry",
+              },
+            ],
+          },
+          {
+            heading: "X · @presentcorrect（增量）",
+            points: [
+              "@presentcorrect 增量：2026-10-19 18:51 UTC（上海 10-20 02:51）「Autumn, through the medium of mid century Japanese lottery tickets」4 新图——同系列换旁白。",
+              "@aperturefnd / @photobookstore 无新于既有结论。",
+              "@PerimeterBooks ≈2023 停更；Loose Joints 出版社无可靠官号；@MacGuffinMag / @magculture 本轮无增量。",
+            ],
+            steal:
+              "系列续更可靠换一句旁白，不必换物类。",
+            figures: [
+              {
+                file: "log-pc-autumn-lottery-1.webp",
+                alt: "日本中世纪彩票秋色静物新帖图一",
+                width: 1199,
+                height: 654,
+                caption: "同系列换旁白：Autumn, through the medium of…",
+                credit:
+                  "Present & Correct / X @presentcorrect · autumn JP lottery · 无商业用途·侵权立删",
+                creditHref: "https://x.com/i/status/2112255225419419970",
+              },
+              {
+                file: "log-pc-autumn-lottery-2.webp",
+                alt: "日本中世纪彩票秋色静物新帖图二",
+                width: 1199,
+                height: 629,
+                caption: "同帖四连图之二。",
+                credit:
+                  "Present & Correct / X @presentcorrect · autumn JP lottery · 无商业用途·侵权立删",
+                creditHref: "https://x.com/i/status/2112255225419419970",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     date: "2026-10-19",
     title: "例行：SPBH Editions + TBW Books",
     summary:
