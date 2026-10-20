@@ -37,32 +37,12 @@ const beginning: Figure = {
   creditHref: "https://loosejoints.biz/products/in-the-beginning",
 };
 
-const coco: Figure = {
-  file: "log-tgw-34-cover.webp",
-  alt: "Coco Gauff 近景肖像，一手扶着头，刊名印在上方",
-  width: 1155,
-  height: 1500,
-  caption: "人占满了。下面一行字：Coco Gauff，网球的未来。刊名很小，我喜欢这样。",
-  credit: `原图 · The Gentlewoman n°34 cover · ${credit}`,
-  creditHref: "https://thegentlewoman.co.uk/",
-};
-
-const cathy: Figure = {
-  file: "log-tgw-cathy-horyn.webp",
-  alt: "Cathy Horyn 穿黄格子衬衫，坐在绿色农用车上",
-  width: 1400,
-  height: 1118,
-  caption: "黄格子衬衫，坐在绿色农用车上。就是生活里的样子。",
-  credit: `The Gentlewoman / X @thegentlewoman · Cathy Horyn · ${credit}`,
-  creditHref: "https://x.com/i/status/1706667794564325559",
-};
-
 const autumn: Figure = {
   file: "log-tgw-autumn-durald.webp",
   alt: "Autumn Durald Arkapaw 穿黑西装和白裙，坐在白墙前",
   width: 1400,
   height: 583,
-  caption: "黑西装，白裙子，白墙。人靠右坐着。",
+  caption: "黑西装，白裙子，人靠右坐。脸上的光是匀的，没有硬阴影。",
   credit: `原图 · The Gentlewoman Library · Autumn Durald Arkapaw · ${credit}`,
   creditHref: "https://thegentlewoman.co.uk/library/autumn-durald-arkapaw",
 };
@@ -87,27 +67,30 @@ const lotteryB: Figure = {
   creditHref: "https://x.com/i/status/2112255225419419970",
 };
 
-const retracer: Figure = {
-  file: "log-perimeter-retracer.webp",
-  alt: "手拿着一本浅蓝色软封书，封面中间有一小块横条窗",
-  width: 1000,
-  height: 750,
-  caption:
-    "软封，瑞士装，120页，21×27厘米。里面有一份没装订的文本，可以换着夹进不同章节。\nVendor：June Meadow Editions。Perimeter Books 在卖，不是这家店自己的印记。",
-  credit: `原图 · Perimeter Books · Retracer / Karl Halliday · ${credit}`,
-  creditHref: "https://www.perimeterbooks.com/products/karl-halliday-retracer",
+const shortlist: Figure = {
+  file: "log-aperture-2026-shortlist.webp",
+  alt: "一摊摄影书封面，中间有齐刘海、脸上贴字的人像，旁边有低头的侧脸",
+  width: 1024,
+  height: 682,
+  caption: "这一摊里我停在中间那张：刘海齐，脸上贴了字。旁边还有一张低头的侧脸，光也是平的。",
+  credit: `原图 · Aperture · 2026 PhotoBook Awards / photo Daniel Salemi · ${credit}`,
+  creditHref: "https://aperture.org/editorial/announcing-the-2026-photobook-awards-shortlist/",
 };
 
-const voices: Figure = {
-  file: "log-perimeter-byng.webp",
-  alt: "Some Voices Carry 封面，旧杂志页上贴着一张彩色的人和小孩",
-  width: 1000,
-  height: 750,
-  caption:
-    "封面是旧杂志页，中间贴着一张彩色的人和小孩。带折口的软封，80页，24×32厘米。\nVendor：Perimeter Editions，这是他们自己的印记。",
-  credit: `原图 · Perimeter Editions · Some Voices Carry / Arini Byng · ${credit}`,
-  creditHref: "https://www.perimeterbooks.com/products/arini-byng-some-voices-carry",
-};
+function Plum() {
+  return (
+    <svg viewBox="0 0 40 40" aria-hidden="true">
+      <g fill="currentColor">
+        <ellipse cx="20" cy="8" rx="6.2" ry="8.2" />
+        <ellipse cx="20" cy="8" rx="6.2" ry="8.2" transform="rotate(72 20 20)" />
+        <ellipse cx="20" cy="8" rx="6.2" ry="8.2" transform="rotate(144 20 20)" />
+        <ellipse cx="20" cy="8" rx="6.2" ry="8.2" transform="rotate(216 20 20)" />
+        <ellipse cx="20" cy="8" rx="6.2" ry="8.2" transform="rotate(288 20 20)" />
+        <circle cx="20" cy="20" r="2.6" />
+      </g>
+    </svg>
+  );
+}
 
 function Spec({ rows }: { rows: { k: string; v: string }[] }) {
   return (
@@ -158,9 +141,13 @@ function Home() {
           type="button"
           className={toInside ? "flip-tab flip-tab-li" : "flip-tab flip-tab-biao"}
           onClick={flip}
-          aria-label={toInside ? "翻到里面，俗" : "翻回表面，雅"}
+          aria-label={toInside ? "翻到里面" : "翻回表面"}
         >
-          <span>{toInside ? "里·俗" : "表·雅"}</span>
+          <span className="flip-mark">
+            <Plum />
+            <span className="flip-char">{toInside ? "裏" : "表"}</span>
+            <Plum />
+          </span>
         </button>
       </div>
     </Shell>
@@ -244,17 +231,14 @@ function FaceLi() {
           <p className="col-lede">
             人好看就说好看。
             <br />
-            图挨近一点，字别端着。
+            妆收着，光别硬打。
           </p>
 
           <section className="su-zone" aria-labelledby="su-people">
             <h3 id="su-people">人</h3>
-            <p>这三张我留着看，都是杂志上的人。</p>
-            <div className="su-people">
-              <FigureView page="home" figure={coco} className="su-fig su-lead" priority />
-              <FigureView page="home" figure={cathy} className="su-fig" />
-              <FigureView page="home" figure={autumn} className="su-fig" />
-            </div>
+            <p>这两张我留着看。头发、妆、光都收在一个调子里。</p>
+            <FigureView page="home" figure={autumn} className="su-fig" priority />
+            <FigureView page="home" figure={shortlist} className="su-fig su-follow" />
           </section>
 
           <section className="su-zone" aria-labelledby="su-desk">
@@ -264,13 +248,6 @@ function FaceLi() {
               <FigureView page="home" figure={lotteryA} className="su-fig" />
               <FigureView page="home" figure={lotteryB} className="su-fig" />
             </div>
-          </section>
-
-          <section className="su-zone" aria-labelledby="su-books">
-            <h3 id="su-books">两本书</h3>
-            <p>就这两本，当桌上的东西看。</p>
-            <FigureView page="home" figure={retracer} className="su-fig" />
-            <FigureView page="home" figure={voices} className="su-fig su-follow" />
           </section>
           </div>
         </section>

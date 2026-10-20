@@ -6,6 +6,15 @@
   font-display: swap;
 }
 
+/* Yuji Syuku（SIL OFL），只留「表」「裏」两字。 */
+@font-face {
+  font-family: "Mankan Brush";
+  src: url("./fonts/mankan-brush.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: "Mankan Serif";
   src: url("./fonts/mankan-serif-500.woff2") format("woff2");
@@ -1034,51 +1043,77 @@ main {
   position: fixed;
   z-index: 4;
   bottom: max(6.5rem, calc(env(safe-area-inset-bottom) + 18vh));
-  width: 3.25rem;
-  height: 7.25rem;
+  width: 3.7rem;
+  height: 7.5rem;
   margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
-  font-family: var(--sans);
-  font-size: 0.78rem;
-  letter-spacing: 0.16em;
-  line-height: 1.45;
-  writing-mode: vertical-rl;
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
 }
 
 .flip-tab-li {
   right: 0;
-  padding-right: 0.55rem;
-  border-radius: 7.25rem 0 0 7.25rem;
+  border-radius: 7.5rem 0 0 7.5rem;
   border-right-width: 0;
   background: #fff4e6;
-  color: #6b3e22;
+  color: #1a1a1a;
   border-color: #e4d0b4;
 }
 
 .flip-tab-biao {
   left: 0;
-  padding-left: 0.55rem;
-  border-radius: 0 7.25rem 7.25rem 0;
+  border-radius: 0 7.5rem 7.5rem 0;
   border-left-width: 0;
-  background: #fff;
-  color: #1a1a1a;
-  border-color: #d5d5d5;
+  background: #1a1a1a;
+  color: #f6f3ec;
+  border-color: #1a1a1a;
+}
+
+.flip-mark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.28rem;
+}
+
+.flip-tab-li .flip-mark {
+  transform: translateX(-0.38rem);
+}
+
+.flip-tab-biao .flip-mark {
+  transform: translateX(0.38rem);
+}
+
+.flip-char {
+  font-family: "Mankan Brush", "Songti SC", "STKaiti", "KaiTi", serif;
+  font-size: 1.85rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.flip-mark svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  display: block;
+}
+
+.flip-tab-biao .flip-mark svg {
+  color: #f4f0e8;
 }
 
 .flip-tab:hover {
-  width: 3.6rem;
+  width: 4.15rem;
 }
 
 .flip-tab:active {
-  width: 3.15rem;
+  width: 3.55rem;
 }
 
 .col-kicker {
@@ -1245,12 +1280,12 @@ main {
 
 @media (width <= 800px) {
   .face-biao {
-    padding-right: 4.5rem;
+    padding-right: 5.2rem;
     padding-left: 1.05rem;
   }
 
   .face-li {
-    padding-left: 4.5rem;
+    padding-left: 5.2rem;
     padding-right: 1.05rem;
   }
 }
@@ -1277,9 +1312,13 @@ main {
   }
 
   .flip-tab {
-    width: 3.35rem;
-    height: 7.6rem;
+    width: 3.85rem;
+    height: 7.8rem;
     bottom: max(5.5rem, calc(env(safe-area-inset-bottom) + 16vh));
+  }
+
+  .flip-char {
+    font-size: 1.7rem;
   }
 
   .specimen {
