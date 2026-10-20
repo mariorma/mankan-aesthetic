@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import type { Figure } from "./entries";
 import { FigureView } from "./Figure";
 import { mount, Shell } from "./Shell";
@@ -37,14 +37,76 @@ const beginning: Figure = {
   creditHref: "https://loosejoints.biz/products/in-the-beginning",
 };
 
-const autumn: Figure = {
-  file: "log-tgw-autumn-durald.webp",
-  alt: "Autumn Durald Arkapaw 穿黑西装和白裙，坐在白墙前",
-  width: 1400,
-  height: 583,
-  caption: "黑西装，白裙子，人靠右坐。脸上的光是匀的，没有硬阴影。",
-  credit: `原图 · The Gentlewoman Library · Autumn Durald Arkapaw · ${credit}`,
-  creditHref: "https://thegentlewoman.co.uk/library/autumn-durald-arkapaw",
+const enako: Figure = {
+  file: "li-enako-yk.webp",
+  alt: "えなこ，白兔耳，双手比心，ヤングキング封面",
+  width: 1062,
+  height: 1500,
+  caption: "兔耳，双手比心。右边大字写着えなこ。",
+  credit: `喜欢名单 · enako · ヤングキング封面 · ${credit}`,
+};
+
+const yua: Figure = {
+  file: "li-yua-plaid.webp",
+  alt: "yua 穿格子挂脖裙，在电梯镜子前自拍",
+  width: 1200,
+  height: 1600,
+  caption: "格子裙，马尾，电梯镜子里自拍。",
+  credit: `喜欢名单 · yua · 日常搜图 · ${credit}`,
+};
+
+const iori: Figure = {
+  file: "li-iori-stripe.webp",
+  alt: "iori 穿蓝条纹衬衫，站在老房子里，头顶一盏灯泡",
+  width: 900,
+  height: 1600,
+  caption: "蓝条纹衬衫，老房子，头顶一盏白灯泡。",
+  credit: `喜欢名单 · iori · 日常搜图 · ${credit}`,
+};
+
+const kokoro: Figure = {
+  file: "li-kokoro-swim.webp",
+  alt: "kokoro 粉色短发，在泳池边比耶，穿浅蓝色泳衣",
+  width: 1200,
+  height: 1600,
+  caption: "泳池边，粉色短发，比了个耶。",
+  credit: `喜欢名单 · kokoro · 日常搜图 · ${credit}`,
+};
+
+const beautybeast: Figure = {
+  file: "li-beautybeast-cos.webp",
+  alt: "beautybeast cos，红裙子和珍珠项链，站在玫瑰拱门下",
+  width: 800,
+  height: 1200,
+  caption: "红裙子，珍珠，玫瑰拱门。cos 贝尔那套。",
+  credit: `喜欢名单 · beautybeast cos · ${credit}`,
+};
+
+const friday: Figure = {
+  file: "li-friday-mizuki.webp",
+  alt: "金曜美人，麻倉瑞季，浅蓝蕾丝，侧脸贴过来",
+  width: 1200,
+  height: 790,
+  caption: "麻倉瑞季，浅蓝蕾丝，脸贴过来。",
+  credit: `喜欢名单 · 金曜美人 · 麻倉瑞季 · ${credit}`,
+};
+
+const hydrangea: Figure = {
+  file: "li-hydrangea.webp",
+  alt: "绣球花叶子前，碎花深色短袖，齐刘海",
+  width: 1080,
+  height: 1350,
+  caption: "绣球花叶子挡着半边，碎花衣服。",
+  credit: `喜欢名单 · strawbelly · 绣球花 · ${credit}`,
+};
+
+const karin: Figure = {
+  file: "li-karin-tulip.webp",
+  alt: "小渕花梨，橙毛衣，抱着一把郁金香，背后是红砖墙",
+  width: 1280,
+  height: 1600,
+  caption: "橙毛衣，一把郁金香，红砖墙。",
+  credit: `喜欢名单 · 小渕花梨 · karin_obuchi · ${credit}`,
 };
 
 const lotteryA: Figure = {
@@ -65,16 +127,6 @@ const lotteryB: Figure = {
   caption: "同一类票，换一张：近畿，叶子，粉红底。旁白还是秋。",
   credit: `Present & Correct / X @presentcorrect · autumn JP lottery · ${credit}`,
   creditHref: "https://x.com/i/status/2112255225419419970",
-};
-
-const shortlist: Figure = {
-  file: "log-aperture-2026-shortlist.webp",
-  alt: "一摊摄影书封面，中间有齐刘海、脸上贴字的人像，旁边有低头的侧脸",
-  width: 1024,
-  height: 682,
-  caption: "这一摊里我停在中间那张：刘海齐，脸上贴了字。旁边还有一张低头的侧脸，光也是平的。",
-  credit: `原图 · Aperture · 2026 PhotoBook Awards / photo Daniel Salemi · ${credit}`,
-  creditHref: "https://aperture.org/editorial/announcing-the-2026-photobook-awards-shortlist/",
 };
 
 function Plum() {
@@ -110,6 +162,22 @@ type Face = "biao" | "li";
 function Home() {
   const [face, setFace] = useState<Face>("biao");
   const flipped = useRef(false);
+
+  useLayoutEffect(() => {
+    const dark = face === "li";
+    document.documentElement.classList.toggle("face-dark", dark);
+    document
+      .querySelector('meta[name="theme-color"]')
+      ?.setAttribute("content", dark ? "#0c0c0c" : "#f4f1eb");
+    document
+      .querySelector('meta[name="color-scheme"]')
+      ?.setAttribute("content", dark ? "dark" : "light");
+    return () => {
+      document.documentElement.classList.remove("face-dark");
+      document.querySelector('meta[name="theme-color"]')?.setAttribute("content", "#f4f1eb");
+      document.querySelector('meta[name="color-scheme"]')?.setAttribute("content", "light");
+    };
+  }, [face]);
 
   useEffect(() => {
     if (!flipped.current) return;
@@ -231,14 +299,22 @@ function FaceLi() {
           <p className="col-lede">
             人好看就说好看。
             <br />
-            妆收着，光别硬打。
+            这几张是喜欢名单里的。
           </p>
 
           <section className="su-zone" aria-labelledby="su-people">
             <h3 id="su-people">人</h3>
-            <p>这两张我留着看。头发、妆、光都收在一个调子里。</p>
-            <FigureView page="home" figure={autumn} className="su-fig" priority />
-            <FigureView page="home" figure={shortlist} className="su-fig su-follow" />
+            <p>封面、自拍、cos，都留着。</p>
+            <div className="su-people">
+              <FigureView page="home" figure={enako} className="su-fig su-lead" priority />
+              <FigureView page="home" figure={yua} className="su-fig" />
+              <FigureView page="home" figure={iori} className="su-fig" />
+              <FigureView page="home" figure={kokoro} className="su-fig" />
+              <FigureView page="home" figure={beautybeast} className="su-fig" />
+              <FigureView page="home" figure={friday} className="su-fig" />
+              <FigureView page="home" figure={hydrangea} className="su-fig" />
+              <FigureView page="home" figure={karin} className="su-fig" />
+            </div>
           </section>
 
           <section className="su-zone" aria-labelledby="su-desk">

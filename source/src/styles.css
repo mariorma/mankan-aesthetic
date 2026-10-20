@@ -1025,9 +1025,38 @@ main {
 }
 
 .face-li {
-  background: #fff4e6;
-  color: #2a2118;
+  background: #0c0c0c;
+  color: #f3efe6;
   padding: 1.7rem 1.35rem 3.2rem;
+}
+
+html.face-dark,
+html.face-dark body {
+  background: #0c0c0c;
+  color: #f3efe6;
+  color-scheme: dark;
+}
+
+html.face-dark .site-header,
+html.face-dark .site-footer,
+html.face-dark .flip-stage {
+  border-color: #2a2723;
+}
+
+html.face-dark .brand-sub,
+html.face-dark .nav a,
+html.face-dark .nav-log,
+html.face-dark .site-footer,
+html.face-dark .issue-label,
+html.face-dark .face-lead,
+html.face-dark .face-hint {
+  color: #b7aea2;
+}
+
+html.face-dark .nav a:hover,
+html.face-dark .nav a[aria-current="page"],
+html.face-dark .nav-log:hover {
+  color: #f3efe6;
 }
 
 .face-inner {
@@ -1071,9 +1100,9 @@ main {
   left: 0;
   border-radius: 0 7.5rem 7.5rem 0;
   border-left-width: 0;
-  background: #1a1a1a;
+  background: #141210;
   color: #f6f3ec;
-  border-color: #1a1a1a;
+  border-color: #efe8dc;
 }
 
 .flip-mark {
@@ -1127,7 +1156,7 @@ main {
 }
 
 .face-li .col-kicker {
-  color: #9a5a32;
+  color: #c4b49a;
 }
 
 .face h2 {
@@ -1219,6 +1248,7 @@ main {
 
 .su-zone {
   margin-top: 1.55rem;
+  background: #0c0c0c;
 }
 
 .su-zone h3 {
@@ -1255,14 +1285,14 @@ main {
 
 .su-fig figcaption {
   margin-top: 0.45rem;
-  color: #3a3128;
+  color: #e7e0d4;
   font-family: var(--serif);
   font-size: 0.95rem;
   line-height: 1.65;
 }
 
 .face-li .credit {
-  color: #5c5148;
+  color: #a3988c;
 }
 
 .face-biao .credit {
