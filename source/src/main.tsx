@@ -109,6 +109,36 @@ const karin: Figure = {
   credit: `喜欢名单 · 小渕花梨 · karin_obuchi · ${credit}`,
 };
 
+const people: Figure[] = [enako, yua, iori, kokoro, beautybeast, friday, hydrangea, karin];
+
+const markKey = "mankan-li-marks";
+const marks = ["好", "中", "差"] as const;
+type Mark = (typeof marks)[number];
+
+function readMarks(): Record<string, Mark> {
+  try {
+    const raw = localStorage.getItem(markKey);
+    if (!raw) return {};
+    const parsed: unknown = JSON.parse(raw);
+    if (!parsed || typeof parsed !== "object") return {};
+    const saved: Record<string, Mark> = {};
+    for (const [file, value] of Object.entries(parsed)) {
+      if (value === "好" || value === "中" || value === "差") saved[file] = value;
+    }
+    return saved;
+  } catch {
+    return {};
+  }
+}
+
+function writeMarks(next: Record<string, Mark>) {
+  try {
+    localStorage.setItem(markKey, JSON.stringify(next));
+  } catch {
+    // 记不住就只留在这一页，不打断翻看。
+  }
+}
+
 const lotteryA: Figure = {
   file: "log-pc-autumn-lottery-1.webp",
   alt: "昭和34年东京都宝くじ，票面有橙红和黄色的叶子图形",
@@ -161,7 +191,23 @@ type Face = "biao" | "li";
 
 function Home() {
   const [face, setFace] = useState<Face>("biao");
+  const [saved, setSaved] = useState<Record<string, Mark>>(readMarks);
   const flipped = useRef(false);
+
+  function choose(file: string, mark: Mark) {
+    setSaved((current) => {
+      const next = { ...current, [file]: mark };
+      writeMarks(next);
+      return next;
+    });
+  }
+
+  const rejected = [
+    ...people.filter((figure) => saved[figure.file] === "差").map((figure) => figure.file),
+    ...Object.keys(saved).filter(
+      (file) => saved[file] === "差" && !people.some((figure) => figure.file === file),
+    ),
+  ];
 
   useLayoutEffect(() => {
     const dark = face === "li";
@@ -194,7 +240,7 @@ function Home() {
   const toInside = face === "biao";
 
   return (
-    <Shell page="home" bleed>
+    <Shell page="home" bleed footerNote={face === "li" ? <RejectList files={rejected} /> : undefined}>
       <header className="split-issue">
         <p className="issue-label">本期 · No.02</p>
         <h1>表雅，里俗。</h1>
@@ -203,7 +249,7 @@ function Home() {
       </header>
 
       <div className="flip-stage">
-        {toInside ? <FaceBiao /> : <FaceLi />}
+        {toInside ? <FaceBiao /> : <FaceLi saved={saved} onChoose={choose} />}
         <button
           id="flip-tab"
           type="button"
@@ -290,7 +336,13 @@ function FaceBiao() {
   );
 }
 
-function FaceLi() {
+function FaceLi({
+  saved,
+  onChoose,
+}: {
+  saved: Record<string, Mark>;
+  onChoose: (file: string, mark: Mark) => void;
+}) {
   return (
         <section className="face face-li" aria-labelledby="su-title">
           <div className="face-inner">
@@ -306,14 +358,21 @@ function FaceLi() {
             <h3 id="su-people">人</h3>
             <p>封面、自拍、cos，都留着。</p>
             <div className="su-people">
-              <FigureView page="home" figure={enako} className="su-fig su-lead" priority />
-              <FigureView page="home" figure={yua} className="su-fig" />
-              <FigureView page="home" figure={iori} className="su-fig" />
-              <FigureView page="home" figure={kokoro} className="su-fig" />
-              <FigureView page="home" figure={beautybeast} className="su-fig" />
-              <FigureView page="home" figure={friday} className="su-fig" />
-              <FigureView page="home" figure={hydrangea} className="su-fig" />
-              <FigureView page="home" figure={karin} className="su-fig" />
+              {people.map((figure, index) => (
+                <FigureView
+                  key={figure.file}
+                  page="home"
+                  figure={figure}
+                  className={index === 0 ? "su-fig su-lead" : "su-fig"}
+                  priority={index === 0}
+                >
+                  <MarkControl
+                    file={figure.file}
+                    value={saved[figure.file] ?? "中"}
+                    onChoose={onChoose}
+                  />
+                </FigureView>
+              ))}
             </div>
           </section>
 
@@ -327,6 +386,64 @@ function FaceLi() {
           </section>
           </div>
         </section>
+  );
+}
+
+function MarkControl({
+  file,
+  value,
+  onChoose,
+}: {
+  file: string;
+  value: Mark;
+  onChoose: (file: string, mark: Mark) => void;
+}) {
+  return (
+    <div className="mark" role="radiogroup" aria-label={`${file}，好中差`}>
+      {marks.map((mark) => (
+        <button
+          key={mark}
+          type="button"
+          role="radio"
+          aria-checked={value === mark}
+          onClick={() => onChoose(file, mark)}
+        >
+          {mark}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function RejectList({ files }: { files: string[] }) {
+  const [copied, setCopied] = useState(false);
+  const text = files.join("\n");
+
+  async function copy() {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 1600);
+    } catch {
+      setCopied(false);
+    }
+  }
+
+  return (
+    <details className="reject-list">
+      <summary>差评清单</summary>
+      <p>标成差的文件名，一行一个。</p>
+      {files.length === 0 ? (
+        <p className="reject-empty">还没有。</p>
+      ) : (
+        <>
+          <pre>{text}</pre>
+          <button type="button" className="reject-copy" onClick={copy}>
+            {copied ? "已复制" : "复制"}
+          </button>
+        </>
+      )}
+    </details>
   );
 }
 

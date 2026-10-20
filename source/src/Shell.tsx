@@ -14,10 +14,12 @@ export function Shell({
   page,
   children,
   bleed = false,
+  footerNote,
 }: {
   page: PageId;
   children: ReactNode;
   bleed?: boolean;
+  footerNote?: ReactNode;
 }) {
   return (
     <div className="site">
@@ -57,6 +59,7 @@ export function Shell({
         <div className="wrap footer-inner">
           <p>慢看 · 用看图学审美</p>
           <p>零成本试跑。不设赞助、课程售卖或邮箱收集。</p>
+          {footerNote}
         </div>
       </footer>
     </div>

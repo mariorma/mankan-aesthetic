@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import type { Figure } from "./entries";
 import { assetHref, type PageId } from "./paths";
 
@@ -6,11 +7,13 @@ export function FigureView({
   figure,
   className,
   priority = false,
+  children,
 }: {
   page: PageId;
   figure: Figure;
   className: string;
   priority?: boolean;
+  children?: ReactNode;
 }) {
   const lines = figure.caption.split("\n");
   return (
@@ -39,6 +42,7 @@ export function FigureView({
             figure.credit
           )}
         </span>
+        {children}
       </figcaption>
     </figure>
   );
