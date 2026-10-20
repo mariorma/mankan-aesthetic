@@ -10,7 +10,15 @@ const nav = [
   { id: "about", label: "关于" },
 ] as const;
 
-export function Shell({ page, children }: { page: PageId; children: ReactNode }) {
+export function Shell({
+  page,
+  children,
+  bleed = false,
+}: {
+  page: PageId;
+  children: ReactNode;
+  bleed?: boolean;
+}) {
   return (
     <div className="site">
       <a className="skip" href="#content">
@@ -42,7 +50,7 @@ export function Shell({ page, children }: { page: PageId; children: ReactNode })
           </nav>
         </div>
       </header>
-      <main id="content" className="wrap">
+      <main id="content" className={bleed ? "bleed" : "wrap"}>
         {children}
       </main>
       <footer className="site-footer">
