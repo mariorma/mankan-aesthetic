@@ -1,4 +1,5 @@
 import type { Figure } from "./entries";
+import { weekRefs } from "./week-refs";
 
 export type LogLink = {
   label: string;
@@ -33,6 +34,27 @@ export type LogDay = {
 // 抓不到（反爬 / 登录墙）就用 imageNote 诚实写「原图未取到」并保留外链，别拿假图糊弄。
 // 以后加一天：复制一个 LogDay 对象放到数组最前面，日期新的在上面。
 export const learningLog: LogDay[] = [
+  {
+    date: "2026-10-21",
+    title: "审美积累 · 本周十一条",
+    summary:
+      "表侧这一期用的就是这十一条：字、刊面、留白，一句判断，写清谁出的。含主人推荐的 B 站 BV1Aepi6KErg。外链走官方页或播放页，不嵌视频。原图取到的才放。",
+    sections: [
+      {
+        id: "week-2026-10-21",
+        label: "审美积累",
+        intro: "和首页表面同一份。抓不到原图的写在下面，不拿别的图顶。",
+        items: weekRefs.map((ref) => ({
+          heading: `${ref.no} ${ref.title}`,
+          href: ref.href,
+          points: [ref.judgment, ...ref.points],
+          steal: ref.steal,
+          figures: ref.figure ? [ref.figure] : undefined,
+          imageNote: ref.imageNote,
+        })),
+      },
+    ],
+  },
   {
     date: "2026-10-20",
     title: "例行：Loose Joints + Perimeter Books",

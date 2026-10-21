@@ -2,47 +2,18 @@ import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import type { Figure } from "./entries";
 import { FigureView } from "./Figure";
 import { mount, Shell } from "./Shell";
+import { weekRefs } from "./week-refs";
 
 // 两面各写各的：不要互链，不要在文案里点名另一面的内容。
 
 const credit = "无商业用途·侵权立删";
-
-const worry: Figure = {
-  file: "log-lj-dont-worry-boys.webp",
-  alt: "摊开的摄影书跨页：左侧黑白人像侧面，右侧是街景",
-  width: 1200,
-  height: 788,
-  caption: "黑白跨页。人靠左，街景在右边让开。这一页几乎只有灰，字不会被颜色抢走。",
-  credit: `原图 · Loose Joints · Don't Worry Boys / Stanley Stellar · ${credit}`,
-  creditHref: "https://loosejoints.biz/products/dont-worry-boys",
-};
-
-const frozen: Figure = {
-  file: "log-lj-frozen-features.webp",
-  alt: "浅蓝色布面书封，奶油色字叠在棕色字上，书名 Frozen Features",
-  width: 1200,
-  height: 788,
-  caption: "封面是浅蓝布。奶油色字叠在棕色字上，就这两种，没有第三种来抢。",
-  credit: `原图 · Loose Joints · Frozen Features / Jason Fulford · ${credit}`,
-  creditHref: "https://loosejoints.biz/products/frozen-features",
-};
-
-const beginning: Figure = {
-  file: "log-lj-in-the-beginning.webp",
-  alt: "三册书用白色橡皮筋捆成一叠，封面是粉色缎面",
-  width: 1200,
-  height: 788,
-  caption: "三册用橡皮筋捆着。粉缎那张是封面。页数按册分开写，不并成一句。",
-  credit: `原图 · Loose Joints · In the Beginning / Roe Ethridge · ${credit}`,
-  creditHref: "https://loosejoints.biz/products/in-the-beginning",
-};
 
 const enako: Figure = {
   file: "li-enako-yk.webp",
   alt: "えなこ，白兔耳，双手比心，ヤングキング封面",
   width: 1062,
   height: 1500,
-  caption: "兔耳，双手比心。右边大字写着えなこ。",
+  caption: "兔耳，双手比心，笑得很开。甜，手势干净。",
   credit: `喜欢名单 · enako · ヤングキング封面 · ${credit}`,
 };
 
@@ -51,7 +22,7 @@ const yua: Figure = {
   alt: "yua 穿格子挂脖裙，在电梯镜子前自拍",
   width: 1200,
   height: 1600,
-  caption: "格子裙，马尾，电梯镜子里自拍。",
+  caption: "格子挂脖裙，马尾，电梯镜子里自拍。光是平的，人还是好看。",
   credit: `喜欢名单 · yua · 日常搜图 · ${credit}`,
 };
 
@@ -60,7 +31,7 @@ const iori: Figure = {
   alt: "iori 穿蓝条纹衬衫，站在老房子里，头顶一盏灯泡",
   width: 900,
   height: 1600,
-  caption: "蓝条纹衬衫，老房子，头顶一盏白灯泡。",
+  caption: "蓝条纹衬衫，老房子，头顶一盏白灯泡。人站得稳。",
   credit: `喜欢名单 · iori · 日常搜图 · ${credit}`,
 };
 
@@ -69,7 +40,7 @@ const kokoro: Figure = {
   alt: "kokoro 粉色短发，在泳池边比耶，穿浅蓝色泳衣",
   width: 1200,
   height: 1600,
-  caption: "泳池边，粉色短发，比了个耶。",
+  caption: "泳池边，粉色短发，比了个耶。颜色亮，人更亮。",
   credit: `喜欢名单 · kokoro · 日常搜图 · ${credit}`,
 };
 
@@ -78,7 +49,7 @@ const beautybeast: Figure = {
   alt: "beautybeast cos，红裙子和珍珠项链，站在玫瑰拱门下",
   width: 800,
   height: 1200,
-  caption: "红裙子，珍珠，玫瑰拱门。cos 贝尔那套。",
+  caption: "红裙子，珍珠，玫瑰拱门。cos 贝尔，甜和正式叠在一起。",
   credit: `喜欢名单 · beautybeast cos · ${credit}`,
 };
 
@@ -87,7 +58,7 @@ const friday: Figure = {
   alt: "金曜美人，麻倉瑞季，浅蓝蕾丝，侧脸贴过来",
   width: 1200,
   height: 790,
-  caption: "麻倉瑞季，浅蓝蕾丝，脸贴过来。",
+  caption: "麻倉瑞季，浅蓝蕾丝，脸贴过来。近，但不挤。",
   credit: `喜欢名单 · 金曜美人 · 麻倉瑞季 · ${credit}`,
 };
 
@@ -96,7 +67,7 @@ const hydrangea: Figure = {
   alt: "绣球花叶子前，碎花深色短袖，齐刘海",
   width: 1080,
   height: 1350,
-  caption: "绣球花叶子挡着半边，碎花衣服。",
+  caption: "绣球叶子挡着半边，碎花深色短袖，齐刘海。花是配的，人是看的。",
   credit: `喜欢名单 · strawbelly · 绣球花 · ${credit}`,
 };
 
@@ -105,7 +76,7 @@ const karin: Figure = {
   alt: "小渕花梨，橙毛衣，抱着一把郁金香，背后是红砖墙",
   width: 1280,
   height: 1600,
-  caption: "橙毛衣，一把郁金香，红砖墙。",
+  caption: "橙毛衣，一把郁金香，红砖墙。颜色暖，人安静。",
   credit: `喜欢名单 · 小渕花梨 · karin_obuchi · ${credit}`,
 };
 
@@ -138,26 +109,6 @@ function writeMarks(next: Record<string, Mark>) {
     // 记不住就只留在这一页，不打断翻看。
   }
 }
-
-const lotteryA: Figure = {
-  file: "log-pc-autumn-lottery-1.webp",
-  alt: "昭和34年东京都宝くじ，票面有橙红和黄色的叶子图形",
-  width: 1199,
-  height: 654,
-  caption: "昭和34年，东京都宝くじ，100円。",
-  credit: `Present & Correct / X @presentcorrect · autumn JP lottery · ${credit}`,
-  creditHref: "https://x.com/i/status/2112255225419419970",
-};
-
-const lotteryB: Figure = {
-  file: "log-pc-autumn-lottery-2.webp",
-  alt: "近畿宝くじ，左边是秋叶，右边是粉色底纹",
-  width: 1199,
-  height: 629,
-  caption: "同一类票，换一张：近畿，叶子，粉红底。旁白还是秋。",
-  credit: `Present & Correct / X @presentcorrect · autumn JP lottery · ${credit}`,
-  creditHref: "https://x.com/i/status/2112255225419419970",
-};
 
 function Plum() {
   return (
@@ -242,10 +193,24 @@ function Home() {
   return (
     <Shell page="home" bleed footerNote={face === "li" ? <RejectList files={rejected} /> : undefined}>
       <header className="split-issue">
-        <p className="issue-label">本期 · No.02</p>
-        <h1>表雅，里俗。</h1>
-        <p className="face-lead">一次看一面。点边上的半圆翻过去。</p>
-        <p className="face-hint">{toInside ? "对面是里。" : "对面是表。"}</p>
+        <p className="issue-label">本期 · No.03</p>
+        <h1>{face === "biao" ? "审美积累" : "美女赏析"}</h1>
+        <p className="face-lead">
+          {face === "biao" ? (
+            <>
+              这一周十一条。
+              <br />
+              先写判断，再写谁出的。
+            </>
+          ) : (
+            <>
+              人好看就说好看。
+              <br />
+              每张几句，看完标好、中、差。
+            </>
+          )}
+        </p>
+        <p className="face-how">点边上的半圆翻过去。</p>
       </header>
 
       <div className="flip-stage">
@@ -269,70 +234,43 @@ function Home() {
 }
 
 function FaceBiao() {
+  const firstFigure = weekRefs.find((ref) => ref.figure)?.no;
   return (
-        <section className="face face-biao" aria-labelledby="ya-title">
-          <div className="face-inner">
-          <p className="col-kicker">表 · 雅</p>
-          <h2 id="ya-title">规格写全</h2>
-          <p className="col-lede">
-            判断就一句。
-            <br />
-            页数、图版、尺寸、装订写清楚。
-            <br />
-            配色别跟字抢。
-          </p>
-
-          <div className="specimen">
-            <h3>Don't Worry Boys</h3>
-            <p className="specimen-by">Stanley Stellar</p>
-            <FigureView page="home" figure={worry} className="ya-fig" priority />
-            <Spec
-              rows={[
-                { k: "页数", v: "192 pages" },
-                { k: "图版", v: "45 colour · 55 duotone plates" },
-                { k: "尺寸", v: "219 × 290 mm" },
-                { k: "装订", v: "quarterbound hardcover" },
-                { k: "编号", v: "LJ227 · September 2026" },
-                { k: "Vendor", v: "Loose Joints（自有印记）" },
-              ]}
-            />
-          </div>
-
-          <div className="specimen">
-            <h3>Frozen Features</h3>
-            <p className="specimen-by">Jason Fulford</p>
-            <FigureView page="home" figure={frozen} className="ya-fig" />
-            <Spec
-              rows={[
-                { k: "页数", v: "104 pages" },
-                { k: "图版", v: "54 colour plates" },
-                { k: "尺寸", v: "240 × 300 mm" },
-                { k: "装订", v: "paper hardcover" },
-                { k: "印制", v: "double silkscreen" },
-                { k: "附件", v: "loose insert" },
-                { k: "编号", v: "LJ226" },
-                { k: "Vendor", v: "Loose Joints（自有印记）" },
-              ]}
-            />
-          </div>
-
-          <div className="specimen">
-            <h3>In the Beginning</h3>
-            <p className="specimen-by">Roe Ethridge · 三册 facsimile，用橡皮筋捆</p>
-            <FigureView page="home" figure={beginning} className="ya-fig" />
-            <Spec
-              rows={[
-                { k: "第一册", v: "36 pages · 200 × 250 mm" },
-                { k: "第二册", v: "88 pages · 200 × 250 mm" },
-                { k: "第三册", v: "16 pages · 200 × 250 mm" },
-                { k: "装订", v: "rubber band" },
-                { k: "编号", v: "LJ218 · February 2026" },
-                { k: "Vendor", v: "Loose Joints（自有印记）" },
-              ]}
-            />
-          </div>
-          </div>
-        </section>
+    <section className="face face-biao" aria-labelledby="ya-title">
+      <div className="face-inner">
+        <p className="col-kicker">表</p>
+        <h2 id="ya-title">本周十一条</h2>
+        <div className="ref-index">
+          {weekRefs.map((ref) => (
+            <article key={ref.no} className="ref" id={`ref-${ref.no}`}>
+              <p className="ref-no">{ref.no}</p>
+              <h3>
+                <a href={ref.href} target="_blank" rel="noreferrer">
+                  {ref.title}
+                </a>
+              </h3>
+              <p className="ref-by">{ref.by}</p>
+              <p className="ref-judge">{ref.judgment}</p>
+              {ref.figure && (
+                <FigureView
+                  page="home"
+                  figure={ref.figure}
+                  className="ya-fig"
+                  priority={ref.no === firstFigure}
+                />
+              )}
+              <Spec
+                rows={[
+                  { k: "看什么", v: ref.watch },
+                  { k: "入口", v: ref.entry },
+                  { k: "Vendor", v: ref.vendor },
+                ]}
+              />
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -346,44 +284,25 @@ function FaceLi({
   return (
         <section className="face face-li" aria-labelledby="su-title">
           <div className="face-inner">
-          <p className="col-kicker">里 · 俗</p>
-          <h2 id="su-title">喜欢的几张</h2>
-          <p className="col-lede">
-            人好看就说好看。
-            <br />
-            这几张是喜欢名单里的。
-          </p>
-
-          <section className="su-zone" aria-labelledby="su-people">
-            <h3 id="su-people">人</h3>
-            <p>封面、自拍、cos，都留着。</p>
-            <div className="su-people">
-              {people.map((figure, index) => (
-                <FigureView
-                  key={figure.file}
-                  page="home"
-                  figure={figure}
-                  className={index === 0 ? "su-fig su-lead" : "su-fig"}
-                  priority={index === 0}
-                >
-                  <MarkControl
-                    file={figure.file}
-                    value={saved[figure.file] ?? "中"}
-                    onChoose={onChoose}
-                  />
-                </FigureView>
-              ))}
-            </div>
-          </section>
-
-          <section className="su-zone" aria-labelledby="su-desk">
-            <h3 id="su-desk">桌上</h3>
-            <p>秋，用中古日本彩票来说。同系列，旁白换一句就行。</p>
-            <div className="su-pair">
-              <FigureView page="home" figure={lotteryA} className="su-fig" />
-              <FigureView page="home" figure={lotteryB} className="su-fig" />
-            </div>
-          </section>
+          <p className="col-kicker">裏</p>
+          <h2 id="su-title">喜欢的人</h2>
+          <div className="su-people">
+            {people.map((figure, index) => (
+              <FigureView
+                key={figure.file}
+                page="home"
+                figure={figure}
+                className={index === 0 ? "su-fig su-lead" : "su-fig"}
+                priority={index === 0}
+              >
+                <MarkControl
+                  file={figure.file}
+                  value={saved[figure.file] ?? "中"}
+                  onChoose={onChoose}
+                />
+              </FigureView>
+            ))}
+          </div>
           </div>
         </section>
   );
