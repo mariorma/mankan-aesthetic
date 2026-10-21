@@ -80,7 +80,8 @@ const karin: Figure = {
   credit: `喜欢名单 · 小渕花梨 · karin_obuchi · ${credit}`,
 };
 
-const people: Figure[] = [enako, yua, iori, kokoro, beautybeast, friday, hydrangea, karin];
+// 新上旧下：按上站时间，新的在前。八张同在 475f64a 进库，文件里后写到的视为更新。首项是 lead。
+const people: Figure[] = [karin, hydrangea, friday, beautybeast, kokoro, iori, yua, enako];
 
 const markKey = "mankan-li-marks";
 const marks = ["好", "中", "差"] as const;

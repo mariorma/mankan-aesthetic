@@ -34,7 +34,15 @@ export const weekRefs: WeekRef[] = [
       "只链到官方播放页，不嵌视频文件。",
     ],
     steal: "先放一条看得下去的片子，不必先写成课。",
-    imageNote: "封面原图未取到（接口 412）。不拿别的图顶。",
+    figure: {
+      file: "log-bili-bv1aepi6kerg.webp",
+      alt: "B站官方封面：石塔上的白衣人物拉着钟绳，右边是深谷",
+      width: 1200,
+      height: 675,
+      caption: "官方封面。人缩在石塔里拉钟，谷占了右半。片子到播放页里看。",
+      credit: `原图 · B站官方封面 · Lana-Dey-Rey · 压抑、执念与精神崩塌 · ${disclaimer}`,
+      creditHref: "https://www.bilibili.com/video/BV1Aepi6KErg/",
+    },
   },
   {
     no: "02",
