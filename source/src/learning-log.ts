@@ -1,5 +1,5 @@
 import type { Figure } from "./entries";
-import { weekRefs } from "./week-refs";
+import { weekCatalog } from "./week-refs";
 
 export type LogLink = {
   label: string;
@@ -175,13 +175,13 @@ export const learningLog: LogDay[] = [
     date: "2026-10-21",
     title: "审美积累 · 本周十一条",
     summary:
-      "表侧这一期用的就是这十一条：字、刊面、留白，一句判断，写清谁出的。含主人推荐的 B 站 BV1Aepi6KErg。外链走官方页或播放页，不嵌视频。原图取到的才放。",
+      "表侧首页只放有图的。花瓣话题和美叶灵感墙原图没取到，不摆上表侧，记在这份清单里。含主人推荐的 B 站 BV1Aepi6KErg。外链走官方页或播放页，不嵌视频。",
     sections: [
       {
         id: "week-2026-10-21",
         label: "审美积累",
-        intro: "和首页表面同一份。抓不到原图的写在下面，不拿别的图顶。",
-        items: weekRefs.map((ref) => ({
+        intro: "和首页同一份清单。有图的才上表侧。花瓣、美叶这两条原图没取到，留在这里。",
+        items: weekCatalog.map((ref) => ({
           heading: `${ref.no} ${ref.title}`,
           href: ref.href,
           points: [ref.judgment, ...ref.points],

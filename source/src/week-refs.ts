@@ -17,7 +17,8 @@ export type WeekRef = {
 
 // 2026-10-21 审美积累十一条。表侧和积累 log 都从这里取，避免两处链接漂移。
 // 图只放抓到的原图。抓不到的写 imageNote，不拿别的图顶。
-export const weekRefs: WeekRef[] = [
+// 首页只用有 figure 的。编号不重排，没有图的留在这份清单里，不摆上表侧。
+export const weekCatalog: WeekRef[] = [
   {
     no: "01",
     title: "压抑 / 执念",
@@ -53,7 +54,15 @@ export const weekRefs: WeekRef[] = [
     vendor: "X · @Eonway_Ying",
     points: ["帖题是心字造型的变化。字形课只跟一个字，不铺全表。"],
     steal: "一个字写清楚，比一张字表有用。",
-    imageNote: "原图未取到（页面 403）。链接先留着。",
+    figure: {
+      file: "log-x-xin-heart.webp",
+      alt: "「心」字从图形到楷书、再到偏旁的几组造型",
+      width: 1400,
+      height: 1867,
+      caption: "原帖那张。心字从图形收到楷书，再收成三种偏旁。",
+      credit: `原图 · X · @Eonway_Ying · 「心」字造型的变化`,
+      creditHref: "https://x.com/Eonway_Ying/status/2112707395935711427",
+    },
   },
   {
     no: "03",
@@ -132,7 +141,15 @@ export const weekRefs: WeekRef[] = [
       "编辑部把「这时候还讲故事」当成这件事本身。界面靠主题句和留白，不靠一排按钮。",
     ],
     steal: "一期只留一个主题句，比做一张气氛海报有用。",
-    imageNote: "阅读页原图未取到。分享海报是雾里的字，不拿它冒充内页，未采用。",
+    figure: {
+      file: "log-em-vol7-cover.webp",
+      alt: "Emergence Magazine 第七卷封面和书脊，白底上散着小图，中间是主题句",
+      width: 1200,
+      height: 1326,
+      caption: "第七卷封面，连书脊。主题句在中间，四周留白。这是封面，不是内页。",
+      credit: `原图 · Emergence Magazine · Vol. 7 Seeds and Structures 封面`,
+      creditHref: "https://emergencemagazine.org/",
+    },
   },
   {
     no: "07",
@@ -197,7 +214,15 @@ export const weekRefs: WeekRef[] = [
       "作者说这七个是一起用的，不要单拆一个就当风格。",
     ],
     steal: "看一页先对这七项，缺了哪项就写哪项。",
-    imageNote: "文内案例图未逐张取到。站的横幅不是版面，未采用。",
+    figure: {
+      file: "log-uisdc-mag-ui.webp",
+      alt: "一排手机界面，大字、色块和海报式排版叠在一起",
+      width: 1200,
+      height: 800,
+      caption: "文里的一张案例。大字压在色块上，像一页刊。不是站的横幅。",
+      credit: `原图 · 优设 · 功夫UX · 杂志化风格怎么用`,
+      creditHref: "https://www.uisdc.com/magazine-style",
+    },
   },
   {
     no: "10",
@@ -214,7 +239,15 @@ export const weekRefs: WeekRef[] = [
       "文末在推他们自己的电子刊工具。这条只取前面的七种调子。",
     ],
     steal: "定调用七个名字就够。工具广告不写进判断。",
-    imageNote: "文首是报亭堆刊，脸很多，不是七种版式，未采用。",
+    figure: {
+      file: "log-yz-cereal-cover.webp",
+      alt: "Cereal 杂志封面：大字刊名，下面是一只梨、一只盘子和一把叉子",
+      width: 700,
+      height: 918,
+      caption: "文中举例的简约一挂。七种调子先看这一格。不是文首那张报亭。",
+      credit: `原图 · 云展网 · 七种杂志调子 · Cereal 封面例`,
+      creditHref: "https://www.yunzhan365.com/use/digital-magazine/digital-magazine015/",
+    },
   },
   {
     no: "11",
@@ -227,6 +260,9 @@ export const weekRefs: WeekRef[] = [
     vendor: "美叶",
     points: ["页面是灵感墙。跟第 9 条一起用：优设给清单，这里给例子。"],
     steal: "灵感墙先不写判断。对照过清单再写。",
-    imageNote: "墙里的单图未逐张取到。分享图只是 logo，未采用。",
+    imageNote: "墙里抽到的一张是空状态界面，不是色和版面，未采用。分享图只是 logo，也未采用。",
   },
 ];
+
+export const weekRefs = weekCatalog.filter((ref) => ref.figure);
+export const pendingRefs = weekCatalog.filter((ref) => !ref.figure);

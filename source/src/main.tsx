@@ -12,7 +12,8 @@ const enako: Figure = {
   width: 1062,
   height: 1500,
   caption: "兔耳，双手比心，笑得很开。甜，手势干净。",
-  credit: `喜欢名单 · enako · ヤングキング封面`,
+  credit: `喜欢名单 · enako · ヤングキング封面 · 点图进原帖`,
+  creditHref: "https://x.com/enako_cos/status/2099342591829688659",
 };
 
 const yua: Figure = {
@@ -21,7 +22,8 @@ const yua: Figure = {
   width: 1200,
   height: 1600,
   caption: "格子挂脖裙，马尾，电梯镜子里自拍。光是平的，人还是好看。",
-  credit: `喜欢名单 · yua · 日常搜图`,
+  credit: `喜欢名单 · yua · 日常搜图 · 点图进主页`,
+  creditHref: "https://x.com/yua_mikami",
 };
 
 const iori: Figure = {
@@ -30,7 +32,8 @@ const iori: Figure = {
   width: 900,
   height: 1600,
   caption: "蓝条纹衬衫，老房子，头顶一盏白灯泡。人站得稳。",
-  credit: `喜欢名单 · iori · 日常搜图`,
+  credit: `喜欢名单 · iori · 日常搜图 · 点图进主页`,
+  creditHref: "https://x.com/iorimoe_five",
 };
 
 const kokoro: Figure = {
@@ -39,7 +42,8 @@ const kokoro: Figure = {
   width: 1200,
   height: 1600,
   caption: "泳池边，粉色短发，比了个耶。颜色亮，人更亮。",
-  credit: `喜欢名单 · kokoro · 日常搜图`,
+  credit: `喜欢名单 · kokoro · 日常搜图 · 点图进主页`,
+  creditHref: "https://x.com/kokoro777pp",
 };
 
 const beautybeast: Figure = {
@@ -48,7 +52,8 @@ const beautybeast: Figure = {
   width: 800,
   height: 1200,
   caption: "红裙子，珍珠，玫瑰拱门。cos 贝尔，甜和正式叠在一起。",
-  credit: `喜欢名单 · beautybeast cos`,
+  credit: `喜欢名单 · beautybeast cos · 点图去找原帖`,
+  creditHref: "https://x.com/search?q=beautybeast%20cos&f=media",
 };
 
 const friday: Figure = {
@@ -57,7 +62,8 @@ const friday: Figure = {
   width: 1200,
   height: 790,
   caption: "麻倉瑞季，浅蓝蕾丝，脸贴过来。近，但不挤。",
-  credit: `喜欢名单 · 金曜美人 · 麻倉瑞季`,
+  credit: `喜欢名单 · 金曜美人 · 麻倉瑞季 · 点图进原页`,
+  creditHref: "https://friday.gold/gravure/article/444633",
 };
 
 const hydrangea: Figure = {
@@ -66,7 +72,8 @@ const hydrangea: Figure = {
   width: 1080,
   height: 1350,
   caption: "绣球叶子挡着半边，碎花深色短袖，齐刘海。花是配的，人是看的。",
-  credit: `喜欢名单 · strawbelly · 绣球花`,
+  credit: `喜欢名单 · strawbelly · 绣球花 · 点图进主页`,
+  creditHref: "https://x.com/strawbelly",
 };
 
 const karin: Figure = {
@@ -75,7 +82,8 @@ const karin: Figure = {
   width: 1280,
   height: 1600,
   caption: "橙毛衣，一把郁金香，红砖墙。颜色暖，人安静。",
-  credit: `喜欢名单 · 小渕花梨 · karin_obuchi`,
+  credit: `喜欢名单 · 小渕花梨 · note 主页 · 点图进主页`,
+  creditHref: "https://note.com/karin_obuchi",
 };
 
 // 新上旧下：按上站时间，新的在前。八张同在 475f64a 进库，文件里后写到的视为更新。首项是 lead。
@@ -197,7 +205,7 @@ function Home() {
         <p className="face-lead">
           {face === "biao" ? (
             <>
-              这一周十一条。
+              这一周九条。
               <br />
               先写判断，再写谁出的。
             </>
@@ -238,7 +246,7 @@ function FaceBiao() {
     <section className="face face-biao" aria-labelledby="ya-title">
       <div className="face-inner">
         <p className="col-kicker">表</p>
-        <h2 id="ya-title">本周十一条</h2>
+        <h2 id="ya-title">本周九条</h2>
         <div className="ref-index">
           {weekRefs.map((ref) => (
             <article key={ref.no} className="ref" id={`ref-${ref.no}`}>
