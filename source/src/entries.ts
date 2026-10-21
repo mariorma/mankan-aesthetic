@@ -174,7 +174,7 @@ export const entries: Entry[] = [
       width: 1400,
       height: 2100,
       caption: "瓶子偏右，左边留空。",
-      credit: "照片 · Thanh Truc Ho / Pexels · 无商业用途·侵权立删",
+      credit: "照片 · Thanh Truc Ho / Pexels",
       creditHref: "https://www.pexels.com/photo/elegant-ceramic-teapot-and-cup-set-still-life-33118329/",
     },
   },

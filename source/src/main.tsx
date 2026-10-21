@@ -6,15 +6,13 @@ import { weekRefs } from "./week-refs";
 
 // 两面各写各的：不要互链，不要在文案里点名另一面的内容。
 
-const credit = "无商业用途·侵权立删";
-
 const enako: Figure = {
   file: "li-enako-yk.webp",
   alt: "えなこ，白兔耳，双手比心，ヤングキング封面",
   width: 1062,
   height: 1500,
   caption: "兔耳，双手比心，笑得很开。甜，手势干净。",
-  credit: `喜欢名单 · enako · ヤングキング封面 · ${credit}`,
+  credit: `喜欢名单 · enako · ヤングキング封面`,
 };
 
 const yua: Figure = {
@@ -23,7 +21,7 @@ const yua: Figure = {
   width: 1200,
   height: 1600,
   caption: "格子挂脖裙，马尾，电梯镜子里自拍。光是平的，人还是好看。",
-  credit: `喜欢名单 · yua · 日常搜图 · ${credit}`,
+  credit: `喜欢名单 · yua · 日常搜图`,
 };
 
 const iori: Figure = {
@@ -32,7 +30,7 @@ const iori: Figure = {
   width: 900,
   height: 1600,
   caption: "蓝条纹衬衫，老房子，头顶一盏白灯泡。人站得稳。",
-  credit: `喜欢名单 · iori · 日常搜图 · ${credit}`,
+  credit: `喜欢名单 · iori · 日常搜图`,
 };
 
 const kokoro: Figure = {
@@ -41,7 +39,7 @@ const kokoro: Figure = {
   width: 1200,
   height: 1600,
   caption: "泳池边，粉色短发，比了个耶。颜色亮，人更亮。",
-  credit: `喜欢名单 · kokoro · 日常搜图 · ${credit}`,
+  credit: `喜欢名单 · kokoro · 日常搜图`,
 };
 
 const beautybeast: Figure = {
@@ -50,7 +48,7 @@ const beautybeast: Figure = {
   width: 800,
   height: 1200,
   caption: "红裙子，珍珠，玫瑰拱门。cos 贝尔，甜和正式叠在一起。",
-  credit: `喜欢名单 · beautybeast cos · ${credit}`,
+  credit: `喜欢名单 · beautybeast cos`,
 };
 
 const friday: Figure = {
@@ -59,7 +57,7 @@ const friday: Figure = {
   width: 1200,
   height: 790,
   caption: "麻倉瑞季，浅蓝蕾丝，脸贴过来。近，但不挤。",
-  credit: `喜欢名单 · 金曜美人 · 麻倉瑞季 · ${credit}`,
+  credit: `喜欢名单 · 金曜美人 · 麻倉瑞季`,
 };
 
 const hydrangea: Figure = {
@@ -68,7 +66,7 @@ const hydrangea: Figure = {
   width: 1080,
   height: 1350,
   caption: "绣球叶子挡着半边，碎花深色短袖，齐刘海。花是配的，人是看的。",
-  credit: `喜欢名单 · strawbelly · 绣球花 · ${credit}`,
+  credit: `喜欢名单 · strawbelly · 绣球花`,
 };
 
 const karin: Figure = {
@@ -77,7 +75,7 @@ const karin: Figure = {
   width: 1280,
   height: 1600,
   caption: "橙毛衣，一把郁金香，红砖墙。颜色暖，人安静。",
-  credit: `喜欢名单 · 小渕花梨 · karin_obuchi · ${credit}`,
+  credit: `喜欢名单 · 小渕花梨 · karin_obuchi`,
 };
 
 // 新上旧下：按上站时间，新的在前。八张同在 475f64a 进库，文件里后写到的视为更新。首项是 lead。
@@ -244,26 +242,38 @@ function FaceBiao() {
         <div className="ref-index">
           {weekRefs.map((ref) => (
             <article key={ref.no} className="ref" id={`ref-${ref.no}`}>
-              <p className="ref-no">{ref.no}</p>
-              <h3>
-                <a href={ref.href} target="_blank" rel="noreferrer">
-                  {ref.title}
-                </a>
-              </h3>
-              <p className="ref-by">{ref.by}</p>
-              <p className="ref-judge">{ref.judgment}</p>
+              <div className="ref-head">
+                <p className="ref-no">{ref.no}</p>
+                <div className="ref-main">
+                  <h3>{ref.title}</h3>
+                  <p className="ref-by">{ref.by}</p>
+                </div>
+              </div>
               {ref.figure && (
                 <FigureView
                   page="home"
                   figure={ref.figure}
                   className="ya-fig"
                   priority={ref.no === firstFigure}
+                  linkLabel={ref.title}
                 />
+              )}
+              <p className="ref-judge">{ref.judgment}</p>
+              {!ref.figure && (
+                <p className="ref-post">
+                  <a
+                    href={ref.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`打开原帖：${ref.title}`}
+                  >
+                    原帖
+                  </a>
+                </p>
               )}
               <Spec
                 rows={[
                   { k: "看什么", v: ref.watch },
-                  { k: "入口", v: ref.entry },
                   { k: "Vendor", v: ref.vendor },
                 ]}
               />
