@@ -13,7 +13,7 @@
 
 ### 加下一天 log
 
-在 `source/src/learning-log.ts` 数组最前面复制一个日期对象（日期新的在上）。配图规则：尽量把外链里的原图下载到 `source/public/images/` 本地引用，`credit` 写「来源 + 无商业用途·侵权立删」并用 `creditHref` 链回原页；抓不到（反爬/登录墙）就用 `imageNote` 写「原图未取到」并保留外链，别拿假图糊弄。
+在 `source/src/learning-log.ts` 数组最前面复制一个日期对象（日期新的在上）。配图规则：尽量把外链里的原图下载到 `source/public/images/` 本地引用，`credit` 只写短来源（谁 / 哪 / 什么），`creditHref` 链回原页、由图打开；转载声明只在页脚。抓不到（反爬/登录墙）就用 `imageNote` 写「原图未取到」并保留外链，别拿假图糊弄。
 
 ### 加新一期（往期）
 
@@ -21,7 +21,7 @@
 
 ## 图片来源
 
-示例图在 `source/public/images/`：多数标「示意 · 为本站生成」。负空间那一条是 Pexels 照片（Thanh Truc Ho）；积累 log 里的 `log-*` 是学习时抓来的原图（MilK、Fonts In Use 等），图注都带来源 +「无商业用途·侵权立删」。署名在关于页。「审美提升」三篇提炼笔记（`source/src/notes.ts`）已归入往期存档，不再新增。
+示例图在 `source/public/images/`：多数标「示意 · 为本站生成」。负空间那一条是 Pexels 照片（Thanh Truc Ho）；积累 log 里的 `log-*` 是学习时抓来的原图（MilK、Fonts In Use 等），图注只写短来源。转载声明在页脚和关于页，同一句。署名在关于页。「审美提升」三篇提炼笔记（`source/src/notes.ts`）已归入往期存档，不再新增。
 
 源码在 `source/`，是 Vite + React + TypeScript 的多页静态站。本地重建：
 

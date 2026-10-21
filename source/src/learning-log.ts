@@ -30,7 +30,8 @@ export type LogDay = {
   sections: LogSection[];
 };
 
-// 配图规则：尽量把外链里的原图抓下来放 public/images 本地引用，credit 写「来源 + 无商业用途·侵权立删」。
+// 配图规则：尽量把外链里的原图抓下来放 public/images 本地引用，credit 只写短来源（谁 / 哪 / 什么）。
+// 转载声明只在页脚，不要再逐条追加。有原帖就填 creditHref，由图打开。
 // 抓不到（反爬 / 登录墙）就用 imageNote 诚实写「原图未取到」并保留外链，别拿假图糊弄。
 // 以后加一天：复制一个 LogDay 对象放到数组最前面，日期新的在上面。
 export const learningLog: LogDay[] = [
@@ -70,7 +71,7 @@ export const learningLog: LogDay[] = [
                 height: 675,
                 caption: "Art direction / 字阶指挥——导演视角补巡礼缺口。",
                 credit:
-                  "原图 · YouTube · Mishi Designs Studio · Art Direction / Editorial · 无商业用途·侵权立删",
+                  "原图 · YouTube · Mishi Designs Studio · Art Direction / Editorial",
                 creditHref: "https://www.youtube.com/watch?v=oXnHkmIrgDQ",
               },
             ],
@@ -99,7 +100,7 @@ export const learningLog: LogDay[] = [
                 height: 675,
                 caption: "印刷装订成刊过程当影像散文。",
                 credit:
-                  "原图 · Vimeo · Hometown · HOW TO MAKE A MAGAZINE · 无商业用途·侵权立删",
+                  "原图 · Vimeo · Hometown · HOW TO MAKE A MAGAZINE",
                 creditHref: "https://vimeo.com/732690625",
               },
             ],
@@ -132,7 +133,7 @@ export const learningLog: LogDay[] = [
                 height: 675,
                 caption: "同关键词摄影师蒙太奇；表侧偷色与留白。",
                 credit:
-                  "原图 · B站 · 审美积累｜Ryo Nakajima · 无商业用途·侵权立删",
+                  "原图 · B站 · 审美积累｜Ryo Nakajima",
                 creditHref: "https://www.bilibili.com/video/BV1v3zeBnEnK/",
               },
             ],
@@ -161,7 +162,7 @@ export const learningLog: LogDay[] = [
                 height: 675,
                 caption: "出版物封面字阶巡礼，贴表侧字/排版。",
                 credit:
-                  "原图 · B站 · 灵感系列 VOL.255 Victionary · 无商业用途·侵权立删",
+                  "原图 · B站 · 灵感系列 VOL.255 Victionary",
                 creditHref: "https://www.bilibili.com/video/BV1wjqRBDEZq/",
               },
             ],
@@ -236,7 +237,7 @@ export const learningLog: LogDay[] = [
                 height: 788,
                 caption: "LJ 规格块：plates 分色 + mm + quarterbound + LJ227。",
                 credit:
-                  "原图 · Loose Joints · Don't Worry Boys / Stanley Stellar · 无商业用途·侵权立删",
+                  "原图 · Loose Joints · Don't Worry Boys / Stanley Stellar",
                 creditHref: "https://loosejoints.biz/products/dont-worry-boys",
               },
               {
@@ -246,7 +247,7 @@ export const learningLog: LogDay[] = [
                 height: 788,
                 caption: "silkscreen + loose insert 写进规格；lede 讲 montage。",
                 credit:
-                  "原图 · Loose Joints · Frozen Features / Jason Fulford · 无商业用途·侵权立删",
+                  "原图 · Loose Joints · Frozen Features / Jason Fulford",
                 creditHref: "https://loosejoints.biz/products/frozen-features",
               },
               {
@@ -256,7 +257,7 @@ export const learningLog: LogDay[] = [
                 height: 788,
                 caption: "多卷书分行规格：三册 facsimile + rubber band。",
                 credit:
-                  "原图 · Loose Joints · In the Beginning / Roe Ethridge · 无商业用途·侵权立删",
+                  "原图 · Loose Joints · In the Beginning / Roe Ethridge",
                 creditHref: "https://loosejoints.biz/products/in-the-beginning",
               },
             ],
@@ -296,7 +297,7 @@ export const learningLog: LogDay[] = [
                 height: 750,
                 caption: "Swiss-bound；文案写 unbound 文本可移位。",
                 credit:
-                  "原图 · Perimeter Books · Retracer / Karl Halliday · 无商业用途·侵权立删",
+                  "原图 · Perimeter Books · Retracer / Karl Halliday",
                 creditHref:
                   "https://www.perimeterbooks.com/products/karl-halliday-retracer",
               },
@@ -307,7 +308,7 @@ export const learningLog: LogDay[] = [
                 height: 750,
                 caption: "OTA flaps + Special Edition 签名印尺寸写进文案。",
                 credit:
-                  "原图 · Perimeter Editions · Some Voices Carry / Arini Byng · 无商业用途·侵权立删",
+                  "原图 · Perimeter Editions · Some Voices Carry / Arini Byng",
                 creditHref:
                   "https://www.perimeterbooks.com/products/arini-byng-some-voices-carry",
               },
@@ -330,7 +331,7 @@ export const learningLog: LogDay[] = [
                 height: 654,
                 caption: "同系列换旁白：Autumn, through the medium of…",
                 credit:
-                  "Present & Correct / X @presentcorrect · autumn JP lottery · 无商业用途·侵权立删",
+                  "Present & Correct / X @presentcorrect · autumn JP lottery",
                 creditHref: "https://x.com/i/status/2112255225419419970",
               },
               {
@@ -340,7 +341,7 @@ export const learningLog: LogDay[] = [
                 height: 629,
                 caption: "同帖四连图之二。",
                 credit:
-                  "Present & Correct / X @presentcorrect · autumn JP lottery · 无商业用途·侵权立删",
+                  "Present & Correct / X @presentcorrect · autumn JP lottery",
                 creditHref: "https://x.com/i/status/2112255225419419970",
               },
             ],
@@ -395,7 +396,7 @@ export const learningLog: LogDay[] = [
                 height: 1339,
                 caption: "SPBH 挂 MACK：规格行完整；装帧动机写进判断文案。",
                 credit:
-                  "原图 · SPBH Editions / MACK · Jesse Glazzard · 无商业用途·侵权立删",
+                  "原图 · SPBH Editions / MACK · Jesse Glazzard",
                 creditHref:
                   "https://mackbooks.co.uk/products/the-sound-of-dirt-and-beauty-jesse-glazzard",
               },
@@ -406,7 +407,7 @@ export const learningLog: LogDay[] = [
                 height: 1339,
                 caption: "同印记另一本：dustjacket 写进规格；评语墙当外部判断。",
                 credit:
-                  "原图 · SPBH Editions / MACK · Chronograph / Nick Haymes · 无商业用途·侵权立删",
+                  "原图 · SPBH Editions / MACK · Chronograph / Nick Haymes",
                 creditHref:
                   "https://mackbooks.co.uk/products/chronograph-nick-haymes",
               },
@@ -447,7 +448,7 @@ export const learningLog: LogDay[] = [
                 height: 1260,
                 caption: "规格块：页数·plates·寸/毫米；私人与代表作同页。",
                 credit:
-                  "原图 · TBW Books · Sheila / John Divola · 无商业用途·侵权立删",
+                  "原图 · TBW Books · Sheila / John Divola",
                 creditHref: "https://tbwbooks.com/products/shelia",
               },
               {
@@ -457,7 +458,7 @@ export const learningLog: LogDay[] = [
                 height: 1260,
                 caption: "tip-in 原背景布碎片写进规格；Edition of 748。",
                 credit:
-                  "原图 · TBW Books · California Anonymous / Ken Light · 无商业用途·侵权立删",
+                  "原图 · TBW Books · California Anonymous / Ken Light",
                 creditHref: "https://tbwbooks.com/products/california-anonymous",
               },
             ],
@@ -480,7 +481,7 @@ export const learningLog: LogDay[] = [
                 height: 1200,
                 caption: "同系列换季节：文案只写 Mid century Japanese lottery · Autumn。",
                 credit:
-                  "Present & Correct / X @presentcorrect · JP lottery autumn · 无商业用途·侵权立删",
+                  "Present & Correct / X @presentcorrect · JP lottery autumn",
                 creditHref: "https://x.com/i/status/2106380573006553466",
               },
               {
@@ -490,7 +491,7 @@ export const learningLog: LogDay[] = [
                 height: 900,
                 caption: "年代并置：60s / 90s / 80s office wares，零形容词。",
                 credit:
-                  "Present & Correct / X @presentcorrect · office wares · 无商业用途·侵权立删",
+                  "Present & Correct / X @presentcorrect · office wares",
                 creditHref: "https://x.com/i/status/2105351726748373033",
               },
               {
@@ -500,7 +501,7 @@ export const learningLog: LogDay[] = [
                 height: 812,
                 caption: "安静号模板：人名 – 书名 + 单封面。",
                 credit:
-                  "Bint photoBooks / X @Bintphotobooks · Saul Leiter · 无商业用途·侵权立删",
+                  "Bint photoBooks / X @Bintphotobooks · Saul Leiter",
                 creditHref: "https://x.com/i/status/1180119246640168960",
               },
             ],
@@ -558,7 +559,7 @@ export const learningLog: LogDay[] = [
                 height: 1529,
                 caption: "封面 credit 写完整：谁、地点、年、©。规格行在文末一行收束。",
                 credit:
-                  "原图 · MACK · Faces and Phases / Zanele Muholi · 无商业用途·侵权立删",
+                  "原图 · MACK · Faces and Phases / Zanele Muholi",
                 creditHref:
                   "https://mackbooks.co.uk/products/faces-and-phases-zanele-muholi",
               },
@@ -569,7 +570,7 @@ export const learningLog: LogDay[] = [
                 height: 1529,
                 caption: "同站规格模板：装帧·尺寸·页数·月份·ISBN；另有 With new texts by…。",
                 credit:
-                  "原图 · MACK · American Teen / Joseph Szabo · 无商业用途·侵权立删",
+                  "原图 · MACK · American Teen / Joseph Szabo",
                 creditHref:
                   "https://mackbooks.co.uk/products/american-teen-joseph-szabo",
               },
@@ -599,7 +600,7 @@ export const learningLog: LogDay[] = [
                 height: 1142,
                 caption: "多封面并置：看裁切和字让路，不看电商促销条。",
                 credit:
-                  "原图 · Buffalo Zine Issue 22 covers · 无商业用途·侵权立删",
+                  "原图 · Buffalo Zine Issue 22 covers",
                 creditHref: "https://www.buffalozine.com/products/issue-22",
               },
               {
@@ -609,7 +610,7 @@ export const learningLog: LogDay[] = [
                 height: 1024,
                 caption: "首页课：文字即视觉块，不是导航副标题。",
                 credit:
-                  "原图 · Buffalo Zine homepage text-as-image · 无商业用途·侵权立删",
+                  "原图 · Buffalo Zine homepage text-as-image",
                 creditHref: "https://www.buffalozine.com/",
               },
             ],
@@ -637,7 +638,7 @@ export const learningLog: LogDay[] = [
                 height: 682,
                 caption: "短名单页头图：书脊/封面并置，看序列不看奖杯。",
                 credit:
-                  "原图 · Aperture · 2026 PhotoBook Awards / photo Daniel Salemi · 无商业用途·侵权立删",
+                  "原图 · Aperture · 2026 PhotoBook Awards / photo Daniel Salemi",
                 creditHref:
                   "https://aperture.org/editorial/announcing-the-2026-photobook-awards-shortlist/",
               },
@@ -660,7 +661,7 @@ export const learningLog: LogDay[] = [
                 height: 1350,
                 caption: "图注只写年代和物名，零形容词。",
                 credit:
-                  "Present & Correct / X @presentcorrect · lottery 1955 #27 · 无商业用途·侵权立删",
+                  "Present & Correct / X @presentcorrect · lottery 1955 #27",
                 creditHref: "https://x.com/i/status/2102816209075093510",
               },
               {
@@ -670,7 +671,7 @@ export const learningLog: LogDay[] = [
                 height: 1200,
                 caption: "同功能物件成组：日本/法国/意大利/波兰 diary。",
                 credit:
-                  "Present & Correct / X @presentcorrect · diaries · 无商业用途·侵权立删",
+                  "Present & Correct / X @presentcorrect · diaries",
                 creditHref: "https://x.com/i/status/2100648388870001139",
               },
               {
@@ -680,7 +681,7 @@ export const learningLog: LogDay[] = [
                 height: 1009,
                 caption: "书店帖：书名 + 翻页组图，学序列和纸白。",
                 credit:
-                  "Photobookstore / X @photobookstore · Mark Steinmetz · 无商业用途·侵权立删",
+                  "Photobookstore / X @photobookstore · Mark Steinmetz",
                 creditHref: "https://x.com/i/status/1821457712917401790",
               },
             ],
@@ -734,7 +735,7 @@ export const learningLog: LogDay[] = [
                 width: 1155,
                 height: 1500,
                 caption: "n°34 封面：人像占满，刊名很小，首页 splash 就这一张。",
-                credit: "原图 · The Gentlewoman n°34 cover · 无商业用途·侵权立删",
+                credit: "原图 · The Gentlewoman n°34 cover",
                 creditHref: "https://thegentlewoman.co.uk/",
               },
               {
@@ -744,7 +745,7 @@ export const learningLog: LogDay[] = [
                 height: 583,
                 caption: "Library 内页用图：宽画幅人像，图注写穿什么比写氛围感有用。",
                 credit:
-                  "原图 · The Gentlewoman Library · Autumn Durald Arkapaw · 无商业用途·侵权立删",
+                  "原图 · The Gentlewoman Library · Autumn Durald Arkapaw",
                 creditHref:
                   "https://thegentlewoman.co.uk/library/autumn-durald-arkapaw",
               },
@@ -778,7 +779,7 @@ export const learningLog: LogDay[] = [
                 height: 1701,
                 caption: "封面：一人占满，身份判断写在文案里，刊名让路。",
                 credit:
-                  "Fantastic Man / X @fantasticman · n°38 Lev Tanju · 无商业用途·侵权立删",
+                  "Fantastic Man / X @fantasticman · n°38 Lev Tanju",
                 creditHref: "https://x.com/i/status/1778447409288188408",
               },
               {
@@ -788,7 +789,7 @@ export const learningLog: LogDay[] = [
                 height: 1701,
                 caption: "Armani 封面：近景肖像，摄影 Alasdair McLellan。",
                 credit:
-                  "Fantastic Man / X @fantasticman · n°37 Armani · 无商业用途·侵权立删",
+                  "Fantastic Man / X @fantasticman · n°37 Armani",
                 creditHref: "https://x.com/i/status/1714949852222697562",
               },
             ],
@@ -819,7 +820,7 @@ export const learningLog: LogDay[] = [
                 height: 1800,
                 caption: "COSMOS：书页竖构图，看裁切和留白，不看滤镜。",
                 credit:
-                  "MACK / X @MACK_books · Collier Schorr COSMOS · 无商业用途·侵权立删",
+                  "MACK / X @MACK_books · Collier Schorr COSMOS",
                 creditHref: "https://x.com/MACK_books",
               },
               {
@@ -829,7 +830,7 @@ export const learningLog: LogDay[] = [
                 height: 806,
                 caption: "The Color Black：物件与建筑并置，文案只点书名和摄影师。",
                 credit:
-                  "MACK / X @MACK_books · The Color Black · 无商业用途·侵权立删",
+                  "MACK / X @MACK_books · The Color Black",
                 creditHref: "https://x.com/MACK_books",
               },
             ],
@@ -849,7 +850,7 @@ export const learningLog: LogDay[] = [
                 height: 1118,
                 caption: "长访配图：环境人像，不是棚拍网红闪片。",
                 credit:
-                  "The Gentlewoman / X @thegentlewoman · Cathy Horyn · 无商业用途·侵权立删",
+                  "The Gentlewoman / X @thegentlewoman · Cathy Horyn",
                 creditHref: "https://x.com/i/status/1706667794564325559",
               },
             ],
@@ -916,7 +917,7 @@ export const learningLog: LogDay[] = [
                 width: 800,
                 height: 1037,
                 caption: "封面：手写大 M 压在自拍上，刊头字很小，主题 The Mirror 放在下面。",
-                credit: "原图 · MacGuffin N°16 The Mirror 封面 · 无商业用途·侵权立删",
+                credit: "原图 · MacGuffin N°16 The Mirror 封面",
                 creditHref: "https://www.macguffinmagazine.com/issues/macguffin-the-mirror",
               },
             ],
@@ -967,7 +968,7 @@ export const learningLog: LogDay[] = [
                 caption:
                   "收藏帖里的第 30 张。票面印着昭和28年、第4回短期宝くじ，字和图在同一张纸上。",
                 credit:
-                  "Present & Correct / X @presentcorrect · 1952 lottery ticket #30 · 无商业用途·侵权立删",
+                  "Present & Correct / X @presentcorrect · 1952 lottery ticket #30",
                 creditHref: "https://x.com/presentcorrect",
               },
               {
@@ -977,7 +978,7 @@ export const learningLog: LogDay[] = [
                 height: 1350,
                 caption: "同一组日本彩票里的一张。昭和29年、第26回東京都10日くじ，看版式和配色就够。",
                 credit:
-                  "Present & Correct / X @presentcorrect · Mid-century Japanese lottery · Autumn · 无商业用途·侵权立删",
+                  "Present & Correct / X @presentcorrect · Mid-century Japanese lottery · Autumn",
                 creditHref: "https://x.com/presentcorrect",
               },
               {
@@ -987,7 +988,7 @@ export const learningLog: LogDay[] = [
                 height: 1050,
                 caption: "办公器物静物之一：透明盒、黄底、红剪刀对齐，背景留白。",
                 credit:
-                  "Present & Correct / X @presentcorrect · 1960s–1990s office wares · 无商业用途·侵权立删",
+                  "Present & Correct / X @presentcorrect · 1960s–1990s office wares",
                 creditHref: "https://x.com/presentcorrect",
               },
             ],
@@ -1008,7 +1009,7 @@ export const learningLog: LogDay[] = [
                 height: 592,
                 caption: "Lalanne Cat Bar，1968。图注只需要物件名、作者、年份。",
                 credit:
-                  "MacGuffin research dump / X @MacGuffinMag · Lalanne Cat Bar 1968 · 无商业用途·侵权立删",
+                  "MacGuffin research dump / X @MacGuffinMag · Lalanne Cat Bar 1968",
                 creditHref: "https://x.com/MacGuffinMag",
               },
               {
@@ -1018,7 +1019,7 @@ export const learningLog: LogDay[] = [
                 height: 986,
                 caption: "Sottsass Carlton，Memphis，1981。同一套研究日记写法。",
                 credit:
-                  "MacGuffin research dump / X @MacGuffinMag · Sottsass Carlton / Memphis 1981 · 无商业用途·侵权立删",
+                  "MacGuffin research dump / X @MacGuffinMag · Sottsass Carlton / Memphis 1981",
                 creditHref: "https://x.com/MacGuffinMag",
               },
             ],
@@ -1202,7 +1203,7 @@ export const learningLog: LogDay[] = [
                 width: 849,
                 height: 1280,
                 caption: "时装页：图占满，栏目名和 credit 都收得很小。",
-                credit: "原图 · MilK Japon《HYBRID THEORY》· 无商业用途·侵权立删",
+                credit: "原图 · MilK Japon《HYBRID THEORY》",
                 creditHref: "https://milkjapon.com/fashion/hybrid-theory/",
               },
             ],
@@ -1223,7 +1224,7 @@ export const learningLog: LogDay[] = [
                 width: 1000,
                 height: 1254,
                 caption: "1980 · n°107：刊头小写压在上方，大图占满下半版。",
-                credit: "原图 · Monuments Historiques 封面 via Fonts In Use · 无商业用途·侵权立删",
+                credit: "原图 · Monuments Historiques 封面 via Fonts In Use",
                 creditHref:
                   "https://fontsinuse.com/uses/80713/monuments-historiques-covers-1980-1985",
               },
@@ -1233,7 +1234,7 @@ export const learningLog: LogDay[] = [
                 width: 1000,
                 height: 1225,
                 caption: "1981 · n°116：同一个刊头锚点，封面图换了也认得出是同一本。",
-                credit: "原图 · Monuments Historiques 封面 via Fonts In Use · 无商业用途·侵权立删",
+                credit: "原图 · Monuments Historiques 封面 via Fonts In Use",
                 creditHref:
                   "https://fontsinuse.com/uses/80713/monuments-historiques-covers-1980-1985",
               },

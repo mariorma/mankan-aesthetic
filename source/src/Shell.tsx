@@ -60,6 +60,7 @@ export function Shell({
           <p>慢看 · 用看图学审美</p>
           <p>零成本试跑。不设赞助、课程售卖或邮箱收集。</p>
           {footerNote}
+          <p className="footer-repro">图与封面仅供学习转载展示 · 无商业用途 · 侵权联系即删</p>
         </div>
       </footer>
     </div>

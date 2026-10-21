@@ -1,7 +1,5 @@
 import type { Figure } from "./entries";
 
-const disclaimer = "无商业用途·侵权立删";
-
 export type WeekRef = {
   no: string;
   title: string;
@@ -40,7 +38,7 @@ export const weekRefs: WeekRef[] = [
       width: 1200,
       height: 675,
       caption: "官方封面。人缩在石塔里拉钟，谷占了右半。片子到播放页里看。",
-      credit: `原图 · B站官方封面 · Lana-Dey-Rey · 压抑、执念与精神崩塌 · ${disclaimer}`,
+      credit: `原图 · B站官方封面 · Lana-Dey-Rey · 压抑、执念与精神崩塌`,
       creditHref: "https://www.bilibili.com/video/BV1Aepi6KErg/",
     },
   },
@@ -77,7 +75,7 @@ export const weekRefs: WeekRef[] = [
       width: 1200,
       height: 1604,
       caption: "四层字：刊名、人名、问题、左侧目录。先读字阶。",
-      credit: `原图 · Landon Cargill · ArtStation · Hi-Fructose 封面改版 · ${disclaimer}`,
+      credit: `原图 · Landon Cargill · ArtStation · Hi-Fructose 封面改版`,
       creditHref: "https://llcargill.artstation.com/projects/NyLdlJ",
     },
   },
@@ -115,7 +113,7 @@ export const weekRefs: WeekRef[] = [
       width: 1200,
       height: 630,
       caption: "这是作品页的分享卡，不是二十二张封面。刊名拆成两行，颜色分开。",
-      credit: `原图 · pixiv · てんぱる · セミオーダー同人誌表紙作例集 · 作者声明不是免费素材 · ${disclaimer}`,
+      credit: `原图 · pixiv · てんぱる · セミオーダー同人誌表紙作例集 · 作者声明不是免费素材`,
       creditHref: "https://www.pixiv.net/artworks/84433706",
     },
     imageNote: "二十二张封面原图未取到。上图只是作品页分享卡。",
@@ -157,7 +155,7 @@ export const weekRefs: WeekRef[] = [
       width: 865,
       height: 630,
       caption: "字样写成 Ar_al，缺的那一笔就是题目。窗口是容器，字才是要看的。",
-      credit: `原图 · Are.na Editorial · Introducing Areal · Dinamo · ${disclaimer}`,
+      credit: `原图 · Are.na Editorial · Introducing Areal · Dinamo`,
       creditHref: "https://www.are.na/editorial/introducing-areal-are-nas-new-typeface",
     },
   },
@@ -181,7 +179,7 @@ export const weekRefs: WeekRef[] = [
       width: 1200,
       height: 676,
       caption: "官方封面。下半是一张信息图跨页，右边是刊名。先看层级，片子到播放页里看。",
-      credit: `原图 · YouTube 官方封面 · 2024 Best Magazine Layouts · ${disclaimer}`,
+      credit: `原图 · YouTube 官方封面 · 2024 Best Magazine Layouts`,
       creditHref: "https://www.youtube.com/watch?v=K5sKMHW7NKw",
     },
   },
