@@ -36,6 +36,142 @@ export type LogDay = {
 export const learningLog: LogDay[] = [
   {
     date: "2026-10-21",
+    title: "例行：视频批 · YouTube/Vimeo + B站",
+    summary:
+      "今日批次：海外批 C（YouTube/Vimeo）· 中文批 2（B站）。海外深挖 Mishi 的 art direction / 字阶讲解，以及 Hometown 在 Vimeo 上《HOW TO MAKE A MAGAZINE》成刊过程片；中文深挖「审美积累｜Ryo Nakajima」摄影师蒙太奇，以及灵感系列 VOL.255 Victionary 书封面排版。主人种子 BV1Aepi6KErg 仅作正例对照，不重拆。早间周改素材池不重抄。",
+    sections: [
+      {
+        id: "routine-2026-10-21",
+        label: "例行 · 下午 14:00",
+        intro:
+          "刻意换视频批。关键词钉「审美积累」；外链一律官方播放页（YouTube watch / Vimeo / bilibili BV），不热链原片。",
+        items: [
+          {
+            heading: "YouTube · Mastering Art Direction（Mishi）",
+            href: "https://www.youtube.com/watch?v=oXnHkmIrgDQ",
+            points: [
+              "Mishi Designs Studio：把 art direction 拆成字阶、负空间、图文节奏等可跟动作——导演视角，不是年度刊面合集。",
+              "相对早间 Yes I'm a Designer「Best Magazine Layouts」的巡礼角，这是「怎么指挥层级」的增量。",
+              "学判断句式与层级，不学软件菜单；官方 watch 外链。",
+            ],
+            steal:
+              "视频栏要同时有巡礼角与导演角；表侧可偷字阶指挥，别只堆合集。",
+            links: [
+              {
+                label: "Mastering Art Direction｜Typography & Editorial Design",
+                href: "https://www.youtube.com/watch?v=oXnHkmIrgDQ",
+              },
+            ],
+            figures: [
+              {
+                file: "log-yt-mishi-artdirection.webp",
+                alt: "YouTube 封面：Mastering Art Direction 讲解片",
+                width: 1200,
+                height: 675,
+                caption: "Art direction / 字阶指挥——导演视角补巡礼缺口。",
+                credit:
+                  "原图 · YouTube · Mishi Designs Studio · Art Direction / Editorial · 无商业用途·侵权立删",
+                creditHref: "https://www.youtube.com/watch?v=oXnHkmIrgDQ",
+              },
+            ],
+          },
+          {
+            heading: "Vimeo · HOW TO MAKE A MAGAZINE（Hometown）",
+            href: "https://vimeo.com/732690625",
+            points: [
+              "Hometown Journal Ep.3 配套成片：印刷 / 装订 / 胶片质感，把成刊过程拍成影像散文。",
+              "对抗互联网「永动刷新」；工艺名词（印刷机、装订、校色）可当条目节奏。",
+              "片与购买页分离——慢看外链只挂官方 Vimeo 页，不热链原片文件。",
+            ],
+            steal:
+              "成刊过程本身可拍成慢看气质内容；条目写工艺名词，不只写氛围形容词。",
+            links: [
+              {
+                label: "HOW TO MAKE A MAGAZINE",
+                href: "https://vimeo.com/732690625",
+              },
+            ],
+            figures: [
+              {
+                file: "log-vimeo-hometown-magazine.webp",
+                alt: "Vimeo 封面：HOW TO MAKE A MAGAZINE",
+                width: 1200,
+                height: 675,
+                caption: "印刷装订成刊过程当影像散文。",
+                credit:
+                  "原图 · Vimeo · Hometown · HOW TO MAKE A MAGAZINE · 无商业用途·侵权立删",
+                creditHref: "https://vimeo.com/732690625",
+              },
+            ],
+          },
+          {
+            heading: "B站 · 审美积累｜Ryo Nakajima",
+            href: "https://www.bilibili.com/video/BV1v3zeBnEnK/",
+            points: [
+              "与主人种子同关键词「审美积累」，换成单摄影师作品蒙太奇（简洁构图、淡雅冷暖、治愈留白）。",
+              "练色温/留白/边距，不是剧情剪辑；约三分钟级、字幕克制。",
+              "人物气质偏裏侧素材池——表侧只偷构图与色课，不把人像墙搬进雅栏。",
+            ],
+            steal:
+              "「审美积累」标签可跟系列；选片标准＝有判断的剪辑/色调，避开 AI prompt 营销刷屏。",
+            links: [
+              {
+                label: "审美积累｜Ryo Nakajima",
+                href: "https://www.bilibili.com/video/BV1v3zeBnEnK/",
+              },
+              {
+                label: "主人种子对照 BV1Aepi6KErg",
+                href: "https://www.bilibili.com/video/BV1Aepi6KErg/",
+              },
+            ],
+            figures: [
+              {
+                file: "log-bili-ryo-nakajima.webp",
+                alt: "B站封面：审美积累｜Ryo Nakajima",
+                width: 1200,
+                height: 675,
+                caption: "同关键词摄影师蒙太奇；表侧偷色与留白。",
+                credit:
+                  "原图 · B站 · 审美积累｜Ryo Nakajima · 无商业用途·侵权立删",
+                creditHref: "https://www.bilibili.com/video/BV1v3zeBnEnK/",
+              },
+            ],
+          },
+          {
+            heading: "B站 · 灵感系列 VOL.255 Victionary",
+            href: "https://www.bilibili.com/video/BV1wjqRBDEZq/",
+            points: [
+              "灵感系列对准香港设计出版社 Victionary 的书封面/画册排版。",
+              "刊名/副题/作者行怎么压在图上；翻页疏密比情绪 BGM 墙更贴表侧「字/排版」。",
+              "可与早间云展「七种杂志调」文对照：一文定调，一视频扫封面实物。",
+            ],
+            steal:
+              "中文书封面灵感有专列；表侧「字」栏可链此类，裏侧仍留给人物赏析。",
+            links: [
+              {
+                label: "灵感系列 VOL.255 Victionary",
+                href: "https://www.bilibili.com/video/BV1wjqRBDEZq/",
+              },
+            ],
+            figures: [
+              {
+                file: "log-bili-victionary-255.webp",
+                alt: "B站封面：Victionary 书封面灵感 VOL.255",
+                width: 1200,
+                height: 675,
+                caption: "出版物封面字阶巡礼，贴表侧字/排版。",
+                credit:
+                  "原图 · B站 · 灵感系列 VOL.255 Victionary · 无商业用途·侵权立删",
+                creditHref: "https://www.bilibili.com/video/BV1wjqRBDEZq/",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    date: "2026-10-21",
     title: "审美积累 · 本周十一条",
     summary:
       "表侧这一期用的就是这十一条：字、刊面、留白，一句判断，写清谁出的。含主人推荐的 B 站 BV1Aepi6KErg。外链走官方页或播放页，不嵌视频。原图取到的才放。",
