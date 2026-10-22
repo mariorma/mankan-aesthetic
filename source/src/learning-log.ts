@@ -36,6 +36,150 @@ export type LogDay = {
 // 以后加一天：复制一个 LogDay 对象放到数组最前面，日期新的在上面。
 export const learningLog: LogDay[] = [
   {
+    date: "2026-10-22",
+    title: "例行：社交/画廊批 · ArtStation/Behance + 花瓣/美叶/站酷",
+    summary:
+      "今日批次：海外批 A（ArtStation/Behance，X 浅）· 中文批 1（花瓣入口/美叶/站酷 BranD）。海外深挖 Rafal Topolski 的 DuoLife 品牌刊系统，以及 Marçal 的 MIX Interiors 内容响应式改版；中文深挖美叶「品味养成所」入口姿态，以及 BranD 79 全刊物性制作（站酷本轮 WAF，该条无图仅外链）。本周补 ArtStation 与花瓣露脸。",
+    sections: [
+      {
+        id: "routine-2026-10-22",
+        label: "例行 · 下午 14:00",
+        intro:
+          "昨天视频批后轮到社交/画廊流。关键词钉「审美积累」；外链一律作品页/话题页/站点首页，图存 public、credit 含无商业用途·侵权立删。",
+        items: [
+          {
+            heading: "ArtStation · DuoLife Magazine（Rafal Topolski）",
+            href: "https://lafar.artstation.com/projects/DAXbVe",
+            points: [
+              "波兰实售品牌刊：网格、选字、细节从零搭，后期还带 art direction 协调其他设计师。",
+              "相对概念刊封面墙，这是「系统在多人手里不散」的课——网格先定、字后嵌、摄影服从网格。",
+              "官方 ArtStation 作品页外链。",
+            ],
+            steal:
+              "表侧积累要标清：品牌刊系统课 vs 概念刊调性墙——DuoLife 属前者。",
+            links: [
+              {
+                label: "DuoLife Magazine · ArtStation",
+                href: "https://lafar.artstation.com/projects/DAXbVe",
+              },
+            ],
+            figures: [
+              {
+                file: "log-artstation-duolife.webp",
+                alt: "ArtStation 封面：DuoLife Magazine",
+                width: 1200,
+                height: 675,
+                caption: "品牌刊网格系统——真实约束下的可持续刊面。",
+                credit:
+                  "原图 · ArtStation · Rafal Topolski · DuoLife Magazine · 无商业用途·侵权立删",
+                creditHref: "https://lafar.artstation.com/projects/DAXbVe",
+              },
+            ],
+          },
+          {
+            heading: "Behance · MIX Interiors Editorial Redesign",
+            href: "https://www.behance.net/gallery/249923613/MIX-Interiors-Editorial-Design",
+            points: [
+              "Marçal Prats：标题字 / 取色 / 构图三件套跟文章内容响应；每期封面工作室供稿抽两色贯串目录与 masthead。",
+              "字配 TT Commons Pro + Scotch Modern Condensed；十二栏网格以两 gutter 交成正方形为模数。",
+              "Behance 作品页作官方外链；设计师站 marcal.net 有同源长文。",
+            ],
+            steal:
+              "期色从封面抽、标题当对文章的视觉回答——慢看每期可偷「抽色贯串」，别整盘换肤。",
+            links: [
+              {
+                label: "MIX Interiors · Behance",
+                href: "https://www.behance.net/gallery/249923613/MIX-Interiors-Editorial-Design",
+              },
+              {
+                label: "Marçal 同源案例文",
+                href: "https://www.marcal.net/mix-interiors-editorial/",
+              },
+            ],
+            figures: [
+              {
+                file: "log-behance-mix.webp",
+                alt: "MIX Interiors 改版刊面示意",
+                width: 1200,
+                height: 675,
+                caption: "内容响应式：标题、取色、构图跟文章变。",
+                credit:
+                  "原图 · Behance/Marçal · MIX Interiors Editorial · 无商业用途·侵权立删",
+                creditHref:
+                  "https://www.behance.net/gallery/249923613/MIX-Interiors-Editorial-Design",
+              },
+            ],
+          },
+          {
+            heading: "美叶 · 设计师的品味养成所",
+            href: "https://meiye.art/",
+            points: [
+              "站点定位贴近「审美积累」：发现产品 / 认识榜样 / 读懂设计 / 表达自己。",
+              "相对花瓣囤图画板，美叶更偏策展入口与榜样名单。",
+              "本轮截存首页流图作教育示意；深层灵感集页几乎空壳，以首页为准。",
+            ],
+            steal:
+              "把「榜样创作者」当长期关注名单——品味站要有入口姿态，不只堆图。",
+            links: [
+              {
+                label: "美叶 meiye.art",
+                href: "https://meiye.art/",
+              },
+            ],
+            figures: [
+              {
+                file: "log-meiye-pin1.webp",
+                alt: "美叶首页流图示例一",
+                width: 1200,
+                height: 900,
+                caption: "品味养成所——策展入口姿态。",
+                credit:
+                  "原图 · 美叶 · 首页流图 · 无商业用途·侵权立删",
+                creditHref: "https://meiye.art/",
+              },
+            ],
+          },
+          {
+            heading: "站酷 · BranD 79 可持续地方设计",
+            href: "https://www.zcool.com.cn/work/ZNzQxMTg4NDQ=.html",
+            points: [
+              "全刊制作课：专色、六款护封叠龙脊、仿龙鳞装、木刻过渡页、四款纸触感分层。",
+              "物性名词（纸克重/专色/装帧）比空喊高级感更可核。",
+              "本轮站酷 WAF，未落盘原图——本条仅文字+外链，不上裸图。",
+            ],
+            steal:
+              "条目可写工艺与规格清单；与视频批「成刊过程」互为对照。",
+            links: [
+              {
+                label: "BranD 79 · 站酷",
+                href: "https://www.zcool.com.cn/work/ZNzQxMTg4NDQ=.html",
+              },
+            ],
+            imageNote:
+              "站酷本轮 WAF 未取原图；仅保留作品页外链。",
+          },
+          {
+            heading: "花瓣 · 杂志排版话题画板（入口）",
+            href: "https://huaban.com/topic-board/a-zazhipaiban",
+            points: [
+              "本周花瓣露脸：杂志排版话题合集墙（复古刊、五大刊、杂志风文字等）。",
+              "本轮 WebFetch 405，未落盘 pin；下次可点进高采集画板深挖单图。",
+            ],
+            steal:
+              "花瓣作囤图入口、美叶作策展入口——中文批 1 两边都要记。",
+            links: [
+              {
+                label: "花瓣 · 杂志排版话题",
+                href: "https://huaban.com/topic-board/a-zazhipaiban",
+              },
+            ],
+            imageNote: "本轮 405 未取 pin 图。",
+          },
+        ],
+      },
+    ],
+  },
+  {
     date: "2026-10-21",
     title: "例行：视频批 · YouTube/Vimeo + B站",
     summary:
