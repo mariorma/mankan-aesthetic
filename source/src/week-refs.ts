@@ -1,4 +1,4 @@
-import type { Figure } from "./entries";
+import type { Figure } from "./figure";
 
 export type WeekRef = {
   no: string;
