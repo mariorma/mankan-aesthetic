@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import type { Figure } from "./entries";
+import type { Figure } from "./figure";
 import { assetHref, type PageId } from "./paths";
 
 export function FigureView({

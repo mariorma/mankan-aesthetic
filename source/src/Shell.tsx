@@ -5,9 +5,7 @@ import "./styles.css";
 
 const nav = [
   { id: "home", label: "首页" },
-  { id: "entries", label: "条目" },
-  { id: "archive", label: "往期" },
-  { id: "about", label: "关于" },
+  { id: "log", label: "积累" },
 ] as const;
 
 export function Shell({
@@ -42,13 +40,6 @@ export function Shell({
                 {item.label}
               </a>
             ))}
-            <a
-              className="nav-log"
-              href={pageHref(page, "log")}
-              aria-current={page === "log" ? "page" : undefined}
-            >
-              积累
-            </a>
           </nav>
         </div>
       </header>
