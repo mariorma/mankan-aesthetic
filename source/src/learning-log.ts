@@ -11,9 +11,308 @@ export type AccumCard = {
   imageNote?: string;
 };
 
+export type LogLink = {
+  label: string;
+  href: string;
+};
+
+export type LogItem = {
+  heading: string;
+  href?: string;
+  points: string[];
+  steal?: string;
+  links?: LogLink[];
+  figures?: Figure[];
+  imageNote?: string;
+};
+
+export type LogSection = {
+  id: string;
+  label: string;
+  intro?: string;
+  items: LogItem[];
+};
+
+export type LogDay = {
+  date: string;
+  title: string;
+  summary?: string;
+  sections: LogSection[];
+};
+
+// 原文级日记录。翻面之后 /log/ 表侧读 tasteLog（一张图、一两句、点图进原帖），
+// 不改版式，所以要点和可偷留在这里；当天卡片在 tasteLog 最前面。
+export const learningLog: LogDay[] = [
+  {
+    date: "2026-10-23",
+    title: "例行：二次元/插画批 · Pixiv + 优设/SANKOU/MUUUUU",
+    summary:
+      "今日批次：海外批 B（Pixiv/DeviantArt/Tumblr）· 中文批 3（优设/SANKOU/MUUUUU）。海外深挖 VISIONS 2026 年刊+特设站包装策展，以及てんぱる1 同人纯字标题作例；中文深挖 SANKOU 上的 YOMA 工作室站，以及 MUUUUU SOTD 博报堂招聘站。本周补 Pixiv 与中文画廊入口露脸。Tumblr 宽搜薄，改 Katy Dockrill 官网作同向浅记。",
+    sections: [
+      {
+        id: "routine-2026-10-23",
+        label: "例行 · 下午 14:00",
+        intro:
+          "昨天社交画廊批后轮到二次元/插画批 + 中文站与日系画廊。关键词钉「审美积累」；外链一律作品页/特设站/画廊详情/官网，图存 public、credit 含无商业用途·侵权立删。表侧写包装/字层级/站建，不搬人像墙。",
+        items: [
+          {
+            heading: "Pixiv 监修 · VISIONS 2026 年刊 + 特设站",
+            href: "https://visions.pr-pixiv.net/2026/",
+            points: [
+              "平台监修年度插画年刊：约 170 人成书，特设站把每位创作者做成可翻个页。",
+              "刊名字阶与 key visual 分工清楚；年刊姿态像「策展名单」而不是散点图墙。",
+              "外链走特设站与 pixiv.co.jp 书讯；表侧记包装与站建，人物主视觉留给裏侧。",
+            ],
+            steal: "积累栏可做成「本周关注作者」名单+特设入口，别只堆单图。",
+            links: [
+              {
+                label: "VISIONS 2026 特设站",
+                href: "https://visions.pr-pixiv.net/2026/",
+              },
+              {
+                label: "pixiv.co.jp 书讯",
+                href: "https://www.pixiv.co.jp/2025/09/19/120000",
+              },
+            ],
+            figures: [
+              {
+                file: "log-visions-2026-kv.webp",
+                alt: "VISIONS 2026 特设站 key visual",
+                width: 1600,
+                height: 900,
+                caption: "年刊包装——刊名与 KV 分工，策展名单可翻。",
+                credit: "原图 · VISIONS 2026 · 特设站 KV · 无商业用途·侵权立删",
+                creditHref: "https://visions.pr-pixiv.net/2026/",
+              },
+            ],
+          },
+          {
+            heading: "Pixiv · てんぱる1「同人誌のタイトルデザイン」",
+            href: "https://www.pixiv.net/artworks/84497848",
+            points: [
+              "几乎只有字：同人刊名在缩略图尺寸里仍可读——助词缩小、字重对比、一行切节奏。",
+              "相对「图+字半订表纸」作例，这是纯字层级主挖；标签含タイポグラフィ / タイトルデザイン / 装丁デザイン。",
+              "系列自述作例只放标题、分卷连载——适合当字墙词典长期跟作者。",
+            ],
+            steal: "表侧偷字层级与缩略可读性；人物图仍归裏。可跟系列作者，不单赏立绘。",
+            links: [
+              {
+                label: "タイトルデザイン(3) · Pixiv",
+                href: "https://www.pixiv.net/artworks/84497848",
+              },
+              {
+                label: "てんぱる1 作者页",
+                href: "https://www.pixiv.net/users/2513282",
+              },
+            ],
+            figures: [
+              {
+                file: "log-pixiv-tenparu-title.webp",
+                alt: "Pixiv 同人刊名标题设计作例",
+                width: 825,
+                height: 825,
+                caption: "纯字标题——缩略图里仍可读的层级。",
+                credit:
+                  "原图 · Pixiv · てんぱる1 · タイトルデザイン(3) · 无商业用途·侵权立删",
+                creditHref: "https://www.pixiv.net/artworks/84497848",
+              },
+            ],
+          },
+          {
+            heading: "SANKOU · YOMA inc.（余间）工作室站",
+            href: "https://sankoudesign.com/web/yoma/",
+            points: [
+              "SANKOU 价值在类目检索（配色/字/布局/业种）后的可复访站墙，不是又一个囤图瀑布。",
+              "YOMA 练留白节奏、作品网格、信用行克制；对象站 yoma.inc 正文偏壳，以 SANKOU 条目+缩略为核。",
+              "相对花瓣囤图，这是「可复访的站」级参考。",
+            ],
+            steal: "表侧条目可学元数据：来源、角度、可偷课一句——类目墙比散点图好找回。",
+            links: [
+              {
+                label: "SANKOU · YOMA",
+                href: "https://sankoudesign.com/web/yoma/",
+              },
+              {
+                label: "YOMA inc.",
+                href: "https://yoma.inc/",
+              },
+            ],
+            figures: [
+              {
+                file: "log-sankou-yoma.webp",
+                alt: "SANKOU 收录的 YOMA 工作室站缩略",
+                width: 1000,
+                height: 874,
+                caption: "工作室站品味——留白、网格、信用行。",
+                credit: "原图 · SANKOU · YOMA inc. · 无商业用途·侵权立删",
+                creditHref: "https://sankoudesign.com/web/yoma/",
+              },
+            ],
+          },
+          {
+            heading: "MUUUUU SOTD · HAKUHODO RECRUITMENT",
+            href: "https://muuuuu.org/color/gray/25126.html",
+            points: [
+              "MUUUUU 改成每日一站（SOTD）+ 制作 credit——和慢看「每日品味」同构。",
+              "博报堂招聘站大字口号「汗かいて、心を動かす。」+ 作品/人/环境分栏；制作 TWOTONE。",
+              "外链挂 MUUUUU 详情（溯源 credit）+ 官方招聘页 https://hakusuku.jp/recruit/。",
+            ],
+            steal: "口号当刊头别促销腔；日更画廊用「今日一站」代替无限瀑布。",
+            links: [
+              {
+                label: "MUUUUU · HAKUHODO SOTD",
+                href: "https://muuuuu.org/color/gray/25126.html",
+              },
+              {
+                label: "博报堂招聘站",
+                href: "https://hakusuku.jp/recruit/",
+              },
+            ],
+            figures: [
+              {
+                file: "log-hakusuku-recruit.webp",
+                alt: "博报堂招聘站 OGP / 主视觉",
+                width: 1220,
+                height: 640,
+                caption: "招聘站也是编辑刊——大字口号与分栏。",
+                credit: "原图 · HAKUHODO RECRUITMENT / TWOTONE · 无商业用途·侵权立删",
+                creditHref: "https://hakusuku.jp/recruit/",
+              },
+            ],
+          },
+          {
+            heading: "优设 · mina 时尚杂志平面拆解（浅）",
+            href: "https://www.uisdc.com/magazines-design",
+            points: [
+              "以《mina》拆版心/分组/反复对齐/对比/出血/留白/抠图与四方版——纸刊解剖课。",
+              "相对已记「杂志化风格」UI 七特征，这是出血与版心增量，不重抄旧文。",
+            ],
+            steal: "纸刊动作清单可印成表侧「怎么看」短栏；B 端版式文仅作网格词典备用。",
+            links: [
+              {
+                label: "优设 · 跟时尚杂志学平面基础",
+                href: "https://www.uisdc.com/magazines-design",
+              },
+            ],
+            figures: [
+              {
+                file: "log-uisdc-mina.webp",
+                alt: "优设 mina 杂志拆解文封面",
+                width: 440,
+                height: 280,
+                caption: "纸刊版心与出血——杂志化 UI 文没覆盖的课。",
+                credit: "原图 · 优设 · mina 时尚杂志拆解 · 无商业用途·侵权立删",
+                creditHref: "https://www.uisdc.com/magazines-design",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+];
+
 // 表：品味。新的放最前面。每条一张图 + 一两句（写在 caption）。
 // 抓不到原图就留 imageNote「原图未取到。」和 href，不写长摘要。
 export const tasteLog: AccumCard[] = [
+  {
+    "id": "log-visions-2026-kv",
+    "date": "2026-10-23",
+    "title": "Pixiv 监修 · VISIONS 2026 年刊 + 特设站",
+    "figure": {
+      "file": "log-visions-2026-kv.webp",
+      "alt": "VISIONS 2026 特设站 key visual",
+      "width": 1600,
+      "height": 900,
+      "caption": "年刊包装——刊名与 KV 分工，策展名单可翻。",
+      "credit": "原图 · VISIONS 2026 · 特设站 KV · 无商业用途·侵权立删",
+      "creditHref": "https://visions.pr-pixiv.net/2026/"
+    }
+  },
+  {
+    "id": "2026-10-23-visions-book",
+    "date": "2026-10-23",
+    "title": "pixiv.co.jp · VISIONS 2026 书讯",
+    "note": "外链走特设站与 pixiv.co.jp 书讯；表侧记包装与站建。",
+    "href": "https://www.pixiv.co.jp/2025/09/19/120000"
+  },
+  {
+    "id": "log-pixiv-tenparu-title",
+    "date": "2026-10-23",
+    "title": "Pixiv · てんぱる1「同人誌のタイトルデザイン」",
+    "figure": {
+      "file": "log-pixiv-tenparu-title.webp",
+      "alt": "Pixiv 同人刊名标题设计作例",
+      "width": 825,
+      "height": 825,
+      "caption": "纯字标题——缩略图里仍可读的层级。",
+      "credit": "原图 · Pixiv · てんぱる1 · タイトルデザイン(3) · 无商业用途·侵权立删",
+      "creditHref": "https://www.pixiv.net/artworks/84497848"
+    }
+  },
+  {
+    "id": "2026-10-23-tenparu-user",
+    "date": "2026-10-23",
+    "title": "Pixiv · てんぱる1 作者页",
+    "note": "系列自述作例只放标题、分卷连载，适合当字墙词典长期跟作者。",
+    "href": "https://www.pixiv.net/users/2513282"
+  },
+  {
+    "id": "log-sankou-yoma",
+    "date": "2026-10-23",
+    "title": "SANKOU · YOMA inc.（余间）工作室站",
+    "figure": {
+      "file": "log-sankou-yoma.webp",
+      "alt": "SANKOU 收录的 YOMA 工作室站缩略",
+      "width": 1000,
+      "height": 874,
+      "caption": "工作室站品味——留白、网格、信用行。",
+      "credit": "原图 · SANKOU · YOMA inc. · 无商业用途·侵权立删",
+      "creditHref": "https://sankoudesign.com/web/yoma/"
+    }
+  },
+  {
+    "id": "2026-10-23-yoma-inc",
+    "date": "2026-10-23",
+    "title": "YOMA inc.",
+    "note": "对象站正文偏壳，以 SANKOU 条目和缩略为核。",
+    "href": "https://yoma.inc/"
+  },
+  {
+    "id": "log-hakusuku-recruit",
+    "date": "2026-10-23",
+    "title": "MUUUUU SOTD · HAKUHODO RECRUITMENT",
+    "figure": {
+      "file": "log-hakusuku-recruit.webp",
+      "alt": "博报堂招聘站 OGP / 主视觉",
+      "width": 1220,
+      "height": 640,
+      "caption": "招聘站也是编辑刊——大字口号与分栏。",
+      "credit": "原图 · HAKUHODO RECRUITMENT / TWOTONE · 无商业用途·侵权立删",
+      "creditHref": "https://hakusuku.jp/recruit/"
+    }
+  },
+  {
+    "id": "2026-10-23-muuuuu-hakuhodo",
+    "date": "2026-10-23",
+    "title": "MUUUUU · HAKUHODO RECRUITMENT",
+    "note": "每日一站详情，用来溯源制作 credit；官方页是博报堂招聘站。",
+    "href": "https://muuuuu.org/color/gray/25126.html"
+  },
+  {
+    "id": "log-uisdc-mina",
+    "date": "2026-10-23",
+    "title": "优设 · mina 时尚杂志平面拆解（浅）",
+    "figure": {
+      "file": "log-uisdc-mina.webp",
+      "alt": "优设 mina 杂志拆解文封面",
+      "width": 440,
+      "height": 280,
+      "caption": "纸刊版心与出血——杂志化 UI 文没覆盖的课。",
+      "credit": "原图 · 优设 · mina 时尚杂志拆解 · 无商业用途·侵权立删",
+      "creditHref": "https://www.uisdc.com/magazines-design"
+    }
+  },
   {
     "id": "log-artstation-duolife",
     "date": "2026-10-22",
