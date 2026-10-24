@@ -40,9 +40,237 @@ export type LogDay = {
   sections: LogSection[];
 };
 
-// 原文级日记录。翻面之后 /log/ 表侧读 tasteLog（一张图、一两句、点图进原帖），
-// 不改版式，所以要点和可偷留在这里；当天卡片在 tasteLog 最前面。
+// 原文级日记录，新的在最前。/log/ 表侧在卡片索引之前按日期倒序渲染。
+// 卡片仍是一张图、一两句；当天短卡片在 tasteLog 最前面。抓不到的图只写说明和外链。
 export const learningLog: LogDay[] = [
+  {
+    date: "2026-10-24",
+    title: "每日学习 · 2026-10-24（例行 14:00）",
+    summary:
+      "例行「慢看每日品味学习」。昨天海外批 B + 中文批 3；今日换海外批 D + 中文批 2。今日批次：海外批 D（网站画廊/排版：Siteinspire、Are.na、Savee、Fonts In Use、It's Nice That、Awwwards、出版社/杂志站）· 中文批 2（B 站）。关键词：「审美积累」/ aesthetic training / taste building / visual taste / design taste。本周已轮 X / ArtStation / 花瓣 / Pixiv，今日不强开。不重抄近几日 MACK / Loose Joints / Fonts In Use Monuments historiques / Are.na Areal / B站 Ryo·Victionary。封面与参考图见本目录；无商业用途·侵权立删。未改站代码、未 push、未对外推广。",
+    sections: [
+      {
+        id: "overseas-2026-10-24",
+        label: "海外",
+        items: [
+          {
+            heading: "Fonts In Use · The Face magazine, issue 26（终刊定制字系统）",
+            href: "https://fontsinuse.com/uses/78225/the-face-magazine-issue-26",
+            points: [
+              "为何好看：The Face 2026 春最终印本委托两套定制字——KMR Face Grotesk Stencil（档案期 Akzidenz Stencil 研究 → display/text 缝宽分档）+ OO Face Serif（参数化对比/字重，类等宽字形做节奏）。终刊仍为字系统买单；字对 = 无衬线刊头锚 + 衬线叙事层。",
+              "图：fiu-the-face-card.jpg、fiu-the-face-01.jpeg、fiu-the-face-02.jpeg、fiu-the-face-03.jpeg、fiu-the-face-stencil.jpeg（staging；无商业用途·侵权立删）。",
+            ],
+            steal: "改版先定 display/text 职责；外链 FIU 条目拿齐字名与工作室 credit。",
+            links: [
+              {
+                label: "Fonts In Use",
+                href: "https://fontsinuse.com/uses/78225/the-face-magazine-issue-26",
+              },
+            ],
+            imageNote:
+              "原图未取到。封面在 staging，本轮不入库。无商业用途·侵权立删。",
+          },
+          {
+            heading: "Siteinspire → The Surfer's Journal Archives（杂志档案站网格）",
+            href: "https://archives.surfersjournal.com/",
+            points: [
+              "为何好看：按年卷把封面排成可翻档案墙（1992 Vol.1 → 2026 Vol.35）；刊自述 minimalist cover / flat binding / more book than magazine。用期号网格替代无限瀑布。",
+              "图：tsj-archives-og.png（单期封面 CDN 本轮 403 未落；无商业用途·侵权立删）。",
+            ],
+            steal: "积累栏做成「期号/批次网格」；外链双挂 Siteinspire 策展条目 + 官方 Archives。",
+            links: [
+              {
+                label: "Siteinspire",
+                href: "https://www.siteinspire.com/website/13639-the-surfers-journal-archives",
+              },
+              {
+                label: "对象站 Archives",
+                href: "https://archives.surfersjournal.com/",
+              },
+              {
+                label: "刊 About",
+                href: "https://www.surfersjournal.com/about/",
+              },
+            ],
+            imageNote:
+              "原图未取到。tsj-archives-og.png 在 staging；单期封面 CDN 本轮 403 未落。无商业用途·侵权立删。",
+          },
+        ],
+      },
+      {
+        id: "overseas-notes-2026-10-24",
+        label: "海外浅记",
+        items: [
+          {
+            heading: "Awwwards · Hearst Exhibit 2026",
+            href: "https://www.awwwards.com/sites/hearst-exhibit-2026",
+            points: [
+              "展场当刊；Magazine/Typography 标签。对象站 https://www.hollywoodexhibit2026.com/",
+              "图：awwwards-hearst.jpg（staging；无商业用途·侵权立删）。",
+            ],
+            links: [
+              {
+                label: "Awwwards",
+                href: "https://www.awwwards.com/sites/hearst-exhibit-2026",
+              },
+              {
+                label: "对象站",
+                href: "https://www.hollywoodexhibit2026.com/",
+              },
+            ],
+            imageNote: "原图未取到。awwwards-hearst.jpg 在 staging，本轮不入库。",
+          },
+          {
+            heading: "It's Nice That · 2026 graphic trends",
+            href: "https://www.itsnicethat.com/features/forward-thinking-graphic-trends-2026-graphic-design-120126",
+            points: [
+              "Micrographics 作页家具。",
+              "图：int-trends-2026.png（staging；无商业用途·侵权立删）。",
+            ],
+            links: [
+              {
+                label: "It's Nice That",
+                href: "https://www.itsnicethat.com/features/forward-thinking-graphic-trends-2026-graphic-design-120126",
+              },
+            ],
+            imageNote: "原图未取到。int-trends-2026.png 在 staging，本轮不入库。",
+          },
+          {
+            heading: "Savee · UI Editorial / Magazine",
+            href: "https://savee.com/martijnvanmeijel/boards/0-ui-editorial-magazine/",
+            points: [
+              "画廊入口。",
+              "图：savee-editorial-board-og.jpg（staging；无商业用途·侵权立删）。",
+            ],
+            links: [
+              {
+                label: "Savee",
+                href: "https://savee.com/martijnvanmeijel/boards/0-ui-editorial-magazine/",
+              },
+            ],
+            imageNote: "原图未取到。savee-editorial-board-og.jpg 在 staging，本轮不入库。",
+          },
+          {
+            heading: "Are.na Editorial · The Aesthetic",
+            href: "https://www.are.na/editorial/aesthetic",
+            points: [
+              "channel 名单策展（非 Areal 字文）。",
+              "图：arena-aesthetic-og.jpeg（staging；无商业用途·侵权立删）。",
+            ],
+            links: [
+              {
+                label: "Are.na Editorial",
+                href: "https://www.are.na/editorial/aesthetic",
+              },
+            ],
+            imageNote: "原图未取到。arena-aesthetic-og.jpeg 在 staging，本轮不入库。",
+          },
+        ],
+      },
+      {
+        id: "zh-2026-10-24",
+        label: "中文",
+        items: [
+          {
+            heading: "B站 · 【宛堇】一起看杂志｜apartamento / TANK / In Paris / Magazine B",
+            href: "https://www.bilibili.com/video/BV1654y1J7Zk/",
+            points: [
+              "为何好看：独立杂志实物沉浸翻页——跨页疏密、图注位置、封面→内页第一拍；与慢看种子刊同族。",
+              "图：bili-BV1654y1J7Zk-cover.jpg（无商业用途·侵权立删）。",
+            ],
+            steal: "条目写「翻到第几拍停」；人物时尚图归裏，表侧写版式与物性。",
+            links: [
+              {
+                label: "B站",
+                href: "https://www.bilibili.com/video/BV1654y1J7Zk/",
+              },
+            ],
+            imageNote: "原图未取到。bili-BV1654y1J7Zk-cover.jpg 在 staging，本轮不入库。",
+          },
+          {
+            heading: "B站 · 我竟从杂志中…悟出了排版的真谛",
+            href: "https://www.bilibili.com/video/BV1Vu411S7Yo/",
+            points: [
+              "为何好看：间距/对比/色彩/视觉动线等可核动作清单，比「十五种风格」合集更贴判断句。",
+              "图：bili-BV1Vu411S7Yo-cover.jpg（无商业用途·侵权立删）。",
+            ],
+            steal: "作表侧排版词典入口。",
+            links: [
+              {
+                label: "B站",
+                href: "https://www.bilibili.com/video/BV1Vu411S7Yo/",
+              },
+            ],
+            imageNote: "原图未取到。bili-BV1Vu411S7Yo-cover.jpg 在 staging，本轮不入库。",
+          },
+        ],
+      },
+      {
+        id: "zh-notes-2026-10-24",
+        label: "中文浅记",
+        items: [
+          {
+            heading: "B站 · 文字编排 18 案例",
+            href: "https://www.bilibili.com/video/BV196vHBMESN/",
+            points: [
+              "文字编排 18 案例。",
+              "图：bili-BV196vHBMESN-cover.jpg（无商业用途·侵权立删）。",
+            ],
+            links: [
+              {
+                label: "B站",
+                href: "https://www.bilibili.com/video/BV196vHBMESN/",
+              },
+            ],
+            imageNote: "原图未取到。bili-BV196vHBMESN-cover.jpg 在 staging，本轮不入库。",
+          },
+          {
+            heading: "B站 · 26 开年封大战",
+            href: "https://www.bilibili.com/video/BV11TrpB3EJA/",
+            points: [
+              "26 开年封大战。",
+              "图：bili-BV11TrpB3EJA-cover.jpg（无商业用途·侵权立删）。",
+            ],
+            links: [
+              {
+                label: "B站",
+                href: "https://www.bilibili.com/video/BV11TrpB3EJA/",
+              },
+            ],
+            imageNote: "原图未取到。bili-BV11TrpB3EJA-cover.jpg 在 staging，本轮不入库。",
+          },
+        ],
+      },
+      {
+        id: "steal-2026-10-24",
+        label: "今日可偷（短）",
+        items: [
+          {
+            heading: "短清单",
+            points: [
+              "终刊定制字 = 系统课（Face #26）。",
+              "档案网格姿态（TSJ Archives）。",
+              "画廊入口分职：Siteinspire / Savee / Are.na / Awwwards。",
+              "Micrographics 当页脚纹理。",
+              "B 站翻刊节奏 + 排版动作清单。",
+            ],
+          },
+        ],
+      },
+      {
+        id: "notice-2026-10-24",
+        label: "声明",
+        items: [
+          {
+            heading: "声明",
+            points: [
+              "本 log 仅供教育与个人品味训练；勿整站抄袭视觉系统。引用务必署名并尊重版权；封面图仅个人品味训练·无商业用途·侵权立删。外链均为作品页/条目页/官方 BV 页，不热链原始视频文件。",
+            ],
+          },
+        ],
+      },
+    ],
+  },
   {
     date: "2026-10-23",
     title: "例行：二次元/插画批 · Pixiv + 优设/SANKOU/MUUUUU",
@@ -215,6 +443,86 @@ export const learningLog: LogDay[] = [
 // 表：品味。新的放最前面。每条一张图 + 一两句（写在 caption）。
 // 抓不到原图就留 imageNote「原图未取到。」和 href，不写长摘要。
 export const tasteLog: AccumCard[] = [
+  {
+    id: "2026-10-24-fiu-the-face",
+    date: "2026-10-24",
+    title: "Fonts In Use · The Face magazine, issue 26",
+    note: "终刊两套定制字：无衬线刊头锚 + 衬线叙事层。改版先定 display/text 职责。",
+    href: "https://fontsinuse.com/uses/78225/the-face-magazine-issue-26",
+    imageNote: "原图未取到。封面在 staging，本轮不入库。",
+  },
+  {
+    id: "2026-10-24-tsj-archives",
+    date: "2026-10-24",
+    title: "The Surfer's Journal Archives",
+    note: "按年卷把封面排成可翻档案墙，用期号网格替代无限瀑布。",
+    href: "https://archives.surfersjournal.com/",
+    imageNote: "原图未取到。单期封面 CDN 本轮 403 未落。",
+  },
+  {
+    id: "2026-10-24-awwwards-hearst",
+    date: "2026-10-24",
+    title: "Awwwards · Hearst Exhibit 2026",
+    note: "展场当刊；Magazine/Typography 标签。",
+    href: "https://www.awwwards.com/sites/hearst-exhibit-2026",
+    imageNote: "原图未取到。封面在 staging，本轮不入库。",
+  },
+  {
+    id: "2026-10-24-int-trends",
+    date: "2026-10-24",
+    title: "It's Nice That · 2026 graphic trends",
+    note: "Micrographics 作页家具。",
+    href: "https://www.itsnicethat.com/features/forward-thinking-graphic-trends-2026-graphic-design-120126",
+    imageNote: "原图未取到。封面在 staging，本轮不入库。",
+  },
+  {
+    id: "2026-10-24-savee-editorial",
+    date: "2026-10-24",
+    title: "Savee · UI Editorial / Magazine",
+    note: "画廊入口。",
+    href: "https://savee.com/martijnvanmeijel/boards/0-ui-editorial-magazine/",
+    imageNote: "原图未取到。封面在 staging，本轮不入库。",
+  },
+  {
+    id: "2026-10-24-arena-aesthetic",
+    date: "2026-10-24",
+    title: "Are.na Editorial · The Aesthetic",
+    note: "channel 名单策展（非 Areal 字文）。",
+    href: "https://www.are.na/editorial/aesthetic",
+    imageNote: "原图未取到。封面在 staging，本轮不入库。",
+  },
+  {
+    id: "2026-10-24-bili-bv1654y1j7zk",
+    date: "2026-10-24",
+    title: "B站 · 一起看杂志｜apartamento / TANK / In Paris / Magazine B",
+    note: "独立杂志实物翻页：跨页疏密、图注、封面到内页第一拍。",
+    href: "https://www.bilibili.com/video/BV1654y1J7Zk/",
+    imageNote: "原图未取到。封面在 staging，本轮不入库。",
+  },
+  {
+    id: "2026-10-24-bili-bv1vu411s7yo",
+    date: "2026-10-24",
+    title: "B站 · 我竟从杂志中…悟出了排版的真谛",
+    note: "间距、对比、色彩、视觉动线，可核的排版动作清单。",
+    href: "https://www.bilibili.com/video/BV1Vu411S7Yo/",
+    imageNote: "原图未取到。封面在 staging，本轮不入库。",
+  },
+  {
+    id: "2026-10-24-bili-bv196vhbmessn",
+    date: "2026-10-24",
+    title: "B站 · 文字编排 18 案例",
+    note: "文字编排 18 案例。",
+    href: "https://www.bilibili.com/video/BV196vHBMESN/",
+    imageNote: "原图未取到。封面在 staging，本轮不入库。",
+  },
+  {
+    id: "2026-10-24-bili-bv11trpb3eja",
+    date: "2026-10-24",
+    title: "B站 · 26 开年封大战",
+    note: "26 开年封大战。",
+    href: "https://www.bilibili.com/video/BV11TrpB3EJA/",
+    imageNote: "原图未取到。封面在 staging，本轮不入库。",
+  },
   {
     "id": "log-visions-2026-kv",
     "date": "2026-10-23",
