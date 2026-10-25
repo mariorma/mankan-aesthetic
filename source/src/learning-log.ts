@@ -44,6 +44,394 @@ export type LogDay = {
 // 卡片仍是一张图、一两句；当天短卡片在 tasteLog 最前面。抓不到的图只写说明和外链。
 export const learningLog: LogDay[] = [
   {
+    date: "2026-10-25",
+    title: "每日学习 · 2026-10-25（例行 14:00）",
+    summary:
+      "例行「慢看每日品味学习」。昨天海外批 D + 中文批 2；今日换海外批 A + 中文批 1。今日批次：海外批 A（X / ArtStation / Behance / Cara）· 中文批 1（花瓣 / 站酷精选 / 美叶 / 小红书设计·排版向）。关键词：「审美积累」/ aesthetic training / taste building / visual taste / design taste / editorial design / magazine layout。不重抄：DuoLife / Design ZNU / Ariel Medel / MIX Interiors / @presentcorrect 秋彩票 / 美叶首页定位 / BranD 79 / 花瓣话题入口句。封面与参考图见本目录；无商业用途·侵权立删。未改站代码、未 push、未对外推广。",
+    sections: [
+      {
+        id: "overseas-2026-10-25",
+        label: "海外",
+        items: [
+          {
+            heading: "ArtStation · Alvari Juhola — Selkosanomat / Lätta bladet",
+            href: "https://alvarijuhola.artstation.com/projects/x3mR3O",
+            points: [
+              "为何好看：芬兰易读新闻刊实刊 layout（issues 5–7）：客户模板 + 严格易读规范（字/色/图如何尽量易达）。插画服务信息结构（体育跨页、自定义地图、渔具小图），不是氛围贴图。相对 DuoLife 品牌刊系统——这是「约束里做版」。",
+            ],
+            steal: "表侧先定可读性底线再谈氛围；外链作品页写清作者/刊名/约束句。",
+            links: [
+              {
+                label: "ArtStation",
+                href: "https://alvarijuhola.artstation.com/projects/x3mR3O",
+              },
+            ],
+            figures: [
+              {
+                file: "log-artstation-selkosanomat.webp",
+                alt: "Selkosanomat 5/2024 体育跨页，泳池与球场插画配易读正文",
+                width: 1400,
+                height: 1004,
+                caption: "约束里做版——字、色、图先过易读底线，插画服务体育跨页的信息。",
+                credit:
+                  "原图 · ArtStation · Alvari Juhola · Selkosanomat / Lätta bladet · 无商业用途·侵权立删",
+                creditHref: "https://alvarijuhola.artstation.com/projects/x3mR3O",
+              },
+            ],
+          },
+          {
+            heading: "Cara · Serra Ataman — KAFKAOKUR「Alphabet of Sacred Flavours」",
+            href: "https://cara.app/post/486d1762-74ea-411b-95a6-cf599513813e",
+            points: [
+              "为何好看：真人编辑食物插画连载——每期两种蔬果并置，服务文章而非壁纸；同系列换物类、不换整套视觉语言。",
+            ],
+            steal: "连载粒度对标每日积累；Cara 作真人绘画平台外链。",
+            links: [
+              {
+                label: "Cabbage & Sunchoke",
+                href: "https://cara.app/post/486d1762-74ea-411b-95a6-cf599513813e",
+              },
+              {
+                label: "Garlic & Strawberry",
+                href: "https://cara.app/post/34f4f8fe-9c79-4024-8e53-8708f061bb1c",
+              },
+              {
+                label: "Serra Ataman",
+                href: "https://cara.app/serraataman",
+              },
+            ],
+            figures: [
+              {
+                file: "log-cara-serra-cabbage.webp",
+                alt: "KAFKAOKUR：卷心菜与菊芋插画",
+                width: 750,
+                height: 392,
+                caption: "连载一帧：卷心菜与菊芋并置，服务文章，不换整套视觉语言。",
+                credit:
+                  "原图 · Cara · Serra Ataman · Cabbage & Sunchoke · KAFKAOKUR · 无商业用途·侵权立删",
+                creditHref: "https://cara.app/post/486d1762-74ea-411b-95a6-cf599513813e",
+              },
+              {
+                file: "log-cara-serra-garlic.webp",
+                alt: "KAFKAOKUR：蒜与草莓插画",
+                width: 750,
+                height: 183,
+                caption: "同一连载换物类：蒜与草莓。粒度对标每日积累。",
+                credit:
+                  "原图 · Cara · Serra Ataman · Garlic & Strawberry · KAFKAOKUR · 无商业用途·侵权立删",
+                creditHref: "https://cara.app/post/34f4f8fe-9c79-4024-8e53-8708f061bb1c",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "overseas-notes-2026-10-25",
+        label: "海外浅记",
+        items: [
+          {
+            heading: "Behance · Typezine Longinotti",
+            href: "https://www.behance.net/gallery/243108419/Typezine-Editorial-Tipografia-Longinotti",
+            points: ["两字一墨斜网格。"],
+            links: [
+              {
+                label: "Behance",
+                href: "https://www.behance.net/gallery/243108419/Typezine-Editorial-Tipografia-Longinotti",
+              },
+            ],
+            figures: [
+              {
+                file: "log-behance-typezine.webp",
+                alt: "Typezine Longinotti 跨页，薄荷绿底上的斜向大字",
+                width: 1400,
+                height: 1043,
+                caption: "两字一墨斜网格。大字跨页本身就是版面结构。",
+                credit:
+                  "原图 · Behance · Typezine Editorial · Tipografía Longinotti · 无商业用途·侵权立删",
+                creditHref:
+                  "https://www.behance.net/gallery/243108419/Typezine-Editorial-Tipografia-Longinotti",
+              },
+            ],
+          },
+          {
+            heading: "Behance · Bant Mag Redesign",
+            href: "https://www.behance.net/gallery/248358129/Bant-Mag-Redesign-Editorial-Design-Project",
+            points: ["胶带手做刊名。"],
+            links: [
+              {
+                label: "Behance",
+                href: "https://www.behance.net/gallery/248358129/Bant-Mag-Redesign-Editorial-Design-Project",
+              },
+            ],
+            figures: [
+              {
+                file: "log-behance-bant.webp",
+                alt: "Bant Mag 改版封面，胶带拼出刊名",
+                width: 1200,
+                height: 675,
+                caption: "胶带手做刊名。字是做出来的物件，不是贴上去的标题。",
+                credit: "原图 · Behance · Bant Mag. Redesign · 无商业用途·侵权立删",
+                creditHref:
+                  "https://www.behance.net/gallery/248358129/Bant-Mag-Redesign-Editorial-Design-Project",
+              },
+            ],
+          },
+          {
+            heading: "X · @oliver_gareis · 字阶 / 网格 / 节奏",
+            href: "https://x.com/oliver_gareis/status/2107146296842719562",
+            points: ["字阶、网格、节奏。两张都是比例实验，不是氛围海报。"],
+            links: [
+              {
+                label: "X · scale / grid / rhythm",
+                href: "https://x.com/oliver_gareis/status/2107146296842719562",
+              },
+            ],
+            figures: [
+              {
+                file: "log-x-oliver-scale-1.webp",
+                alt: "字阶与网格练习，棕底上的大写字母和红线网格",
+                width: 1008,
+                height: 1200,
+                caption: "字阶叠在网格上。比例本身是内容。",
+                credit: "原图 · X · @oliver_gareis · scale / grid / rhythm · 无商业用途·侵权立删",
+                creditHref: "https://x.com/oliver_gareis/status/2107146296842719562",
+              },
+              {
+                file: "log-x-oliver-scale-2.webp",
+                alt: "字阶与网格练习，大字 AN ONGOING STUDY OF TYPE 与小注",
+                width: 1008,
+                height: 1200,
+                caption: "网格是出发点。大字和小注的疏密，拿走的和留下的一样要紧。",
+                credit: "原图 · X · @oliver_gareis · scale / grid / rhythm · 无商业用途·侵权立删",
+                creditHref: "https://x.com/oliver_gareis/status/2107146296842719562",
+              },
+            ],
+          },
+          {
+            heading: "X · @oliver_gareis · racing editorial",
+            href: "https://x.com/oliver_gareis/status/2112219724855836691",
+            points: ["赛车题材的编辑刊面：一张照片叠字，一张纯字版。"],
+            links: [
+              {
+                label: "X · racing editorial",
+                href: "https://x.com/oliver_gareis/status/2112219724855836691",
+              },
+            ],
+            figures: [
+              {
+                file: "log-x-oliver-racing-1.webp",
+                alt: "赛车编辑跨页，头盔照片上叠 GT-R 与数字",
+                width: 1200,
+                height: 764,
+                caption: "赛车编辑刊面：照片上叠字阶，数字当主角。",
+                credit: "原图 · X · @oliver_gareis · racing editorial layouts · 无商业用途·侵权立删",
+                creditHref: "https://x.com/oliver_gareis/status/2112219724855836691",
+              },
+              {
+                file: "log-x-oliver-racing-2.webp",
+                alt: "赛车编辑纯字版，SPEED IS NOT ENOUGH 大字加双栏小注",
+                width: 1200,
+                height: 764,
+                caption: "大字口号压过小注双栏。节奏靠字重，不靠装饰。",
+                credit: "原图 · X · @oliver_gareis · racing editorial layouts · 无商业用途·侵权立删",
+                creditHref: "https://x.com/oliver_gareis/status/2112219724855836691",
+              },
+            ],
+          },
+          {
+            heading: "ArtStation · SIEGE Issue 05",
+            href: "https://echolima.artstation.com/projects/nEy4mO",
+            points: ["作品集当刊。"],
+            links: [
+              {
+                label: "ArtStation",
+                href: "https://echolima.artstation.com/projects/nEy4mO",
+              },
+            ],
+            figures: [
+              {
+                file: "log-artstation-siege05.webp",
+                alt: "SIEGE Issue 05 封面，刊名与期号做成杂志封面",
+                width: 1400,
+                height: 1811,
+                caption: "作品集当刊。刊名、期号、导语在同一套封面上。",
+                credit:
+                  "原图 · ArtStation · Echo Lima / Eliott Lilly · SIEGE Issue 05 · 无商业用途·侵权立删",
+                creditHref: "https://echolima.artstation.com/projects/nEy4mO",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "zh-2026-10-25",
+        label: "中文",
+        items: [
+          {
+            heading: "美叶 · Mat Voyce 榜样页",
+            href: "https://www.meiye.art/MasterDesigner/204/1/2307",
+            points: [
+              "为何好看：相对首页 pin——今天跟读单人脾气（插画+字+循环短动画）。美叶真正用法是长期榜样名单，不是刷瀑布。",
+            ],
+            steal: "积累栏「本周跟读作者」卡片；字当角色、循环当呼吸。",
+            links: [
+              {
+                label: "美叶 · Mat Voyce",
+                href: "https://www.meiye.art/MasterDesigner/204/1/2307",
+              },
+              {
+                label: "matvoyce.tv",
+                href: "https://matvoyce.tv/",
+              },
+            ],
+            figures: [
+              {
+                file: "log-meiye-matvoyce-avatar.webp",
+                alt: "美叶 Mat Voyce 榜样头图",
+                width: 230,
+                height: 230,
+                caption: "跟读单人榜样。美叶的用法是长期名单，不是刷瀑布。",
+                credit: "原图 · 美叶 · Mat Voyce · 榜样头图 · 无商业用途·侵权立删",
+                creditHref: "https://www.meiye.art/MasterDesigner/204/1/2307",
+              },
+              {
+                file: "log-meiye-matvoyce-work1.webp",
+                alt: "Mat Voyce 作品 SUNNY DAY，字与太阳角色叠在一起",
+                width: 1071,
+                height: 1071,
+                caption: "字当角色。SUNNY DAY 的字和插画是同一个脾气。",
+                credit: "原图 · 美叶 · Mat Voyce · 榜样作品 · 无商业用途·侵权立删",
+                creditHref: "https://www.meiye.art/MasterDesigner/204/1/2307",
+              },
+              {
+                file: "log-meiye-matvoyce-work2.webp",
+                alt: "Mat Voyce 作品 SWEET!，层叠字",
+                width: 1071,
+                height: 1071,
+                caption: "SWEET! 层叠字。循环感像呼吸。",
+                credit: "原图 · 美叶 · Mat Voyce · 榜样作品 · 无商业用途·侵权立删",
+                creditHref: "https://www.meiye.art/MasterDesigner/204/1/2307",
+              },
+              {
+                file: "log-meiye-matvoyce-work3.webp",
+                alt: "Mat Voyce 作品 BUSY，错位字层",
+                width: 1000,
+                height: 1000,
+                caption: "BUSY 字层错位。跟的是这个人的字。",
+                credit: "原图 · 美叶 · Mat Voyce · 榜样作品 · 无商业用途·侵权立删",
+                creditHref: "https://www.meiye.art/MasterDesigner/204/1/2307",
+              },
+              {
+                file: "log-matvoyce-og.webp",
+                alt: "Mat Voyce 官网 OGP，斜条底上的字标",
+                width: 1800,
+                height: 945,
+                caption: "官网字标。斜条底和作品页是同一套脾气。",
+                credit: "原图 · Mat Voyce · 官网 OGP · 无商业用途·侵权立删",
+                creditHref: "https://matvoyce.tv/",
+              },
+            ],
+          },
+          {
+            heading: "数英 · 小红书《about关于》MOOK 呼吸感排版",
+            href: "https://www.digitaling.com/articles/1261294.html",
+            points: [
+              "为何好看：平台杂志书用疏密分层举例（展开插图 vs 注释小版）；每期加新板块彩蛋。小红书本体笔记本轮抓不到，以降级数英公开拆解作入口。",
+            ],
+            steal: "图注写清「哪块展开、哪块注释」；别空喊呼吸感。",
+            links: [
+              {
+                label: "数英",
+                href: "https://www.digitaling.com/articles/1261294.html",
+              },
+            ],
+            imageNote: "原图未取到。数英 CDN 403，封面与文内图未落。",
+          },
+        ],
+      },
+      {
+        id: "zh-notes-2026-10-25",
+        label: "中文浅记",
+        items: [
+          {
+            heading: "花瓣 · 单画板",
+            href: "https://huaban.com/boards/25263522",
+            points: ["单画板，深于话题入口。不重抄花瓣话题入口句。"],
+            links: [
+              {
+                label: "花瓣",
+                href: "https://huaban.com/boards/25263522",
+              },
+            ],
+            imageNote: "原图未取到。画板 405，未落图。",
+          },
+          {
+            heading: "站酷 · 合集",
+            href: "https://www.zcool.com.cn/collection/ZMzM5Mjg1MjQ=",
+            points: ["合集页。不重抄 BranD 79。"],
+            links: [
+              {
+                label: "站酷",
+                href: "https://www.zcool.com.cn/collection/ZMzM5Mjg1MjQ=",
+              },
+            ],
+            imageNote: "原图未取到。合集缩略 CDN 403，未落图。",
+          },
+          {
+            heading: "美叶 · 首页流图示意",
+            href: "https://meiye.art/",
+            points: ["首页流图示意（浅）。不重抄美叶首页定位。"],
+            links: [
+              {
+                label: "美叶",
+                href: "https://meiye.art/",
+              },
+            ],
+            figures: [
+              {
+                file: "log-meiye-home-pin1.webp",
+                alt: "美叶首页流图示意",
+                width: 800,
+                height: 1732,
+                caption: "首页流里的一帧。浅记，不重抄首页定位。",
+                credit: "原图 · 美叶 · 首页流图示意 · 无商业用途·侵权立删",
+                creditHref: "https://meiye.art/",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "steal-2026-10-25",
+        label: "今日可偷（短）",
+        items: [
+          {
+            heading: "短清单",
+            points: [
+              "易读约束 > 氛围堆（Selkosanomat）。",
+              "连载粒度（Cara / KAFKAOKUR）。",
+              "两字一墨斜网格（Typezine）。",
+              "美叶跟读单人榜样。",
+              "呼吸感要可核（about MOOK 疏密分层）。",
+            ],
+          },
+        ],
+      },
+      {
+        id: "notice-2026-10-25",
+        label: "声明",
+        items: [
+          {
+            heading: "声明",
+            points: [
+              "本 log 仅供教育与个人品味训练；勿整站抄袭视觉系统。引用务必署名并尊重版权；封面图仅个人品味训练·无商业用途·侵权立删。外链均为作品页/作者页/条目页/公开文，不热链原始视频文件。",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     date: "2026-10-24",
     title: "每日学习 · 2026-10-24（例行 14:00）",
     summary:
@@ -443,6 +831,259 @@ export const learningLog: LogDay[] = [
 // 表：品味。新的放最前面。每条一张图 + 一两句（写在 caption）。
 // 抓不到原图就留 imageNote「原图未取到。」和 href，不写长摘要。
 export const tasteLog: AccumCard[] = [
+  {
+    id: "log-artstation-selkosanomat",
+    date: "2026-10-25",
+    title: "ArtStation · Alvari Juhola — Selkosanomat / Lätta bladet",
+    figure: {
+      file: "log-artstation-selkosanomat.webp",
+      alt: "Selkosanomat 5/2024 体育跨页，泳池与球场插画配易读正文",
+      width: 1400,
+      height: 1004,
+      caption: "约束里做版——字、色、图先过易读底线，插画服务体育跨页的信息。",
+      credit:
+        "原图 · ArtStation · Alvari Juhola · Selkosanomat / Lätta bladet · 无商业用途·侵权立删",
+      creditHref: "https://alvarijuhola.artstation.com/projects/x3mR3O",
+    },
+  },
+  {
+    id: "log-cara-serra-cabbage",
+    date: "2026-10-25",
+    title: "Cara · Serra Ataman — Cabbage & Sunchoke",
+    figure: {
+      file: "log-cara-serra-cabbage.webp",
+      alt: "KAFKAOKUR：卷心菜与菊芋插画",
+      width: 750,
+      height: 392,
+      caption: "连载一帧：卷心菜与菊芋并置，服务文章，不换整套视觉语言。",
+      credit:
+        "原图 · Cara · Serra Ataman · Cabbage & Sunchoke · KAFKAOKUR · 无商业用途·侵权立删",
+      creditHref: "https://cara.app/post/486d1762-74ea-411b-95a6-cf599513813e",
+    },
+  },
+  {
+    id: "log-cara-serra-garlic",
+    date: "2026-10-25",
+    title: "Cara · Serra Ataman — Garlic & Strawberry",
+    figure: {
+      file: "log-cara-serra-garlic.webp",
+      alt: "KAFKAOKUR：蒜与草莓插画",
+      width: 750,
+      height: 183,
+      caption: "同一连载换物类：蒜与草莓。粒度对标每日积累。",
+      credit:
+        "原图 · Cara · Serra Ataman · Garlic & Strawberry · KAFKAOKUR · 无商业用途·侵权立删",
+      creditHref: "https://cara.app/post/34f4f8fe-9c79-4024-8e53-8708f061bb1c",
+    },
+  },
+  {
+    id: "log-behance-typezine",
+    date: "2026-10-25",
+    title: "Behance · Typezine Longinotti",
+    figure: {
+      file: "log-behance-typezine.webp",
+      alt: "Typezine Longinotti 跨页，薄荷绿底上的斜向大字",
+      width: 1400,
+      height: 1043,
+      caption: "两字一墨斜网格。大字跨页本身就是版面结构。",
+      credit: "原图 · Behance · Typezine Editorial · Tipografía Longinotti · 无商业用途·侵权立删",
+      creditHref:
+        "https://www.behance.net/gallery/243108419/Typezine-Editorial-Tipografia-Longinotti",
+    },
+  },
+  {
+    id: "log-behance-bant",
+    date: "2026-10-25",
+    title: "Behance · Bant Mag Redesign",
+    figure: {
+      file: "log-behance-bant.webp",
+      alt: "Bant Mag 改版封面，胶带拼出刊名",
+      width: 1200,
+      height: 675,
+      caption: "胶带手做刊名。字是做出来的物件，不是贴上去的标题。",
+      credit: "原图 · Behance · Bant Mag. Redesign · 无商业用途·侵权立删",
+      creditHref:
+        "https://www.behance.net/gallery/248358129/Bant-Mag-Redesign-Editorial-Design-Project",
+    },
+  },
+  {
+    id: "log-x-oliver-scale-1",
+    date: "2026-10-25",
+    title: "X · @oliver_gareis · 字阶叠网格",
+    figure: {
+      file: "log-x-oliver-scale-1.webp",
+      alt: "字阶与网格练习，棕底上的大写字母和红线网格",
+      width: 1008,
+      height: 1200,
+      caption: "字阶叠在网格上。比例本身是内容。",
+      credit: "原图 · X · @oliver_gareis · scale / grid / rhythm · 无商业用途·侵权立删",
+      creditHref: "https://x.com/oliver_gareis/status/2107146296842719562",
+    },
+  },
+  {
+    id: "log-x-oliver-scale-2",
+    date: "2026-10-25",
+    title: "X · @oliver_gareis · 大字与网格注",
+    figure: {
+      file: "log-x-oliver-scale-2.webp",
+      alt: "字阶与网格练习，大字 AN ONGOING STUDY OF TYPE 与小注",
+      width: 1008,
+      height: 1200,
+      caption: "网格是出发点。大字和小注的疏密，拿走的和留下的一样要紧。",
+      credit: "原图 · X · @oliver_gareis · scale / grid / rhythm · 无商业用途·侵权立删",
+      creditHref: "https://x.com/oliver_gareis/status/2107146296842719562",
+    },
+  },
+  {
+    id: "log-x-oliver-racing-1",
+    date: "2026-10-25",
+    title: "X · @oliver_gareis · racing editorial",
+    figure: {
+      file: "log-x-oliver-racing-1.webp",
+      alt: "赛车编辑跨页，头盔照片上叠 GT-R 与数字",
+      width: 1200,
+      height: 764,
+      caption: "赛车编辑刊面：照片上叠字阶，数字当主角。",
+      credit: "原图 · X · @oliver_gareis · racing editorial layouts · 无商业用途·侵权立删",
+      creditHref: "https://x.com/oliver_gareis/status/2112219724855836691",
+    },
+  },
+  {
+    id: "log-x-oliver-racing-2",
+    date: "2026-10-25",
+    title: "X · @oliver_gareis · racing type",
+    figure: {
+      file: "log-x-oliver-racing-2.webp",
+      alt: "赛车编辑纯字版，SPEED IS NOT ENOUGH 大字加双栏小注",
+      width: 1200,
+      height: 764,
+      caption: "大字口号压过小注双栏。节奏靠字重，不靠装饰。",
+      credit: "原图 · X · @oliver_gareis · racing editorial layouts · 无商业用途·侵权立删",
+      creditHref: "https://x.com/oliver_gareis/status/2112219724855836691",
+    },
+  },
+  {
+    id: "log-artstation-siege05",
+    date: "2026-10-25",
+    title: "ArtStation · SIEGE Issue 05",
+    figure: {
+      file: "log-artstation-siege05.webp",
+      alt: "SIEGE Issue 05 封面，刊名与期号做成杂志封面",
+      width: 1400,
+      height: 1811,
+      caption: "作品集当刊。刊名、期号、导语在同一套封面上。",
+      credit: "原图 · ArtStation · Echo Lima / Eliott Lilly · SIEGE Issue 05 · 无商业用途·侵权立删",
+      creditHref: "https://echolima.artstation.com/projects/nEy4mO",
+    },
+  },
+  {
+    id: "log-meiye-matvoyce-avatar",
+    date: "2026-10-25",
+    title: "美叶 · Mat Voyce 榜样头图",
+    figure: {
+      file: "log-meiye-matvoyce-avatar.webp",
+      alt: "美叶 Mat Voyce 榜样头图",
+      width: 230,
+      height: 230,
+      caption: "跟读单人榜样。美叶的用法是长期名单，不是刷瀑布。",
+      credit: "原图 · 美叶 · Mat Voyce · 榜样头图 · 无商业用途·侵权立删",
+      creditHref: "https://www.meiye.art/MasterDesigner/204/1/2307",
+    },
+  },
+  {
+    id: "log-meiye-matvoyce-work1",
+    date: "2026-10-25",
+    title: "美叶 · Mat Voyce · SUNNY DAY",
+    figure: {
+      file: "log-meiye-matvoyce-work1.webp",
+      alt: "Mat Voyce 作品 SUNNY DAY，字与太阳角色叠在一起",
+      width: 1071,
+      height: 1071,
+      caption: "字当角色。SUNNY DAY 的字和插画是同一个脾气。",
+      credit: "原图 · 美叶 · Mat Voyce · 榜样作品 · 无商业用途·侵权立删",
+      creditHref: "https://www.meiye.art/MasterDesigner/204/1/2307",
+    },
+  },
+  {
+    id: "log-meiye-matvoyce-work2",
+    date: "2026-10-25",
+    title: "美叶 · Mat Voyce · SWEET!",
+    figure: {
+      file: "log-meiye-matvoyce-work2.webp",
+      alt: "Mat Voyce 作品 SWEET!，层叠字",
+      width: 1071,
+      height: 1071,
+      caption: "SWEET! 层叠字。循环感像呼吸。",
+      credit: "原图 · 美叶 · Mat Voyce · 榜样作品 · 无商业用途·侵权立删",
+      creditHref: "https://www.meiye.art/MasterDesigner/204/1/2307",
+    },
+  },
+  {
+    id: "log-meiye-matvoyce-work3",
+    date: "2026-10-25",
+    title: "美叶 · Mat Voyce · BUSY",
+    figure: {
+      file: "log-meiye-matvoyce-work3.webp",
+      alt: "Mat Voyce 作品 BUSY，错位字层",
+      width: 1000,
+      height: 1000,
+      caption: "BUSY 字层错位。跟的是这个人的字。",
+      credit: "原图 · 美叶 · Mat Voyce · 榜样作品 · 无商业用途·侵权立删",
+      creditHref: "https://www.meiye.art/MasterDesigner/204/1/2307",
+    },
+  },
+  {
+    id: "log-matvoyce-og",
+    date: "2026-10-25",
+    title: "Mat Voyce · 官网 OGP",
+    figure: {
+      file: "log-matvoyce-og.webp",
+      alt: "Mat Voyce 官网 OGP，斜条底上的字标",
+      width: 1800,
+      height: 945,
+      caption: "官网字标。斜条底和作品页是同一套脾气。",
+      credit: "原图 · Mat Voyce · 官网 OGP · 无商业用途·侵权立删",
+      creditHref: "https://matvoyce.tv/",
+    },
+  },
+  {
+    id: "2026-10-25-digitaling-about-mook",
+    date: "2026-10-25",
+    title: "数英 · 小红书《about关于》MOOK 呼吸感排版",
+    note: "疏密要能指出来：哪块是展开插图，哪块是注释小版。别空喊呼吸感。",
+    href: "https://www.digitaling.com/articles/1261294.html",
+    imageNote: "原图未取到。数英 CDN 403，封面与文内图未落。",
+  },
+  {
+    id: "2026-10-25-huaban-board",
+    date: "2026-10-25",
+    title: "花瓣 · 单画板",
+    note: "单画板，深于话题入口。不重抄花瓣话题入口句。",
+    href: "https://huaban.com/boards/25263522",
+    imageNote: "原图未取到。画板 405，未落图。",
+  },
+  {
+    id: "2026-10-25-zcool-collection",
+    date: "2026-10-25",
+    title: "站酷 · 合集",
+    note: "合集页。不重抄 BranD 79。",
+    href: "https://www.zcool.com.cn/collection/ZMzM5Mjg1MjQ=",
+    imageNote: "原图未取到。合集缩略 CDN 403，未落图。",
+  },
+  {
+    id: "log-meiye-home-pin1",
+    date: "2026-10-25",
+    title: "美叶 · 首页流图示意",
+    figure: {
+      file: "log-meiye-home-pin1.webp",
+      alt: "美叶首页流图示意",
+      width: 800,
+      height: 1732,
+      caption: "首页流里的一帧。浅记，不重抄首页定位。",
+      credit: "原图 · 美叶 · 首页流图示意 · 无商业用途·侵权立删",
+      creditHref: "https://meiye.art/",
+    },
+  },
   {
     id: "2026-10-24-fiu-the-face",
     date: "2026-10-24",
