@@ -1,9 +1,13 @@
 import { useState } from "react";
 import type { Figure } from "./figure";
-import { FigureView } from "./Figure";
-import { FlipTab, useFaceFlip } from "./flip";
+import { faceMotion, useFaceFlip } from "./flip";
+import { UvMark, UvStack, type Mark } from "./kit/controls";
+import { HoverEffect } from "./kit/hover-effect";
+import { useReducedMotion } from "./kit/reduced";
+import { CardSpotlight } from "./kit/card-spotlight";
+import { TransitionPanel } from "./kit/transition-panel";
 import { mount, Shell } from "./Shell";
-import { IssueTitle, Stage } from "./stage";
+import { Chapter, Cover, Plate, RiseScope, toneSpot } from "./spread";
 import { weekRefs } from "./week-refs";
 
 // 两面各写各的：不要互链，不要在文案里点名另一面的内容。
@@ -88,12 +92,19 @@ const karin: Figure = {
   creditHref: "https://note.com/karin_obuchi",
 };
 
-// 新上旧下：按上站时间，新的在前。八张同在 475f64a 进库，文件里后写到的视为更新。首项是 lead。
-const people: Figure[] = [karin, hydrangea, friday, beautybeast, kokoro, iori, yua, enako];
+// 新上旧下。八张同在 475f64a 进库，文件里后写到的视为更新。首项是封面。
+const people: { name: string; figure: Figure }[] = [
+  { name: "小渕花梨", figure: karin },
+  { name: "绣球", figure: hydrangea },
+  { name: "麻倉瑞季", figure: friday },
+  { name: "beautybeast", figure: beautybeast },
+  { name: "kokoro", figure: kokoro },
+  { name: "iori", figure: iori },
+  { name: "yua", figure: yua },
+  { name: "enako", figure: enako },
+];
 
 const markKey = "mankan-li-marks";
-const marks = ["好", "中", "差"] as const;
-type Mark = (typeof marks)[number];
 
 function readMarks(): Record<string, Mark> {
   try {
@@ -134,7 +145,9 @@ function Spec({ rows }: { rows: { k: string; v: string }[] }) {
 
 function Home() {
   const [saved, setSaved] = useState<Record<string, Mark>>(readMarks);
-  const { face, toInside, flip } = useFaceFlip();
+  const { face, flip } = useFaceFlip();
+  const reduced = useReducedMotion();
+  const motion = faceMotion(reduced);
 
   function choose(file: string, mark: Mark) {
     setSaved((current) => {
@@ -145,93 +158,95 @@ function Home() {
   }
 
   const rejected = [
-    ...people.filter((figure) => saved[figure.file] === "差").map((figure) => figure.file),
+    ...people.filter((person) => saved[person.figure.file] === "差").map((person) => person.figure.file),
     ...Object.keys(saved).filter(
-      (file) => saved[file] === "差" && !people.some((figure) => figure.file === file),
+      (file) => saved[file] === "差" && !people.some((person) => person.figure.file === file),
     ),
   ];
 
   return (
-    <Shell page="home" bleed footerNote={face === "li" ? <RejectList files={rejected} /> : undefined}>
-      <header className="split-issue" key={face}>
-        <p className="issue-label">本期 · No.03</p>
-        <IssueTitle text={face === "biao" ? "审美积累" : "美女赏析"} />
-        <p className="face-lead">
-          {face === "biao" ? (
-            <>
-              这一周九条。
-              <br />
-              先写判断，再写谁出的。
-            </>
-          ) : (
-            <>
-              人好看就说好看。
-              <br />
-              每张几句，看完标好、中、差。
-            </>
-          )}
-        </p>
-        <p className="face-how">点边上的半圆翻过去。</p>
-      </header>
-
-      <div className="flip-stage">
-        <Stage key={face}>{toInside ? <FaceBiao /> : <FaceLi saved={saved} onChoose={choose} />}</Stage>
-        <FlipTab toInside={toInside} onFlip={flip} />
-      </div>
+    <Shell page="home" face={face} onFlip={flip} footerNote={face === "li" ? <RejectList files={rejected} /> : undefined}>
+      <TransitionPanel
+        activeIndex={face === "biao" ? 0 : 1}
+        variants={motion.variants}
+        transition={motion.transition}
+        style={{ transformOrigin: "50% 0" }}
+      >
+        {[
+          <FaceBiao key="biao" />,
+          <FaceLi key="li" saved={saved} onChoose={choose} />,
+        ]}
+      </TransitionPanel>
     </Shell>
   );
 }
 
 function FaceBiao() {
-  const firstFigure = weekRefs.find((ref) => ref.figure)?.no;
+  const lead = weekRefs[0];
   return (
-    <section className="face face-biao" aria-labelledby="ya-title">
-      <div className="face-inner">
-        <p className="col-kicker reveal">表</p>
-        <h2 className="reveal" id="ya-title">本周九条</h2>
-        <div className="ref-index">
-          {weekRefs.map((ref) => (
-            <article key={ref.no} className="ref reveal" id={`ref-${ref.no}`}>
-              <div className="ref-head">
-                <p className="ref-no">{ref.no}</p>
-                <div className="ref-main">
-                  <h3>{ref.title}</h3>
-                  <p className="ref-by">{ref.by}</p>
-                </div>
+    <RiseScope>
+      <Cover
+        face="biao"
+        eyebrow="本期 · No.03 · 表"
+        title="审美积累"
+        deck={"这一周九条。\n先写判断，再写谁出的。"}
+        marquee={weekRefs.map((ref) => ref.title)}
+        spine={weekRefs.map((ref) => ref.watch)}
+        stat={{ value: String(weekRefs.length).padStart(2, "0"), k: "条", s: "先写判断" }}
+        plate={
+          lead.figure ? (
+            <Plate
+              page="home"
+              figure={lead.figure}
+              priority
+              linkLabel={lead.title}
+              tilt
+              float
+              track
+              amp={18}
+            />
+          ) : undefined
+        }
+      />
+      <div className="issue">
+        <Chapter kicker="目录" title="先挑一条">
+          <HoverEffect
+            items={weekRefs.map((ref) => ({
+              title: ref.title,
+              description: `${ref.no} · ${ref.by}`,
+              link: `#ref-${ref.no}`,
+            }))}
+          />
+        </Chapter>
+        <Chapter kicker="正文" title="写下来的判断">
+          {weekRefs.map((ref, index) => (
+            <CardSpotlight
+              key={ref.no}
+              id={`ref-${ref.no}`}
+              className={index % 2 === 1 ? "spread rise is-flip" : "spread rise"}
+              color={toneSpot("biao")}
+            >
+              <div className="spread-copy">
+                <p className="spread-no">{ref.no}</p>
+                <h3>{ref.title}</h3>
+                <p className="by">{ref.by}</p>
+                <p className="judgment">{ref.judgment}</p>
+                <Spec
+                  rows={[
+                    { k: "看什么", v: ref.watch },
+                    { k: "Vendor", v: ref.vendor },
+                  ]}
+                />
+                {ref.imageNote && <p className="img-note">{ref.imageNote}</p>}
               </div>
               {ref.figure && (
-                <FigureView
-                  page="home"
-                  figure={ref.figure}
-                  className="ya-fig"
-                  priority={ref.no === firstFigure}
-                  linkLabel={ref.title}
-                />
+                <Plate page="home" figure={ref.figure} linkLabel={ref.title} tilt intro amp={12} />
               )}
-              <p className="ref-judge">{ref.judgment}</p>
-              {!ref.figure && (
-                <p className="ref-post">
-                  <a
-                    href={ref.href}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`打开原帖：${ref.title}`}
-                  >
-                    原帖
-                  </a>
-                </p>
-              )}
-              <Spec
-                rows={[
-                  { k: "看什么", v: ref.watch },
-                  { k: "Vendor", v: ref.vendor },
-                ]}
-              />
-            </article>
+            </CardSpotlight>
           ))}
-        </div>
+        </Chapter>
       </div>
-    </section>
+    </RiseScope>
   );
 }
 
@@ -242,56 +257,47 @@ function FaceLi({
   saved: Record<string, Mark>;
   onChoose: (file: string, mark: Mark) => void;
 }) {
+  const lead = people[0];
+  const rest = people.slice(1);
   return (
-        <section className="face face-li" aria-labelledby="su-title">
-          <div className="face-inner">
-          <p className="col-kicker reveal">裏</p>
-          <h2 className="reveal" id="su-title">喜欢的人</h2>
-          <div className="su-people">
-            {people.map((figure, index) => (
-              <FigureView
-                key={figure.file}
-                page="home"
-                figure={figure}
-                className={index === 0 ? "su-fig su-lead reveal" : "su-fig reveal"}
-                priority={index === 0}
-              >
-                <MarkControl
-                  file={figure.file}
-                  value={saved[figure.file] ?? "中"}
-                  onChoose={onChoose}
-                />
-              </FigureView>
+    <RiseScope>
+      <Cover
+        face="li"
+        eyebrow="本期 · No.03 · 裏"
+        title="美女赏析"
+        deck={"人好看就说好看。\n每张几句，看完标好、中、差。"}
+        marquee={people.map((person) => person.name)}
+        spine={people.map((person) => person.name)}
+        stat={{ value: String(people.length).padStart(2, "0"), k: "人", s: "看完再标" }}
+        plate={
+          <Plate page="home" figure={lead.figure} priority linkLabel={lead.name} tilt float track amp={18}>
+            <UvMark
+              file={lead.figure.file}
+              value={saved[lead.figure.file] ?? "中"}
+              onChoose={onChoose}
+            />
+          </Plate>
+        }
+      />
+      <div className="issue">
+        <Chapter kicker="人" title="其余的">
+          <div className="portraits">
+            {rest.map((person) => (
+              <CardSpotlight key={person.figure.file} className="portrait rise" color={toneSpot("li")}>
+                <h3>{person.name}</h3>
+                <Plate page="home" figure={person.figure} linkLabel={person.name} tilt intro amp={12}>
+                  <UvMark
+                    file={person.figure.file}
+                    value={saved[person.figure.file] ?? "中"}
+                    onChoose={onChoose}
+                  />
+                </Plate>
+              </CardSpotlight>
             ))}
           </div>
-          </div>
-        </section>
-  );
-}
-
-function MarkControl({
-  file,
-  value,
-  onChoose,
-}: {
-  file: string;
-  value: Mark;
-  onChoose: (file: string, mark: Mark) => void;
-}) {
-  return (
-    <div className="mark" role="radiogroup" aria-label={`${file}，好中差`}>
-      {marks.map((mark) => (
-        <button
-          key={mark}
-          type="button"
-          role="radio"
-          aria-checked={value === mark}
-          onClick={() => onChoose(file, mark)}
-        >
-          {mark}
-        </button>
-      ))}
-    </div>
+        </Chapter>
+      </div>
+    </RiseScope>
   );
 }
 
@@ -318,9 +324,7 @@ function RejectList({ files }: { files: string[] }) {
       ) : (
         <>
           <pre>{text}</pre>
-          <button type="button" className="reject-copy" onClick={copy}>
-            {copied ? "已复制" : "复制"}
-          </button>
+          <UvStack onClick={copy}>{copied ? "已复制" : "复制"}</UvStack>
         </>
       )}
     </details>

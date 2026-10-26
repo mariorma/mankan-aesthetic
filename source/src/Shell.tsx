@@ -1,9 +1,12 @@
-import { StrictMode, type ReactNode } from "react";
+import { StrictMode, useLayoutEffect, type ReactElement, type ReactNode } from "react";
 import { createRoot } from "react-dom/client";
+import type { Face } from "./flip";
+import { AnimatedBackground } from "./kit/animated-background";
+import { UvFace } from "./kit/controls";
+import { Glass } from "./kit/glass";
+import { easeOutCubic } from "./kit/reduced";
 import { pageHref, type PageId } from "./paths";
-import { Depth } from "./stage";
 import "./styles.css";
-import "./stage.css";
 
 const nav = [
   { id: "home", label: "首页" },
@@ -12,45 +15,65 @@ const nav = [
 
 export function Shell({
   page,
+  face = "biao",
+  onFlip,
   children,
-  bleed = false,
   footerNote,
 }: {
   page: PageId;
+  face?: Face;
+  onFlip?: () => void;
   children: ReactNode;
-  bleed?: boolean;
   footerNote?: ReactNode;
 }) {
+  useLayoutEffect(() => {
+    document.documentElement.dataset.face = face;
+    document.querySelector('meta[name="theme-color"]')?.setAttribute("content", face === "li" ? "#120e0a" : "#0b0b0d");
+    document.querySelector('meta[name="color-scheme"]')?.setAttribute("content", "dark");
+  }, [face]);
+
+  const links = nav.map((item) => (
+    <a
+      key={item.id}
+      data-id={item.id}
+      href={pageHref(page, item.id)}
+      aria-current={page === item.id ? "page" : undefined}
+    >
+      {item.label}
+    </a>
+  )) as ReactElement[];
+
   return (
     <div className="site">
-      <Depth />
       <a className="skip" href="#content">
         跳到正文
       </a>
-      <header className="site-header">
-        <div className="wrap header-inner">
-          <a className="brand" href={pageHref(page, "home")}>
-            慢看
-            <span className="brand-sub">用看图学审美</span>
-          </a>
-          <nav className="nav" aria-label="页面">
-            {nav.map((item) => (
-              <a
-                key={item.id}
-                href={pageHref(page, item.id)}
-                aria-current={page === item.id ? "page" : undefined}
-              >
-                {item.label}
+      <div className="nav-dock">
+        <div className="nav-slot">
+          <Glass radius={999} elasticity={0.7}>
+            <div className="nav-row">
+              <a className="brand" href={pageHref(page, "home")}>
+                <span className="brand-name">慢看</span>
+                <span className="brand-sub">用看图学审美</span>
               </a>
-            ))}
-          </nav>
+              <nav className="nav-links" aria-label="页面">
+                <AnimatedBackground
+                  defaultValue={page === "missing" ? undefined : page}
+                  transition={{ duration: 0.45, ease: [...easeOutCubic] }}
+                >
+                  {links}
+                </AnimatedBackground>
+              </nav>
+              {onFlip && <UvFace face={face} onFlip={onFlip} />}
+            </div>
+          </Glass>
         </div>
-      </header>
-      <main id="content" className={bleed ? "bleed" : "wrap"}>
+      </div>
+      <main id="content" className="issue-main">
         {children}
       </main>
       <footer className="site-footer">
-        <div className="wrap footer-inner">
+        <div className="footer-inner">
           <p>慢看 · 用看图学审美</p>
           <p>零成本试跑。不设赞助、课程售卖或邮箱收集。</p>
           {footerNote}
