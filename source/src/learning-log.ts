@@ -44,6 +44,198 @@ export type LogDay = {
 // 卡片仍是一张图、一两句；当天短卡片在 tasteLog 最前面。抓不到的图只写说明和外链。
 export const learningLog: LogDay[] = [
   {
+    date: "2026-10-26",
+    title: "每日学习 · 2026-10-26（例行 14:00）",
+    summary:
+      "例行「慢看每日品味学习」。昨天海外批 A + 中文批 1；今日换海外批 B + 中文批 3。今日批次：海外批 B（Pixiv / DeviantArt / Tumblr 插画向）· 中文批 3（优设 / SANKOU / MUUUUU）。关键词：「审美积累」/ aesthetic training / taste building / visual taste / design taste / editorial design / magazine layout / typography / 杂志排版 / 装帧 / タイトルデザイン。不重抄：VISIONS 2026 / てんぱる1(84497848) / 84433706 / Rock-and-Roar / Katy Dockrill / YOMA / 博报堂招聘 SOTD / mina / 杂志化风格。封面与参考图见本目录；无商业用途·侵权立删。未改整站版式、未对外推广。",
+    sections: [
+      {
+        id: "overseas-2026-10-26",
+        label: "海外",
+        items: [
+          {
+            heading: "Pixiv · むなかたきえ「依頼絵、タイトルデザイン」",
+            href: "https://www.pixiv.net/artworks/144091085",
+            points: [
+              "为何好看：轻小说表紙委托把插画与标题字阶一次排成；相对てんぱる1「几乎只有字」——这是图+字一口气的商业竖幅。",
+            ],
+            steal: "字跟着画面呼吸；积累栏写清委托对象；外链作品/作者页。",
+            links: [
+              { label: "Pixiv 作品", href: "https://www.pixiv.net/artworks/144091085" },
+              { label: "むなかたきえ", href: "https://www.pixiv.net/users/3228312" },
+            ],
+            figures: [
+              {
+                file: "log-pixiv-munakata-title.webp",
+                alt: "轻小说表紙：插画与标题字阶一体的竖幅委托作例",
+                width: 845,
+                height: 1200,
+                caption: "表紙一体——图与标题字阶一次排成，字跟着画面呼吸。",
+                credit: "原图 · Pixiv · むなかたきえ · 依頼絵、タイトルデザイン · 无商业用途·侵权立删",
+                creditHref: "https://www.pixiv.net/artworks/144091085",
+              },
+            ],
+          },
+          {
+            heading: "DeviantArt · SaneKyle「MH Rise for Switch Player Mag」",
+            href: "https://www.deviantart.com/sanekyle/art/MH-Rise-for-Switch-Player-Mag-875825170",
+            points: [
+              "为何好看：游戏实刊封面——刊名条、主视觉、导读位一起站住；插画先给字留着陆台。",
+            ],
+            steal: "先留字位再画满；对照 Pixiv 文库表紙看刊种字阶差异。",
+            links: [
+              {
+                label: "DeviantArt",
+                href: "https://www.deviantart.com/sanekyle/art/MH-Rise-for-Switch-Player-Mag-875825170",
+              },
+              { label: "SaneKyle", href: "https://www.deviantart.com/sanekyle" },
+            ],
+            figures: [
+              {
+                file: "log-da-mh-rise-switchplayer.webp",
+                alt: "Switch Player 杂志封面：刊名条与怪物猎人主视觉",
+                width: 752,
+                height: 1063,
+                caption: "实刊封面先留字位——刊名条、主视觉、导读一起站住。",
+                credit: "原图 · DeviantArt · SaneKyle · MH Rise for Switch Player Mag · 无商业用途·侵权立删",
+                creditHref: "https://www.deviantart.com/sanekyle/art/MH-Rise-for-Switch-Player-Mag-875825170",
+              },
+            ],
+          },
+          {
+            heading: "Pixiv · nao_zhizi「やさしい第一印象」（浅）",
+            href: "https://www.pixiv.net/artworks/138700351",
+            points: ["封面第一眼字要安心；带素材味，只偷判断不跟素材号。"],
+            links: [{ label: "Pixiv", href: "https://www.pixiv.net/artworks/138700351" }],
+            figures: [
+              {
+                file: "log-pixiv-nao-yasashii.webp",
+                alt: "やさしい第一印象：偏软的封面字阶示意",
+                width: 1200,
+                height: 1200,
+                caption: "第一印象要安心——封面字阶先给人软着陆。",
+                credit: "原图 · Pixiv · nao_zhizi · やさしい第一印象 · 无商业用途·侵权立删",
+                creditHref: "https://www.pixiv.net/artworks/138700351",
+              },
+            ],
+          },
+          {
+            heading: "Tumblr · Sari Cohen editorial（浅）",
+            href: "https://www.tumblr.com/sari-cohen",
+            points: ["真人编辑插画博（Wired / Ebony / CK / Mosaic）；宽搜降级时的真实 Tumblr。"],
+            links: [
+              { label: "Tumblr · sari-cohen", href: "https://www.tumblr.com/sari-cohen" },
+              {
+                label: "tagged editorial illustration",
+                href: "https://www.tumblr.com/sari-cohen/tagged/editorial%20illustration",
+              },
+            ],
+            figures: [
+              {
+                file: "log-tumblr-sari-wired.webp",
+                alt: "Sari Cohen 为 Wired 一类编辑向的插画截帧",
+                width: 1280,
+                height: 1199,
+                caption: "编辑插画服务文章语气，不是壁纸墙。",
+                credit: "原图 · Tumblr · Sari Cohen · editorial illustration · 无商业用途·侵权立删",
+                creditHref: "https://www.tumblr.com/sari-cohen",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "zh-2026-10-26",
+        label: "中文",
+        items: [
+          {
+            heading: "MUUUUU · SB OAI Japan SOTD OCT 25, 2026",
+            href: "https://muuuuu.org/industry/technology/25142.html",
+            points: [
+              "为何好看：OCT 25 新 SOTD（相对 OCT 22 博报堂招聘）；AI/科技企业站字阶冷静、分区清楚。制作 IN FOCUS。",
+            ],
+            steal: "SOTD 当周更一例；双挂 MUUUUU 条目 + 对象站。",
+            links: [
+              { label: "MUUUUU 详情", href: "https://muuuuu.org/industry/technology/25142.html" },
+              { label: "SB OAI Japan", href: "https://www.sb-oai.co.jp/" },
+            ],
+            figures: [
+              {
+                file: "log-muuuuu-sb-oai-sotd.webp",
+                alt: "MUUUUU Site of the Day：SB OAI Japan 站截图",
+                width: 1600,
+                height: 1200,
+                caption: "新于上周的 SOTD——企业站字阶冷静、分区清楚。",
+                credit: "原图 · MUUUUU · SB OAI Japan SOTD OCT 25 · 无商业用途·侵权立删",
+                creditHref: "https://muuuuu.org/industry/technology/25142.html",
+              },
+            ],
+          },
+          {
+            heading: "优设 · layout-design-23「三率一版」",
+            href: "https://www.uisdc.com/layout-design-23",
+            points: [
+              "为何好看：版面率 / 图版率 / 跳跃率，把「高级 / 热闹 / 活泼」变成可调尺；不重抄 mina 拆刊与杂志化七特征。",
+            ],
+            steal: "图注写清是哪一率在起作用。",
+            links: [{ label: "优设文", href: "https://www.uisdc.com/layout-design-23" }],
+            figures: [
+              {
+                file: "log-uisdc-layout-design.webp",
+                alt: "优设三率一版文章封面示意",
+                width: 880,
+                height: 560,
+                caption: "三率当判断句——高级、热闹、活泼各自对应哪一率。",
+                credit: "原图 · 优设 · layout-design-23 三率一版 · 无商业用途·侵权立删",
+                creditHref: "https://www.uisdc.com/layout-design-23",
+              },
+            ],
+          },
+          {
+            heading: "SANKOU · 味覚編集（浅）",
+            href: "https://sankoudesign.com/web/mikakuhenshu/",
+            points: ["味觉=编辑；对象站 mikakuhenshu.com。不重抄 YOMA。"],
+            links: [
+              { label: "SANKOU", href: "https://sankoudesign.com/web/mikakuhenshu/" },
+              { label: "味覚編集", href: "https://mikakuhenshu.com/" },
+            ],
+            figures: [
+              {
+                file: "log-sankou-mikaku.webp",
+                alt: "SANKOU 收录的味覚編集站缩略",
+                width: 1000,
+                height: 874,
+                caption: "味觉当编辑立场——站名本身就是判断句。",
+                credit: "原图 · SANKOU · 味覚編集 · 无商业用途·侵权立删",
+                creditHref: "https://sankoudesign.com/web/mikakuhenshu/",
+              },
+            ],
+          },
+          {
+            heading: "SANKOU · ヒラギノフォント（浅）",
+            href: "https://sankoudesign.com/web/hiragino/",
+            points: ["字厂商特设站；字本身是产品主视觉。"],
+            links: [
+              { label: "SANKOU", href: "https://sankoudesign.com/web/hiragino/" },
+              { label: "ヒラギノ", href: "https://hiragino.screen.co.jp/" },
+            ],
+            figures: [
+              {
+                file: "log-sankou-hiragino.webp",
+                alt: "SANKOU 收录的ヒラギノフォント特设站缩略",
+                width: 1000,
+                height: 874,
+                caption: "字厂商特设——字就是主视觉，少装饰。",
+                credit: "原图 · SANKOU · ヒラギノフォント · 无商业用途·侵权立删",
+                creditHref: "https://sankoudesign.com/web/hiragino/",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     date: "2026-10-25",
     title: "每日学习 · 2026-10-25（例行 14:00）",
     summary:
@@ -831,6 +1023,118 @@ export const learningLog: LogDay[] = [
 // 表：品味。新的放最前面。每条一张图 + 一两句（写在 caption）。
 // 抓不到原图就留 imageNote「原图未取到。」和 href，不写长摘要。
 export const tasteLog: AccumCard[] = [
+  {
+    id: "log-pixiv-munakata-title",
+    date: "2026-10-26",
+    title: "Pixiv · むなかたきえ「依頼絵、タイトルデザイン」",
+    figure: {
+      file: "log-pixiv-munakata-title.webp",
+      alt: "轻小说表紙：插画与标题字阶一体的竖幅委托作例",
+      width: 845,
+      height: 1200,
+      caption: "表紙一体——图与标题字阶一次排成，字跟着画面呼吸。",
+      credit: "原图 · Pixiv · むなかたきえ · 依頼絵、タイトルデザイン · 无商业用途·侵权立删",
+      creditHref: "https://www.pixiv.net/artworks/144091085",
+    },
+  },
+  {
+    id: "log-da-mh-rise-switchplayer",
+    date: "2026-10-26",
+    title: "DeviantArt · SaneKyle · Switch Player Mag",
+    figure: {
+      file: "log-da-mh-rise-switchplayer.webp",
+      alt: "Switch Player 杂志封面：刊名条与怪物猎人主视觉",
+      width: 752,
+      height: 1063,
+      caption: "实刊封面先留字位——刊名条、主视觉、导读一起站住。",
+      credit: "原图 · DeviantArt · SaneKyle · MH Rise for Switch Player Mag · 无商业用途·侵权立删",
+      creditHref: "https://www.deviantart.com/sanekyle/art/MH-Rise-for-Switch-Player-Mag-875825170",
+    },
+  },
+  {
+    id: "log-muuuuu-sb-oai-sotd",
+    date: "2026-10-26",
+    title: "MUUUUU · SB OAI Japan SOTD OCT 25",
+    figure: {
+      file: "log-muuuuu-sb-oai-sotd.webp",
+      alt: "MUUUUU Site of the Day：SB OAI Japan 站截图",
+      width: 1600,
+      height: 1200,
+      caption: "新于上周的 SOTD——企业站字阶冷静、分区清楚。",
+      credit: "原图 · MUUUUU · SB OAI Japan SOTD OCT 25 · 无商业用途·侵权立删",
+      creditHref: "https://muuuuu.org/industry/technology/25142.html",
+    },
+  },
+  {
+    id: "log-uisdc-layout-design",
+    date: "2026-10-26",
+    title: "优设 · 三率一版",
+    figure: {
+      file: "log-uisdc-layout-design.webp",
+      alt: "优设三率一版文章封面示意",
+      width: 880,
+      height: 560,
+      caption: "三率当判断句——高级、热闹、活泼各自对应哪一率。",
+      credit: "原图 · 优设 · layout-design-23 三率一版 · 无商业用途·侵权立删",
+      creditHref: "https://www.uisdc.com/layout-design-23",
+    },
+  },
+  {
+    id: "log-tumblr-sari-wired",
+    date: "2026-10-26",
+    title: "Tumblr · Sari Cohen editorial",
+    figure: {
+      file: "log-tumblr-sari-wired.webp",
+      alt: "Sari Cohen 编辑向插画截帧",
+      width: 1280,
+      height: 1199,
+      caption: "编辑插画服务文章语气，不是壁纸墙。",
+      credit: "原图 · Tumblr · Sari Cohen · editorial illustration · 无商业用途·侵权立删",
+      creditHref: "https://www.tumblr.com/sari-cohen",
+    },
+  },
+  {
+    id: "log-sankou-mikaku",
+    date: "2026-10-26",
+    title: "SANKOU · 味覚編集",
+    figure: {
+      file: "log-sankou-mikaku.webp",
+      alt: "SANKOU 收录的味覚編集站缩略",
+      width: 1000,
+      height: 874,
+      caption: "味觉当编辑立场——站名本身就是判断句。",
+      credit: "原图 · SANKOU · 味覚編集 · 无商业用途·侵权立删",
+      creditHref: "https://sankoudesign.com/web/mikakuhenshu/",
+    },
+  },
+  {
+    id: "log-pixiv-nao-yasashii",
+    date: "2026-10-26",
+    title: "Pixiv · nao_zhizi「やさしい第一印象」",
+    figure: {
+      file: "log-pixiv-nao-yasashii.webp",
+      alt: "やさしい第一印象：偏软的封面字阶示意",
+      width: 1200,
+      height: 1200,
+      caption: "第一印象要安心——封面字阶先给人软着陆。",
+      credit: "原图 · Pixiv · nao_zhizi · やさしい第一印象 · 无商业用途·侵权立删",
+      creditHref: "https://www.pixiv.net/artworks/138700351",
+    },
+  },
+  {
+    id: "log-sankou-hiragino",
+    date: "2026-10-26",
+    title: "SANKOU · ヒラギノフォント",
+    figure: {
+      file: "log-sankou-hiragino.webp",
+      alt: "SANKOU 收录的ヒラギノフォント特设站缩略",
+      width: 1000,
+      height: 874,
+      caption: "字厂商特设——字就是主视觉，少装饰。",
+      credit: "原图 · SANKOU · ヒラギノフォント · 无商业用途·侵权立删",
+      creditHref: "https://sankoudesign.com/web/hiragino/",
+    },
+  },
   {
     id: "log-artstation-selkosanomat",
     date: "2026-10-25",
