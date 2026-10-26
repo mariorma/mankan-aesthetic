@@ -1,7 +1,9 @@
 import { StrictMode, type ReactNode } from "react";
 import { createRoot } from "react-dom/client";
 import { pageHref, type PageId } from "./paths";
+import { Depth } from "./stage";
 import "./styles.css";
+import "./stage.css";
 
 const nav = [
   { id: "home", label: "首页" },
@@ -21,6 +23,7 @@ export function Shell({
 }) {
   return (
     <div className="site">
+      <Depth />
       <a className="skip" href="#content">
         跳到正文
       </a>
