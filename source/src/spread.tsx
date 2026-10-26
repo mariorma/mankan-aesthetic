@@ -12,6 +12,7 @@ import TiltedCard from "./kit/tilted-card";
 import { FigureCaption, FigureMedia } from "./Figure";
 import type { Figure } from "./figure";
 import type { Face } from "./flip";
+import { Stage3D, StageStill, useStageLive, type StageShot } from "./kit/stage3d";
 import type { PageId } from "./paths";
 
 const light = {
@@ -50,6 +51,8 @@ export function Cover({
   marquee,
   spine,
   stat,
+  stage,
+  note,
 }: {
   face: Face;
   eyebrow: string;
@@ -59,14 +62,30 @@ export function Cover({
   marquee: string[];
   spine: string[];
   stat: { value: string; k: string; s: string };
+  stage?: StageShot[];
+  note?: ReactNode;
 }) {
   const reduced = useReducedMotion();
+  const live = useStageLive();
   const coverRef = useRef<HTMLElement>(null);
   const tone = light[face];
+  const expo = Boolean(stage && stage.length > 0);
+
+  const field = expo && stage && (
+    live ? <Stage3D root={coverRef} images={stage} tint={face} /> : <StageStill images={stage} />
+  );
+
+  const shell = expo ? "expo-pin" : "cover-plain";
 
   return (
-    <section className="cover" ref={coverRef} data-face={face}>
-      <BackgroundBeams beamOpacity={0.9} from={tone.from} via={tone.via} to={tone.to} />
+    <section
+      className={expo ? (live ? "cover is-expo" : "cover is-expo is-still") : "cover"}
+      ref={coverRef}
+      data-face={face}
+    >
+      <div className={shell}>
+      {field}
+      <BackgroundBeams beamOpacity={expo ? 0.4 : 0.9} from={tone.from} via={tone.via} to={tone.to} />
       <Spotlight
         gradientFirst={tone.first}
         gradientSecond={tone.second}
@@ -113,8 +132,9 @@ export function Cover({
               {deck}
             </TextEffect>
           )}
+          {note}
         </div>
-        {plate && <div className="cover-plate">{plate}</div>}
+        {plate && !expo && <div className="cover-plate">{plate}</div>}
         <CardContainer containerClassName="cover-glass-slot" className="cover-glass-tilt">
           <CardBody>
             <Glass radius={22} mouseContainer={coverRef} elasticity={0.4}>
@@ -154,6 +174,7 @@ export function Cover({
           <span>往下</span>
         </BlurFade>
       )}
+      </div>
     </section>
   );
 }

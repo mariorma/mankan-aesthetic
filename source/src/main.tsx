@@ -7,8 +7,20 @@ import { useReducedMotion } from "./kit/reduced";
 import { CardSpotlight } from "./kit/card-spotlight";
 import { TransitionPanel } from "./kit/transition-panel";
 import { mount, Shell } from "./Shell";
+import { FilmReel } from "./kit/film";
+import type { StageShot } from "./kit/stage3d";
+import { assetHref } from "./paths";
 import { Chapter, Cover, Plate, RiseScope, toneSpot } from "./spread";
 import { weekRefs } from "./week-refs";
+
+function shots(figures: Figure[]): StageShot[] {
+  return figures.slice(0, 5).map((figure) => ({
+    src: assetHref("home", figure.file),
+    alt: figure.alt,
+    width: figure.width,
+    height: figure.height,
+  }));
+}
 
 // 两面各写各的：不要互链，不要在文案里点名另一面的内容。
 
@@ -193,20 +205,24 @@ function FaceBiao() {
         marquee={weekRefs.map((ref) => ref.title)}
         spine={weekRefs.map((ref) => ref.watch)}
         stat={{ value: String(weekRefs.length).padStart(2, "0"), k: "条", s: "先写判断" }}
-        plate={
-          lead.figure ? (
-            <Plate
-              page="home"
-              figure={lead.figure}
-              priority
-              linkLabel={lead.title}
-              tilt
-              float
-              track
-              amp={18}
-            />
-          ) : undefined
-        }
+        stage={shots(weekRefs.flatMap((ref) => (ref.figure ? [ref.figure] : [])))}
+        note={lead.figure ? <p className="credit">{lead.figure.credit}</p> : undefined}
+      />
+      <FilmReel
+        kicker="影像"
+        title="在站里看"
+        items={[
+          {
+            title: "压抑 / 执念",
+            by: "哔哩哔哩",
+            href: "https://www.bilibili.com/video/BV1Aepi6KErg/",
+          },
+          {
+            title: "2024 的刊面",
+            by: "YouTube",
+            href: "https://www.youtube.com/watch?v=K5sKMHW7NKw",
+          },
+        ]}
       />
       <div className="issue">
         <Chapter kicker="目录" title="先挑一条">
@@ -269,14 +285,12 @@ function FaceLi({
         marquee={people.map((person) => person.name)}
         spine={people.map((person) => person.name)}
         stat={{ value: String(people.length).padStart(2, "0"), k: "人", s: "看完再标" }}
-        plate={
-          <Plate page="home" figure={lead.figure} priority linkLabel={lead.name} tilt float track amp={18}>
-            <UvMark
-              file={lead.figure.file}
-              value={saved[lead.figure.file] ?? "中"}
-              onChoose={onChoose}
-            />
-          </Plate>
+        stage={shots(people.map((person) => person.figure))}
+        note={
+          <>
+            <p className="credit">{lead.figure.credit}</p>
+            <UvMark file={lead.figure.file} value={saved[lead.figure.file] ?? "中"} onChoose={onChoose} />
+          </>
         }
       />
       <div className="issue">

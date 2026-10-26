@@ -6,7 +6,19 @@ import { TransitionPanel } from "./kit/transition-panel";
 import type { Figure } from "./figure";
 import { beautyLog, learningLog, tasteLog, type AccumCard, type LogDay, type LogItem } from "./learning-log";
 import { mount, Shell } from "./Shell";
+import { FilmReel } from "./kit/film";
+import type { StageShot } from "./kit/stage3d";
+import { assetHref } from "./paths";
 import { Chapter, Cover, Plate, RiseScope, toneSpot } from "./spread";
+
+function shots(figures: Figure[]): StageShot[] {
+  return figures.slice(0, 5).map((figure) => ({
+    src: assetHref("log", figure.file),
+    alt: figure.alt,
+    width: figure.width,
+    height: figure.height,
+  }));
+}
 
 function firstFigure(day: LogDay | undefined): Figure | undefined {
   if (!day) return undefined;
@@ -54,11 +66,24 @@ function TasteFace() {
         marquee={learningLog.map((day) => day.date)}
         spine={["构图", "字阶", "刊面", "留白", "气质"]}
         stat={{ value: String(learningLog.length).padStart(2, "0"), k: "日", s: "先写判断" }}
-        plate={
-          coverFigure ? (
-            <Plate page="log" figure={coverFigure} priority tilt float track amp={16} />
-          ) : undefined
-        }
+        stage={shots(tasteLog.flatMap((card) => (card.figure ? [card.figure] : [])))}
+        note={coverFigure ? <p className="credit">{coverFigure.credit}</p> : undefined}
+      />
+      <FilmReel
+        kicker="影像"
+        title="在站里看"
+        items={[
+          {
+            title: "一起看杂志",
+            by: "哔哩哔哩",
+            href: "https://www.bilibili.com/video/BV1654y1J7Zk/",
+          },
+          {
+            title: "从杂志里悟出排版",
+            by: "哔哩哔哩",
+            href: "https://www.bilibili.com/video/BV1Vu411S7Yo/",
+          },
+        ]}
       />
       <div className="issue">
         <Chapter kicker="目录" title="按日子翻">
@@ -213,11 +238,13 @@ function BeautyFace() {
         marquee={beautyLog.map((card) => card.title)}
         spine={beautyLog.map((card) => card.title)}
         stat={{ value: String(beautyLog.length).padStart(2, "0"), k: "人", s: "一句说明" }}
-        plate={
+        stage={shots(beautyLog.flatMap((card) => (card.figure ? [card.figure] : [])))}
+        note={
           lead?.figure ? (
-            <Plate page="log" figure={lead.figure} priority linkLabel={lead.title} tilt float track amp={16}>
-              <span className="by">{lead.date}</span>
-            </Plate>
+            <>
+              <p className="by">{lead.date}</p>
+              <p className="credit">{lead.figure.credit}</p>
+            </>
           ) : undefined
         }
       />

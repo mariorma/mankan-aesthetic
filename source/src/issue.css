@@ -207,6 +207,225 @@ input {
   min-width: 0;
 }
 
+.cover-plain {
+  display: contents;
+}
+
+.cover.is-expo {
+  height: 150vh;
+  min-height: 150vh;
+  padding: 0;
+}
+
+.expo-pin {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: hidden;
+}
+
+.stage3d {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.stage-still {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: #070708;
+}
+
+.stage-still img {
+  position: absolute;
+  width: min(58vw, 36rem);
+  height: auto;
+  border-radius: 1.2rem;
+  object-fit: cover;
+}
+
+.stage-still img:nth-child(1) {
+  top: 10%;
+  right: -6%;
+  transform: rotate(7deg);
+}
+
+.stage-still img:nth-child(2) {
+  bottom: 6%;
+  left: -14%;
+  width: min(42vw, 24rem);
+  transform: rotate(-8deg);
+}
+
+.stage-still img:nth-child(3) {
+  top: 18%;
+  left: 28%;
+  width: min(28vw, 16rem);
+  opacity: 0.72;
+  transform: rotate(3deg);
+}
+
+.expo-pin::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2), transparent 22% 58%, rgba(0, 0, 0, 0.72)),
+    radial-gradient(80% 70% at 72% 38%, transparent 0%, rgba(0, 0, 0, 0.28) 100%);
+}
+
+.cover.is-expo .cover-layout {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: 6.2rem 4vw 5.4rem;
+  pointer-events: none;
+}
+
+.cover.is-expo .cover-copy,
+.cover.is-expo .cover-glass-slot,
+.cover.is-expo .uv-mark,
+.cover.is-expo a,
+.cover.is-expo button {
+  pointer-events: auto;
+}
+
+.cover.is-expo .cover-vmarquee {
+  display: none;
+}
+
+.cover.is-expo .display {
+  max-width: 8ch;
+  font-size: clamp(4.8rem, 12vw, 11.5rem);
+}
+
+.cover.is-expo .cover-glass-slot {
+  align-self: flex-end;
+  margin-bottom: 0.4rem;
+}
+
+.cover.is-expo .cover-marquee,
+.cover.is-expo .cover-cue {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  right: 0;
+}
+
+.cover.is-expo .cover-marquee {
+  bottom: 2.6rem;
+}
+
+.cover.is-expo .cover-cue {
+  bottom: 0.85rem;
+}
+
+.cover.is-still {
+  height: auto;
+  min-height: 100svh;
+}
+
+.cover.is-still .expo-pin {
+  position: relative;
+  height: auto;
+  min-height: 100svh;
+}
+
+.film {
+  position: relative;
+  min-height: 100svh;
+  padding: 10vh 0 8vh;
+  background:
+    radial-gradient(60% 50% at 80% 20%, rgba(255, 59, 36, 0.16), transparent 70%),
+    #050506;
+}
+
+html[data-face="li"] .film {
+  background:
+    radial-gradient(60% 50% at 80% 20%, rgba(230, 177, 90, 0.16), transparent 70%),
+    #090704;
+}
+
+.film-head,
+.film-wall {
+  width: min(96rem, calc(100% - 6vw));
+  margin-inline: auto;
+}
+
+.film-title {
+  margin: 0.2rem 0 1.4rem;
+  font-family: var(--serif);
+  font-size: clamp(3.4rem, 8vw, 7.5rem);
+  font-weight: 500;
+  line-height: 0.88;
+  letter-spacing: -0.05em;
+  perspective: 800px;
+}
+
+.film-wall {
+  display: grid;
+  grid-template-columns: 1.45fr 0.8fr;
+  gap: 1.2rem 1.6rem;
+  align-items: end;
+}
+
+.film-frame {
+  margin: 0;
+}
+
+.film-frame.is-lead {
+  grid-row: span 2;
+}
+
+.film-frame iframe {
+  display: block;
+  width: 100%;
+  height: 42vh;
+  min-height: 240px;
+  border: 0;
+  border-radius: 1.2rem;
+  background: #000;
+}
+
+.film-frame.is-lead iframe {
+  height: 72vh;
+  min-height: 420px;
+}
+
+.film-frame:nth-child(2) {
+  transform: translateY(14vh);
+}
+
+.film-frame figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.8rem;
+  margin-top: 0.7rem;
+  color: var(--muted);
+}
+
+.film-frame strong {
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+
 .vword {
   width: 1.35rem;
   overflow: hidden;
@@ -714,8 +933,44 @@ input {
       "glass";
   }
 
-  .cover-vmarquee {
+  .cover-vmarquee,
+  .cover.is-expo .cover-vmarquee {
     display: none;
+  }
+
+  .cover.is-expo,
+  .cover.is-still {
+    height: auto;
+    min-height: 100svh;
+  }
+
+  .cover.is-expo .expo-pin,
+  .cover.is-still .expo-pin {
+    position: relative;
+    height: auto;
+    min-height: 100svh;
+  }
+
+  .cover.is-expo .cover-layout {
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100svh;
+  }
+
+  .film-wall,
+  .film-frame:nth-child(2) {
+    transform: none;
+  }
+
+  .film-wall {
+    grid-template-columns: 1fr;
+  }
+
+  .film-frame.is-lead iframe,
+  .film-frame iframe {
+    height: 46vh;
+    min-height: 220px;
   }
 
   .cover-plate .plate-stage {
