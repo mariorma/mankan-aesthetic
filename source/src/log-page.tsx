@@ -2,6 +2,7 @@ import { FigureView } from "./Figure";
 import { FlipTab, useFaceFlip } from "./flip";
 import { beautyLog, learningLog, tasteLog, type AccumCard, type LogItem } from "./learning-log";
 import { mount, Shell } from "./Shell";
+import { IssueTitle, Stage } from "./stage";
 
 function LogPage() {
   const { face, toInside, flip } = useFaceFlip();
@@ -9,9 +10,9 @@ function LogPage() {
 
   return (
     <Shell page="log" bleed>
-      <header className="split-issue">
+      <header className="split-issue" key={face}>
         <p className="issue-label">积累</p>
-        <h1>{face === "biao" ? "品味积累" : "美女积累"}</h1>
+        <IssueTitle text={face === "biao" ? "品味积累" : "美女积累"} />
         <p className="face-lead">
           {face === "biao" ? (
             <>
@@ -31,7 +32,7 @@ function LogPage() {
       </header>
 
       <div className="flip-stage">
-        {toInside ? <TasteFace firstFigure={firstTaste} /> : <BeautyFace />}
+        <Stage key={face}>{toInside ? <TasteFace firstFigure={firstTaste} /> : <BeautyFace />}</Stage>
         <FlipTab toInside={toInside} onFlip={flip} />
       </div>
     </Shell>
@@ -42,9 +43,9 @@ function TasteFace({ firstFigure }: { firstFigure: number }) {
   return (
     <section className="face face-biao" aria-labelledby="log-biao-title">
       <div className="face-inner">
-        <p className="col-kicker">表</p>
+        <p className="col-kicker reveal">表</p>
         <DailyLog />
-        <h2 id="log-biao-title">看过的图</h2>
+        <h2 className="reveal" id="log-biao-title">看过的图</h2>
         <div className="ref-index">
           {tasteLog.map((card, index) => (
             <TasteCard key={card.id} card={card} priority={index === firstFigure} />
@@ -63,7 +64,7 @@ function DailyLog() {
   return (
     <div className="log">
       {learningLog.map((day) => (
-        <article key={day.date} className="log-day">
+        <article key={day.date} className="log-day reveal">
           <div className="log-day-head">
             <time className="log-date" dateTime={day.date}>
               {day.date}
@@ -153,7 +154,7 @@ function DailyLog() {
 
 function TasteCard({ card, priority }: { card: AccumCard; priority: boolean }) {
   return (
-    <article className="ref" id={card.id}>
+    <article className="ref reveal" id={card.id}>
       <h3>{card.title}</h3>
       <p className="ref-by">{card.date}</p>
       {card.figure && (
@@ -188,8 +189,8 @@ function BeautyFace() {
   return (
     <section className="face face-li" aria-labelledby="log-li-title">
       <div className="face-inner">
-        <p className="col-kicker">裏</p>
-        <h2 id="log-li-title">看过的人</h2>
+        <p className="col-kicker reveal">裏</p>
+        <h2 className="reveal" id="log-li-title">看过的人</h2>
         <div className="su-people">
           {beautyLog.map((card, index) => (
             <BeautyCard key={card.id} card={card} lead={index === firstFigure} />
@@ -203,7 +204,7 @@ function BeautyFace() {
 function BeautyCard({ card, lead }: { card: AccumCard; lead: boolean }) {
   if (!card.figure) {
     return (
-      <article className={lead ? "su-fig su-lead" : "su-fig"} id={card.id}>
+      <article className={lead ? "su-fig su-lead reveal" : "su-fig reveal"} id={card.id}>
         <h3>{card.title}</h3>
         <p className="ref-by">{card.date}</p>
         {card.note && <p>{card.note}</p>}
@@ -228,7 +229,7 @@ function BeautyCard({ card, lead }: { card: AccumCard; lead: boolean }) {
     <FigureView
       page="log"
       figure={card.figure}
-      className={lead ? "su-fig su-lead" : "su-fig"}
+      className={lead ? "su-fig su-lead reveal" : "su-fig reveal"}
       priority={lead}
       linkLabel={card.title}
     >

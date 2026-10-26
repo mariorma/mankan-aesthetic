@@ -3,6 +3,7 @@ import type { Figure } from "./figure";
 import { FigureView } from "./Figure";
 import { FlipTab, useFaceFlip } from "./flip";
 import { mount, Shell } from "./Shell";
+import { IssueTitle, Stage } from "./stage";
 import { weekRefs } from "./week-refs";
 
 // 两面各写各的：不要互链，不要在文案里点名另一面的内容。
@@ -152,9 +153,9 @@ function Home() {
 
   return (
     <Shell page="home" bleed footerNote={face === "li" ? <RejectList files={rejected} /> : undefined}>
-      <header className="split-issue">
+      <header className="split-issue" key={face}>
         <p className="issue-label">本期 · No.03</p>
-        <h1>{face === "biao" ? "审美积累" : "美女赏析"}</h1>
+        <IssueTitle text={face === "biao" ? "审美积累" : "美女赏析"} />
         <p className="face-lead">
           {face === "biao" ? (
             <>
@@ -174,7 +175,7 @@ function Home() {
       </header>
 
       <div className="flip-stage">
-        {toInside ? <FaceBiao /> : <FaceLi saved={saved} onChoose={choose} />}
+        <Stage key={face}>{toInside ? <FaceBiao /> : <FaceLi saved={saved} onChoose={choose} />}</Stage>
         <FlipTab toInside={toInside} onFlip={flip} />
       </div>
     </Shell>
@@ -186,11 +187,11 @@ function FaceBiao() {
   return (
     <section className="face face-biao" aria-labelledby="ya-title">
       <div className="face-inner">
-        <p className="col-kicker">表</p>
-        <h2 id="ya-title">本周九条</h2>
+        <p className="col-kicker reveal">表</p>
+        <h2 className="reveal" id="ya-title">本周九条</h2>
         <div className="ref-index">
           {weekRefs.map((ref) => (
-            <article key={ref.no} className="ref" id={`ref-${ref.no}`}>
+            <article key={ref.no} className="ref reveal" id={`ref-${ref.no}`}>
               <div className="ref-head">
                 <p className="ref-no">{ref.no}</p>
                 <div className="ref-main">
@@ -244,15 +245,15 @@ function FaceLi({
   return (
         <section className="face face-li" aria-labelledby="su-title">
           <div className="face-inner">
-          <p className="col-kicker">裏</p>
-          <h2 id="su-title">喜欢的人</h2>
+          <p className="col-kicker reveal">裏</p>
+          <h2 className="reveal" id="su-title">喜欢的人</h2>
           <div className="su-people">
             {people.map((figure, index) => (
               <FigureView
                 key={figure.file}
                 page="home"
                 figure={figure}
-                className={index === 0 ? "su-fig su-lead" : "su-fig"}
+                className={index === 0 ? "su-fig su-lead reveal" : "su-fig reveal"}
                 priority={index === 0}
               >
                 <MarkControl
