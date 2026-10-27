@@ -44,6 +44,255 @@ export type LogDay = {
 // 卡片仍是一张图、一两句；当天短卡片在 tasteLog 最前面。抓不到的图只写说明和外链。
 export const learningLog: LogDay[] = [
   {
+    date: "2026-10-27",
+    title: "每日学习 · 2026-10-27（例行 14:00）",
+    summary:
+      "例行「慢看每日品味学习」。昨天海外批 B + 中文批 3；今日换海外批 C + 中文批 2，并新增性压抑 / 单人性张力两小节。今日批次：海外批 C（YouTube / Vimeo）· 中文批 2（B站）· 性压抑 · 单人性张力。关键词：「审美积累」/ aesthetic training / taste building / visual taste / design taste / editorial design / magazine layout。不重抄：oXnHkmIrgDQ / PKfZ1gnVJ44 / S51Mw97OFjc / Vimeo 732690625 / Helvetica / BV1v3zeBnEnK / BV1wjqRBDEZq / BV1wV411d7rq / BV1Aepi6KErg。封面与参考图见本目录；无商业用途·侵权立删。未改整站版式、未对外推广。",
+    sections: [
+      {
+        id: "overseas-2026-10-27",
+        label: "海外",
+        items: [
+          {
+            heading: "YouTube · Collect & Contrast「Editorial Design Process: Making a Coffee Table Book」",
+            href: "https://www.youtube.com/watch?v=pM7g8qddXaY",
+            points: [
+              "为何好看：咖啡桌书从网格到成书的过程角；看得见页对页节奏、出血、字阶、图文对话。相对 10-21 art direction 定义片——今天挖成书过程。",
+            ],
+            steal: "过程比成品截图更能教「为什么落在这一格」；外链官方播放页，封面用 ytimg。",
+            links: [
+              { label: "YouTube", href: "https://www.youtube.com/watch?v=pM7g8qddXaY" },
+              { label: "Collect & Contrast", href: "https://www.youtube.com/@Collect_Contrast" },
+            ],
+            figures: [
+              {
+                file: "log-yt-coffee-table-book.webp",
+                alt: "YouTube 封面：咖啡桌书编辑设计过程片",
+                width: 1280,
+                height: 720,
+                caption: "成书过程角——页对页节奏比概念口播更可偷。",
+                credit: "原图 · YouTube · Collect & Contrast · Coffee Table Book · 无商业用途·侵权立删",
+                creditHref: "https://www.youtube.com/watch?v=pM7g8qddXaY",
+              },
+            ],
+          },
+          {
+            heading: "Vimeo · Albinson Design「The Title Design of Saul and Elaine Bass」",
+            href: "https://vimeo.com/31992143",
+            points: [
+              "为何好看：Saul & Elaine Bass 片头字视觉史；字把叙事压成符号与运动。Elaine 同署，别只记 Saul。",
+            ],
+            steal: "字即情节——一帧定调；Vimeo 官方播放页 + oEmbed 核活。",
+            links: [
+              { label: "Vimeo", href: "https://vimeo.com/31992143" },
+              { label: "Albinson Design", href: "https://vimeo.com/albinsondesign" },
+            ],
+            figures: [
+              {
+                file: "log-vimeo-saul-elaine-bass.webp",
+                alt: "Vimeo 缩略：Saul and Elaine Bass 片头字设计",
+                width: 1280,
+                height: 720,
+                caption: "片头字一帧定调——字即情节，不是装饰贴纸。",
+                credit: "原图 · Vimeo · Albinson · Saul & Elaine Bass · 无商业用途·侵权立删",
+                creditHref: "https://vimeo.com/31992143",
+              },
+            ],
+          },
+          {
+            heading: "YouTube · Satori Graphics「Graphic Design Trends 2026」（浅）",
+            href: "https://www.youtube.com/watch?v=yHs9-RVTwsA",
+            points: ["偏趋势清单/营销课销，只偷「趋势要落到用法」判断，不跟清单刷屏。"],
+            links: [{ label: "YouTube", href: "https://www.youtube.com/watch?v=yHs9-RVTwsA" }],
+          },
+        ],
+      },
+      {
+        id: "zh-2026-10-27",
+        label: "中文",
+        items: [
+          {
+            heading: "B站 · System 杂志「字比图多」",
+            href: "https://www.bilibili.com/video/BV1oP411p7FE/",
+            points: [
+              "为何好看：字压过图的业内向时尚刊；字阶与栏宽先于氛围图。相对 10-21 Ryo / Victionary——今天挖 System。",
+            ],
+            steal: "字刊写给会看字的人；外链 bilibili.com/video/BV…，封面用 og 落盘。",
+            links: [{ label: "B站", href: "https://www.bilibili.com/video/BV1oP411p7FE/" }],
+            figures: [
+              {
+                file: "log-bili-system-type.webp",
+                alt: "B站封面：System 字比图多的时尚杂志",
+                width: 1600,
+                height: 1000,
+                caption: "字刊——字阶与栏宽先于氛围图。",
+                credit: "原图 · B站 · System 字比图多 · 无商业用途·侵权立删",
+                creditHref: "https://www.bilibili.com/video/BV1oP411p7FE/",
+              },
+            ],
+          },
+          {
+            heading: "B站 · W中文版",
+            href: "https://www.bilibili.com/video/BV1CG66YtEpY/",
+            points: [
+              "为何好看：大刊时装摄影 + 中文编辑气口；与 System「吃字」对照，W 更「吃片」。",
+            ],
+            steal: "同批 B 站两端：System 吃字 / W 吃片；笔记只留版式判断，不跟标题党。",
+            links: [{ label: "B站", href: "https://www.bilibili.com/video/BV1CG66YtEpY/" }],
+            figures: [
+              {
+                file: "log-bili-w-magazine.webp",
+                alt: "B站封面：W中文版水准对照",
+                width: 1570,
+                height: 883,
+                caption: "片刊一端——时装摄影与中文编辑气口。",
+                credit: "原图 · B站 · W中文版 · 无商业用途·侵权立删",
+                creditHref: "https://www.bilibili.com/video/BV1CG66YtEpY/",
+              },
+            ],
+          },
+          {
+            heading: "B站 · 【审美积累21】滨田英明（浅）",
+            href: "https://www.bilibili.com/video/BV1i7421N7bR/",
+            points: ["摄影师个人视线课；系列粒度可对标慢看「同角换作者」。"],
+            links: [{ label: "B站", href: "https://www.bilibili.com/video/BV1i7421N7bR/" }],
+            figures: [
+              {
+                file: "log-bili-hamada.webp",
+                alt: "B站封面：审美积累滨田英明",
+                width: 1440,
+                height: 1080,
+                caption: "审美积累系列浅记——个人视线课。",
+                credit: "原图 · B站 · 审美积累21 滨田英明 · 无商业用途·侵权立删",
+                creditHref: "https://www.bilibili.com/video/BV1i7421N7bR/",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "repression-2026-10-27",
+        label: "性压抑",
+        items: [
+          {
+            heading: "Ren Hang · Blindspot / Fondazione Sozzani / ArtAsiaPacific「Human Love」",
+            href: "https://blindspotgallery.com/artist/ren-hang/",
+            points: [
+              "为何好看：画廊与展览文把作品放进机构语境；半遮、匿名化身体、审查后仍闷着的视线——不是裸露本身。品味门槛：冷、正式、统一高级色调；不搬血腥/生猛。",
+            ],
+            steal: "压抑写半遮与审查语境，不写肉；外链画廊/展览/评论页。",
+            links: [
+              { label: "Blindspot", href: "https://blindspotgallery.com/artist/ren-hang/" },
+              { label: "Sozzani press", href: "https://fondazionesozzani.org/press/2020/09/ren-hang/" },
+              { label: "AAP Human Love", href: "https://www.artasiapacific.com/shows/ren-hang-s-human-love/" },
+            ],
+            figures: [
+              {
+                file: "log-ren-hang-blindspot.webp",
+                alt: "Ren Hang 较克制的形体抽象（Blindspot）",
+                width: 1420,
+                height: 959,
+                caption: "半遮与匿名化身体——闷拧的视线，不是色情搬运。",
+                credit: "原图 · Blindspot · Ren Hang · 无商业用途·侵权立删",
+                creditHref: "https://blindspotgallery.com/artist/ren-hang/",
+              },
+            ],
+          },
+          {
+            heading: "ALBERTINE · Hannibal 摄影美术文（色调参考 · 不抄血腥）",
+            href: "https://www.albertine.live/the-menagerie/hannibal",
+            points: [
+              "为何好看：冷青绿/琥珀对照、正式构图、压得住的摄影美术——要的是统一高级色调与情绪，不是血腥意象。",
+            ],
+            steal: "压抑条目写色板与镜头礼貌，不写肉；单人侧脸/静物局部也能撑住闷。",
+            links: [
+              { label: "ALBERTINE", href: "https://www.albertine.live/the-menagerie/hannibal" },
+            ],
+            figures: [
+              {
+                file: "log-albertine-hannibal.webp",
+                alt: "Hannibal 剧集色调与美术设计参考静帧",
+                width: 1500,
+                height: 841,
+                caption: "冷青绿与琥珀对照——正式、压得住的色调，不是血腥。",
+                credit: "原图 · ALBERTINE · Hannibal 色调参考 · 无商业用途·侵权立删",
+                creditHref: "https://www.albertine.live/the-menagerie/hannibal",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "tension-2026-10-27",
+        label: "单人性张力",
+        items: [
+          {
+            heading: "L'Officiel Baltic · MAGNETIC PRESENCE",
+            href: "https://www.lofficielbaltic.com/en/editorials/magnetic-presence",
+            points: [
+              "为何好看：刊名即论点——Magnetic Presence 是单人磁场，不是两人拉扯。结构肩、严妆、正面目光：规矩里发烫。",
+            ],
+            steal: "一人填满画幅的权力感；禁止情侣戏入条。",
+            links: [
+              {
+                label: "L'Officiel Baltic",
+                href: "https://www.lofficielbaltic.com/en/editorials/magnetic-presence",
+              },
+            ],
+            figures: [
+              {
+                file: "log-lofficiel-magnetic.webp",
+                alt: "L'Officiel Baltic MAGNETIC PRESENCE 编辑人像",
+                width: 1200,
+                height: 1500,
+                caption: "单人磁场——结构肩与正面目光，规矩里发烫。",
+                credit: "原图 · L'Officiel Baltic · MAGNETIC PRESENCE · 无商业用途·侵权立删",
+                creditHref: "https://www.lofficielbaltic.com/en/editorials/magnetic-presence",
+              },
+            ],
+          },
+          {
+            heading: "Numéro Switzerland · Quiet Gaze",
+            href: "https://numeromagazine.ch/quiet-gaze/",
+            points: [
+              "为何好看：工作室肖像把张力放在回眸与自持；黑白、肩线、目光——压着却发烫。",
+            ],
+            steal: "静默凝视即磁场；外链编辑页。",
+            links: [{ label: "Numéro CH", href: "https://numeromagazine.ch/quiet-gaze/" }],
+            figures: [
+              {
+                file: "log-numero-quiet-gaze.webp",
+                alt: "Numéro Switzerland Quiet Gaze 单人肖像",
+                width: 800,
+                height: 600,
+                caption: "Quiet Gaze——回眸与自持，不是双人戏。",
+                credit: "原图 · Numéro CH · Quiet Gaze · 无商业用途·侵权立删",
+                creditHref: "https://numeromagazine.ch/quiet-gaze/",
+              },
+            ],
+          },
+          {
+            heading: "Instinct Paris · Camille Cottin Dior（浅）",
+            href: "https://instinct.paris/dior-camille-cottin",
+            points: ["单人女星磁场、建筑肩与窥视式前景框。"],
+            links: [{ label: "Instinct", href: "https://instinct.paris/dior-camille-cottin" }],
+            figures: [
+              {
+                file: "log-instinct-camille.webp",
+                alt: "Instinct · Camille Cottin Dior 编辑页示意",
+                width: 1200,
+                height: 630,
+                caption: "单人磁场浅记——建筑肩与前景框。",
+                credit: "原图 · Instinct · Camille Cottin Dior · 无商业用途·侵权立删",
+                creditHref: "https://instinct.paris/dior-camille-cottin",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     date: "2026-10-26",
     title: "每日学习 · 2026-10-26（例行 14:00）",
     summary:
@@ -1023,6 +1272,146 @@ export const learningLog: LogDay[] = [
 // 表：品味。新的放最前面。每条一张图 + 一两句（写在 caption）。
 // 抓不到原图就留 imageNote「原图未取到。」和 href，不写长摘要。
 export const tasteLog: AccumCard[] = [
+  {
+    id: "log-yt-coffee-table-book",
+    date: "2026-10-27",
+    title: "YouTube · Coffee Table Book 成书过程",
+    figure: {
+      file: "log-yt-coffee-table-book.webp",
+      alt: "YouTube 封面：咖啡桌书编辑设计过程片",
+      width: 1280,
+      height: 720,
+      caption: "成书过程角——页对页节奏比概念口播更可偷。",
+      credit: "原图 · YouTube · Collect & Contrast · Coffee Table Book · 无商业用途·侵权立删",
+      creditHref: "https://www.youtube.com/watch?v=pM7g8qddXaY",
+    },
+  },
+  {
+    id: "log-vimeo-saul-elaine-bass",
+    date: "2026-10-27",
+    title: "Vimeo · Saul & Elaine Bass 片头字",
+    figure: {
+      file: "log-vimeo-saul-elaine-bass.webp",
+      alt: "Vimeo 缩略：Saul and Elaine Bass 片头字设计",
+      width: 1280,
+      height: 720,
+      caption: "片头字一帧定调——字即情节，不是装饰贴纸。",
+      credit: "原图 · Vimeo · Albinson · Saul & Elaine Bass · 无商业用途·侵权立删",
+      creditHref: "https://vimeo.com/31992143",
+    },
+  },
+  {
+    id: "log-bili-system-type",
+    date: "2026-10-27",
+    title: "B站 · System「字比图多」",
+    figure: {
+      file: "log-bili-system-type.webp",
+      alt: "B站封面：System 字比图多的时尚杂志",
+      width: 1600,
+      height: 1000,
+      caption: "字刊——字阶与栏宽先于氛围图。",
+      credit: "原图 · B站 · System 字比图多 · 无商业用途·侵权立删",
+      creditHref: "https://www.bilibili.com/video/BV1oP411p7FE/",
+    },
+  },
+  {
+    id: "log-bili-w-magazine",
+    date: "2026-10-27",
+    title: "B站 · W中文版",
+    figure: {
+      file: "log-bili-w-magazine.webp",
+      alt: "B站封面：W中文版水准对照",
+      width: 1570,
+      height: 883,
+      caption: "片刊一端——时装摄影与中文编辑气口。",
+      credit: "原图 · B站 · W中文版 · 无商业用途·侵权立删",
+      creditHref: "https://www.bilibili.com/video/BV1CG66YtEpY/",
+    },
+  },
+  {
+    id: "log-ren-hang-blindspot",
+    date: "2026-10-27",
+    title: "性压抑 · Ren Hang Blindspot",
+    figure: {
+      file: "log-ren-hang-blindspot.webp",
+      alt: "Ren Hang 较克制的形体抽象（Blindspot）",
+      width: 1420,
+      height: 959,
+      caption: "半遮与匿名化身体——闷拧的视线，不是色情搬运。",
+      credit: "原图 · Blindspot · Ren Hang · 无商业用途·侵权立删",
+      creditHref: "https://blindspotgallery.com/artist/ren-hang/",
+    },
+  },
+  {
+    id: "log-albertine-hannibal",
+    date: "2026-10-27",
+    title: "性压抑 · Albertine Hannibal 色调",
+    figure: {
+      file: "log-albertine-hannibal.webp",
+      alt: "Hannibal 剧集色调与美术设计参考静帧",
+      width: 1500,
+      height: 841,
+      caption: "冷青绿与琥珀对照——正式、压得住的色调，不是血腥。",
+      credit: "原图 · ALBERTINE · Hannibal 色调参考 · 无商业用途·侵权立删",
+      creditHref: "https://www.albertine.live/the-menagerie/hannibal",
+    },
+  },
+  {
+    id: "log-lofficiel-magnetic",
+    date: "2026-10-27",
+    title: "单人性张力 · MAGNETIC PRESENCE",
+    figure: {
+      file: "log-lofficiel-magnetic.webp",
+      alt: "L'Officiel Baltic MAGNETIC PRESENCE 编辑人像",
+      width: 1200,
+      height: 1500,
+      caption: "单人磁场——结构肩与正面目光，规矩里发烫。",
+      credit: "原图 · L'Officiel Baltic · MAGNETIC PRESENCE · 无商业用途·侵权立删",
+      creditHref: "https://www.lofficielbaltic.com/en/editorials/magnetic-presence",
+    },
+  },
+  {
+    id: "log-numero-quiet-gaze",
+    date: "2026-10-27",
+    title: "单人性张力 · Quiet Gaze",
+    figure: {
+      file: "log-numero-quiet-gaze.webp",
+      alt: "Numéro Switzerland Quiet Gaze 单人肖像",
+      width: 800,
+      height: 600,
+      caption: "Quiet Gaze——回眸与自持，不是双人戏。",
+      credit: "原图 · Numéro CH · Quiet Gaze · 无商业用途·侵权立删",
+      creditHref: "https://numeromagazine.ch/quiet-gaze/",
+    },
+  },
+  {
+    id: "log-bili-hamada",
+    date: "2026-10-27",
+    title: "B站 · 【审美积累21】滨田英明",
+    figure: {
+      file: "log-bili-hamada.webp",
+      alt: "B站封面：审美积累滨田英明",
+      width: 1440,
+      height: 1080,
+      caption: "审美积累系列浅记——个人视线课。",
+      credit: "原图 · B站 · 审美积累21 滨田英明 · 无商业用途·侵权立删",
+      creditHref: "https://www.bilibili.com/video/BV1i7421N7bR/",
+    },
+  },
+  {
+    id: "log-instinct-camille",
+    date: "2026-10-27",
+    title: "Instinct · Camille Cottin Dior",
+    figure: {
+      file: "log-instinct-camille.webp",
+      alt: "Instinct · Camille Cottin Dior 编辑页示意",
+      width: 1200,
+      height: 630,
+      caption: "单人磁场浅记——建筑肩与前景框。",
+      credit: "原图 · Instinct · Camille Cottin Dior · 无商业用途·侵权立删",
+      creditHref: "https://instinct.paris/dior-camille-cottin",
+    },
+  },
   {
     id: "log-pixiv-munakata-title",
     date: "2026-10-26",
