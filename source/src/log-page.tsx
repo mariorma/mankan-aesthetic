@@ -39,6 +39,17 @@ function leadFile(day: LogDay): string | undefined {
   return firstFigure(day)?.file;
 }
 
+// 日课 item.figures 里出现过的文件，图录不再原样贴第二遍。无图短卡不在此列。
+const dailyFigureFiles = new Set(
+  learningLog.flatMap((day) =>
+    day.sections.flatMap((section) => section.items.flatMap((item) => (item.figures ?? []).map((figure) => figure.file))),
+  ),
+);
+
+function catalogCards(cards: AccumCard[]): AccumCard[] {
+  return cards.filter((card) => !card.figure || !dailyFigureFiles.has(card.figure.file));
+}
+
 type Choose = (id: string, mark: Mark, legacy?: readonly string[]) => void;
 
 function biaoPieces(): ScoredPiece[] {
@@ -135,7 +146,7 @@ function TasteFace({ saved, onChoose }: { saved: MarkMap; onChoose: Choose }) {
         </Chapter>
         <Chapter id="catalog" kicker="图录" title="一张图，一两句">
           <div className="catalog">
-            {visibleTaste.map((card) => (
+            {catalogCards(visibleTaste).map((card) => (
               <TasteCard key={card.id} card={card} saved={saved} onChoose={onChoose} />
             ))}
           </div>
