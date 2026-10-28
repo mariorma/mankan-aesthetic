@@ -1,43 +1,159 @@
-# 慢看
+# 敛色 · Held Colour
 
-用看图学审美。主线是构图、光影与气质。没有赞助，没有课程售卖，也不收集邮箱。
+颜色收住，目光不躲。四条线每天更新：**品味、压抑、一人、美人**。
 
-线上地址：<https://mariorma.github.io/mankan-aesthetic/>
+线上：<https://mariorma.github.io/mankan-aesthetic/>（仓库 slug 暂时沿用旧名）
 
-仓库根目录是已经构建好的静态站点，GitHub Pages 从 `main` 分支的根目录直接托管：`index.html`、`log/`（积累）、`assets/`。
+气质、色板、选图门槛见 [`docs/charter.md`](docs/charter.md)。
 
-## 两面
+---
 
-导航只有「首页」和「积累」。两页都在顶栏用「表／裏」换面：表是漆红近黑，裏是暖金近黑。封面是 three.js 的可交互画面（跟鼠标和滚动走），有官方播放页的片子用哔哩哔哩或 YouTube 的播放器嵌在页里。手机和减少动效时退回静态拼贴。两面各写各的，不互相跳。
+## 日更：改数据就上线
 
-- **首页**：表是这一期的审美积累，裏是美女赏析（好／中／差）。
-- **积累 `/log/`**：表是品味，每条一张图加一两句；裏是美女积累，每条一张图加短说明。页头 `noindex`，只给自己翻。
+**整站只有一个内容源：`content/daily.json`。** 首页和日更页都在浏览器里直接读它，不需要构建，也不需要开云端。
 
-### 加一条积累
+日常只动两处：
 
-在 `source/src/learning-log.ts` 里，品味 prepend 到 `tasteLog`，美女 prepend 到 `beautyLog`（日期新的在上）。配图下到 `source/public/images/` 本地引用，`credit` 只写短来源（谁 / 哪 / 什么），`creditHref` 链回原页、由图打开。转载声明只在页脚。抓不到就写 `imageNote`「原图未取到」并留 `href`，别拿假图糊弄，也不要写回长摘要。
+| 改什么 | 放哪 |
+|--------|------|
+| 新条目 | `content/daily.json` 的 `entries` 数组**最上面** |
+| 配图 | `images/`（建议 webp，长边 1600 以内） |
 
-## 图片来源
+提交到 `main`（或合并 PR）后，GitHub Pages 约一分钟重新发布，首页和日更页就是新内容。
 
-图在 `source/public/images/`。首页裏侧 `li-*` 是喜欢名单；首页表侧和积累里的 `log-*` 是学习时抓来的原图。图注只写短来源。转载声明在页脚：无商业用途，侵权联系即删。
+### 一条日更长这样
 
-源码在 `source/`，是 Vite + React + TypeScript 的多页静态站。本地重建：
+```json
+{
+  "id": "hopper-sunday",
+  "date": "2026-10-29",
+  "line": "repression",
+  "title": "Edward Hopper · Sunday",
+  "note": "一个人坐在空街边，店都关着。",
+  "why": "可选。两三句为什么好看。",
+  "steal": "可选。可偷的一句。",
+  "source": "Phillips Collection · Sunday · 1926",
+  "href": "https://原帖或馆藏页",
+  "image": {
+    "file": "hopper-sunday.webp",
+    "alt": "一句话描述画面",
+    "width": 1600,
+    "height": 1100
+  }
+}
+```
+
+记得和下一条之间加逗号。
+
+### 字段
+
+| 字段 | 必填 | 说明 |
+|------|------|------|
+| `id` | 是 | 全站唯一，小写英文、数字、连字符。**打分按 id 记**，改 id 会丢掉这条已有的分 |
+| `date` | 是 | `YYYY-MM-DD`。最新日期就是「今日」 |
+| `line` | 是 | `taste` 品味 / `repression` 压抑 / `tension` 一人 / `beauty` 美人 |
+| `title` | 是 | 谁 · 什么 |
+| `note` | 建议 | 一句话判断，60 字内。首页、日更都显示 |
+| `why` | 否 | 为什么好看，两三句 |
+| `body` | 否 | 更长的赏析，字符串数组，一段一个 |
+| `steal` | 否 | 可偷的一句。品味线的会进首页「可偷的一句」栏 |
+| `source` | 有图时必填 | 短来源：谁 / 哪 / 什么 |
+| `href` | 建议 | 原帖。点图打开它；B站 / YouTube / Vimeo 播放页会自动出「在站内看」（官方播放器） |
+| `image` | 否 | `file` 是 `images/` 里的文件名；`alt` 一句话描述；`width` / `height` 可不填，跑 `npm run fix` 自动补 |
+| `more` | 否 | 第二张起的图，格式同 `image` |
+| `pick` | 否 | `true` = 精选，首页抽到的概率 ×2 |
+| `off` | 否 | `true` = 撤下但留着记录 |
+
+在 VS Code 等编辑器里打开 `content/daily.json` 会按 `content/daily.schema.json` 自动提示字段。
+
+### 选图和来源
+
+- 只用原图；抓不到就不配图（条目照样能上，只是不进首页的图位）。不用 AI 图凑数。
+- 每张图写 `source` 和 `href`。全站页脚统一写了免责声明（学习记录、无商业用途、侵权即删）。
+- 视频只链官方播放页。
+- 压抑 ≠ 血腥色情；一人 ≠ 双人黏腻；美人走亚洲审美。细则见宪章第 3 节。
+
+### 改完自查（可选，但推荐）
+
+本机有 Node 就能跑，零依赖：
+
+```bash
+node source/scripts/check-daily.mjs         # 检查 JSON 语法、必填字段、id 重复、图片是否存在
+node source/scripts/check-daily.mjs --fix   # 同上，并自动补上图片 width / height
+```
+
+JSON 写坏（少逗号、多逗号）时会指出第几行；页面上也会提示「日更没读出来」而不是白屏。单条缺字段只跳过那一条。仓库里的 GitHub Actions（「日更校验」）会在每次推送或 PR 改到 `content/`、`images/` 时自动跑这个检查。
+
+### 条目多了以后
+
+把旧条目挪到 `content/` 下别的文件（例如 `daily-2026-10.json`，结构同样是 `{ "entries": [...] }`），在 `daily.json` 顶层写 `"archives": ["daily-2026-10.json"]`，页面会一起读。
+
+---
+
+## 首页怎么吃日更
+
+首页没有自己的素材，所有图和字都在打开页面时从 `content/daily.json` 抽：
+
+- **封面**：第一张固定是**最新一天**里权重最高的一条（品味 / 压抑 / 一人优先；那天只有美人就用美人）。所以加一条新日期的日更，首页封面立刻就是它。后面五张按权重随机。
+- **今日条**：最新一天的全部条目，一条不漏。
+- **四间房**：品味 6 张 + 4 句可偷、压抑 3 张、一人 5 张、美人 6 张，各自按权重随机抽；每间房有「换一批」。
+
+权重（`source/src/data/weights.ts`）：
+
+| 因素 | 倍数 |
+|------|------|
+| 打了「好」 | ×4 |
+| 打了「差」 | ×0（不上） |
+| 最新一天 / 两天内 / 一周内 | ×3 / ×1.8 / ×1.2 |
+| `pick: true` | ×2 |
+
+## 打分：好 / 中 / 差
+
+- 首页和日更页的每条都能打分。默认是「中」。
+- **差**：立刻从全站撤下（首页、日更都不显示），底部提示条可以「撤销」；「已下架」抽屉里能逐条「放回」。
+- **好**：首页抽到的概率变成 4 倍。
+- 分只存在这台浏览器的 `localStorage`（key：`lianse-marks`），**不进仓库**。第一次打开新站时，会把旧站两个 key（`mankan-li-marks`、`mankan-biao-marks`）里的分自动迁过来。
+- 「复制打分」导出 JSON：`good` / `bad` 两个清单带标题和来源，`notInDaily` 是已经不在日更里的 id。
+
+日更维护者拿到导出后：
+
+1. `bad` 里的条目从 `daily.json` 删掉或加 `"off": true`，图可以先留在 `images/`。
+2. 看 `good` 和 `bad` 各是哪一路，调整之后的搜集方向（宪章第 3 节记着目前的多跟 / 少跟）。
+3. 分本身不要写进仓库。
+
+---
+
+## 开发与发布（改版式时才需要）
+
+源码在 `source/`：Vite + React + TypeScript，两个页面（首页 `index.html`、日更 `daily/index.html`）。
 
 ```bash
 cd source
 npm install
-npm run build
-cp -a dist/. ..
+npm run dev      # http://localhost:5173 ，content/ 和 images/ 直接读根目录
+npm run pages    # 校验日更 + 类型检查 + 构建 + 把产物同步到仓库根目录
+npm run preview  # 按 Pages 的路径在本地托管根目录：http://localhost:4173/mankan-aesthetic/
 ```
 
-再把根目录的构建结果提交到 `main`。条目、往期、关于、笔记页已下线。
+`npm run pages` 只替换根目录的构建产物（`assets/`、`index.html`、`daily/`、`log/`、`404.html`、`favicon.svg` 等），不碰 `content/`、`images/`、`docs/`、`source/`。把根目录的变化一起提交到 `main` 即可。
 
-## 好中差
+目录：
 
-积累页每一条都能标好、中、差。没点过当作中。标成差的条目立刻从当前这一面拿掉；同页「已隐藏的差评」里改回中或好，会马上回来。裏首页精选也是这样。表首页本期九条不打分。
+```
+content/daily.json        唯一内容源（日更只改这里）
+content/daily.schema.json 字段说明
+images/                   全部配图
+docs/charter.md           气质宪章
+source/src/data/          读取、加权、打分
+source/src/gl/            封面 WebGL2 着色器
+source/src/ui/            组件（敛色图、放大镜、台灯、磁吸、好中差……）
+source/src/pages/         首页、日更页
+source/scripts/           校验、同步、本地预览
+```
 
-分数只在这台浏览器里：裏（首页精选和裏积累）用 `mankan-li-marks`，表积累用 `mankan-biao-marks`。值只有「好」「中」「差」。裏优先用条目 id；以前按图片文件名记的分还能认，再点一次会记到 id 上，不会清掉。表的图录用卡片 id；日课用 `日期::标题`。日课要改标题还不丢分，就在那条上写可选 `markId`。
+## 零成本与版权
 
-页脚「复制打分」得到一段 JSON：`biao`、`li`、`exportedAt`。表和裏都在里面。
-
-日更时若这台浏览器开着慢看，先读这两个 localStorage；读不到就用复制出来的 JSON。差的从对应数组里撤掉（图先留在 `images/`），记一笔短标签，同类以后少推。好的记正向短标签：表侧多推同类构图、色、刊面，裏侧多推同模特、同杂志气、同名单。中不加权。不要把分数写进公开仓库，除非另有说明。
+- 只用 GitHub Pages 静态托管：没有后端、统计、广告、付费 Key。不卖课，不收邮箱，不对外推广。
+- 字体：思源宋体（Noto Serif SC）与 Instrument Serif，均为 SIL OFL 1.1，许可证在 `source/src/fonts/*/OFL.txt`。
+- 图与封面只作个人学习与品味记录，版权归原作者，每张写明出处并链回原页；无商业用途，侵权联系即删。`images/pd-*` 是 The Met 与 SMK（丹麦国家美术馆）开放资料中的公有领域作品。
+- 动效参考：Aceternity UI（Lamp、Focus Cards）、Magic UI（Lens）、Motion Primitives（Magnetic、Text Effect、Progressive Blur）、React Bits（Noise、Scroll Reveal）、Uiverse（单选点、叠层按钮）、Animista（text-focus-in）。均为改写，出处写在对应源码注释里。

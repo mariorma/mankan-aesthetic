@@ -1,0 +1,60 @@
+/* 色板与字见 docs/charter.md 第 4 节。不用红。 */
+:root {
+  --paper: #ece7de;
+  --paper-2: #e3ddd1;
+  --paper-3: #d6cfc1;
+  --card: #f5f1ea;
+  --ink: #121212;
+  --ink-2: #3b3833;
+  --ink-3: #6f6a62;
+
+  --night: #0b0d0d;
+  --night-2: #141716;
+  --night-3: #1d2120;
+  --black: #090909;
+
+  --teal-night: #0d1716;
+  --teal-night-2: #132220;
+  --teal: #4f6f68;
+  --teal-2: #88a59d;
+
+  --amber: #b98a44;
+  --amber-2: #d8ad69;
+  --amber-ink: #7d5a22;
+
+  --bone: #d8d0c2;
+  --bone-2: #a59d90;
+  --bone-3: #6f695f;
+
+  --warm-night: #16100c;
+  --warm-night-2: #221810;
+  --peach: #e6cbb3;
+  --peach-2: #b89a82;
+
+  --serif: "Noto Serif SC", "Source Han Serif SC", "Source Han Serif", "Songti SC", "STSong", serif;
+  --latin: "Instrument Serif", "Noto Serif SC", "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC",
+    "Microsoft YaHei", system-ui, sans-serif;
+
+  --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --gutter: clamp(20px, 5vw, 88px);
+  --max: 1440px;
+
+  /* 「敛色」：图默认的样子。各房间各自覆盖。 */
+  --held-filter: grayscale(0.86) sepia(0.14) brightness(0.74) contrast(1.06);
+}
+
+[data-line="taste"] {
+  --line: #a8977b;
+}
+[data-line="repression"] {
+  --line: var(--teal-2);
+}
+[data-line="tension"] {
+  --line: #cfc8bd;
+}
+[data-line="beauty"] {
+  --line: var(--peach);
+}

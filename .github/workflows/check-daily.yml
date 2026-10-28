@@ -1,0 +1,23 @@
+name: 日更校验
+
+on:
+  push:
+    paths:
+      - "content/**"
+      - "images/**"
+      - "source/scripts/check-daily.mjs"
+  pull_request:
+    paths:
+      - "content/**"
+      - "images/**"
+      - "source/scripts/check-daily.mjs"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node source/scripts/check-daily.mjs
