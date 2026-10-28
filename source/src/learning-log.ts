@@ -325,71 +325,27 @@ export const learningLog: LogDay[] = [
       {
         id: "li-watch-2026-10-28",
         label: "里区·前夜美女追更",
-        intro: "来源 watch-20261027；跳过校园违规与直球低俗。精选 4 张入 beautyLog。",
+        intro: "来源 watch-20261027；跳过校园违规与直球低俗。已入裏 beautyLog，见表侧不贴图。",
         items: [
           {
             heading: "えなこ · ギャバン舞台挨拶",
             href: "https://x.com/enako_cos/status/2115020589652189470",
             points: ["舞台问候造型，手势干净、站得住。"],
-            figures: [
-              {
-                file: "li-20261028-enako-gavan.webp",
-                alt: "えなこ，ギャバン舞台挨拶造型",
-                width: 1108,
-                height: 1477,
-                caption: "舞台问候——手势干净，站得住。",
-                credit: "前夜追更 · enako · X · 无商业用途·侵权立删",
-                creditHref: "https://x.com/enako_cos/status/2115020589652189470",
-              },
-            ],
           },
           {
             heading: "kokoro · Young Gangan うさぎ",
             href: "https://x.com/kokoro777pp/status/2114679117778141586",
             points: ["刊面兔耳，甜但不挤。"],
-            figures: [
-              {
-                file: "li-20261028-kokoro-usagi.webp",
-                alt: "kokoro，Young Gangan うさぎ",
-                width: 1200,
-                height: 1600,
-                caption: "刊面兔耳——甜，但不挤。",
-                credit: "前夜追更 · kokoro · X · 无商业用途·侵权立删",
-                creditHref: "https://x.com/kokoro777pp/status/2114679117778141586",
-              },
-            ],
           },
           {
             heading: "三上悠亜 · GR pool",
             href: "https://x.com/yua_mikami/status/2114676656745091283",
             points: ["泳池边构图稳，光平人亮。"],
-            figures: [
-              {
-                file: "li-20261028-yua-gr.webp",
-                alt: "三上悠亜，GR 泳池边",
-                width: 1066,
-                height: 1600,
-                caption: "泳池边——光是平的，人还是好看。",
-                credit: "前夜追更 · yua · X · 无商业用途·侵权立删",
-                creditHref: "https://x.com/yua_mikami/status/2114676656745091283",
-              },
-            ],
           },
           {
             heading: "あまつ様 · まえとうしろ front",
             href: "https://x.com/R_Ap8_/status/2115036271051743448",
             points: ["前后对照刊式泳装前帧，姿态收得住。"],
-            figures: [
-              {
-                file: "li-20261028-amatsu-front.webp",
-                alt: "あまつ様，まえとうしろ front",
-                width: 1200,
-                height: 1600,
-                caption: "前后对照的前帧——姿态收得住。",
-                credit: "前夜追更 · あまつ様 · X · 无商业用途·侵权立删",
-                creditHref: "https://x.com/R_Ap8_/status/2115036271051743448",
-              },
-            ],
           },
         ],
       },
@@ -3335,62 +3291,6 @@ export const tasteLog: AccumCard[] = [
 // 例行美女图、名单追更、以及任何一次找来的可用图，有原帖就填 figure.creditHref。
 // 只收人像短说明，不把刊面、字课、静物写进来。
 export const beautyLog: AccumCard[] = [
-  {
-    id: "li-20261028-enako-gavan",
-    date: "2026-10-28",
-    title: "えなこ · ギャバン舞台挨拶",
-    figure: {
-      file: "li-20261028-enako-gavan.webp",
-      alt: "えなこ，ギャバン舞台挨拶造型",
-      width: 1108,
-      height: 1477,
-      caption: "舞台问候——手势干净，站得住。",
-      credit: "前夜追更 · enako · https://x.com/enako_cos/status/2115020589652189470 · 无商业用途·侵权立删",
-      creditHref: "https://x.com/enako_cos/status/2115020589652189470",
-    },
-  },
-  {
-    id: "li-20261028-kokoro-usagi",
-    date: "2026-10-28",
-    title: "kokoro · Young Gangan うさぎ",
-    figure: {
-      file: "li-20261028-kokoro-usagi.webp",
-      alt: "kokoro，Young Gangan うさぎ",
-      width: 1200,
-      height: 1600,
-      caption: "刊面兔耳——甜，但不挤。",
-      credit: "前夜追更 · kokoro · https://x.com/kokoro777pp/status/2114679117778141586 · 无商业用途·侵权立删",
-      creditHref: "https://x.com/kokoro777pp/status/2114679117778141586",
-    },
-  },
-  {
-    id: "li-20261028-yua-gr",
-    date: "2026-10-28",
-    title: "三上悠亜 · GR pool",
-    figure: {
-      file: "li-20261028-yua-gr.webp",
-      alt: "三上悠亜，GR 泳池边",
-      width: 1066,
-      height: 1600,
-      caption: "泳池边——光是平的，人还是好看。",
-      credit: "前夜追更 · yua · https://x.com/yua_mikami/status/2114676656745091283 · 无商业用途·侵权立删",
-      creditHref: "https://x.com/yua_mikami/status/2114676656745091283",
-    },
-  },
-  {
-    id: "li-20261028-amatsu-front",
-    date: "2026-10-28",
-    title: "あまつ様 · まえとうしろ",
-    figure: {
-      file: "li-20261028-amatsu-front.webp",
-      alt: "あまつ様，まえとうしろ front",
-      width: 1200,
-      height: 1600,
-      caption: "前后对照的前帧——姿态收得住。",
-      credit: "前夜追更 · あまつ様 · https://x.com/R_Ap8_/status/2115036271051743448 · 无商业用途·侵权立删",
-      creditHref: "https://x.com/R_Ap8_/status/2115036271051743448",
-    },
-  },
   {
     "id": "li-enako-gavan",
     "date": "2026-10-27",
