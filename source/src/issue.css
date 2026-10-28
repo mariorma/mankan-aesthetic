@@ -1104,9 +1104,38 @@ html[data-face="li"] .film {
   letter-spacing: 0.04em;
 }
 
+.catalog-card .uv-mark,
+.wall-card .uv-mark,
+.log-item .uv-mark {
+  grid-column: 1 / -1;
+}
+
 .reject-list {
   margin-top: 1rem;
   color: var(--muted);
+}
+
+.copy-marks {
+  margin-top: 1rem;
+}
+
+.hidden-marks {
+  margin-top: 2.4rem;
+}
+
+.hidden-marks ul {
+  margin: 0.8rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hidden-marks li {
+  padding: 0.85rem 0 0.2rem;
+  border-top: 1px solid var(--line);
+}
+
+.hidden-marks li p {
+  margin: 0;
 }
 
 .reject-list pre {
