@@ -1,23 +1,23 @@
 {
-  "name": "mankan-aesthetic",
+  "name": "lianse",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "build": "node scripts/check-daily.mjs && tsc --noEmit && vite build",
+    "check": "node scripts/check-daily.mjs",
+    "fix": "node scripts/check-daily.mjs --fix",
+    "pages": "npm run build && node scripts/sync-pages.mjs",
+    "preview": "node scripts/serve-root.mjs"
   },
   "dependencies": {
-    "liquid-glass-react": "^1.1.1",
-    "motion": "^14.6.0",
+    "motion": "^12.23.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "three": "^0.170.0"
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
-    "@types/three": "^0.170.0",
     "@vitejs/plugin-react": "^4.4.1",
     "typescript": "^5.8.3",
     "vite": "^6.3.5"
