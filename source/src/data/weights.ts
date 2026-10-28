@@ -4,11 +4,11 @@ import type { Mark } from "./marks";
 const MARK_WEIGHT: Record<Mark, number> = { 好: 4, 中: 1, 差: 0 };
 
 /**
- * 首页抽样权重。差＝0（不上）；好是中的 4 倍。
+ * 首页抽样权重。无封面或差＝0（不上）；好是中的 4 倍。
  * 最新一天 ×3，两天内 ×1.8，一周内 ×1.2；`pick: true` 再 ×2。
  */
 export function weightOf(entry: DailyEntry, mark: Mark, latest: string): number {
-  if (entry.off) return 0;
+  if (entry.off || !entry.image) return 0;
   let weight = MARK_WEIGHT[mark];
   if (weight === 0) return 0;
   const age = latest ? daysBetween(entry.date, latest) : 99;
