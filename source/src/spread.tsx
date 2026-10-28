@@ -1,7 +1,7 @@
 import { useLayoutEffect, useRef, type ReactNode } from "react";
 import { BackgroundBeams } from "./kit/beams";
 import { BlurFade } from "./kit/blur-fade";
-import { CardBody, CardContainer, CardItem } from "./kit/card-3d";
+import { CardBody, CardContainer } from "./kit/card-3d";
 import { Glass } from "./kit/glass";
 import { Marquee } from "./kit/marquee";
 import { useReducedMotion } from "./kit/reduced";
@@ -137,19 +137,13 @@ export function Cover({
         {plate && !expo && <div className="cover-plate">{plate}</div>}
         <CardContainer containerClassName="cover-glass-slot" className="cover-glass-tilt">
           <CardBody>
-            <Glass radius={22} mouseContainer={coverRef} elasticity={0.4}>
+            <Glass radius={22} mouseContainer={coverRef} elasticity={0}>
               <div className="stat">
-                <CardItem translateZ={72}>
-                  <p className="stat-value">
-                    <span className={reduced ? undefined : "anim-track"}>{stat.value}</span>
-                  </p>
-                </CardItem>
-                <CardItem translateZ={40}>
-                  <p className="stat-k">{stat.k}</p>
-                </CardItem>
-                <CardItem translateZ={18}>
-                  <p className="stat-s">{stat.s}</p>
-                </CardItem>
+                <p className="stat-value">
+                  <span className={reduced ? undefined : "anim-track"}>{stat.value}</span>
+                </p>
+                <p className="stat-k">{stat.k}</p>
+                <p className="stat-s">{stat.s}</p>
               </div>
             </Glass>
           </CardBody>

@@ -50,7 +50,7 @@ export function Shell({
       </a>
       <div className="nav-dock">
         <div className="nav-slot">
-          <Glass radius={999} elasticity={0.7}>
+          <Glass radius={999} elasticity={0}>
             <div className="nav-row">
               <a className="brand" href={pageHref(page, "home")}>
                 <span className="brand-name">慢看</span>
