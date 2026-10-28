@@ -183,6 +183,7 @@ export function Plate({
   track = false,
   intro,
   amp = 14,
+  omitCaption = false,
   children,
 }: {
   page: PageId;
@@ -195,6 +196,8 @@ export function Plate({
   /** Plays the entrance once the plate scrolls into view. Defaults to priority. */
   intro?: boolean;
   amp?: number;
+  /** 不重复图注短句。来源 credit 仍在。 */
+  omitCaption?: boolean;
   children?: ReactNode;
 }) {
   const reduced = useReducedMotion();
@@ -231,7 +234,9 @@ export function Plate({
           media
         )}
       </div>
-      <FigureCaption figure={figure}>{children}</FigureCaption>
+      <FigureCaption figure={figure} omitCaption={omitCaption}>
+        {children}
+      </FigureCaption>
     </figure>
   );
 }

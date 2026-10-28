@@ -37,16 +37,26 @@ export function FigureMedia({
   );
 }
 
-export function FigureCaption({ figure, children }: { figure: Figure; children?: ReactNode }) {
+export function FigureCaption({
+  figure,
+  children,
+  omitCaption = false,
+}: {
+  figure: Figure;
+  children?: ReactNode;
+  /** 杂志页只留来源。日更墙的一句说明不走这里。 */
+  omitCaption?: boolean;
+}) {
   const lines = figure.caption.split("\n");
   return (
     <figcaption>
-      {lines.map((line, index) => (
-        <span key={line}>
-          {index > 0 && <br />}
-          {line}
-        </span>
-      ))}
+      {!omitCaption &&
+        lines.map((line, index) => (
+          <span key={line}>
+            {index > 0 && <br />}
+            {line}
+          </span>
+        ))}
       <span className="credit">{figure.credit}</span>
       {children}
     </figcaption>

@@ -2886,6 +2886,90 @@ export const tasteLog: AccumCard[] = [
 // 只收人像短说明，不把刊面、字课、静物写进来。
 export const beautyLog: AccumCard[] = [
   {
+    "id": "li-enako-gavan",
+    "date": "2026-10-27",
+    "title": "えなこ · Gavan",
+    "figure": {
+      "file": "li-20261028-enako-gavan.webp",
+      "alt": "えなこ穿蓝舞台服，护目镜和耳机，侧身站在树前",
+      "width": 1108,
+      "height": 1477,
+      "caption": "蓝舞台服，护目镜和耳机，侧身站在树前。站姿稳，是来告知的。",
+      "credit": "喜欢名单 · えなこ · Gavan 舞台挨拶 · 点图进原帖",
+      "creditHref": "https://x.com/enako_cos/status/2115020589652189470"
+    }
+  },
+  {
+    "id": "li-iori-kyurun",
+    "date": "2026-10-27",
+    "title": "伊織もえ",
+    "figure": {
+      "file": "li-20261028-iori-kyurun.webp",
+      "alt": "伊織もえ戴灰兔耳，穿浅蓝内衣，横躺在木地板上",
+      "width": 2500,
+      "height": 1406,
+      "caption": "灰兔耳，浅蓝内衣，横躺在木地板上。粉丝带垂下来，是きゅるん。",
+      "credit": "喜欢名单 · 伊織もえ · きゅるん · 点图进原帖",
+      "creditHref": "https://x.com/iorimoe_five/status/2114914638412513733"
+    }
+  },
+  {
+    "id": "li-amatsu-front",
+    "date": "2026-10-27",
+    "title": "あまつまりな",
+    "figure": {
+      "file": "li-20261028-amatsu-front.webp",
+      "alt": "あまつまりな穿白紫泳装，正面站在室内",
+      "width": 1200,
+      "height": 1600,
+      "caption": "白紫泳装正面，窗帘和吊灯在旁边。人站直，构图干净。",
+      "credit": "喜欢名单 · あまつまりな · まえとうしろ · 点图进原帖",
+      "creditHref": "https://x.com/R_Ap8_/status/2115036271051743448"
+    }
+  },
+  {
+    "id": "li-yua-gr",
+    "date": "2026-10-27",
+    "title": "三上悠亜 · GR",
+    "figure": {
+      "file": "li-20261028-yua-gr.webp",
+      "alt": "三上悠亜穿格子比基尼，一手扶额头，站在泳池栏杆边",
+      "width": 1066,
+      "height": 1600,
+      "caption": "格子比基尼，一手扶着额头，站在泳池栏杆边。",
+      "credit": "喜欢名单 · 三上悠亜 · GR · 点图进原帖",
+      "creditHref": "https://x.com/yua_mikami/status/2114676656745091283"
+    }
+  },
+  {
+    "id": "li-yua-walk",
+    "date": "2026-10-27",
+    "title": "三上悠亜 · 走路",
+    "figure": {
+      "file": "li-20261028-yua-walk.webp",
+      "alt": "三上悠亜背对镜头走向泳池，白镂空衫，肩上一个大白包",
+      "width": 1066,
+      "height": 1600,
+      "caption": "背对镜头往池边走，白镂空衫，肩上一个大白包。同一次 GR。",
+      "credit": "喜欢名单 · 三上悠亜 · GR 走路 · 点图进原帖",
+      "creditHref": "https://x.com/yua_mikami/status/2114676656745091283"
+    }
+  },
+  {
+    "id": "li-kokoro-usagi",
+    "date": "2026-10-26",
+    "title": "篠崎こころ",
+    "figure": {
+      "file": "li-20261028-kokoro-usagi.webp",
+      "alt": "篠崎こころ金发兔耳，粉条纹衬衫滑到肩下",
+      "width": 1200,
+      "height": 1600,
+      "caption": "金发兔耳，粉条纹衬衫滑到肩下。Young Gangan。",
+      "credit": "喜欢名单 · 篠崎こころ · うさぎ · Young Gangan · 点图进原帖",
+      "creditHref": "https://x.com/kokoro777pp/status/2114679117778141586"
+    }
+  },
+  {
     "id": "li-karin-tulip",
     "date": "2026-10-20",
     "title": "小渕花梨",
@@ -2997,4 +3081,56 @@ export const beautyLog: AccumCard[] = [
       "creditHref": "https://x.com/enako_cos/status/2099342591829688659"
     }
   }
+];
+
+// 裏·首页精选。顺序即杂志页序。id 必须在 beautyLog 里，图不另存。
+// 日更墙用上面的全文，一句说明仍是 figure.caption。
+export type BeautyEssay = {
+  id: string;
+  kicker: string;
+  judgment: string;
+  lines: string[];
+};
+
+export const beautyEssays: BeautyEssay[] = [
+  {
+    id: "li-enako-gavan",
+    kicker: "01 · 稳",
+    judgment: "舞台服，站姿稳。这张是来告知的，不是来撒娇的。",
+    lines: [
+      "蓝紧身衣从领口收到脚踝，浅色条纹把侧线画出来。护目镜推在额头上，耳机扣着，手套是黑的，指节有金属片。",
+      "人侧过身，脸转回来看镜头。背后是树和云，不是棚拍的白。天是亮的，衣服是一块完整的蓝。",
+      "好看在站：重心在后腿，肩是平的。道具都在脸上和手上，人没有被它们拆开。",
+    ],
+  },
+  {
+    id: "li-iori-kyurun",
+    kicker: "02 · 横",
+    judgment: "灰兔耳，浅蓝内衣，横在木地板上。粉丝带是软的，人不是。",
+    lines: [
+      "横构图，人从左下躺到画面中间。一只手撑地，腿叠着，紫拖鞋只露一只。兔耳是毛的，比头还高。",
+      "粉丝带从颈后垂到胸口。内衣是浅蓝蕾丝，室外的光是白的，背景的人和窗都虚掉了。",
+      "好看在横：脸在上半，身体沿着地板铺开。きゅるん在耳朵和丝带，不在表情。",
+    ],
+  },
+  {
+    id: "li-amatsu-front",
+    kicker: "03 · 正",
+    judgment: "泳装正面，人站直。房间是配的，构图是干净的。",
+    lines: [
+      "竖构图，人占中间。白、深蓝、浅紫三块颜色用金边分开，高领把脖子收住。手臂垂着，没有比手势。",
+      "左边是白窗帘，头顶一盏玻璃吊灯，右边一盏台灯。光是室内的，没有打到过曝。",
+      "好看在正：肩和髋是侧过去的，脸是正的。正面给全了，背景没有抢。",
+    ],
+  },
+  {
+    id: "li-yua-gr",
+    kicker: "04 · 池",
+    judgment: "格子比基尼，一手放在额头上。泳池是蓝的，人是站着的。",
+    lines: [
+      "竖构图，人在栏杆旁边。比基尼是浅绿色格子加粉条，肩带是粉的。左手抬起来，手心贴着发际。",
+      "后面是金玻璃楼和棕榈，水是亮的。栏杆是圆的不锈钢，占了左下，把人从池边切出来。",
+      "好看在手：抬起来的那只手是这张的停顿。不笑很大，站着就够。",
+    ],
+  },
 ];

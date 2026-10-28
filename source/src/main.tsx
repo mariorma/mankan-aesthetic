@@ -9,6 +9,7 @@ import { TransitionPanel } from "./kit/transition-panel";
 import { mount, Shell } from "./Shell";
 import { FilmReel } from "./kit/film";
 import type { StageShot } from "./kit/stage3d";
+import { beautyEssays, beautyLog } from "./learning-log";
 import { assetHref } from "./paths";
 import { Chapter, Cover, Plate, RiseScope, toneSpot } from "./spread";
 import { weekRefs } from "./week-refs";
@@ -23,98 +24,15 @@ function shots(figures: Figure[]): StageShot[] {
 }
 
 // 两面各写各的：不要互链，不要在文案里点名另一面的内容。
+// 裏·首页只排 beautyEssays 点名的几张。图仍在 beautyLog，不另存一份。
 
-const enako: Figure = {
-  file: "li-enako-yk.webp",
-  alt: "えなこ，白兔耳，双手比心，ヤングキング封面",
-  width: 1062,
-  height: 1500,
-  caption: "兔耳，双手比心，笑得很开。甜，手势干净。",
-  credit: `喜欢名单 · enako · ヤングキング封面 · 点图进原帖`,
-  creditHref: "https://x.com/enako_cos/status/2099342591829688659",
-};
+const featured = beautyEssays.flatMap((essay) => {
+  const card = beautyLog.find((item) => item.id === essay.id);
+  if (!card?.figure) return [];
+  return [{ essay, card, figure: card.figure }];
+});
 
-const yua: Figure = {
-  file: "li-yua-plaid.webp",
-  alt: "yua 穿格子挂脖裙，在电梯镜子前自拍",
-  width: 1200,
-  height: 1600,
-  caption: "格子挂脖裙，马尾，电梯镜子里自拍。光是平的，人还是好看。",
-  credit: `喜欢名单 · yua · 日常搜图 · 点图进主页`,
-  creditHref: "https://x.com/yua_mikami",
-};
-
-const iori: Figure = {
-  file: "li-iori-stripe.webp",
-  alt: "iori 穿蓝条纹衬衫，站在老房子里，头顶一盏灯泡",
-  width: 900,
-  height: 1600,
-  caption: "蓝条纹衬衫，老房子，头顶一盏白灯泡。人站得稳。",
-  credit: `喜欢名单 · iori · 日常搜图 · 点图进主页`,
-  creditHref: "https://x.com/iorimoe_five",
-};
-
-const kokoro: Figure = {
-  file: "li-kokoro-swim.webp",
-  alt: "kokoro 粉色短发，在泳池边比耶，穿浅蓝色泳衣",
-  width: 1200,
-  height: 1600,
-  caption: "泳池边，粉色短发，比了个耶。颜色亮，人更亮。",
-  credit: `喜欢名单 · kokoro · 日常搜图 · 点图进主页`,
-  creditHref: "https://x.com/kokoro777pp",
-};
-
-const beautybeast: Figure = {
-  file: "li-beautybeast-cos.webp",
-  alt: "beautybeast cos，红裙子和珍珠项链，站在玫瑰拱门下",
-  width: 800,
-  height: 1200,
-  caption: "红裙子，珍珠，玫瑰拱门。cos 贝尔，甜和正式叠在一起。",
-  credit: `喜欢名单 · beautybeast cos · 点图去找原帖`,
-  creditHref: "https://x.com/search?q=beautybeast%20cos&f=media",
-};
-
-const friday: Figure = {
-  file: "li-friday-mizuki.webp",
-  alt: "金曜美人，麻倉瑞季，浅蓝蕾丝，侧脸贴过来",
-  width: 1200,
-  height: 790,
-  caption: "麻倉瑞季，浅蓝蕾丝，脸贴过来。近，但不挤。",
-  credit: `喜欢名单 · 金曜美人 · 麻倉瑞季 · 点图进原页`,
-  creditHref: "https://friday.gold/gravure/article/444633",
-};
-
-const hydrangea: Figure = {
-  file: "li-hydrangea.webp",
-  alt: "绣球花叶子前，碎花深色短袖，齐刘海",
-  width: 1080,
-  height: 1350,
-  caption: "绣球叶子挡着半边，碎花深色短袖，齐刘海。花是配的，人是看的。",
-  credit: `喜欢名单 · strawbelly · 绣球花 · 点图进主页`,
-  creditHref: "https://x.com/strawbelly",
-};
-
-const karin: Figure = {
-  file: "li-karin-tulip.webp",
-  alt: "小渕花梨，橙毛衣，抱着一把郁金香，背后是红砖墙",
-  width: 1280,
-  height: 1600,
-  caption: "橙毛衣，一把郁金香，红砖墙。颜色暖，人安静。",
-  credit: `喜欢名单 · 小渕花梨 · note 主页 · 点图进主页`,
-  creditHref: "https://note.com/karin_obuchi",
-};
-
-// 新上旧下。八张同在 475f64a 进库，文件里后写到的视为更新。首项是封面。
-const people: { name: string; figure: Figure }[] = [
-  { name: "小渕花梨", figure: karin },
-  { name: "绣球", figure: hydrangea },
-  { name: "麻倉瑞季", figure: friday },
-  { name: "beautybeast", figure: beautybeast },
-  { name: "kokoro", figure: kokoro },
-  { name: "iori", figure: iori },
-  { name: "yua", figure: yua },
-  { name: "enako", figure: enako },
-];
+const countWord = ["零", "一", "两", "三", "四", "五", "六", "七", "八", "九"];
 
 const markKey = "mankan-li-marks";
 
@@ -169,11 +87,10 @@ function Home() {
     });
   }
 
+  const featuredFiles = featured.map((piece) => piece.figure.file);
   const rejected = [
-    ...people.filter((person) => saved[person.figure.file] === "差").map((person) => person.figure.file),
-    ...Object.keys(saved).filter(
-      (file) => saved[file] === "差" && !people.some((person) => person.figure.file === file),
-    ),
+    ...featuredFiles.filter((file) => saved[file] === "差"),
+    ...Object.keys(saved).filter((file) => saved[file] === "差" && !featuredFiles.includes(file)),
   ];
 
   return (
@@ -273,43 +190,49 @@ function FaceLi({
   saved: Record<string, Mark>;
   onChoose: (file: string, mark: Mark) => void;
 }) {
-  const lead = people[0];
-  const rest = people.slice(1);
+  const n = countWord[featured.length] ?? String(featured.length);
   return (
     <RiseScope>
-      <Cover
-        face="li"
-        eyebrow="首页 · 裏 · 人"
-        title="美女赏析"
-        deck={"人好看就说好看。\n每张几句，看完标好、中、差。"}
-        marquee={people.map((person) => person.name)}
-        spine={people.map((person) => person.name)}
-        stat={{ value: String(people.length).padStart(2, "0"), k: "人", s: "看完再标" }}
-        stage={shots(people.map((person) => person.figure))}
-        note={
-          <>
-            <p className="credit">{lead.figure.credit}</p>
-            <UvMark file={lead.figure.file} value={saved[lead.figure.file] ?? "中"} onChoose={onChoose} />
-          </>
-        }
-      />
+      <header className="mast">
+        <p className="eyebrow">首页 · 裏 · 人</p>
+        <h1 className="display">美女赏析</h1>
+        <p className="deck">精选{n}张。每张写清楚好看在哪，看完标好、中、差。</p>
+      </header>
       <div className="issue">
-        <Chapter kicker="人" title="其余的">
-          <div className="portraits">
-            {rest.map((person) => (
-              <CardSpotlight key={person.figure.file} className="portrait rise" color={toneSpot("li")}>
-                <h3>{person.name}</h3>
-                <Plate page="home" figure={person.figure} linkLabel={person.name} tilt intro amp={12}>
-                  <UvMark
-                    file={person.figure.file}
-                    value={saved[person.figure.file] ?? "中"}
-                    onChoose={onChoose}
-                  />
-                </Plate>
-              </CardSpotlight>
-            ))}
-          </div>
-        </Chapter>
+        {featured.map((piece, index) => (
+          <article
+            key={piece.figure.file}
+            className={index % 2 === 1 ? "essay rise is-flip" : "essay rise"}
+            id={piece.card.id}
+          >
+            <p className="essay-kicker">{piece.essay.kicker}</p>
+            <h2 className="essay-title">{piece.card.title}</h2>
+            <div className="essay-spread">
+              <p className="judgment">{piece.essay.judgment}</p>
+              <div className="essay-plate">
+                <Plate
+                  page="home"
+                  figure={piece.figure}
+                  linkLabel={piece.card.title}
+                  omitCaption
+                  priority={index === 0}
+                />
+              </div>
+              <div className="essay-body">
+                {piece.essay.lines.map((line) => (
+                  <p key={line}>{line}</p>
+                ))}
+              </div>
+            </div>
+            <div className="essay-mark">
+              <UvMark
+                file={piece.figure.file}
+                value={saved[piece.figure.file] ?? "中"}
+                onChoose={onChoose}
+              />
+            </div>
+          </article>
+        ))}
       </div>
     </RiseScope>
   );
