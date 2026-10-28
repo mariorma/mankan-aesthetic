@@ -1,0 +1,2152 @@
+{
+  "$schema": "./daily.schema.json",
+  "entries": [
+    {
+      "id": "fiu-mix-interiors",
+      "date": "2026-10-28",
+      "line": "taste",
+      "title": "Fonts In Use · Mix Interiors 改版",
+      "note": "垂直刊换装——字职重分，不是换皮。",
+      "why": "英国商业室内刊全编辑改版——封面、字阶、网格重做却留签名栏目。",
+      "steal": "改版＝重分字职。",
+      "source": "Fonts In Use · Mix Interiors",
+      "href": "https://fontsinuse.com/uses/78765/mix-interiors",
+      "image": {
+        "file": "log-fiu-mix-interiors.webp",
+        "alt": "Fonts In Use · Mix Interiors 改版刊面",
+        "width": 1399,
+        "height": 933
+      }
+    },
+    {
+      "id": "pw-magazine",
+      "date": "2026-10-28",
+      "line": "taste",
+      "title": "PW Magazine · 青年实践编辑站",
+      "note": "编辑列表站——不是灵感瀑布。",
+      "why": "Vienna/Berlin/Zurich 青年艺术与表演实践的编辑列表姿态。",
+      "steal": "日更可学城市场景刊语气。",
+      "source": "PW Magazine",
+      "href": "https://archive.pw-magazine.com/",
+      "image": {
+        "file": "log-pw-magazine.webp",
+        "alt": "PW Magazine 首页编辑列表姿态",
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "id": "int-odda",
+      "date": "2026-10-28",
+      "line": "taste",
+      "title": "It's Nice That · N-E redesign Odda",
+      "note": "三声部字 + 12 栏——成刊改版访谈。",
+      "why": "12 栏 + 三声部字（Baskerville / Akzidenz / OCR-B）；成刊改版访谈角。",
+      "source": "It's Nice That · N-E Odda",
+      "href": "https://www.itsnicethat.com/articles/n-e-studio-odda-magazine-publication-110121",
+      "image": {
+        "file": "log-int-odda.webp",
+        "alt": "It's Nice That · Odda magazine N-E 改版内页",
+        "width": 1440,
+        "height": 1080
+      }
+    },
+    {
+      "id": "awwwards-ai",
+      "date": "2026-10-28",
+      "line": "taste",
+      "title": "Awwwards · Ai in Design Report 2026 SOTD",
+      "note": "日站章节节奏——偷架构不偷话术。",
+      "why": "只偷章节滚动与信息架构，不跟 AI 营销刷屏。",
+      "source": "Awwwards · Ai in Design Report 2026",
+      "href": "https://www.awwwards.com/sites/ai-in-design-report-2026",
+      "image": {
+        "file": "log-awwwards-ai.webp",
+        "alt": "Awwwards SOTD · Ai in Design Report 2026",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "id": "savee-home",
+      "date": "2026-10-28",
+      "line": "taste",
+      "title": "Savee · 首页改版 OG",
+      "note": "首页嵌字——站本身也是排版课。",
+      "source": "Savee · homepage OG",
+      "href": "https://savee.com/",
+      "image": {
+        "file": "log-savee-home.webp",
+        "alt": "Savee homepage redesign OG",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "id": "huaban-a-zazhipaiban",
+      "date": "2026-10-28",
+      "line": "taste",
+      "title": "杂志排版",
+      "note": "中文排版的灵感入口。要下判断，得再进子画板挑。",
+      "why": "话题画板是入口，不是结论。整板扫过不算看过。",
+      "steal": "灵感墙只当目录。判断写在挑出来的那一张上。",
+      "source": "花瓣",
+      "href": "https://huaban.com/topic-board/a-zazhipaiban"
+    },
+    {
+      "id": "hopper-office-night",
+      "date": "2026-10-28",
+      "line": "repression",
+      "title": "Edward Hopper · Office at Night",
+      "note": "窗、桌、夜——闷的欲望停在台灯边。",
+      "why": "夜办公室、窗、桌、未说破的距离——闷的、停住的欲望；礼教驯过的视线落在文件与台灯。",
+      "steal": "压抑条写窗/桌/夜与未完成的目光。",
+      "source": "Walker Art Center · Hopper Office at Night",
+      "href": "https://www.walkerart.org/collections/artwork/office-at-night/",
+      "image": {
+        "file": "log-hopper-office-night.webp",
+        "alt": "Edward Hopper Office at Night · Walker Art Center",
+        "width": 1400,
+        "height": 931
+      }
+    },
+    {
+      "id": "woodman-whitney",
+      "date": "2026-10-28",
+      "line": "repression",
+      "title": "Francesca Woodman · Untitled",
+      "note": "半遮与消失——压得住的羞耻感。",
+      "why": "半遮、自抹消、房间边角——羞耻与消失感；高级干净，不是 gore。",
+      "steal": "半身入墙/模糊边界。",
+      "source": "Whitney · Francesca Woodman Untitled",
+      "href": "https://whitney.org/collection/works/33724",
+      "image": {
+        "file": "log-woodman-whitney.webp",
+        "alt": "Francesca Woodman Untitled · Whitney",
+        "width": 1284,
+        "height": 1600
+      }
+    },
+    {
+      "id": "visie-quiet-power",
+      "date": "2026-10-28",
+      "line": "tension",
+      "title": "Visie · Quiet Power · KEYMAN Magazine Issue 3",
+      "note": "Quiet Power——单人磁场，不是双人戏。",
+      "why": "建筑剪影、定向光、单色——一人撑满棚拍。Photographer Rambo Ding · Model Ying Ouyang。",
+      "steal": "剪裁与肩线即权力。",
+      "source": "Visie · KEYMAN Quiet Power",
+      "href": "https://visie.io/project/various-editorials-quiet-power-for-keyman-magazine-issue-3-2025",
+      "image": {
+        "file": "log-visie-quiet-power.webp",
+        "alt": "Quiet Power editorial for KEYMAN Magazine Issue 3",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "pascal-aude-mono",
+      "date": "2026-10-28",
+      "line": "tension",
+      "title": "Pascal Uehli · Audé in Monochrome Fashion",
+      "note": "单色自持——一人填满画幅。",
+      "why": "苏黎世棚拍单色肖像；光只服务一张脸与衣料，磁场自持。",
+      "steal": "单色统一高级。",
+      "source": "Pascal Uehli · Audé Monochrome",
+      "href": "https://pascaluehli.com/aude-in-monochrome-fashion/",
+      "image": {
+        "file": "log-pascal-aude-mono.webp",
+        "alt": "Pascal Uehli · Audé in Monochrome Fashion",
+        "width": 1440,
+        "height": 960
+      }
+    },
+    {
+      "id": "hammershoi-sunlight",
+      "date": "2026-10-28",
+      "line": "repression",
+      "title": "Hammershøi · 斯特兰德街，地板上的阳光",
+      "note": "人背过身坐在角落，光只落在空地板上。",
+      "why": "画里最亮的是一块没人站的地板。女人缩在左下角，背对我们，门关着，墙上两个空框。克制到连光都不肯照人。",
+      "steal": "压抑不靠暗，靠把亮处留给空位。",
+      "source": "SMK 丹麦国家美术馆 · KMS3696 · 1901 · 公有领域",
+      "href": "https://open.smk.dk/artwork/image/KMS3696",
+      "image": {
+        "file": "pd-hammershoi-sunlight.webp",
+        "alt": "灰白的房间，女人穿黑衣背对画面坐在左下角桌边，窗光落在空地板上，右边一扇关着的门",
+        "width": 1600,
+        "height": 1405
+      }
+    },
+    {
+      "id": "hammershoi-reading-night",
+      "date": "2026-10-28",
+      "line": "repression",
+      "title": "Hammershøi · 夜里在桌边读书的人",
+      "note": "整张纸压成黑的，只留一圈暖色的桌面和一张低着的脸。",
+      "why": "炭笔把屋子涂满，只有灯下的桌面是橘色的。人几乎看不见，灯把他和屋子隔开。像 Hopper 夜办公室往前推三十年。",
+      "steal": "一盏灯就够分出里和外。",
+      "source": "The Met · Figure Reading at a Table in an Interior at Night · 约 1891 · 公有领域",
+      "href": "https://www.metmuseum.org/art/collection/search/406969",
+      "image": {
+        "file": "pd-hammershoi-reading-night.webp",
+        "alt": "炭笔画：漆黑的室内，一张圆桌被灯照成暖橘色，桌后一张低着的脸",
+        "width": 1072,
+        "height": 1400
+      }
+    },
+    {
+      "id": "hammershoi-moonlight",
+      "date": "2026-10-28",
+      "line": "repression",
+      "title": "Hammershøi · 月光，斯特兰德街 30 号",
+      "note": "空房间，月光落在地上，门关着。没有人，也像有人刚走。",
+      "why": "没有人物，只有窗格投下的冷光和一扇关着的门。等待感是空出来的，不是画出来的。",
+      "steal": "房间可以替人说话。",
+      "source": "The Met · Moonlight, Strandgade 30 · 1900–1906 · 公有领域",
+      "href": "https://www.metmuseum.org/art/collection/search/441933",
+      "image": {
+        "file": "pd-hammershoi-moonlight.webp",
+        "alt": "昏暗的空房间，窗格的月光投在地板上，右边一扇关着的白门",
+        "width": 1400,
+        "height": 1118
+      }
+    },
+    {
+      "id": "sargent-madame-x",
+      "date": "2026-10-28",
+      "line": "tension",
+      "title": "Sargent · X 夫人",
+      "note": "黑裙、白肩、侧脸。一个人站着，整间沙龙都得看她。",
+      "why": "1884 年巴黎沙龙上闹过风波的画。人把脸转开，一只手压着桌沿，不看你。磁场全在姿态和肩线上，画里没有第二个人，也不需要。",
+      "steal": "侧脸比正脸更有距离，距离就是张力。",
+      "source": "The Met · Madame X (Virginie Amélie Avegno Gautreau) · 1883–84 · 公有领域",
+      "href": "https://www.metmuseum.org/art/collection/search/12127",
+      "image": {
+        "file": "pd-sargent-madame-x.webp",
+        "alt": "全身肖像：女人穿黑色露肩长裙，侧脸望向右边，右手撑在小圆桌上",
+        "width": 842,
+        "height": 1600
+      }
+    },
+    {
+      "id": "ingres-broglie",
+      "date": "2026-10-28",
+      "line": "tension",
+      "title": "Ingres · 德·布罗伊公主",
+      "note": "蓝缎子、交叠的手臂、正面但不热络的目光。",
+      "why": "衣料画得比人还亮，人反而收着：手臂交叠搭在椅背上，眼神是平的。贵气是端出来的，不是笑出来的。",
+      "steal": "正面目光不等于亲近；自持看手放在哪。",
+      "source": "The Met · Princesse de Broglie · 1851–53 · 公有领域",
+      "href": "https://www.metmuseum.org/art/collection/search/459106",
+      "image": {
+        "file": "pd-ingres-broglie.webp",
+        "alt": "半身肖像：女人穿浅蓝缎面长裙，双臂交叠倚在金色椅背上，目光平视",
+        "width": 1201,
+        "height": 1600
+      }
+    },
+    {
+      "id": "hammershoi-ida-teacup",
+      "date": "2026-10-28",
+      "line": "tension",
+      "title": "Hammershøi · 伊达与茶杯",
+      "note": "灰墙、黑衣、一只白杯子。她看着画外，不看你。",
+      "why": "画家给妻子画像，几乎抽掉了所有颜色。手在搅茶，眼睛在别处。人坐得很稳，是一个人的安静，不是两个人的对视。",
+      "steal": "把颜色收到只剩一个白点，人就成了中心。",
+      "source": "SMK 丹麦国家美术馆 · KMS3352 · 1907 · 公有领域",
+      "href": "https://open.smk.dk/artwork/image/KMS3352",
+      "image": {
+        "file": "pd-hammershoi-ida-teacup.webp",
+        "alt": "半身肖像：女人穿黑衣坐在白桌布前，手里搅着白茶杯，目光望向画外",
+        "width": 1273,
+        "height": 1600
+      }
+    },
+    {
+      "id": "yt-coffee-table-book",
+      "date": "2026-10-27",
+      "line": "taste",
+      "title": "YouTube · Collect & Contrast「Editorial Design Process: Making a Coffee Table Book」",
+      "note": "成书过程角——页对页节奏比概念口播更可偷。",
+      "why": "咖啡桌书从网格到成书的过程角；看得见页对页节奏、出血、字阶、图文对话。",
+      "steal": "过程比成品截图更能教「为什么落在这一格」。",
+      "source": "YouTube · Collect & Contrast · Coffee Table Book",
+      "href": "https://www.youtube.com/watch?v=pM7g8qddXaY",
+      "image": {
+        "file": "log-yt-coffee-table-book.webp",
+        "alt": "YouTube 封面：咖啡桌书编辑设计过程片",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "id": "vimeo-saul-elaine-bass",
+      "date": "2026-10-27",
+      "line": "taste",
+      "title": "Vimeo · Albinson Design「The Title Design of Saul and Elaine Bass」",
+      "note": "片头字一帧定调——字即情节，不是装饰贴纸。",
+      "why": "Saul & Elaine Bass 片头字视觉史；字把叙事压成符号与运动。Elaine 同署，别只记 Saul。",
+      "steal": "字即情节——一帧定调。",
+      "source": "Vimeo · Albinson · Saul & Elaine Bass",
+      "href": "https://vimeo.com/31992143",
+      "image": {
+        "file": "log-vimeo-saul-elaine-bass.webp",
+        "alt": "Vimeo 缩略：Saul and Elaine Bass 片头字设计",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "id": "youtube-yhs9-rvtwsa",
+      "date": "2026-10-27",
+      "line": "taste",
+      "title": "YouTube · Satori Graphics「Graphic Design Trends 2026」",
+      "note": "偏趋势清单/营销课销，只偷「趋势要落到用法」判断，不跟清单刷屏。",
+      "source": "YouTube",
+      "href": "https://www.youtube.com/watch?v=yHs9-RVTwsA"
+    },
+    {
+      "id": "bili-system-type",
+      "date": "2026-10-27",
+      "line": "taste",
+      "title": "B站 · System 杂志「字比图多」",
+      "note": "字刊——字阶与栏宽先于氛围图。",
+      "why": "字压过图的业内向时尚刊；字阶与栏宽先于氛围图。",
+      "steal": "字刊写给会看字的人。",
+      "source": "B站 · System 字比图多",
+      "href": "https://www.bilibili.com/video/BV1oP411p7FE/",
+      "image": {
+        "file": "log-bili-system-type.webp",
+        "alt": "B站封面：System 字比图多的时尚杂志",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "id": "bili-w-magazine",
+      "date": "2026-10-27",
+      "line": "taste",
+      "title": "B站 · W中文版",
+      "note": "片刊一端——时装摄影与中文编辑气口。",
+      "why": "大刊时装摄影 + 中文编辑气口；与 System「吃字」对照，W 更「吃片」。",
+      "steal": "同批 B 站两端：System 吃字 / W 吃片；笔记只留版式判断，不跟标题党。",
+      "source": "B站 · W中文版",
+      "href": "https://www.bilibili.com/video/BV1CG66YtEpY/",
+      "image": {
+        "file": "log-bili-w-magazine.webp",
+        "alt": "B站封面：W中文版水准对照",
+        "width": 1570,
+        "height": 883
+      }
+    },
+    {
+      "id": "bili-hamada",
+      "date": "2026-10-27",
+      "line": "taste",
+      "title": "B站 · 【审美积累21】滨田英明",
+      "note": "审美积累系列浅记——个人视线课。",
+      "why": "摄影师个人视线课；系列粒度可对标本站「同角换作者」。",
+      "source": "B站 · 审美积累21 滨田英明",
+      "href": "https://www.bilibili.com/video/BV1i7421N7bR/",
+      "image": {
+        "file": "log-bili-hamada.webp",
+        "alt": "B站封面：审美积累滨田英明",
+        "width": 1440,
+        "height": 1080
+      }
+    },
+    {
+      "id": "ren-hang-blindspot",
+      "date": "2026-10-27",
+      "line": "repression",
+      "title": "Ren Hang · Blindspot / Fondazione Sozzani / ArtAsiaPacific「Human Love」",
+      "note": "半遮与匿名化身体——闷拧的视线，不是色情搬运。",
+      "why": "画廊与展览文把作品放进机构语境；半遮、匿名化身体、审查后仍闷着的视线——不是裸露本身。品味门槛：冷、正式、统一高级色调；不搬血腥/生猛。",
+      "steal": "压抑写半遮与审查语境，不写肉。",
+      "source": "Blindspot · Ren Hang",
+      "href": "https://blindspotgallery.com/artist/ren-hang/",
+      "image": {
+        "file": "log-ren-hang-blindspot.webp",
+        "alt": "Ren Hang 较克制的形体抽象（Blindspot）",
+        "width": 1420,
+        "height": 959
+      }
+    },
+    {
+      "id": "albertine-hannibal",
+      "date": "2026-10-27",
+      "line": "repression",
+      "title": "ALBERTINE · Hannibal 摄影美术文",
+      "note": "冷青绿与琥珀对照——正式、压得住的色调，不是血腥。",
+      "why": "冷青绿/琥珀对照、正式构图、压得住的摄影美术——要的是统一高级色调与情绪，不是血腥意象。",
+      "steal": "压抑条目写色板与镜头礼貌，不写肉；单人侧脸/静物局部也能撑住闷。",
+      "source": "ALBERTINE · Hannibal 色调参考",
+      "href": "https://www.albertine.live/the-menagerie/hannibal",
+      "image": {
+        "file": "log-albertine-hannibal.webp",
+        "alt": "Hannibal 剧集色调与美术设计参考静帧",
+        "width": 1500,
+        "height": 841
+      }
+    },
+    {
+      "id": "lofficiel-magnetic",
+      "date": "2026-10-27",
+      "line": "tension",
+      "title": "L'Officiel Baltic · MAGNETIC PRESENCE",
+      "note": "单人磁场——结构肩与正面目光，规矩里发烫。",
+      "why": "刊名即论点——Magnetic Presence 是单人磁场，不是两人拉扯。结构肩、严妆、正面目光：规矩里发烫。",
+      "steal": "一人填满画幅的权力感；禁止情侣戏入条。",
+      "source": "L'Officiel Baltic · MAGNETIC PRESENCE",
+      "href": "https://www.lofficielbaltic.com/en/editorials/magnetic-presence",
+      "image": {
+        "file": "log-lofficiel-magnetic.webp",
+        "alt": "L'Officiel Baltic MAGNETIC PRESENCE 编辑人像",
+        "width": 1200,
+        "height": 1500
+      }
+    },
+    {
+      "id": "numero-quiet-gaze",
+      "date": "2026-10-27",
+      "line": "tension",
+      "title": "Numéro Switzerland · Quiet Gaze",
+      "note": "Quiet Gaze——回眸与自持，不是双人戏。",
+      "why": "工作室肖像把张力放在回眸与自持；黑白、肩线、目光——压着却发烫。",
+      "steal": "静默凝视即磁场。",
+      "source": "Numéro CH · Quiet Gaze",
+      "href": "https://numeromagazine.ch/quiet-gaze/",
+      "image": {
+        "file": "log-numero-quiet-gaze.webp",
+        "alt": "Numéro Switzerland Quiet Gaze 单人肖像",
+        "width": 800,
+        "height": 600
+      }
+    },
+    {
+      "id": "instinct-camille",
+      "date": "2026-10-27",
+      "line": "tension",
+      "title": "Instinct Paris · Camille Cottin Dior",
+      "note": "单人磁场浅记——建筑肩与前景框。",
+      "why": "单人女星磁场、建筑肩与窥视式前景框。",
+      "source": "Instinct · Camille Cottin Dior",
+      "href": "https://instinct.paris/dior-camille-cottin",
+      "image": {
+        "file": "log-instinct-camille.webp",
+        "alt": "Instinct · Camille Cottin Dior 编辑页示意",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "id": "enako-gavan",
+      "date": "2026-10-27",
+      "line": "beauty",
+      "title": "えなこ · Gavan",
+      "note": "蓝舞台服，护目镜和耳机，侧身站在树前。站姿稳，是来告知的。",
+      "why": "舞台服，站姿稳。这张是来告知的，不是来撒娇的。",
+      "body": [
+        "蓝紧身衣从领口收到脚踝，浅色条纹把侧线画出来。护目镜推在额头上，耳机扣着，手套是黑的，指节有金属片。",
+        "人侧过身，脸转回来看镜头。背后是树和云，不是棚拍的白。天是亮的，衣服是一块完整的蓝。",
+        "好看在站：重心在后腿，肩是平的。道具都在脸上和手上，人没有被它们拆开。"
+      ],
+      "source": "えなこ · Gavan 舞台挨拶",
+      "href": "https://x.com/enako_cos/status/2115020589652189470",
+      "image": {
+        "file": "li-20261028-enako-gavan.webp",
+        "alt": "えなこ穿蓝舞台服，护目镜和耳机，侧身站在树前",
+        "width": 1108,
+        "height": 1477
+      },
+      "pick": true
+    },
+    {
+      "id": "iori-kyurun",
+      "date": "2026-10-27",
+      "line": "beauty",
+      "title": "伊織もえ",
+      "note": "灰兔耳，浅蓝内衣，横躺在木地板上。粉丝带垂下来，是きゅるん。",
+      "why": "灰兔耳，浅蓝内衣，横在木地板上。粉丝带是软的，人不是。",
+      "body": [
+        "横构图，人从左下躺到画面中间。一只手撑地，腿叠着，紫拖鞋只露一只。兔耳是毛的，比头还高。",
+        "粉丝带从颈后垂到胸口。内衣是浅蓝蕾丝，室外的光是白的，背景的人和窗都虚掉了。",
+        "好看在横：脸在上半，身体沿着地板铺开。きゅるん在耳朵和丝带，不在表情。"
+      ],
+      "source": "伊織もえ · きゅるん",
+      "href": "https://x.com/iorimoe_five/status/2114914638412513733",
+      "image": {
+        "file": "li-20261028-iori-kyurun.webp",
+        "alt": "伊織もえ戴灰兔耳，穿浅蓝内衣，横躺在木地板上",
+        "width": 2500,
+        "height": 1406
+      },
+      "pick": true
+    },
+    {
+      "id": "amatsu-front",
+      "date": "2026-10-27",
+      "line": "beauty",
+      "title": "あまつまりな",
+      "note": "白紫泳装正面，窗帘和吊灯在旁边。人站直，构图干净。",
+      "why": "泳装正面，人站直。房间是配的，构图是干净的。",
+      "body": [
+        "竖构图，人占中间。白、深蓝、浅紫三块颜色用金边分开，高领把脖子收住。手臂垂着，没有比手势。",
+        "左边是白窗帘，头顶一盏玻璃吊灯，右边一盏台灯。光是室内的，没有打到过曝。",
+        "好看在正：肩和髋是侧过去的，脸是正的。正面给全了，背景没有抢。"
+      ],
+      "source": "あまつまりな · まえとうしろ",
+      "href": "https://x.com/R_Ap8_/status/2115036271051743448",
+      "image": {
+        "file": "li-20261028-amatsu-front.webp",
+        "alt": "あまつまりな穿白紫泳装，正面站在室内",
+        "width": 1200,
+        "height": 1600
+      },
+      "pick": true
+    },
+    {
+      "id": "yua-gr",
+      "date": "2026-10-27",
+      "line": "beauty",
+      "title": "三上悠亜 · GR",
+      "note": "格子比基尼，一手扶着额头，站在泳池栏杆边。",
+      "why": "格子比基尼，一手放在额头上。泳池是蓝的，人是站着的。",
+      "body": [
+        "竖构图，人在栏杆旁边。比基尼是浅绿色格子加粉条，肩带是粉的。左手抬起来，手心贴着发际。",
+        "后面是金玻璃楼和棕榈，水是亮的。栏杆是圆的不锈钢，占了左下，把人从池边切出来。",
+        "好看在手：抬起来的那只手是这张的停顿。不笑很大，站着就够。"
+      ],
+      "source": "三上悠亜 · GR",
+      "href": "https://x.com/yua_mikami/status/2114676656745091283",
+      "image": {
+        "file": "li-20261028-yua-gr.webp",
+        "alt": "三上悠亜穿格子比基尼，一手扶额头，站在泳池栏杆边",
+        "width": 1066,
+        "height": 1600
+      },
+      "pick": true
+    },
+    {
+      "id": "yua-walk",
+      "date": "2026-10-27",
+      "line": "beauty",
+      "title": "三上悠亜 · 走路",
+      "note": "背对镜头往池边走，白镂空衫，肩上一个大白包。同一次 GR。",
+      "source": "三上悠亜 · GR 走路",
+      "href": "https://x.com/yua_mikami/status/2114676656745091283",
+      "image": {
+        "file": "li-20261028-yua-walk.webp",
+        "alt": "三上悠亜背对镜头走向泳池，白镂空衫，肩上一个大白包",
+        "width": 1066,
+        "height": 1600
+      }
+    },
+    {
+      "id": "da-mh-rise-switchplayer",
+      "date": "2026-10-26",
+      "line": "taste",
+      "title": "DeviantArt · SaneKyle「MH Rise for Switch Player Mag」",
+      "note": "实刊封面先留字位——刊名条、主视觉、导读一起站住。",
+      "why": "游戏实刊封面——刊名条、主视觉、导读位一起站住；插画先给字留着陆台。",
+      "steal": "先留字位再画满；对照 Pixiv 文库表紙看刊种字阶差异。",
+      "source": "DeviantArt · SaneKyle · MH Rise for Switch Player Mag",
+      "href": "https://www.deviantart.com/sanekyle/art/MH-Rise-for-Switch-Player-Mag-875825170",
+      "image": {
+        "file": "log-da-mh-rise-switchplayer.webp",
+        "alt": "Switch Player 杂志封面：刊名条与怪物猎人主视觉",
+        "width": 752,
+        "height": 1063
+      }
+    },
+    {
+      "id": "pixiv-nao-yasashii",
+      "date": "2026-10-26",
+      "line": "taste",
+      "title": "Pixiv · nao_zhizi「やさしい第一印象」",
+      "note": "第一印象要安心——封面字阶先给人软着陆。",
+      "why": "封面第一眼字要安心；带素材味，只偷判断不跟素材号。",
+      "source": "Pixiv · nao_zhizi · やさしい第一印象",
+      "href": "https://www.pixiv.net/artworks/138700351",
+      "image": {
+        "file": "log-pixiv-nao-yasashii.webp",
+        "alt": "やさしい第一印象：偏软的封面字阶示意",
+        "width": 1200,
+        "height": 1200
+      }
+    },
+    {
+      "id": "tumblr-sari-wired",
+      "date": "2026-10-26",
+      "line": "taste",
+      "title": "Tumblr · Sari Cohen editorial",
+      "note": "编辑插画服务文章语气，不是壁纸墙。",
+      "why": "真人编辑插画博（Wired / Ebony / CK / Mosaic）。",
+      "source": "Tumblr · Sari Cohen · editorial illustration",
+      "href": "https://www.tumblr.com/sari-cohen",
+      "image": {
+        "file": "log-tumblr-sari-wired.webp",
+        "alt": "Sari Cohen 为 Wired 一类编辑向的插画截帧",
+        "width": 1280,
+        "height": 1199
+      }
+    },
+    {
+      "id": "muuuuu-sb-oai-sotd",
+      "date": "2026-10-26",
+      "line": "taste",
+      "title": "MUUUUU · SB OAI Japan SOTD OCT 25, 2026",
+      "note": "新于上周的 SOTD——企业站字阶冷静、分区清楚。",
+      "why": "OCT 25 新 SOTD（相对 OCT 22 博报堂招聘）；AI/科技企业站字阶冷静、分区清楚。制作 IN FOCUS。",
+      "steal": "SOTD 当周更一例；双挂 MUUUUU 条目 + 对象站。",
+      "source": "MUUUUU · SB OAI Japan SOTD OCT 25",
+      "href": "https://muuuuu.org/industry/technology/25142.html",
+      "image": {
+        "file": "log-muuuuu-sb-oai-sotd.webp",
+        "alt": "MUUUUU Site of the Day：SB OAI Japan 站截图",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "id": "sankou-mikaku",
+      "date": "2026-10-26",
+      "line": "taste",
+      "title": "SANKOU · 味覚編集",
+      "note": "味觉当编辑立场——站名本身就是判断句。",
+      "why": "味觉=编辑；对象站 mikakuhenshu.com。",
+      "source": "SANKOU · 味覚編集",
+      "href": "https://sankoudesign.com/web/mikakuhenshu/",
+      "image": {
+        "file": "log-sankou-mikaku.webp",
+        "alt": "SANKOU 收录的味覚編集站缩略",
+        "width": 1000,
+        "height": 874
+      }
+    },
+    {
+      "id": "sankou-hiragino",
+      "date": "2026-10-26",
+      "line": "taste",
+      "title": "SANKOU · ヒラギノフォント",
+      "note": "字厂商特设——字就是主视觉，少装饰。",
+      "why": "字厂商特设站；字本身是产品主视觉。",
+      "source": "SANKOU · ヒラギノフォント",
+      "href": "https://sankoudesign.com/web/hiragino/",
+      "image": {
+        "file": "log-sankou-hiragino.webp",
+        "alt": "SANKOU 收录的ヒラギノフォント特设站缩略",
+        "width": 1000,
+        "height": 874
+      }
+    },
+    {
+      "id": "kokoro-usagi",
+      "date": "2026-10-26",
+      "line": "beauty",
+      "title": "篠崎こころ",
+      "note": "金发兔耳，粉条纹衬衫滑到肩下。Young Gangan。",
+      "source": "篠崎こころ · うさぎ · Young Gangan",
+      "href": "https://x.com/kokoro777pp/status/2114679117778141586",
+      "image": {
+        "file": "li-20261028-kokoro-usagi.webp",
+        "alt": "篠崎こころ金发兔耳，粉条纹衬衫滑到肩下",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "artstation-selkosanomat",
+      "date": "2026-10-25",
+      "line": "taste",
+      "title": "ArtStation · Alvari Juhola — Selkosanomat / Lätta bladet",
+      "note": "约束里做版——字、色、图先过易读底线，插画服务体育跨页的信息。",
+      "why": "芬兰易读新闻刊实刊 layout（issues 5–7）：客户模板 + 严格易读规范（字/色/图如何尽量易达）。插画服务信息结构（体育跨页、自定义地图、渔具小图），不是氛围贴图。相对 DuoLife 品牌刊系统——这是「约束里做版」。",
+      "steal": "品味线先定可读性底线再谈氛围。",
+      "source": "ArtStation · Alvari Juhola · Selkosanomat / Lätta bladet",
+      "href": "https://alvarijuhola.artstation.com/projects/x3mR3O",
+      "image": {
+        "file": "log-artstation-selkosanomat.webp",
+        "alt": "Selkosanomat 5/2024 体育跨页，泳池与球场插画配易读正文",
+        "width": 1400,
+        "height": 1004
+      }
+    },
+    {
+      "id": "cara-serra-cabbage",
+      "date": "2026-10-25",
+      "line": "taste",
+      "title": "Cara · Serra Ataman — KAFKAOKUR「Alphabet of Sacred Flavours」",
+      "note": "连载一帧：卷心菜与菊芋并置，服务文章，不换整套视觉语言。",
+      "why": "真人编辑食物插画连载——每期两种蔬果并置，服务文章而非壁纸；同系列换物类、不换整套视觉语言。",
+      "steal": "连载粒度对标每日积累。",
+      "source": "Cara · Serra Ataman · Cabbage & Sunchoke · KAFKAOKUR",
+      "href": "https://cara.app/post/486d1762-74ea-411b-95a6-cf599513813e",
+      "image": {
+        "file": "log-cara-serra-cabbage.webp",
+        "alt": "KAFKAOKUR：卷心菜与菊芋插画",
+        "width": 750,
+        "height": 392
+      },
+      "more": [
+        {
+          "file": "log-cara-serra-garlic.webp",
+          "alt": "KAFKAOKUR：蒜与草莓插画",
+          "width": 750,
+          "height": 183
+        }
+      ]
+    },
+    {
+      "id": "behance-typezine",
+      "date": "2026-10-25",
+      "line": "taste",
+      "title": "Behance · Typezine Longinotti",
+      "note": "两字一墨斜网格。大字跨页本身就是版面结构。",
+      "source": "Behance · Typezine Editorial · Tipografía Longinotti",
+      "href": "https://www.behance.net/gallery/243108419/Typezine-Editorial-Tipografia-Longinotti",
+      "image": {
+        "file": "log-behance-typezine.webp",
+        "alt": "Typezine Longinotti 跨页，薄荷绿底上的斜向大字",
+        "width": 1400,
+        "height": 1043
+      }
+    },
+    {
+      "id": "behance-bant",
+      "date": "2026-10-25",
+      "line": "taste",
+      "title": "Behance · Bant Mag Redesign",
+      "note": "胶带手做刊名。字是做出来的物件，不是贴上去的标题。",
+      "source": "Behance · Bant Mag. Redesign",
+      "href": "https://www.behance.net/gallery/248358129/Bant-Mag-Redesign-Editorial-Design-Project",
+      "image": {
+        "file": "log-behance-bant.webp",
+        "alt": "Bant Mag 改版封面，胶带拼出刊名",
+        "width": 1200,
+        "height": 675
+      }
+    },
+    {
+      "id": "x-oliver-scale-1",
+      "date": "2026-10-25",
+      "line": "taste",
+      "title": "X · @oliver_gareis · 字阶 / 网格 / 节奏",
+      "note": "字阶叠在网格上。比例本身是内容。",
+      "why": "字阶、网格、节奏。两张都是比例实验，不是氛围海报。",
+      "source": "X · @oliver_gareis · scale / grid / rhythm",
+      "href": "https://x.com/oliver_gareis/status/2107146296842719562",
+      "image": {
+        "file": "log-x-oliver-scale-1.webp",
+        "alt": "字阶与网格练习，棕底上的大写字母和红线网格",
+        "width": 1008,
+        "height": 1200
+      },
+      "more": [
+        {
+          "file": "log-x-oliver-scale-2.webp",
+          "alt": "字阶与网格练习，大字 AN ONGOING STUDY OF TYPE 与小注",
+          "width": 1008,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "id": "x-oliver-racing-1",
+      "date": "2026-10-25",
+      "line": "taste",
+      "title": "X · @oliver_gareis · racing editorial",
+      "note": "赛车编辑刊面：照片上叠字阶，数字当主角。",
+      "why": "赛车题材的编辑刊面：一张照片叠字，一张纯字版。",
+      "source": "X · @oliver_gareis · racing editorial layouts",
+      "href": "https://x.com/oliver_gareis/status/2112219724855836691",
+      "image": {
+        "file": "log-x-oliver-racing-1.webp",
+        "alt": "赛车编辑跨页，头盔照片上叠 GT-R 与数字",
+        "width": 1200,
+        "height": 764
+      },
+      "more": [
+        {
+          "file": "log-x-oliver-racing-2.webp",
+          "alt": "赛车编辑纯字版，SPEED IS NOT ENOUGH 大字加双栏小注",
+          "width": 1200,
+          "height": 764
+        }
+      ]
+    },
+    {
+      "id": "artstation-siege05",
+      "date": "2026-10-25",
+      "line": "taste",
+      "title": "ArtStation · SIEGE Issue 05",
+      "note": "作品集当刊。刊名、期号、导语在同一套封面上。",
+      "source": "ArtStation · Echo Lima / Eliott Lilly · SIEGE Issue 05",
+      "href": "https://echolima.artstation.com/projects/nEy4mO",
+      "image": {
+        "file": "log-artstation-siege05.webp",
+        "alt": "SIEGE Issue 05 封面，刊名与期号做成杂志封面",
+        "width": 1400,
+        "height": 1811
+      }
+    },
+    {
+      "id": "meiye-matvoyce-avatar",
+      "date": "2026-10-25",
+      "line": "taste",
+      "title": "美叶 · Mat Voyce 榜样页",
+      "note": "跟读单人榜样。美叶的用法是长期名单，不是刷瀑布。",
+      "why": "相对首页 pin——今天跟读单人脾气（插画+字+循环短动画）。美叶真正用法是长期榜样名单，不是刷瀑布。",
+      "steal": "日更「本周跟读作者」卡片；字当角色、循环当呼吸。",
+      "source": "美叶 · Mat Voyce · 榜样头图",
+      "href": "https://www.meiye.art/MasterDesigner/204/1/2307",
+      "image": {
+        "file": "log-meiye-matvoyce-avatar.webp",
+        "alt": "美叶 Mat Voyce 榜样头图",
+        "width": 230,
+        "height": 230
+      },
+      "more": [
+        {
+          "file": "log-meiye-matvoyce-work1.webp",
+          "alt": "Mat Voyce 作品 SUNNY DAY，字与太阳角色叠在一起",
+          "width": 1071,
+          "height": 1071
+        },
+        {
+          "file": "log-meiye-matvoyce-work2.webp",
+          "alt": "Mat Voyce 作品 SWEET!，层叠字",
+          "width": 1071,
+          "height": 1071
+        },
+        {
+          "file": "log-meiye-matvoyce-work3.webp",
+          "alt": "Mat Voyce 作品 BUSY，错位字层",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "file": "log-matvoyce-og.webp",
+          "alt": "Mat Voyce 官网 OGP，斜条底上的字标",
+          "width": 1800,
+          "height": 945
+        }
+      ]
+    },
+    {
+      "id": "digitaling-1261294",
+      "date": "2026-10-25",
+      "line": "taste",
+      "title": "数英 · 小红书《about关于》MOOK 呼吸感排版",
+      "note": "平台杂志书用疏密分层举例（展开插图 vs 注释小版）。",
+      "why": "每期加新板块彩蛋。",
+      "steal": "图注写清「哪块展开、哪块注释」；别空喊呼吸感。",
+      "source": "数英",
+      "href": "https://www.digitaling.com/articles/1261294.html"
+    },
+    {
+      "id": "huaban-25263522",
+      "date": "2026-10-25",
+      "line": "taste",
+      "title": "花瓣 · 单画板",
+      "note": "单画板，深于话题入口。",
+      "source": "花瓣",
+      "href": "https://huaban.com/boards/25263522"
+    },
+    {
+      "id": "zcool-zmzm5mjg1mjq",
+      "date": "2026-10-25",
+      "line": "taste",
+      "title": "站酷 · 合集",
+      "note": "合集页。",
+      "source": "站酷",
+      "href": "https://www.zcool.com.cn/collection/ZMzM5Mjg1MjQ="
+    },
+    {
+      "id": "meiye-home-pin1",
+      "date": "2026-10-25",
+      "line": "taste",
+      "title": "美叶 · 首页流图示意",
+      "note": "首页流里的一帧。浅记，不重抄首页定位。",
+      "why": "首页流图示意。",
+      "source": "美叶 · 首页流图示意",
+      "href": "https://meiye.art/",
+      "image": {
+        "file": "log-meiye-home-pin1.webp",
+        "alt": "美叶首页流图示意",
+        "width": 800,
+        "height": 1732
+      }
+    },
+    {
+      "id": "fontsinuse-the-face-magazine-issue-26",
+      "date": "2026-10-24",
+      "line": "taste",
+      "title": "Fonts In Use · The Face magazine, issue 26",
+      "note": "终刊仍为字系统买单：无衬线刊头锚 + 衬线叙事层。",
+      "why": "The Face 2026 春最终印本委托两套定制字——KMR Face Grotesk Stencil（档案期 Akzidenz Stencil 研究，display/text 缝宽分档）和 OO Face Serif（参数化对比与字重，类等宽字形做节奏）。",
+      "steal": "改版先定 display/text 职责。",
+      "source": "Fonts In Use",
+      "href": "https://fontsinuse.com/uses/78225/the-face-magazine-issue-26"
+    },
+    {
+      "id": "surfersjournal",
+      "date": "2026-10-24",
+      "line": "taste",
+      "title": "Siteinspire → The Surfer's Journal Archives",
+      "note": "按年卷把封面排成可翻档案墙（1992 Vol.1 → 2026 Vol.35）。",
+      "why": "刊自述 minimalist cover / flat binding / more book than magazine。用期号网格替代无限瀑布。",
+      "steal": "日更做成「期号/批次网格」。",
+      "href": "https://archives.surfersjournal.com/"
+    },
+    {
+      "id": "awwwards-hearst-exhibit-2026",
+      "date": "2026-10-24",
+      "line": "taste",
+      "title": "Awwwards · Hearst Exhibit 2026",
+      "note": "展场当刊。",
+      "why": "Magazine/Typography 标签。",
+      "source": "Awwwards",
+      "href": "https://www.awwwards.com/sites/hearst-exhibit-2026"
+    },
+    {
+      "id": "itsnicethat-forward-thinking-graphic-trends-2026",
+      "date": "2026-10-24",
+      "line": "taste",
+      "title": "It's Nice That · 2026 graphic trends",
+      "note": "Micrographics 作页家具。",
+      "source": "It's Nice That",
+      "href": "https://www.itsnicethat.com/features/forward-thinking-graphic-trends-2026-graphic-design-120126"
+    },
+    {
+      "id": "savee-0-ui-editorial-magazine",
+      "date": "2026-10-24",
+      "line": "taste",
+      "title": "Savee · UI Editorial / Magazine",
+      "note": "画廊入口。",
+      "source": "Savee",
+      "href": "https://savee.com/martijnvanmeijel/boards/0-ui-editorial-magazine/"
+    },
+    {
+      "id": "are-aesthetic",
+      "date": "2026-10-24",
+      "line": "taste",
+      "title": "Are.na Editorial · The Aesthetic",
+      "note": "channel 名单策展（非 Areal 字文）。",
+      "source": "Are.na Editorial",
+      "href": "https://www.are.na/editorial/aesthetic"
+    },
+    {
+      "id": "bilibili-bv1654y1j7zk",
+      "date": "2026-10-24",
+      "line": "taste",
+      "title": "B站 · 【宛堇】一起看杂志｜apartamento / TANK / In Paris / Magazine B",
+      "note": "独立杂志实物沉浸翻页——跨页疏密、图注位置、封面→内页第一拍。",
+      "why": "与本站种子刊同族。",
+      "steal": "条目写「翻到第几拍停」；人物时尚图归美人线，品味线写版式与物性。",
+      "source": "B站",
+      "href": "https://www.bilibili.com/video/BV1654y1J7Zk/"
+    },
+    {
+      "id": "bilibili-bv1vu411s7yo",
+      "date": "2026-10-24",
+      "line": "taste",
+      "title": "B站 · 我竟从杂志中…悟出了排版的真谛",
+      "note": "间距/对比/色彩/视觉动线等可核动作清单，比「十五种风格」合集更贴判断句。",
+      "steal": "作品味线排版词典入口。",
+      "source": "B站",
+      "href": "https://www.bilibili.com/video/BV1Vu411S7Yo/"
+    },
+    {
+      "id": "bilibili-bv196vhbmesn",
+      "date": "2026-10-24",
+      "line": "taste",
+      "title": "B站 · 文字编排 18 案例",
+      "note": "文字编排 18 案例。",
+      "source": "B站",
+      "href": "https://www.bilibili.com/video/BV196vHBMESN/"
+    },
+    {
+      "id": "bilibili-bv11trpb3eja",
+      "date": "2026-10-24",
+      "line": "taste",
+      "title": "B站 · 26 开年封大战",
+      "note": "26 开年封大战。",
+      "source": "B站",
+      "href": "https://www.bilibili.com/video/BV11TrpB3EJA/"
+    },
+    {
+      "id": "visions-2026-kv",
+      "date": "2026-10-23",
+      "line": "taste",
+      "title": "Pixiv 监修 · VISIONS 2026 年刊 + 特设站",
+      "note": "年刊包装——刊名与 KV 分工，策展名单可翻。",
+      "why": "平台监修年度插画年刊：约 170 人成书，特设站把每位创作者做成可翻个页。刊名字阶与 key visual 分工清楚；年刊姿态像「策展名单」而不是散点图墙。品味线记包装与站建，人物主视觉留给美人线。",
+      "steal": "日更可做成「本周关注作者」名单+特设入口，别只堆单图。",
+      "source": "VISIONS 2026 · 特设站 KV",
+      "href": "https://visions.pr-pixiv.net/2026/",
+      "image": {
+        "file": "log-visions-2026-kv.webp",
+        "alt": "VISIONS 2026 特设站 key visual",
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "id": "pixiv-tenparu-title",
+      "date": "2026-10-23",
+      "line": "taste",
+      "title": "Pixiv · てんぱる1「同人誌のタイトルデザイン」",
+      "note": "纯字标题——缩略图里仍可读的层级。",
+      "why": "几乎只有字：同人刊名在缩略图尺寸里仍可读——助词缩小、字重对比、一行切节奏。相对「图+字半订表纸」作例，这是纯字层级主挖；标签含タイポグラフィ / タイトルデザイン / 装丁デザイン。系列自述作例只放标题、分卷连载——适合当字墙词典长期跟作者。",
+      "steal": "品味线偷字层级与缩略可读性；人物图仍归裏。可跟系列作者，不单赏立绘。",
+      "source": "Pixiv · てんぱる1 · タイトルデザイン(3)",
+      "href": "https://www.pixiv.net/artworks/84497848",
+      "image": {
+        "file": "log-pixiv-tenparu-title.webp",
+        "alt": "Pixiv 同人刊名标题设计作例",
+        "width": 825,
+        "height": 825
+      }
+    },
+    {
+      "id": "sankou-yoma",
+      "date": "2026-10-23",
+      "line": "taste",
+      "title": "SANKOU · YOMA inc.（余间）工作室站",
+      "note": "工作室站品味——留白、网格、信用行。",
+      "why": "SANKOU 价值在类目检索（配色/字/布局/业种）后的可复访站墙，不是又一个囤图瀑布。YOMA 练留白节奏、作品网格、信用行克制；对象站 yoma.inc 正文偏壳，以 SANKOU 条目+缩略为核。相对花瓣囤图，这是「可复访的站」级参考。",
+      "steal": "品味线条目可学元数据：来源、角度、可偷课一句——类目墙比散点图好找回。",
+      "source": "SANKOU · YOMA inc.",
+      "href": "https://sankoudesign.com/web/yoma/",
+      "image": {
+        "file": "log-sankou-yoma.webp",
+        "alt": "SANKOU 收录的 YOMA 工作室站缩略",
+        "width": 1000,
+        "height": 874
+      }
+    },
+    {
+      "id": "hakusuku-recruit",
+      "date": "2026-10-23",
+      "line": "taste",
+      "title": "MUUUUU SOTD · HAKUHODO RECRUITMENT",
+      "note": "招聘站也是编辑刊——大字口号与分栏。",
+      "why": "MUUUUU 改成每日一站（SOTD）+ 制作 credit——和本站「每日品味」同构。博报堂招聘站大字口号「汗かいて、心を動かす。」+ 作品/人/环境分栏；制作 TWOTONE。",
+      "steal": "口号当刊头别促销腔；日更画廊用「今日一站」代替无限瀑布。",
+      "source": "HAKUHODO RECRUITMENT / TWOTONE",
+      "href": "https://muuuuu.org/color/gray/25126.html",
+      "image": {
+        "file": "log-hakusuku-recruit.webp",
+        "alt": "博报堂招聘站 OGP / 主视觉",
+        "width": 1220,
+        "height": 640
+      }
+    },
+    {
+      "id": "uisdc-mina",
+      "date": "2026-10-23",
+      "line": "taste",
+      "title": "优设 · mina 时尚杂志平面拆解",
+      "note": "纸刊版心与出血——杂志化 UI 文没覆盖的课。",
+      "why": "以《mina》拆版心/分组/反复对齐/对比/出血/留白/抠图与四方版——纸刊解剖课。",
+      "steal": "纸刊动作清单可印成品味线「怎么看」短栏；B 端版式文仅作网格词典备用。",
+      "source": "优设 · mina 时尚杂志拆解",
+      "href": "https://www.uisdc.com/magazines-design",
+      "image": {
+        "file": "log-uisdc-mina.webp",
+        "alt": "优设 mina 杂志拆解文封面",
+        "width": 440,
+        "height": 280
+      }
+    },
+    {
+      "id": "pixiv-120000",
+      "date": "2026-10-23",
+      "line": "taste",
+      "title": "pixiv.co.jp · VISIONS 2026 书讯",
+      "note": "品味线记包装与站建。",
+      "href": "https://www.pixiv.co.jp/2025/09/19/120000"
+    },
+    {
+      "id": "pixiv-2513282",
+      "date": "2026-10-23",
+      "line": "taste",
+      "title": "Pixiv · てんぱる1 作者页",
+      "note": "系列自述作例只放标题、分卷连载，适合当字墙词典长期跟作者。",
+      "href": "https://www.pixiv.net/users/2513282"
+    },
+    {
+      "id": "yoma",
+      "date": "2026-10-23",
+      "line": "taste",
+      "title": "YOMA inc.",
+      "note": "对象站正文偏壳，以 SANKOU 条目和缩略为核。",
+      "href": "https://yoma.inc/"
+    },
+    {
+      "id": "artstation-duolife",
+      "date": "2026-10-22",
+      "line": "taste",
+      "title": "ArtStation · DuoLife Magazine",
+      "note": "品牌刊网格系统——真实约束下的可持续刊面。",
+      "source": "ArtStation · Rafal Topolski · DuoLife Magazine",
+      "href": "https://lafar.artstation.com/projects/DAXbVe",
+      "image": {
+        "file": "log-artstation-duolife.webp",
+        "alt": "ArtStation 封面：DuoLife Magazine",
+        "width": 1200,
+        "height": 675
+      }
+    },
+    {
+      "id": "behance-mix",
+      "date": "2026-10-22",
+      "line": "taste",
+      "title": "Behance · MIX Interiors Editorial Redesign",
+      "note": "内容响应式：标题、取色、构图跟文章变。",
+      "source": "Behance/Marçal · MIX Interiors Editorial",
+      "href": "https://www.behance.net/gallery/249923613/MIX-Interiors-Editorial-Design",
+      "image": {
+        "file": "log-behance-mix.webp",
+        "alt": "MIX Interiors 改版刊面示意",
+        "width": 1200,
+        "height": 675
+      }
+    },
+    {
+      "id": "meiye-pin1",
+      "date": "2026-10-22",
+      "line": "taste",
+      "title": "美叶 · 设计师的品味养成所",
+      "note": "品味养成所——策展入口姿态。",
+      "source": "美叶 · 首页流图",
+      "href": "https://meiye.art/",
+      "image": {
+        "file": "log-meiye-pin1.webp",
+        "alt": "美叶首页流图示例一",
+        "width": 1200,
+        "height": 900
+      }
+    },
+    {
+      "id": "zcool-znzqxmtg4ndq",
+      "date": "2026-10-22",
+      "line": "taste",
+      "title": "站酷 · BranD 79 可持续地方设计",
+      "note": "全刊制作课：专色、六款护封叠龙脊、仿龙鳞装、木刻过渡页、四款纸触感分层。",
+      "href": "https://www.zcool.com.cn/work/ZNzQxMTg4NDQ=.html"
+    },
+    {
+      "id": "yt-mishi-artdirection",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "YouTube · Mastering Art Direction",
+      "note": "Art direction / 字阶指挥——导演视角补巡礼缺口。",
+      "source": "YouTube · Mishi Designs Studio · Art Direction / Editorial",
+      "href": "https://www.youtube.com/watch?v=oXnHkmIrgDQ",
+      "image": {
+        "file": "log-yt-mishi-artdirection.webp",
+        "alt": "YouTube 封面：Mastering Art Direction 讲解片",
+        "width": 1200,
+        "height": 675
+      }
+    },
+    {
+      "id": "vimeo-hometown-magazine",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "Vimeo · HOW TO MAKE A MAGAZINE",
+      "note": "印刷装订成刊过程当影像散文。",
+      "source": "Vimeo · Hometown · HOW TO MAKE A MAGAZINE",
+      "href": "https://vimeo.com/732690625",
+      "image": {
+        "file": "log-vimeo-hometown-magazine.webp",
+        "alt": "Vimeo 封面：HOW TO MAKE A MAGAZINE",
+        "width": 1200,
+        "height": 675
+      }
+    },
+    {
+      "id": "bili-ryo-nakajima",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "B站 · 审美积累｜Ryo Nakajima",
+      "note": "同关键词摄影师蒙太奇；品味线偷色与留白。",
+      "source": "B站 · 审美积累｜Ryo Nakajima",
+      "href": "https://www.bilibili.com/video/BV1v3zeBnEnK/",
+      "image": {
+        "file": "log-bili-ryo-nakajima.webp",
+        "alt": "B站封面：审美积累｜Ryo Nakajima",
+        "width": 1200,
+        "height": 675
+      }
+    },
+    {
+      "id": "bili-victionary-255",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "B站 · 灵感系列 VOL.255 Victionary",
+      "note": "出版物封面字阶巡礼，贴品味线字/排版。",
+      "source": "B站 · 灵感系列 VOL.255 Victionary",
+      "href": "https://www.bilibili.com/video/BV1wjqRBDEZq/",
+      "image": {
+        "file": "log-bili-victionary-255.webp",
+        "alt": "B站封面：Victionary 书封面灵感 VOL.255",
+        "width": 1200,
+        "height": 675
+      }
+    },
+    {
+      "id": "bili-bv1aepi6kerg",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "压抑 / 执念",
+      "note": "有判断力的混剪，不是空喊氛围。主人推荐的这条，放最上面。",
+      "why": "中文审美积累可以是一条有判断的片子。",
+      "steal": "先放一条看得下去的片子，不必先写成课。",
+      "source": "B站官方封面 · Lana-Dey-Rey · 压抑、执念与精神崩塌",
+      "href": "https://www.bilibili.com/video/BV1Aepi6KErg/",
+      "image": {
+        "file": "log-bili-bv1aepi6kerg.webp",
+        "alt": "B站官方封面：石塔上的白衣人物拉着钟绳，右边是深谷",
+        "width": 1200,
+        "height": 675
+      }
+    },
+    {
+      "id": "x-xin-heart",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "「心」字怎么变",
+      "note": "一个「心」字的部件变化，写成字课。中文字形从这里进。",
+      "why": "帖题是心字造型的变化。字形课只跟一个字，不铺全表。",
+      "steal": "一个字写清楚，比一张字表有用。",
+      "source": "X · @Eonway_Ying · 「心」字造型的变化",
+      "href": "https://x.com/Eonway_Ying/status/2112707395935711427",
+      "image": {
+        "file": "log-x-xin-heart.webp",
+        "alt": "「心」字从图形到楷书、再到偏旁的几组造型",
+        "width": 1400,
+        "height": 1867
+      }
+    },
+    {
+      "id": "as-hifructose-cover",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "Hi-Fructose 封面改版",
+      "note": "封面的字阶和左侧目录。这是版式练习，不是角色墙。",
+      "why": "学生作业：改 Hi-Fructose 的封面，再加一篇 feature。作者写明只作学习，不是在售刊。刊名是手绘填字，人名再大一号，左边是短目录。红蓝两条色带把下半页切开。",
+      "steal": "封面先排字阶，再谈图。",
+      "source": "Landon Cargill · ArtStation · Hi-Fructose 封面改版",
+      "href": "https://llcargill.artstation.com/projects/NyLdlJ",
+      "image": {
+        "file": "log-as-hifructose-cover.webp",
+        "alt": "Hi-Fructose 封面改版：手绘刊名、左侧目录、红蓝色带",
+        "width": 1200,
+        "height": 1604
+      }
+    },
+    {
+      "id": "pixiv-cover-samples",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "同人志封面作例",
+      "note": "拿同人志封面练刊名层级。看字，不看脸。",
+      "why": "2020-09-17，《セミオーダー同人誌表紙作例集》。标签有 novel cover、typography。作者写明不是免费素材。分享卡是「セミオーダー / 作例集」两行，品红和黄绿拆开。当字看，不当封面全集。",
+      "steal": "刊名先分两级，颜色跟着级走，不要平均铺。",
+      "source": "pixiv · てんぱる · セミオーダー同人誌表紙作例集 · 作者声明不是免费素材",
+      "href": "https://www.pixiv.net/artworks/84433706",
+      "image": {
+        "file": "log-pixiv-cover-samples.webp",
+        "alt": "同人志封面作例集的分享卡，两行刊名用品红和黄绿拆开",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "id": "em-vol7-cover",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "Emergence",
+      "note": "慢读的编辑刊。一期一个主题句，字和留白就是界面。",
+      "why": "首页在推 Volume 7：Seeds and Structures。刊旁边写着价钱。编辑部把「这时候还讲故事」当成这件事本身。界面靠主题句和留白，不靠一排按钮。",
+      "steal": "一期只留一个主题句，比做一张气氛海报有用。",
+      "source": "Emergence Magazine · Vol. 7 Seeds and Structures 封面",
+      "href": "https://emergencemagazine.org/",
+      "image": {
+        "file": "log-em-vol7-cover.webp",
+        "alt": "Emergence Magazine 第七卷封面和书脊，白底上散着小图，中间是主题句",
+        "width": 1200,
+        "height": 1326
+      }
+    },
+    {
+      "id": "arena-areal",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "Areal",
+      "note": "选一套默认字，也是立场。改字之前先读这篇。",
+      "why": "2025-08-21。Johannes Breyer、Charles Broskoski、Meg Miller。Dinamo 把 Arial 重画成 Areal。他们要的效果像刷新了一下页面：一样，又不完全一样。选 Arial，是因为它最不像「我懂设计」。默认也是一种选择。",
+      "steal": "换默认字要写清为什么，不要只换一个更好看的名字。",
+      "source": "Are.na Editorial · Introducing Areal · Dinamo",
+      "href": "https://www.are.na/editorial/introducing-areal-are-nas-new-typeface",
+      "image": {
+        "file": "log-arena-areal.webp",
+        "alt": "旧窗口里的大字 Ar_al，中间缺一笔",
+        "width": 865,
+        "height": 630
+      }
+    },
+    {
+      "id": "yt-mag-layouts-2024",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "2024 的刊面",
+      "note": "拆 2024 年的刊面：谁在上层、哪里空着、字号冲不冲突。",
+      "why": "片子顺着几本 2024 的杂志讲。浴缸那页用大空白对尖锐的字。New Scientist 把动作推到跨页最右边。Wired 奥运花费那张信息图塞很多，折缝中间仍空着。图是官方封面，下半能看见那张信息图跨页。",
+      "steal": "拆一页就写三件：层级、空、字号冲不冲突。",
+      "source": "YouTube 官方封面 · 2024 Best Magazine Layouts",
+      "href": "https://www.youtube.com/watch?v=K5sKMHW7NKw",
+      "image": {
+        "file": "log-yt-mag-layouts-2024.webp",
+        "alt": "2024 杂志版面视频的官方封面，下方是摊开的橙色信息图跨页",
+        "width": 1200,
+        "height": 676
+      }
+    },
+    {
+      "id": "uisdc-mag-ui",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "杂志化风格怎么用",
+      "note": "七个特征，可以当成「怎么看」的清单。",
+      "why": "文章把杂志化收成七件事：大字体、网格、留白、图形符号、大图、偏移布局、叠加排版。作者说这七个是一起用的，不要单拆一个就当风格。",
+      "steal": "看一页先对这七项，缺了哪项就写哪项。",
+      "source": "优设 · 功夫UX · 杂志化风格怎么用",
+      "href": "https://www.uisdc.com/magazine-style",
+      "image": {
+        "file": "log-uisdc-mag-ui.webp",
+        "alt": "一排手机界面，大字、色块和海报式排版叠在一起",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "id": "yz-cereal-cover",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "七种杂志调子",
+      "note": "标题就是「审美积累」。正文用七种调子定调，工具广告不跟。",
+      "why": "七种：简约现代、文艺清新、创意前卫、数字科技、商务专业、时尚活力、复古怀旧。每种挂了代表刊。有用的一句是：风格是定调，后面的字和配图才有方向。文末在推他们自己的电子刊工具。这条只取前面的七种调子。",
+      "steal": "定调用七个名字就够。工具广告不写进判断。",
+      "source": "云展网 · 七种杂志调子 · Cereal 封面例",
+      "href": "https://www.yunzhan365.com/use/digital-magazine/digital-magazine015/",
+      "image": {
+        "file": "log-yz-cereal-cover.webp",
+        "alt": "Cereal 杂志封面：大字刊名，下面是一只梨、一只盘子和一把叉子",
+        "width": 700,
+        "height": 918
+      }
+    },
+    {
+      "id": "meiye-inspiration",
+      "date": "2026-10-21",
+      "line": "taste",
+      "title": "灵感集",
+      "note": "色和界面的灵感墙。和优设那篇对照着扫。",
+      "why": "页面是灵感墙。跟第 9 条一起用：优设给清单，这里给例子。",
+      "steal": "灵感墙先不写判断。对照过清单再写。",
+      "source": "美叶",
+      "href": "https://meiye.art/inspiration"
+    },
+    {
+      "id": "lj-dont-worry-boys",
+      "date": "2026-10-20",
+      "line": "taste",
+      "title": "Don't Worry Boys / Stanley Stellar",
+      "note": "LJ 规格块：plates 分色 + mm + quarterbound + LJ227。",
+      "source": "Loose Joints · Don't Worry Boys / Stanley Stellar",
+      "href": "https://loosejoints.biz/products/dont-worry-boys",
+      "image": {
+        "file": "log-lj-dont-worry-boys.webp",
+        "alt": "Stanley Stellar Don't Worry Boys 书页静物",
+        "width": 1200,
+        "height": 788
+      }
+    },
+    {
+      "id": "lj-frozen-features",
+      "date": "2026-10-20",
+      "line": "taste",
+      "title": "Frozen Features / Jason Fulford",
+      "note": "silkscreen + loose insert 写进规格；lede 讲 montage。",
+      "source": "Loose Joints · Frozen Features / Jason Fulford",
+      "href": "https://loosejoints.biz/products/frozen-features",
+      "image": {
+        "file": "log-lj-frozen-features.webp",
+        "alt": "Jason Fulford Frozen Features 书封面静物",
+        "width": 1200,
+        "height": 788
+      }
+    },
+    {
+      "id": "lj-in-the-beginning",
+      "date": "2026-10-20",
+      "line": "taste",
+      "title": "In the Beginning / Roe Ethridge",
+      "note": "多卷书分行规格：三册 facsimile + rubber band。",
+      "source": "Loose Joints · In the Beginning / Roe Ethridge",
+      "href": "https://loosejoints.biz/products/in-the-beginning",
+      "image": {
+        "file": "log-lj-in-the-beginning.webp",
+        "alt": "Roe Ethridge In the Beginning 三册套装",
+        "width": 1200,
+        "height": 788
+      }
+    },
+    {
+      "id": "perimeter-retracer",
+      "date": "2026-10-20",
+      "line": "taste",
+      "title": "Retracer / Karl Halliday",
+      "note": "Swiss-bound；文案写 unbound 文本可移位。",
+      "source": "Perimeter Books · Retracer / Karl Halliday",
+      "href": "https://www.perimeterbooks.com/products/karl-halliday-retracer",
+      "image": {
+        "file": "log-perimeter-retracer.webp",
+        "alt": "Karl Halliday Retracer 书与内页",
+        "width": 1000,
+        "height": 750
+      }
+    },
+    {
+      "id": "perimeter-byng",
+      "date": "2026-10-20",
+      "line": "taste",
+      "title": "Some Voices Carry / Arini Byng",
+      "note": "OTA flaps + Special Edition 签名印尺寸写进文案。",
+      "source": "Perimeter Editions · Some Voices Carry / Arini Byng",
+      "href": "https://www.perimeterbooks.com/products/arini-byng-some-voices-carry",
+      "image": {
+        "file": "log-perimeter-byng.webp",
+        "alt": "Arini Byng Some Voices Carry 书封面",
+        "width": 1000,
+        "height": 750
+      }
+    },
+    {
+      "id": "pc-autumn-lottery-1",
+      "date": "2026-10-20",
+      "line": "taste",
+      "title": "秋彩票 · 其一",
+      "note": "同系列换旁白：Autumn, through the medium of…",
+      "source": "Present & Correct / X @presentcorrect · autumn JP lottery",
+      "href": "https://x.com/i/status/2112255225419419970",
+      "image": {
+        "file": "log-pc-autumn-lottery-1.webp",
+        "alt": "日本中世纪彩票秋色静物新帖图一",
+        "width": 1199,
+        "height": 654
+      }
+    },
+    {
+      "id": "pc-autumn-lottery-2",
+      "date": "2026-10-20",
+      "line": "taste",
+      "title": "秋彩票 · 其二",
+      "note": "同帖四连图之二。",
+      "source": "Present & Correct / X @presentcorrect · autumn JP lottery",
+      "href": "https://x.com/i/status/2112255225419419970",
+      "image": {
+        "file": "log-pc-autumn-lottery-2.webp",
+        "alt": "日本中世纪彩票秋色静物新帖图二",
+        "width": 1199,
+        "height": 629
+      }
+    },
+    {
+      "id": "karin-tulip",
+      "date": "2026-10-20",
+      "line": "beauty",
+      "title": "小渕花梨",
+      "note": "橙毛衣，一把郁金香，红砖墙。颜色暖，人安静。",
+      "source": "小渕花梨 · note 主页",
+      "href": "https://note.com/karin_obuchi",
+      "image": {
+        "file": "li-karin-tulip.webp",
+        "alt": "小渕花梨，橙毛衣，抱着一把郁金香，背后是红砖墙",
+        "width": 1280,
+        "height": 1600
+      }
+    },
+    {
+      "id": "hydrangea",
+      "date": "2026-10-20",
+      "line": "beauty",
+      "title": "绣球",
+      "note": "绣球叶子挡着半边，碎花深色短袖，齐刘海。花是配的，人是看的。",
+      "source": "strawbelly · 绣球花",
+      "href": "https://x.com/strawbelly",
+      "image": {
+        "file": "li-hydrangea.webp",
+        "alt": "绣球花叶子前，碎花深色短袖，齐刘海",
+        "width": 1080,
+        "height": 1350
+      }
+    },
+    {
+      "id": "friday-mizuki",
+      "date": "2026-10-20",
+      "line": "beauty",
+      "title": "金曜美人 · 麻倉瑞季",
+      "note": "麻倉瑞季，浅蓝蕾丝，脸贴过来。近，但不挤。",
+      "source": "金曜美人 · 麻倉瑞季",
+      "href": "https://friday.gold/gravure/article/444633",
+      "image": {
+        "file": "li-friday-mizuki.webp",
+        "alt": "金曜美人，麻倉瑞季，浅蓝蕾丝，侧脸贴过来",
+        "width": 1200,
+        "height": 790
+      }
+    },
+    {
+      "id": "kokoro-swim",
+      "date": "2026-10-20",
+      "line": "beauty",
+      "title": "kokoro",
+      "note": "泳池边，粉色短发，比了个耶。颜色亮，人更亮。",
+      "source": "kokoro · 日常搜图",
+      "href": "https://x.com/kokoro777pp",
+      "image": {
+        "file": "li-kokoro-swim.webp",
+        "alt": "kokoro 粉色短发，在泳池边比耶，穿浅蓝色泳衣",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "iori-stripe",
+      "date": "2026-10-20",
+      "line": "beauty",
+      "title": "iori",
+      "note": "蓝条纹衬衫，老房子，头顶一盏白灯泡。人站得稳。",
+      "source": "iori · 日常搜图",
+      "href": "https://x.com/iorimoe_five",
+      "image": {
+        "file": "li-iori-stripe.webp",
+        "alt": "iori 穿蓝条纹衬衫，站在老房子里，头顶一盏灯泡",
+        "width": 900,
+        "height": 1600
+      }
+    },
+    {
+      "id": "yua-plaid",
+      "date": "2026-10-20",
+      "line": "beauty",
+      "title": "yua",
+      "note": "格子挂脖裙，马尾，电梯镜子里自拍。光是平的，人还是好看。",
+      "source": "yua · 日常搜图",
+      "href": "https://x.com/yua_mikami",
+      "image": {
+        "file": "li-yua-plaid.webp",
+        "alt": "yua 穿格子挂脖裙，在电梯镜子前自拍",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "enako-yk",
+      "date": "2026-10-20",
+      "line": "beauty",
+      "title": "えなこ",
+      "note": "兔耳，双手比心，笑得很开。甜，手势干净。",
+      "source": "enako · ヤングキング封面",
+      "href": "https://x.com/enako_cos/status/2099342591829688659",
+      "image": {
+        "file": "li-enako-yk.webp",
+        "alt": "えなこ，白兔耳，双手比心，ヤングキング封面",
+        "width": 1062,
+        "height": 1500
+      }
+    },
+    {
+      "id": "spbh-glazzard",
+      "date": "2026-10-19",
+      "line": "taste",
+      "title": "Jesse Glazzard",
+      "note": "SPBH 挂 MACK：规格行完整；装帧动机写进判断文案。",
+      "source": "SPBH Editions / MACK · Jesse Glazzard",
+      "href": "https://mackbooks.co.uk/products/the-sound-of-dirt-and-beauty-jesse-glazzard",
+      "image": {
+        "file": "log-spbh-glazzard.webp",
+        "alt": "Jesse Glazzard The Sound of Dirt and Beauty 书封面",
+        "width": 1400,
+        "height": 1339
+      }
+    },
+    {
+      "id": "spbh-chronograph",
+      "date": "2026-10-19",
+      "line": "taste",
+      "title": "Chronograph / Nick Haymes",
+      "note": "同印记另一本：dustjacket 写进规格；评语墙当外部判断。",
+      "source": "SPBH Editions / MACK · Chronograph / Nick Haymes",
+      "href": "https://mackbooks.co.uk/products/chronograph-nick-haymes",
+      "image": {
+        "file": "log-spbh-chronograph.webp",
+        "alt": "Nick Haymes Chronograph 书封面",
+        "width": 1400,
+        "height": 1339
+      }
+    },
+    {
+      "id": "tbw-sheila",
+      "date": "2026-10-19",
+      "line": "taste",
+      "title": "Sheila / John Divola",
+      "note": "规格块：页数·plates·寸/毫米；私人与代表作同页。",
+      "source": "TBW Books · Sheila / John Divola",
+      "href": "https://tbwbooks.com/products/shelia",
+      "image": {
+        "file": "log-tbw-sheila.webp",
+        "alt": "John Divola Sheila 书封面",
+        "width": 1080,
+        "height": 1260
+      }
+    },
+    {
+      "id": "tbw-california",
+      "date": "2026-10-19",
+      "line": "taste",
+      "title": "California Anonymous / Ken Light",
+      "note": "tip-in 原背景布碎片写进规格；Edition of 748。",
+      "source": "TBW Books · California Anonymous / Ken Light",
+      "href": "https://tbwbooks.com/products/california-anonymous",
+      "image": {
+        "file": "log-tbw-california.webp",
+        "alt": "Ken Light California Anonymous 书封面",
+        "width": 1080,
+        "height": 1260
+      }
+    },
+    {
+      "id": "pc-jp-lottery-1",
+      "date": "2026-10-19",
+      "line": "taste",
+      "title": "JP lottery autumn",
+      "note": "同系列换季节：文案只写 Mid century Japanese lottery · Autumn。",
+      "source": "Present & Correct / X @presentcorrect · JP lottery autumn",
+      "href": "https://x.com/i/status/2106380573006553466",
+      "image": {
+        "file": "log-pc-jp-lottery-1.webp",
+        "alt": "日本中世纪彩票秋色静物",
+        "width": 960,
+        "height": 1200
+      }
+    },
+    {
+      "id": "pc-office-1",
+      "date": "2026-10-19",
+      "line": "taste",
+      "title": "office wares",
+      "note": "年代并置：60s / 90s / 80s office wares，零形容词。",
+      "source": "Present & Correct / X @presentcorrect · office wares",
+      "href": "https://x.com/i/status/2105351726748373033",
+      "image": {
+        "file": "log-pc-office-1.webp",
+        "alt": "1960–1990 年代办公文具静物",
+        "width": 1200,
+        "height": 900
+      }
+    },
+    {
+      "id": "bint-leiter",
+      "date": "2026-10-19",
+      "line": "taste",
+      "title": "Saul Leiter",
+      "note": "安静号模板：人名 – 书名 + 单封面。",
+      "source": "Bint photoBooks / X @Bintphotobooks · Saul Leiter",
+      "href": "https://x.com/i/status/1180119246640168960",
+      "image": {
+        "file": "log-bint-leiter.webp",
+        "alt": "Saul Leiter 摄影书封面帖",
+        "width": 1200,
+        "height": 812
+      }
+    },
+    {
+      "id": "mack-faces-phases",
+      "date": "2026-10-18",
+      "line": "taste",
+      "title": "Faces and Phases / Zanele Muholi",
+      "note": "封面 credit 写完整：谁、地点、年、©。规格行在文末一行收束。",
+      "source": "MACK · Faces and Phases / Zanele Muholi",
+      "href": "https://mackbooks.co.uk/products/faces-and-phases-zanele-muholi",
+      "image": {
+        "file": "log-mack-faces-phases.webp",
+        "alt": "Zanele Muholi Faces and Phases 书封面",
+        "width": 1599,
+        "height": 1529
+      }
+    },
+    {
+      "id": "mack-american-teen",
+      "date": "2026-10-18",
+      "line": "taste",
+      "title": "American Teen / Joseph Szabo",
+      "note": "同站规格模板：装帧·尺寸·页数·月份·ISBN；另有 With new texts by…。",
+      "source": "MACK · American Teen / Joseph Szabo",
+      "href": "https://mackbooks.co.uk/products/american-teen-joseph-szabo",
+      "image": {
+        "file": "log-mack-american-teen.webp",
+        "alt": "Joseph Szabo American Teen 书封面",
+        "width": 1599,
+        "height": 1529
+      }
+    },
+    {
+      "id": "bz22-covers-1",
+      "date": "2026-10-18",
+      "line": "taste",
+      "title": "Buffalo Zine Issue 22 covers",
+      "note": "多封面并置：看裁切和字让路，不看电商促销条。",
+      "source": "Buffalo Zine Issue 22 covers",
+      "href": "https://www.buffalozine.com/products/issue-22",
+      "image": {
+        "file": "log-bz22-covers-1.webp",
+        "alt": "Buffalo Zine 第 22 期多封面拼图",
+        "width": 1600,
+        "height": 1142
+      }
+    },
+    {
+      "id": "bz22-text-1a",
+      "date": "2026-10-18",
+      "line": "taste",
+      "title": "Buffalo Zine homepage text-as-image",
+      "note": "首页课：文字即视觉块，不是导航副标题。",
+      "source": "Buffalo Zine homepage text-as-image",
+      "href": "https://www.buffalozine.com/",
+      "image": {
+        "file": "log-bz22-text-1a.webp",
+        "alt": "Buffalo Zine 首页文字排成图物件",
+        "width": 726,
+        "height": 1024
+      }
+    },
+    {
+      "id": "aperture-2026-shortlist",
+      "date": "2026-10-18",
+      "line": "taste",
+      "title": "Aperture 短名单",
+      "note": "短名单页头图：书脊/封面并置，看序列不看奖杯。",
+      "source": "Aperture · 2026 PhotoBook Awards / photo Daniel Salemi",
+      "href": "https://aperture.org/editorial/announcing-the-2026-photobook-awards-shortlist/",
+      "image": {
+        "file": "log-aperture-2026-shortlist.webp",
+        "alt": "Aperture 2026 摄影书奖短名单封面组图",
+        "width": 1024,
+        "height": 682
+      }
+    },
+    {
+      "id": "pc-lottery-27",
+      "date": "2026-10-18",
+      "line": "taste",
+      "title": "lottery 1955 #27",
+      "note": "图注只写年代和物名，零形容词。",
+      "source": "Present & Correct / X @presentcorrect · lottery 1955 #27",
+      "href": "https://x.com/i/status/2102816209075093510",
+      "image": {
+        "file": "log-pc-lottery-27.webp",
+        "alt": "1955 年彩票收藏静物",
+        "width": 1080,
+        "height": 1350
+      }
+    },
+    {
+      "id": "pc-diaries-intl-1",
+      "date": "2026-10-18",
+      "line": "taste",
+      "title": "diaries",
+      "note": "同功能物件成组：日本/法国/意大利/波兰 diary。",
+      "source": "Present & Correct / X @presentcorrect · diaries",
+      "href": "https://x.com/i/status/2100648388870001139",
+      "image": {
+        "file": "log-pc-diaries-intl-1.webp",
+        "alt": "多国手账本静物棚拍",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "id": "pbs-steinmetz",
+      "date": "2026-10-18",
+      "line": "taste",
+      "title": "Mark Steinmetz",
+      "note": "书店帖：书名 + 翻页组图，学序列和纸白。",
+      "source": "Photobookstore / X @photobookstore · Mark Steinmetz",
+      "href": "https://x.com/i/status/1821457712917401790",
+      "image": {
+        "file": "log-pbs-steinmetz.webp",
+        "alt": "Mark Steinmetz Rivers and Towns 摄影书页",
+        "width": 1440,
+        "height": 1009
+      }
+    },
+    {
+      "id": "tgw-34-cover",
+      "date": "2026-10-17",
+      "line": "taste",
+      "title": "The Gentlewoman n°34 cover",
+      "note": "n°34 封面：人像占满，刊名很小，首页 splash 就这一张。",
+      "source": "The Gentlewoman n°34 cover",
+      "href": "https://thegentlewoman.co.uk/",
+      "image": {
+        "file": "log-tgw-34-cover.webp",
+        "alt": "The Gentlewoman 第 34 期封面 splash",
+        "width": 1155,
+        "height": 1500
+      }
+    },
+    {
+      "id": "tgw-autumn-durald",
+      "date": "2026-10-17",
+      "line": "taste",
+      "title": "Autumn Durald Arkapaw",
+      "note": "Library 内页用图：宽画幅人像，图注写穿什么比写氛围感有用。",
+      "source": "The Gentlewoman Library · Autumn Durald Arkapaw",
+      "href": "https://thegentlewoman.co.uk/library/autumn-durald-arkapaw",
+      "image": {
+        "file": "log-tgw-autumn-durald.webp",
+        "alt": "Autumn Durald Arkapaw 横向肖像",
+        "width": 1400,
+        "height": 583
+      }
+    },
+    {
+      "id": "fm-38-lev-tanju",
+      "date": "2026-10-17",
+      "line": "taste",
+      "title": "n°38 Lev Tanju",
+      "note": "封面：一人占满，身份判断写在文案里，刊名让路。",
+      "source": "Fantastic Man / X @fantasticman · n°38 Lev Tanju",
+      "href": "https://x.com/i/status/1778447409288188408",
+      "image": {
+        "file": "log-fm-38-lev-tanju.webp",
+        "alt": "Fantastic Man 第 38 期 Lev Tanju 封面",
+        "width": 1376,
+        "height": 1701
+      }
+    },
+    {
+      "id": "fm-37-armani",
+      "date": "2026-10-17",
+      "line": "taste",
+      "title": "n°37 Armani",
+      "note": "Armani 封面：近景肖像，摄影 Alasdair McLellan。",
+      "source": "Fantastic Man / X @fantasticman · n°37 Armani",
+      "href": "https://x.com/i/status/1714949852222697562",
+      "image": {
+        "file": "log-fm-37-armani.webp",
+        "alt": "Fantastic Man 第 37 期 Giorgio Armani 封面",
+        "width": 1376,
+        "height": 1701
+      }
+    },
+    {
+      "id": "mack-cosmos-1",
+      "date": "2026-10-17",
+      "line": "taste",
+      "title": "Collier Schorr COSMOS",
+      "note": "COSMOS：书页竖构图，看裁切和留白，不看滤镜。",
+      "source": "MACK / X @MACK_books · Collier Schorr COSMOS",
+      "href": "https://x.com/MACK_books",
+      "image": {
+        "file": "log-mack-cosmos-1.webp",
+        "alt": "Collier Schorr COSMOS 摄影书内页或封面",
+        "width": 1385,
+        "height": 1800
+      }
+    },
+    {
+      "id": "mack-color-black-1",
+      "date": "2026-10-17",
+      "line": "taste",
+      "title": "The Color Black",
+      "note": "The Color Black：物件与建筑并置，文案只点书名和摄影师。",
+      "source": "MACK / X @MACK_books · The Color Black",
+      "href": "https://x.com/MACK_books",
+      "image": {
+        "file": "log-mack-color-black-1.webp",
+        "alt": "The Color Black 书相关静物/建筑图",
+        "width": 1024,
+        "height": 806
+      }
+    },
+    {
+      "id": "tgw-cathy-horyn",
+      "date": "2026-10-17",
+      "line": "taste",
+      "title": "X · @thegentlewoman / @fantasticman",
+      "note": "长访配图：环境人像，不是棚拍网红闪片。",
+      "source": "The Gentlewoman / X @thegentlewoman · Cathy Horyn",
+      "href": "https://x.com/i/status/1706667794564325559",
+      "image": {
+        "file": "log-tgw-cathy-horyn.webp",
+        "alt": "Cathy Horyn 在农场的肖像",
+        "width": 1400,
+        "height": 1118
+      }
+    },
+    {
+      "id": "x-1809322072876908639",
+      "date": "2026-10-17",
+      "line": "taste",
+      "title": "X · 其他",
+      "note": "@lensculture 近帖几乎全是奖赛征稿；偶有作品如 Kyosei Yoshiike Salvage，可当下家入口，不跟时间线。",
+      "href": "https://x.com/i/status/1809322072876908639"
+    },
+    {
+      "id": "mg-mirror-cover",
+      "date": "2026-10-16",
+      "line": "taste",
+      "title": "MacGuffin",
+      "note": "封面：手写大 M 压在自拍上，刊头字很小，主题 The Mirror 放在下面。",
+      "source": "MacGuffin N°16 The Mirror 封面",
+      "href": "https://www.macguffinmagazine.com/issues/macguffin-the-mirror",
+      "image": {
+        "file": "log-mg-mirror-cover.webp",
+        "alt": "MacGuffin 第 16 期 The Mirror 封面：一人拿手机自拍，绿色手写 M 压在画面上",
+        "width": 800,
+        "height": 1037
+      }
+    },
+    {
+      "id": "magculture",
+      "date": "2026-10-16",
+      "line": "taste",
+      "title": "magCulture Journal",
+      "note": "伦敦杂志店 + Journal + Podcast。首页一句 We love magazines，是策展口吻，不是内容农场。",
+      "href": "https://magculture.com/"
+    },
+    {
+      "id": "pc-lottery-1952",
+      "date": "2026-10-16",
+      "line": "taste",
+      "title": "1952 lottery ticket #30",
+      "note": "收藏帖里的第 30 张。票面印着昭和28年、第4回短期宝くじ，字和图在同一张纸上。",
+      "source": "Present & Correct / X @presentcorrect · 1952 lottery ticket #30",
+      "href": "https://x.com/presentcorrect",
+      "image": {
+        "file": "log-pc-lottery-1952.webp",
+        "alt": "一张日本短期宝くじ，票面为昭和28年第4回，娃娃与鲤鱼旗",
+        "width": 1080,
+        "height": 1350
+      }
+    },
+    {
+      "id": "pc-jp-lottery-26",
+      "date": "2026-10-16",
+      "line": "taste",
+      "title": "Autumn",
+      "note": "同一组日本彩票里的一张。昭和29年、第26回東京都10日くじ，看版式和配色就够。",
+      "source": "Present & Correct / X @presentcorrect · Mid-century Japanese lottery · Autumn",
+      "href": "https://x.com/presentcorrect",
+      "image": {
+        "file": "log-pc-jp-lottery-26.webp",
+        "alt": "一张日本彩票，票面为昭和29年第26回东京都10日くじ，两个和服人物",
+        "width": 1080,
+        "height": 1350
+      }
+    },
+    {
+      "id": "pc-office-1016",
+      "date": "2026-10-16",
+      "line": "taste",
+      "title": "1960s–1990s office wares",
+      "note": "办公器物静物之一：透明盒、黄底、红剪刀对齐，背景留白。",
+      "source": "Present & Correct / X @presentcorrect · 1960s–1990s office wares",
+      "href": "https://x.com/presentcorrect",
+      "image": {
+        "file": "log-pc-office-1016.webp",
+        "alt": "透明塑料盒里的红剪刀，黄底上压着绿、蓝两块",
+        "width": 1400,
+        "height": 1050
+      }
+    },
+    {
+      "id": "mg-lalanne-catbar",
+      "date": "2026-10-16",
+      "line": "taste",
+      "title": "Lalanne Cat Bar 1968",
+      "note": "Lalanne Cat Bar，1968。图注只需要物件名、作者、年份。",
+      "source": "MacGuffin research dump / X @MacGuffinMag · Lalanne Cat Bar 1968",
+      "href": "https://x.com/MacGuffinMag",
+      "image": {
+        "file": "log-mg-lalanne-catbar.webp",
+        "alt": "黄铜猫形酒吧柜 Lalanne Cat Bar，柜身打开，里面摆着酒瓶",
+        "width": 592,
+        "height": 592
+      }
+    },
+    {
+      "id": "mg-sottsass-carlton",
+      "date": "2026-10-16",
+      "line": "taste",
+      "title": "Sottsass Carlton / Memphis 1981",
+      "note": "Sottsass Carlton，Memphis，1981。同一套研究日记写法。",
+      "source": "MacGuffin research dump / X @MacGuffinMag · Sottsass Carlton / Memphis 1981",
+      "href": "https://x.com/MacGuffinMag",
+      "image": {
+        "file": "log-mg-sottsass-carlton.webp",
+        "alt": "Ettore Sottsass 的 Carlton 书架，彩色几何块叠在水磨石底座上",
+        "width": 900,
+        "height": 986
+      }
+    },
+    {
+      "id": "x-magculture",
+      "date": "2026-10-16",
+      "line": "taste",
+      "title": "X · @magculture",
+      "note": "近帖偏店铺活动和转发，图片策展已经迁到网站和 Instagram。",
+      "href": "https://x.com/magculture"
+    },
+    {
+      "id": "x-foam-amsterdam",
+      "date": "2026-10-16",
+      "line": "taste",
+      "title": "X · @foam_amsterdam",
+      "note": "时间线停在 2022：Foam Talent 作品发布、Paul Kooiker 展览。",
+      "href": "https://x.com/foam_amsterdam"
+    },
+    {
+      "id": "youiwata",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "You Iwata",
+      "note": "首页先放站旨（「光は、翳りがあってこそ」这类），再按春夏秋冬 / 祭 / 旅 / 人像分章，每章一句短诗当题记。",
+      "href": "https://youiwata.com/"
+    },
+    {
+      "id": "kinfolk",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "Kinfolk",
+      "note": "用一期主题收住整站：「THE PLAY ISSUE」，不是无限 feed。",
+      "href": "https://www.kinfolk.com/"
+    },
+    {
+      "id": "haru",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "HARU IN FRAME",
+      "note": "STATEMENT 放在作品前面：在 AI 能画图的年代，为什么还拍有重量的实物。",
+      "href": "https://haru.photo/"
+    },
+    {
+      "id": "andpremium",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "&Premium",
+      "note": "封面语很短：「住まいと心を、整える。」",
+      "href": "https://andpremium.jp/"
+    },
+    {
+      "id": "brutus",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "BRUTUS.jp",
+      "note": "号驱动：「No.1063『犬と、暮らせば。』」，用主题把一期收起来。",
+      "href": "https://brutus.jp/"
+    },
+    {
+      "id": "2026-10-15-casa-brutus",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "Casa BRUTUS 文章页",
+      "note": "标题就是图注判断：「帆を思わせる非対称の天板と長さが特徴的なテーブル。」"
+    },
+    {
+      "id": "x-popeye-magazine",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "X · @POPEYE_Magazine",
+      "note": "山崎蒸馏所 4 图跟拍；两国古着屋，写具体买了哪三件；高円寺两人挖宝散步。",
+      "href": "https://x.com/POPEYE_Magazine"
+    },
+    {
+      "id": "x-casabrutus",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "X · @CasaBRUTUS",
+      "note": "「帆を思わせる非対称の天板…」；竹艺展；#今日の名建築 温泉宿 2 图；天神书店。",
+      "href": "https://x.com/CasaBRUTUS"
+    },
+    {
+      "id": "x-aestheticsjapan",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "X · @AestheticsJapan",
+      "note": "六本木交叉口 / Tokyo Tower / Midnight Tokyo；每帖模板：📍地点 📸作者 🔗IG。",
+      "href": "https://x.com/AestheticsJapan"
+    },
+    {
+      "id": "x-akinecoco987",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "X · @akinecoco987",
+      "note": "「これが私の帰り道。」「夜へと変わる空を眺めていた。」+ 同一时刻的多张图。",
+      "href": "https://x.com/akinecoco987"
+    },
+    {
+      "id": "milk-hybrid",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "MilK MAGAZINE JAPON",
+      "note": "时装页：图占满，栏目名和 credit 都收得很小。",
+      "source": "MilK Japon《HYBRID THEORY》",
+      "href": "https://milkjapon.com/fashion/hybrid-theory/",
+      "image": {
+        "file": "log-milk-hybrid.webp",
+        "alt": "MilK Japon 时装企划 HYBRID THEORY 的一页",
+        "width": 849,
+        "height": 1280
+      }
+    },
+    {
+      "id": "fiu-1980",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "Monuments Historiques · 1980",
+      "note": "1980 · n°107：刊头小写压在上方，大图占满下半版。",
+      "source": "Monuments Historiques 封面 via Fonts In Use",
+      "href": "https://fontsinuse.com/uses/80713/monuments-historiques-covers-1980-1985",
+      "image": {
+        "file": "log-fiu-1980.webp",
+        "alt": "Monuments Historiques 杂志 1980 年第 107 期封面",
+        "width": 1000,
+        "height": 1254
+      }
+    },
+    {
+      "id": "fiu-1981",
+      "date": "2026-10-15",
+      "line": "taste",
+      "title": "Monuments Historiques · 1981",
+      "note": "1981 · n°116：同一个刊头锚点，封面图换了也认得出是同一本。",
+      "source": "Monuments Historiques 封面 via Fonts In Use",
+      "href": "https://fontsinuse.com/uses/80713/monuments-historiques-covers-1980-1985",
+      "image": {
+        "file": "log-fiu-1981.webp",
+        "alt": "Monuments Historiques 杂志 1981 年第 116 期封面",
+        "width": 1000,
+        "height": 1225
+      }
+    }
+  ]
+}

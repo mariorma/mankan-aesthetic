@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "敛色 · 日更",
+  "description": "敛色唯一的内容源。首页和日更页都从这里取图和字。新条目加在 entries 最上面。",
+  "type": "object",
+  "required": ["entries"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "archives": {
+      "description": "可选。条目太多时把旧的挪到 content/ 下别的文件，在这里列文件名，页面会一起读。",
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "image": {
+      "type": "object",
+      "required": ["file", "alt"],
+      "additionalProperties": false,
+      "properties": {
+        "file": { "description": "images/ 里的文件名，例如 hopper-sunday.webp", "type": "string" },
+        "alt": { "description": "一句话描述画面（给读屏和图挂掉时看）", "type": "string" },
+        "width": { "description": "像素宽。可不填，跑 npm run fix 自动补", "type": "integer", "minimum": 1 },
+        "height": { "description": "像素高。可不填，跑 npm run fix 自动补", "type": "integer", "minimum": 1 },
+        "href": { "description": "图的出处和条目原帖不同时才写", "type": "string" }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "required": ["id", "date", "line", "title"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "description": "全站唯一，小写英文、数字、连字符。改了会丢掉这条已有的打分",
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "date": { "description": "日期，YYYY-MM-DD", "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "line": {
+          "description": "taste 品味 / repression 压抑 / tension 一人 / beauty 美人",
+          "enum": ["taste", "repression", "tension", "beauty"]
+        },
+        "title": { "description": "标题：谁 · 什么", "type": "string" },
+        "note": { "description": "一句话判断，60 字内", "type": "string" },
+        "why": { "description": "可选：为什么好看，两三句", "type": "string" },
+        "body": { "description": "可选：更长的赏析，一段一个字符串", "type": "array", "items": { "type": "string" } },
+        "steal": { "description": "可选：可偷的一句", "type": "string" },
+        "source": { "description": "短来源：谁 / 哪 / 什么", "type": "string" },
+        "href": { "description": "原帖链接，点图会打开它", "type": "string" },
+        "image": { "$ref": "#/$defs/image" },
+        "more": { "description": "可选：第二张起的图", "type": "array", "items": { "$ref": "#/$defs/image" } },
+        "pick": { "description": "可选：精选。首页抽到的概率 ×2", "type": "boolean" },
+        "off": { "description": "可选：撤下但留着记录。页面不显示", "type": "boolean" }
+      }
+    }
+  }
+}
