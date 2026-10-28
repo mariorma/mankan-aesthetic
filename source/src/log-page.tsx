@@ -60,9 +60,9 @@ function TasteFace() {
     <RiseScope>
       <Cover
         face="biao"
-        eyebrow="积累 · 表"
+        eyebrow="积累 · 表 · 日更"
         title="品味积累"
-        deck={"一张图，一两句。\n点图进原帖。"}
+        deck={"日更墙：图和短说明，按日子往上堆。\n点图进原帖。"}
         marquee={learningLog.map((day) => day.date)}
         spine={["构图", "字阶", "刊面", "留白", "气质"]}
         stat={{ value: String(learningLog.length).padStart(2, "0"), k: "日", s: "先写判断" }}
@@ -232,9 +232,9 @@ function BeautyFace() {
     <RiseScope>
       <Cover
         face="li"
-        eyebrow="积累 · 裏"
+        eyebrow="积累 · 裏 · 人"
         title="美女积累"
-        deck={"一张图，一句说明。\n点图进原帖。"}
+        deck={"日更墙：图和一句说明，按日子往上堆。\n点图进原帖。"}
         marquee={beautyLog.map((card) => card.title)}
         spine={beautyLog.map((card) => card.title)}
         stat={{ value: String(beautyLog.length).padStart(2, "0"), k: "人", s: "一句说明" }}

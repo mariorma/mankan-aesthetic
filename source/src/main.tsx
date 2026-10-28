@@ -199,7 +199,7 @@ function FaceBiao() {
     <RiseScope>
       <Cover
         face="biao"
-        eyebrow="本期 · No.03 · 表"
+        eyebrow="首页 · 表 · 本期杂志"
         title="审美积累"
         deck={"这一周九条。\n先写判断，再写谁出的。"}
         marquee={weekRefs.map((ref) => ref.title)}
@@ -279,7 +279,7 @@ function FaceLi({
     <RiseScope>
       <Cover
         face="li"
-        eyebrow="本期 · No.03 · 裏"
+        eyebrow="首页 · 裏 · 人"
         title="美女赏析"
         deck={"人好看就说好看。\n每张几句，看完标好、中、差。"}
         marquee={people.map((person) => person.name)}
@@ -334,7 +334,7 @@ function RejectList({ files }: { files: string[] }) {
       <summary>差评清单</summary>
       <p>标成差的文件名，一行一个。</p>
       {files.length === 0 ? (
-        <p className="reject-empty">还没有。</p>
+        <p className="reject-empty">还没有标成差的人。</p>
       ) : (
         <>
           <pre>{text}</pre>

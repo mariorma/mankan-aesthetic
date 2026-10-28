@@ -5,7 +5,7 @@
  * translate, so the parent slot must be position: relative and sized.
  */
 import LiquidGlass from "liquid-glass-react";
-import type { ReactNode, RefObject } from "react";
+import { useEffect, type ReactNode, type RefObject } from "react";
 import { useReducedMotion } from "./reduced";
 
 export function Glass({
@@ -22,6 +22,15 @@ export function Glass({
   elasticity?: number;
 }) {
   const reduced = useReducedMotion();
+  // The library measures once, with getBoundingClientRect. A face that
+  // mounts inside the flip (rotateX) stores that foreshortened box and the
+  // highlight ring stays a flat capsule. Measure again after the flip rests.
+  // elasticity 0 keeps glyphs at their own proportions; the rim gradient still follows the pointer.
+  useEffect(() => {
+    const kick = () => window.dispatchEvent(new Event("resize"));
+    const late = window.setTimeout(kick, 1000);
+    return () => window.clearTimeout(late);
+  }, []);
   return (
     <LiquidGlass
       displacementScale={reduced ? 24 : 78}

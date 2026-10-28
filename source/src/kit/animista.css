@@ -40,12 +40,13 @@
 }
 
 @keyframes swing-in-top-fwd {
+  /* rotateX here made Chrome paint some Songti glyphs twice (叠字). Keep the entrance in 2D. */
   0% {
-    transform: rotateX(-72deg);
+    transform: translateY(-0.28em);
     opacity: 0;
   }
   100% {
-    transform: rotateX(0);
+    transform: none;
     opacity: 1;
   }
 }
@@ -71,8 +72,10 @@
 }
 
 .anim-swing {
+  display: inline-block;
   transform-origin: top center;
-  animation: swing-in-top-fwd var(--a-mid) var(--a-ease) both;
+  /* backwards, not both: a filled rotateX(0) stays in a 3D layer and Chrome paints some glyphs twice. */
+  animation: swing-in-top-fwd var(--a-mid) var(--a-ease) backwards;
 }
 
 .anim-slit {
