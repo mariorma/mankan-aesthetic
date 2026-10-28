@@ -2,20 +2,17 @@ import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import { flushSync } from "react-dom";
 import { imageSrc, shortDate, useDaily, weekday, type DailyEntry, type Line } from "../data/daily";
-import { LINES } from "../data/lines";
 import { useMarks } from "../data/marks";
 import { hash01, sample, weightOf } from "../data/weights";
-import { Lamp, Magnetic, ProgressiveBlur, ScrollWords } from "../ui/effects";
+import { Lamp, Magnetic, ProgressiveBlur } from "../ui/effects";
 import { Held } from "../ui/Held";
 import { HeroStage } from "../ui/HeroStage";
-import { CopyMarks, HiddenDrawer, StackButton } from "../ui/MarkPanel";
-import { Rate } from "../ui/Rate";
+import { StackButton } from "../ui/MarkPanel";
 import { useReducedMotion } from "../ui/reduced";
 import { LoadState, mount, Shell } from "../ui/Shell";
-import { TextEffect } from "../ui/text-effect";
 
-// 首页不放自己的素材：所有图和字都从 content/daily.json 抽。
-// 封面第一张固定取最新一天里权重最高的一条，所以加一条日更，首页封面立刻换成它。
+// 首页是展览墙：图从 content/daily.json 抽，不写线名，也不打分。
+// 权重仍读这台浏览器里的好／差（好易出、差不出）。封面第一张仍是最新一天里权重最高的一条。
 
 type Seeds = Record<"hero" | Line, number>;
 
@@ -58,58 +55,46 @@ function HomeBody({ entries, latest }: { entries: DailyEntry[]; latest: string }
   });
   const shuffle = (key: keyof Seeds) => withTransition(() => setSeeds((s) => ({ ...s, [key]: s[key] + 7919 })));
 
-  const visible = useMemo(() => entries.filter((entry) => markOf(entry.id) !== "差"), [entries, markOf]);
+  const visible = useMemo(
+    () => entries.filter((entry) => entry.image && markOf(entry.id) !== "差"),
+    [entries, markOf],
+  );
   const weight = (entry: DailyEntry) => weightOf(entry, markOf(entry.id), latest);
-  const pick = (line: Line, count: number, needImage = true) =>
+  const pick = (line: Line, count: number) =>
     sample(
-      visible.filter((entry) => entry.line === line && (!needImage || entry.image)),
+      visible.filter((entry) => entry.line === line),
       count,
       weight,
       (entry) => hash01(`${seeds[line]}:${entry.id}`),
     );
 
-  const withImage = visible.filter((entry) => entry.image);
-  const latestPool = withImage.filter((entry) => entry.date === latest);
+  const latestPool = visible.filter((entry) => entry.date === latest);
   const editorial = latestPool.filter((entry) => entry.line !== "beauty");
   const leadPool = editorial.length > 0 ? editorial : latestPool;
   const lead = [...leadPool].sort((a, b) => weight(b) - weight(a))[0];
   const heroRest = sample(
-    withImage.filter((entry) => entry.line !== "beauty" && entry !== lead),
+    visible.filter((entry) => entry.line !== "beauty" && entry !== lead),
     5,
     weight,
     (entry) => hash01(`${seeds.hero}:${entry.id}`),
   );
   const slides = lead ? [lead, ...heroRest] : heroRest;
-
-  const counts = Object.fromEntries(
-    (Object.keys(LINES) as Line[]).map((line) => [line, visible.filter((entry) => entry.line === line).length]),
-  ) as Record<Line, number>;
   const issueNo = new Set(entries.map((entry) => entry.date)).size;
-  const today = visible.filter((entry) => entry.date === latest);
+  const today = latestPool;
 
   return (
     <>
       <Hero slides={slides} latest={latest} issueNo={issueNo} onShuffle={() => shuffle("hero")} />
       <TodayStrip entries={today} latest={latest} />
-      <div className="band band-night-paper" data-tone="paper" data-room-label="01 品味" aria-hidden="true" />
-      <TasteRoom
-        items={pick("taste", 6)}
-        quotes={sample(
-          visible.filter((entry) => entry.line === "taste" && entry.steal),
-          4,
-          weight,
-          (entry) => hash01(`${seeds.taste}:q:${entry.id}`),
-        )}
-        total={counts.taste}
-        onShuffle={() => shuffle("taste")}
-      />
-      <div className="band band-paper-teal" data-tone="teal" data-room-label="02 压抑" aria-hidden="true" />
-      <RestraintRoom items={pick("repression", 3)} total={counts.repression} onShuffle={() => shuffle("repression")} />
-      <div className="band band-teal-night" data-tone="night" data-room-label="03 一人" aria-hidden="true" />
-      <SoloRoom items={pick("tension", 5)} total={counts.tension} onShuffle={() => shuffle("tension")} />
-      <div className="band band-night-warm" data-tone="warm" data-room-label="04 美人" aria-hidden="true" />
-      <PortraitRoom items={pick("beauty", 6)} total={counts.beauty} onShuffle={() => shuffle("beauty")} />
-      <Outro entries={entries} latest={latest} counts={counts} />
+      <div className="band band-night-paper" data-tone="paper" aria-hidden="true" />
+      <TasteRoom items={pick("taste", 4)} onShuffle={() => shuffle("taste")} />
+      <div className="band band-paper-teal" data-tone="teal" aria-hidden="true" />
+      <RestraintRoom items={pick("repression", 3)} onShuffle={() => shuffle("repression")} />
+      <div className="band band-teal-night" data-tone="night" aria-hidden="true" />
+      <SoloRoom items={pick("tension", 5)} onShuffle={() => shuffle("tension")} />
+      <div className="band band-night-warm" data-tone="warm" aria-hidden="true" />
+      <PortraitRoom items={pick("beauty", 4)} onShuffle={() => shuffle("beauty")} />
+      <Outro />
     </>
   );
 }
@@ -171,10 +156,7 @@ function Hero({
               exit={reduced ? undefined : { opacity: 0, y: -10, filter: "blur(4px)" }}
               transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             >
-              <p className="line-tag" data-line={slide.line}>
-                {slide.date === latest && <b>今日</b>}
-                {LINES[slide.line].no} {LINES[slide.line].name} · {LINES[slide.line].en}
-              </p>
+              {slide.date === latest && <p className="hero-today">今日</p>}
               <h2 className="hero-title">{slide.title}</h2>
               {slide.note && <p className="hero-note">{slide.note}</p>}
               <Meta entry={slide} />
@@ -189,7 +171,6 @@ function Hero({
                   在日更里看
                 </a>
               </div>
-              <Rate entry={slide} compact />
             </motion.article>
           </AnimatePresence>
         )}
@@ -220,28 +201,20 @@ function Hero({
 function TodayStrip({ entries, latest }: { entries: DailyEntry[]; latest: string }) {
   if (entries.length === 0) return null;
   return (
-    <section className="today" data-tone="night" data-room-label="今日" aria-label="今日更新">
+    <section className="today" data-tone="night" aria-label="今日">
       <header className="today-head">
         <p className="today-date">
           <span>{shortDate(latest)}</span> {weekday(latest)}
         </p>
-        <p>
-          今日更新 <b>{entries.length}</b> 条 · 首页的图和字都从日更里抽，好评更常出现，差评立刻撤下。
-        </p>
         <a className="ghost-btn" href="./daily/">
-          全部日更 →
+          日更 →
         </a>
       </header>
       <ol className="today-row">
         {entries.map((entry) => (
-          <li key={entry.id} className="today-item" data-line={entry.line}>
+          <li key={entry.id} className="today-item">
             <a href={dailyHref(entry)}>
-              {entry.image ? (
-                <Held entry={entry} className="today-thumb" ratio={4 / 5} link={false} />
-              ) : (
-                <span className="today-text">{entry.note ?? entry.title}</span>
-              )}
-              <span className="today-line">{LINES[entry.line].name}</span>
+              <Held entry={entry} className="today-thumb" ratio={4 / 5} link={false} />
               <span className="today-title">{entry.title}</span>
             </a>
           </li>
@@ -251,39 +224,13 @@ function TodayStrip({ entries, latest }: { entries: DailyEntry[]; latest: string
   );
 }
 
-function RoomHead({
-  line,
-  total,
-  shown,
-  onShuffle,
-}: {
-  line: Line;
-  total: number;
-  shown: number;
-  onShuffle: () => void;
-}) {
-  const info = LINES[line];
-  const reduced = useReducedMotion();
+function RoomHead({ no, onShuffle }: { no: string; onShuffle: () => void }) {
   return (
     <header className="room-head">
       <p className="room-no" aria-hidden="true">
-        {info.no}
+        {no}
       </p>
-      <div className="room-name">
-        {reduced ? (
-          <h2>{info.name}</h2>
-        ) : (
-          <TextEffect as="h2" per="char" preset="fade-in-blur" speedReveal={0.5} speedSegment={0.4} trigger>
-            {info.name}
-          </TextEffect>
-        )}
-        <p className="room-en">{info.en}</p>
-      </div>
-      <ScrollWords className="room-blurb" text={info.blurb} />
       <div className="room-tools">
-        <p>
-          共 {total} 条 · 这次抽 {shown} 条
-        </p>
         <button type="button" className="ghost-btn" onClick={onShuffle}>
           换一批
         </button>
@@ -292,94 +239,51 @@ function RoomHead({
   );
 }
 
-function TasteRoom({
-  items,
-  quotes,
-  total,
-  onShuffle,
-}: {
-  items: DailyEntry[];
-  quotes: DailyEntry[];
-  total: number;
-  onShuffle: () => void;
-}) {
+function TasteRoom({ items, onShuffle }: { items: DailyEntry[]; onShuffle: () => void }) {
   const [lead, ...rest] = items;
   return (
-    <section className="room room-taste" data-tone="paper" data-room-label="01 品味" id="taste">
-      <RoomHead line="taste" total={total} shown={items.length + quotes.length} onShuffle={onShuffle} />
+    <section className="room room-taste" data-tone="paper" id="taste">
+      <RoomHead no="01" onShuffle={onShuffle} />
       {lead && (
         <div className="taste-grid">
           <article className="taste-lead" style={{ viewTransitionName: "taste-lead" } as CSSProperties}>
-            <Held entry={lead} lens sizes="(min-width: 900px) 58vw, 100vw" />
+            <Held entry={lead} lens sizes="(min-width: 900px) 80vw, 100vw" />
             <div className="taste-lead-copy">
               <Meta entry={lead} />
               <h3>{lead.title}</h3>
               {lead.note && <p className="judgment">{lead.note}</p>}
-              {lead.steal && (
-                <p className="steal">
-                  <span>可偷</span>
-                  {lead.steal}
-                </p>
-              )}
-              <p className="lens-hint">图上有放大镜：凑近看，颜色才回来。</p>
-              <Rate entry={lead} compact />
             </div>
           </article>
           {rest.map((entry, i) => (
             <article key={entry.id} className={`taste-card is-${i}`} style={{ viewTransitionName: `taste-${i}` } as CSSProperties}>
-              <Held entry={entry} sizes="(min-width: 900px) 25vw, 50vw" />
+              <Held entry={entry} sizes="(min-width: 900px) 28vw, 50vw" />
               <Meta entry={entry} />
               <h3>{entry.title}</h3>
               {entry.note && <p>{entry.note}</p>}
-              <Rate entry={entry} compact />
             </article>
           ))}
-          {quotes.length > 0 && (
-            <aside className="taste-quotes" aria-label="可偷的一句">
-              <p className="taste-quotes-head">可偷的一句</p>
-              {quotes.map((entry) => (
-                <blockquote key={entry.id}>
-                  <p>{entry.steal}</p>
-                  <footer>
-                    <a href={dailyHref(entry)}>{entry.title}</a>
-                  </footer>
-                </blockquote>
-              ))}
-            </aside>
-          )}
         </div>
       )}
     </section>
   );
 }
 
-function RestraintRoom({ items, total, onShuffle }: { items: DailyEntry[]; total: number; onShuffle: () => void }) {
+function RestraintRoom({ items, onShuffle }: { items: DailyEntry[]; onShuffle: () => void }) {
   return (
-    <section className="room room-restraint" data-tone="teal" data-room-label="02 压抑" id="restraint">
+    <section className="room room-restraint" data-tone="teal" id="restraint">
       <Lamp>
-        <RoomHead line="repression" total={total} shown={items.length} onShuffle={onShuffle} />
+        <RoomHead no="02" onShuffle={onShuffle} />
       </Lamp>
       <div className="hangings">
         {items.map((entry, i) => (
           <article key={entry.id} className={i % 2 ? "hanging is-flip" : "hanging"} style={{ viewTransitionName: `hang-${i}` } as CSSProperties}>
             <div className="hanging-frame">
-              <Held entry={entry} slow sizes="(min-width: 900px) 52vw, 100vw" />
+              <Held entry={entry} slow sizes="(min-width: 900px) 58vw, 100vw" />
             </div>
             <div className="placard">
-              <p className="placard-no">
-                {LINES.repression.no}.{i + 1}
-              </p>
               <h3>{entry.title}</h3>
               <Meta entry={entry} />
               {entry.note && <p className="judgment">{entry.note}</p>}
-              {entry.why && <p className="why">{entry.why}</p>}
-              {entry.steal && (
-                <p className="steal">
-                  <span>可偷</span>
-                  {entry.steal}
-                </p>
-              )}
-              <Rate entry={entry} compact />
             </div>
           </article>
         ))}
@@ -388,7 +292,7 @@ function RestraintRoom({ items, total, onShuffle }: { items: DailyEntry[]; total
   );
 }
 
-function SoloRoom({ items, total, onShuffle }: { items: DailyEntry[]; total: number; onShuffle: () => void }) {
+function SoloRoom({ items, onShuffle }: { items: DailyEntry[]; onShuffle: () => void }) {
   const [active, setActive] = useState(0);
   const reduced = useReducedMotion();
   const signature = items.map((entry) => entry.id).join("|");
@@ -396,14 +300,14 @@ function SoloRoom({ items, total, onShuffle }: { items: DailyEntry[]; total: num
   const entry = items[Math.min(active, items.length - 1)];
   if (!entry?.image) {
     return (
-      <section className="room room-solo" data-tone="night" data-room-label="03 一人" id="solo">
-        <RoomHead line="tension" total={total} shown={0} onShuffle={onShuffle} />
+      <section className="room room-solo" data-tone="night" id="solo">
+        <RoomHead no="03" onShuffle={onShuffle} />
       </section>
     );
   }
   return (
-    <section className="room room-solo" data-tone="night" data-room-label="03 一人" id="solo">
-      <RoomHead line="tension" total={total} shown={items.length} onShuffle={onShuffle} />
+    <section className="room room-solo" data-tone="night" id="solo">
+      <RoomHead no="03" onShuffle={onShuffle} />
       <div className="solo">
         <Magnetic className="solo-magnet">
           <div
@@ -429,11 +333,7 @@ function SoloRoom({ items, total, onShuffle }: { items: DailyEntry[]; total: num
                 transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
               >
                 <Held entry={entry} className="solo-base" sizes="(min-width: 900px) 40vw, 100vw" />
-                <div
-                  className="solo-lit"
-                  style={{ backgroundImage: `url("${imageSrc(entry.image)}")` }}
-                  aria-hidden="true"
-                />
+                <div className="solo-lit" style={{ backgroundImage: `url("${imageSrc(entry.image)}")` }} aria-hidden="true" />
               </motion.div>
             </AnimatePresence>
           </div>
@@ -450,17 +350,9 @@ function SoloRoom({ items, total, onShuffle }: { items: DailyEntry[]; total: num
               <Meta entry={entry} />
               <h3 className="solo-title">{entry.title}</h3>
               {entry.note && <p className="judgment">{entry.note}</p>}
-              {entry.why && <p className="why">{entry.why}</p>}
-              {entry.steal && (
-                <p className="steal">
-                  <span>可偷</span>
-                  {entry.steal}
-                </p>
-              )}
-              <Rate entry={entry} compact />
             </motion.div>
           </AnimatePresence>
-          <ol className="solo-index" aria-label="一人 · 目录">
+          <ol className="solo-index" aria-label="目录">
             {items.map((item, i) => (
               <li key={item.id}>
                 <button type="button" aria-current={i === active ? "true" : undefined} onClick={() => setActive(i)}>
@@ -477,11 +369,11 @@ function SoloRoom({ items, total, onShuffle }: { items: DailyEntry[]; total: num
 }
 
 /** Focus Cards — after Aceternity UI · Focus Cards https://ui.aceternity.com/components/focus-cards */
-function PortraitRoom({ items, total, onShuffle }: { items: DailyEntry[]; total: number; onShuffle: () => void }) {
+function PortraitRoom({ items, onShuffle }: { items: DailyEntry[]; onShuffle: () => void }) {
   const [hovered, setHovered] = useState<number | null>(null);
   return (
-    <section className="room room-portraits" data-tone="warm" data-room-label="04 美人" id="portraits">
-      <RoomHead line="beauty" total={total} shown={items.length} onShuffle={onShuffle} />
+    <section className="room room-portraits" data-tone="warm" id="portraits">
+      <RoomHead no="04" onShuffle={onShuffle} />
       <div className="focus-grid" onPointerLeave={() => setHovered(null)}>
         {items.map((entry, i) => (
           <article
@@ -496,13 +388,9 @@ function PortraitRoom({ items, total, onShuffle }: { items: DailyEntry[]; total:
               </div>
             </Held>
             <div className="focus-copy">
-              <h3>
-                {entry.pick && <span className="pick">精选</span>}
-                {entry.title}
-              </h3>
+              <h3>{entry.title}</h3>
               {entry.note && <p>{entry.note}</p>}
               <Meta entry={entry} />
-              <Rate entry={entry} compact />
             </div>
           </article>
         ))}
@@ -511,26 +399,13 @@ function PortraitRoom({ items, total, onShuffle }: { items: DailyEntry[]; total:
   );
 }
 
-function Outro({ entries, latest, counts }: { entries: DailyEntry[]; latest: string; counts: Record<Line, number> }) {
+function Outro() {
   return (
-    <section className="outro" data-tone="night" data-room-label="日更">
+    <section className="outro" data-tone="night">
       <div className="outro-inner">
-        <p className="outro-kicker">日更 · Daily</p>
         <h2 className="outro-title">每天往上加一层。</h2>
-        <p className="outro-copy">
-          最后更新 {latest}。现在一共 {entries.length} 条：
-          {(Object.keys(LINES) as Line[]).map((line) => (
-            <span key={line} className="outro-count" data-line={line}>
-              {LINES[line].name} {counts[line]}
-            </span>
-          ))}
-        </p>
         <div className="outro-actions">
           <StackButton href="./daily/">去日更</StackButton>
-        </div>
-        <div className="outro-marks">
-          <CopyMarks entries={entries} />
-          <HiddenDrawer entries={entries} id="hidden-home" />
         </div>
       </div>
     </section>

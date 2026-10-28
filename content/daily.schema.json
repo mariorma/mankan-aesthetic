@@ -22,7 +22,7 @@
       "required": ["file", "alt"],
       "additionalProperties": false,
       "properties": {
-        "file": { "description": "images/ 里的文件名，例如 hopper-sunday.webp", "type": "string" },
+        "file": { "description": "images/ 里的文件名，例如 hopper-sunday.webp。上架条目必须有。", "type": "string" },
         "alt": { "description": "一句话描述画面（给读屏和图挂掉时看）", "type": "string" },
         "width": { "description": "像素宽。可不填，跑 npm run fix 自动补", "type": "integer", "minimum": 1 },
         "height": { "description": "像素高。可不填，跑 npm run fix 自动补", "type": "integer", "minimum": 1 },
@@ -51,10 +51,13 @@
         "steal": { "description": "可选：可偷的一句", "type": "string" },
         "source": { "description": "短来源：谁 / 哪 / 什么", "type": "string" },
         "href": { "description": "原帖链接，点图会打开它", "type": "string" },
-        "image": { "$ref": "#/$defs/image" },
+        "image": {
+          "description": "上架必填。本地封面，见 image。没有封面就先 off，不要空着上首页。",
+          "$ref": "#/$defs/image"
+        },
         "more": { "description": "可选：第二张起的图", "type": "array", "items": { "$ref": "#/$defs/image" } },
         "pick": { "description": "可选：精选。首页抽到的概率 ×2", "type": "boolean" },
-        "off": { "description": "可选：撤下但留着记录。页面不显示", "type": "boolean" }
+        "off": { "description": "可选：撤下但留着记录。页面不显示。抓不到封面时用它下架，并在 why 里注明待补图。", "type": "boolean" }
       }
     }
   }

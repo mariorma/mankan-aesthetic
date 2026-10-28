@@ -88,10 +88,11 @@
       "line": "taste",
       "title": "杂志排版",
       "note": "中文排版的灵感入口。要下判断，得再进子画板挑。",
-      "why": "话题画板是入口，不是结论。整板扫过不算看过。",
+      "why": "话题画板是入口，不是结论。整板扫过不算看过。 待补图：公开页没有可保存的封面，先下架。",
       "steal": "灵感墙只当目录。判断写在挑出来的那一张上。",
       "source": "花瓣",
-      "href": "https://huaban.com/topic-board/a-zazhipaiban"
+      "href": "https://huaban.com/topic-board/a-zazhipaiban",
+      "off": true
     },
     {
       "id": "hopper-office-night",
@@ -304,7 +305,13 @@
       "title": "YouTube · Satori Graphics「Graphic Design Trends 2026」",
       "note": "偏趋势清单/营销课销，只偷「趋势要落到用法」判断，不跟清单刷屏。",
       "source": "YouTube",
-      "href": "https://www.youtube.com/watch?v=yHs9-RVTwsA"
+      "href": "https://www.youtube.com/watch?v=yHs9-RVTwsA",
+      "image": {
+        "file": "youtube-yhs9-rvtwsa.webp",
+        "alt": "YouTube · Satori Graphics「Graphic Design Trends 2026」 的公开封面",
+        "width": 1600,
+        "height": 900
+      }
     },
     {
       "id": "bili-system-type",
@@ -839,10 +846,11 @@
       "line": "taste",
       "title": "数英 · 小红书《about关于》MOOK 呼吸感排版",
       "note": "平台杂志书用疏密分层举例（展开插图 vs 注释小版）。",
-      "why": "每期加新板块彩蛋。",
+      "why": "每期加新板块彩蛋。 待补图：公开页没有可保存的封面，先下架。",
       "steal": "图注写清「哪块展开、哪块注释」；别空喊呼吸感。",
       "source": "数英",
-      "href": "https://www.digitaling.com/articles/1261294.html"
+      "href": "https://www.digitaling.com/articles/1261294.html",
+      "off": true
     },
     {
       "id": "huaban-25263522",
@@ -851,7 +859,9 @@
       "title": "花瓣 · 单画板",
       "note": "单画板，深于话题入口。",
       "source": "花瓣",
-      "href": "https://huaban.com/boards/25263522"
+      "href": "https://huaban.com/boards/25263522",
+      "why": "待补图：公开页没有可保存的封面，先下架。",
+      "off": true
     },
     {
       "id": "zcool-zmzm5mjg1mjq",
@@ -860,7 +870,13 @@
       "title": "站酷 · 合集",
       "note": "合集页。",
       "source": "站酷",
-      "href": "https://www.zcool.com.cn/collection/ZMzM5Mjg1MjQ="
+      "href": "https://www.zcool.com.cn/collection/ZMzM5Mjg1MjQ=",
+      "image": {
+        "file": "zcool-zmzm5mjg1mjq.webp",
+        "alt": "站酷 · 合集 的公开封面",
+        "width": 1266,
+        "height": 938
+      }
     },
     {
       "id": "meiye-home-pin1",
@@ -887,7 +903,13 @@
       "why": "The Face 2026 春最终印本委托两套定制字——KMR Face Grotesk Stencil（档案期 Akzidenz Stencil 研究，display/text 缝宽分档）和 OO Face Serif（参数化对比与字重，类等宽字形做节奏）。",
       "steal": "改版先定 display/text 职责。",
       "source": "Fonts In Use",
-      "href": "https://fontsinuse.com/uses/78225/the-face-magazine-issue-26"
+      "href": "https://fontsinuse.com/uses/78225/the-face-magazine-issue-26",
+      "image": {
+        "file": "fontsinuse-the-face-magazine-issue-26.webp",
+        "alt": "Fonts In Use · The Face magazine, issue 26 的公开封面",
+        "width": 1600,
+        "height": 800
+      }
     },
     {
       "id": "surfersjournal",
@@ -897,7 +919,14 @@
       "note": "按年卷把封面排成可翻档案墙（1992 Vol.1 → 2026 Vol.35）。",
       "why": "刊自述 minimalist cover / flat binding / more book than magazine。用期号网格替代无限瀑布。",
       "steal": "用期号网格代替无限瀑布。",
-      "href": "https://archives.surfersjournal.com/"
+      "href": "https://archives.surfersjournal.com/",
+      "image": {
+        "file": "surfersjournal.webp",
+        "alt": "Siteinspire → The Surfer's Journal Archives 的公开封面",
+        "width": 1324,
+        "height": 1600
+      },
+      "source": "The Surfer's Journal Archives"
     },
     {
       "id": "awwwards-hearst-exhibit-2026",
@@ -907,7 +936,13 @@
       "note": "展场当刊。",
       "why": "Magazine/Typography 标签。",
       "source": "Awwwards",
-      "href": "https://www.awwwards.com/sites/hearst-exhibit-2026"
+      "href": "https://www.awwwards.com/sites/hearst-exhibit-2026",
+      "image": {
+        "file": "awwwards-hearst-exhibit-2026.webp",
+        "alt": "Awwwards · Hearst Exhibit 2026 的公开封面",
+        "width": 1600,
+        "height": 1200
+      }
     },
     {
       "id": "itsnicethat-forward-thinking-graphic-trends-2026",
@@ -916,7 +951,13 @@
       "title": "It's Nice That · 2026 graphic trends",
       "note": "Micrographics 作页家具。",
       "source": "It's Nice That",
-      "href": "https://www.itsnicethat.com/features/forward-thinking-graphic-trends-2026-graphic-design-120126"
+      "href": "https://www.itsnicethat.com/features/forward-thinking-graphic-trends-2026-graphic-design-120126",
+      "image": {
+        "file": "itsnicethat-forward-thinking-graphic-trends-2026.webp",
+        "alt": "It's Nice That · 2026 graphic trends 的公开封面",
+        "width": 1600,
+        "height": 837
+      }
     },
     {
       "id": "savee-0-ui-editorial-magazine",
@@ -925,7 +966,13 @@
       "title": "Savee · UI Editorial / Magazine",
       "note": "画廊入口。",
       "source": "Savee",
-      "href": "https://savee.com/martijnvanmeijel/boards/0-ui-editorial-magazine/"
+      "href": "https://savee.com/martijnvanmeijel/boards/0-ui-editorial-magazine/",
+      "image": {
+        "file": "savee-0-ui-editorial-magazine.webp",
+        "alt": "Savee · UI Editorial / Magazine 的公开封面",
+        "width": 1600,
+        "height": 842
+      }
     },
     {
       "id": "are-aesthetic",
@@ -934,7 +981,13 @@
       "title": "Are.na Editorial · The Aesthetic",
       "note": "channel 名单策展（非 Areal 字文）。",
       "source": "Are.na Editorial",
-      "href": "https://www.are.na/editorial/aesthetic"
+      "href": "https://www.are.na/editorial/aesthetic",
+      "image": {
+        "file": "are-aesthetic.webp",
+        "alt": "Are.na Editorial · The Aesthetic 的公开封面",
+        "width": 1600,
+        "height": 1193
+      }
     },
     {
       "id": "bilibili-bv1654y1j7zk",
@@ -944,7 +997,13 @@
       "note": "独立杂志实物沉浸翻页——跨页疏密、图注位置、封面→内页第一拍。",
       "steal": "记下翻到第几拍停住；只看版式和纸的物性。",
       "source": "B站",
-      "href": "https://www.bilibili.com/video/BV1654y1J7Zk/"
+      "href": "https://www.bilibili.com/video/BV1654y1J7Zk/",
+      "image": {
+        "file": "bilibili-bv1654y1j7zk.webp",
+        "alt": "B站 · 【宛堇】一起看杂志｜apartamento / TANK / In Paris / Magazine B 的公开封面",
+        "width": 1600,
+        "height": 1000
+      }
     },
     {
       "id": "bilibili-bv1vu411s7yo",
@@ -954,7 +1013,13 @@
       "note": "间距/对比/色彩/视觉动线等可核动作清单，比「十五种风格」合集更贴判断句。",
       "steal": "当排版动作词典用：间距、对比、色彩、动线。",
       "source": "B站",
-      "href": "https://www.bilibili.com/video/BV1Vu411S7Yo/"
+      "href": "https://www.bilibili.com/video/BV1Vu411S7Yo/",
+      "image": {
+        "file": "bilibili-bv1vu411s7yo.webp",
+        "alt": "B站 · 我竟从杂志中…悟出了排版的真谛 的公开封面",
+        "width": 1600,
+        "height": 1000
+      }
     },
     {
       "id": "bilibili-bv196vhbmesn",
@@ -963,7 +1028,13 @@
       "title": "B站 · 文字编排 18 案例",
       "note": "文字编排 18 案例。",
       "source": "B站",
-      "href": "https://www.bilibili.com/video/BV196vHBMESN/"
+      "href": "https://www.bilibili.com/video/BV196vHBMESN/",
+      "image": {
+        "file": "bilibili-bv196vhbmesn.webp",
+        "alt": "B站 · 文字编排 18 案例 的公开封面",
+        "width": 1600,
+        "height": 900
+      }
     },
     {
       "id": "bilibili-bv11trpb3eja",
@@ -972,7 +1043,13 @@
       "title": "B站 · 26 开年封大战",
       "note": "26 开年封大战。",
       "source": "B站",
-      "href": "https://www.bilibili.com/video/BV11TrpB3EJA/"
+      "href": "https://www.bilibili.com/video/BV11TrpB3EJA/",
+      "image": {
+        "file": "bilibili-bv11trpb3eja.webp",
+        "alt": "B站 · 26 开年封大战 的公开封面",
+        "width": 1600,
+        "height": 900
+      }
     },
     {
       "id": "visions-2026-kv",
@@ -1065,7 +1142,14 @@
       "line": "taste",
       "title": "pixiv.co.jp · VISIONS 2026 书讯",
       "note": "年刊的书讯页：看包装和特设站怎么分工。",
-      "href": "https://www.pixiv.co.jp/2025/09/19/120000"
+      "href": "https://www.pixiv.co.jp/2025/09/19/120000",
+      "image": {
+        "file": "pixiv-120000.webp",
+        "alt": "pixiv.co.jp · VISIONS 2026 书讯 的公开封面",
+        "width": 1600,
+        "height": 888
+      },
+      "source": "pixiv.co.jp"
     },
     {
       "id": "pixiv-2513282",
@@ -1073,7 +1157,14 @@
       "line": "taste",
       "title": "Pixiv · てんぱる1 作者页",
       "note": "系列自述作例只放标题、分卷连载，适合当字墙词典长期跟作者。",
-      "href": "https://www.pixiv.net/users/2513282"
+      "href": "https://www.pixiv.net/users/2513282",
+      "image": {
+        "file": "pixiv-2513282.webp",
+        "alt": "Pixiv · てんぱる1 作者页 的公开封面",
+        "width": 1600,
+        "height": 1600
+      },
+      "source": "Pixiv"
     },
     {
       "id": "yoma",
@@ -1081,7 +1172,14 @@
       "line": "taste",
       "title": "YOMA inc.",
       "note": "工作室站：留白、作品网格、信用行都克制。",
-      "href": "https://yoma.inc/"
+      "href": "https://yoma.inc/",
+      "image": {
+        "file": "yoma.webp",
+        "alt": "YOMA inc. 的公开封面",
+        "width": 1350,
+        "height": 1080
+      },
+      "source": "YOMA inc."
     },
     {
       "id": "artstation-duolife",
@@ -1134,7 +1232,14 @@
       "line": "taste",
       "title": "站酷 · BranD 79 可持续地方设计",
       "note": "全刊制作课：专色、六款护封叠龙脊、仿龙鳞装、木刻过渡页、四款纸触感分层。",
-      "href": "https://www.zcool.com.cn/work/ZNzQxMTg4NDQ=.html"
+      "href": "https://www.zcool.com.cn/work/ZNzQxMTg4NDQ=.html",
+      "image": {
+        "file": "zcool-znzqxmtg4ndq.webp",
+        "alt": "站酷 · BranD 79 可持续地方设计 的公开封面",
+        "width": 1066,
+        "height": 1600
+      },
+      "source": "站酷"
     },
     {
       "id": "yt-mishi-artdirection",
@@ -1355,10 +1460,11 @@
       "line": "taste",
       "title": "灵感集",
       "note": "色和界面的灵感墙。和优设那篇对照着扫。",
-      "why": "页面是灵感墙。跟第 9 条一起用：优设给清单，这里给例子。",
+      "why": "页面是灵感墙。跟第 9 条一起用：优设给清单，这里给例子。 待补图：公开页没有可保存的封面，先下架。",
       "steal": "灵感墙先不写判断。对照过清单再写。",
       "source": "美叶",
-      "href": "https://meiye.art/inspiration"
+      "href": "https://meiye.art/inspiration",
+      "off": true
     },
     {
       "id": "lj-dont-worry-boys",
@@ -1906,7 +2012,14 @@
       "line": "taste",
       "title": "X · 其他",
       "note": "@lensculture 近帖几乎全是奖赛征稿；偶有作品如 Kyosei Yoshiike Salvage，可当下家入口，不跟时间线。",
-      "href": "https://x.com/i/status/1809322072876908639"
+      "href": "https://x.com/i/status/1809322072876908639",
+      "image": {
+        "file": "x-1809322072876908639.webp",
+        "alt": "X · 其他 的公开封面",
+        "width": 1600,
+        "height": 1200
+      },
+      "source": "X"
     },
     {
       "id": "mg-mirror-cover",
@@ -1929,7 +2042,14 @@
       "line": "taste",
       "title": "magCulture Journal",
       "note": "伦敦杂志店 + Journal + Podcast。首页一句 We love magazines，是策展口吻，不是内容农场。",
-      "href": "https://magculture.com/"
+      "href": "https://magculture.com/",
+      "image": {
+        "file": "magculture.webp",
+        "alt": "magCulture Journal 的公开封面",
+        "width": 1600,
+        "height": 522
+      },
+      "source": "magCulture"
     },
     {
       "id": "pc-lottery-1952",
@@ -2012,7 +2132,14 @@
       "line": "taste",
       "title": "X · @magculture",
       "note": "近帖偏店铺活动和转发，图片策展已经迁到网站和 Instagram。",
-      "href": "https://x.com/magculture"
+      "href": "https://x.com/magculture",
+      "image": {
+        "file": "x-magculture.webp",
+        "alt": "X · @magculture 的公开封面",
+        "width": 1600,
+        "height": 533
+      },
+      "source": "X · @magculture"
     },
     {
       "id": "x-foam-amsterdam",
@@ -2020,7 +2147,14 @@
       "line": "taste",
       "title": "X · @foam_amsterdam",
       "note": "时间线停在 2022：Foam Talent 作品发布、Paul Kooiker 展览。",
-      "href": "https://x.com/foam_amsterdam"
+      "href": "https://x.com/foam_amsterdam",
+      "image": {
+        "file": "x-foam-amsterdam.webp",
+        "alt": "X · @foam_amsterdam 的公开封面",
+        "width": 1600,
+        "height": 534
+      },
+      "source": "X · @foam_amsterdam"
     },
     {
       "id": "youiwata",
@@ -2028,7 +2162,14 @@
       "line": "taste",
       "title": "You Iwata",
       "note": "首页先放站旨（「光は、翳りがあってこそ」这类），再按春夏秋冬 / 祭 / 旅 / 人像分章，每章一句短诗当题记。",
-      "href": "https://youiwata.com/"
+      "href": "https://youiwata.com/",
+      "image": {
+        "file": "youiwata.webp",
+        "alt": "You Iwata 的公开封面",
+        "width": 1600,
+        "height": 1067
+      },
+      "source": "You Iwata"
     },
     {
       "id": "kinfolk",
@@ -2036,7 +2177,14 @@
       "line": "taste",
       "title": "Kinfolk",
       "note": "用一期主题收住整站：「THE PLAY ISSUE」，不是无限 feed。",
-      "href": "https://www.kinfolk.com/"
+      "href": "https://www.kinfolk.com/",
+      "image": {
+        "file": "kinfolk.webp",
+        "alt": "Kinfolk 的公开封面",
+        "width": 1296,
+        "height": 1600
+      },
+      "source": "Kinfolk"
     },
     {
       "id": "haru",
@@ -2044,7 +2192,14 @@
       "line": "taste",
       "title": "HARU IN FRAME",
       "note": "STATEMENT 放在作品前面：在 AI 能画图的年代，为什么还拍有重量的实物。",
-      "href": "https://haru.photo/"
+      "href": "https://haru.photo/",
+      "image": {
+        "file": "haru.webp",
+        "alt": "HARU IN FRAME 的公开封面",
+        "width": 1254,
+        "height": 1254
+      },
+      "source": "HARU IN FRAME"
     },
     {
       "id": "andpremium",
@@ -2052,7 +2207,14 @@
       "line": "taste",
       "title": "&Premium",
       "note": "封面语很短：「住まいと心を、整える。」",
-      "href": "https://andpremium.jp/"
+      "href": "https://andpremium.jp/",
+      "image": {
+        "file": "andpremium.webp",
+        "alt": "&Premium 的公开封面",
+        "width": 1600,
+        "height": 1064
+      },
+      "source": "&Premium"
     },
     {
       "id": "brutus",
@@ -2060,14 +2222,29 @@
       "line": "taste",
       "title": "BRUTUS.jp",
       "note": "号驱动：「No.1063『犬と、暮らせば。』」，用主题把一期收起来。",
-      "href": "https://brutus.jp/"
+      "href": "https://brutus.jp/",
+      "image": {
+        "file": "brutus.webp",
+        "alt": "BRUTUS.jp 的公开封面",
+        "width": 1600,
+        "height": 900
+      },
+      "source": "BRUTUS"
     },
     {
       "id": "2026-10-15-casa-brutus",
       "date": "2026-10-15",
       "line": "taste",
       "title": "Casa BRUTUS 文章页",
-      "note": "标题就是图注判断：「帆を思わせる非対称の天板と長さが特徴的なテーブル。」"
+      "note": "标题就是图注判断：「帆を思わせる非対称の天板と長さが特徴的なテーブル。」",
+      "href": "https://casabrutus.com/categories/design/493300",
+      "source": "Casa BRUTUS",
+      "image": {
+        "file": "2026-10-15-casa-brutus.webp",
+        "alt": "Casa BRUTUS 文章页 的公开封面",
+        "width": 1600,
+        "height": 837
+      }
     },
     {
       "id": "x-popeye-magazine",
@@ -2075,7 +2252,14 @@
       "line": "taste",
       "title": "X · @POPEYE_Magazine",
       "note": "山崎蒸馏所 4 图跟拍；两国古着屋，写具体买了哪三件；高円寺两人挖宝散步。",
-      "href": "https://x.com/POPEYE_Magazine"
+      "href": "https://x.com/POPEYE_Magazine",
+      "image": {
+        "file": "x-popeye-magazine.webp",
+        "alt": "X · @POPEYE_Magazine 的公开封面",
+        "width": 1600,
+        "height": 533
+      },
+      "source": "X · @POPEYE_Magazine"
     },
     {
       "id": "x-casabrutus",
@@ -2083,7 +2267,14 @@
       "line": "taste",
       "title": "X · @CasaBRUTUS",
       "note": "「帆を思わせる非対称の天板…」；竹艺展；#今日の名建築 温泉宿 2 图；天神书店。",
-      "href": "https://x.com/CasaBRUTUS"
+      "href": "https://x.com/CasaBRUTUS",
+      "image": {
+        "file": "x-casabrutus.webp",
+        "alt": "X · @CasaBRUTUS 的公开封面",
+        "width": 1600,
+        "height": 533
+      },
+      "source": "X · @CasaBRUTUS"
     },
     {
       "id": "x-aestheticsjapan",
@@ -2091,7 +2282,14 @@
       "line": "taste",
       "title": "X · @AestheticsJapan",
       "note": "六本木交叉口 / Tokyo Tower / Midnight Tokyo；每帖模板：📍地点 📸作者 🔗IG。",
-      "href": "https://x.com/AestheticsJapan"
+      "href": "https://x.com/AestheticsJapan",
+      "image": {
+        "file": "x-aestheticsjapan.webp",
+        "alt": "X · @AestheticsJapan 的公开封面",
+        "width": 1600,
+        "height": 533
+      },
+      "source": "X · @AestheticsJapan"
     },
     {
       "id": "x-akinecoco987",
@@ -2099,7 +2297,14 @@
       "line": "taste",
       "title": "X · @akinecoco987",
       "note": "「これが私の帰り道。」「夜へと変わる空を眺めていた。」+ 同一时刻的多张图。",
-      "href": "https://x.com/akinecoco987"
+      "href": "https://x.com/akinecoco987",
+      "image": {
+        "file": "x-akinecoco987.webp",
+        "alt": "X · @akinecoco987 的公开封面",
+        "width": 1600,
+        "height": 533
+      },
+      "source": "X · @akinecoco987"
     },
     {
       "id": "milk-hybrid",

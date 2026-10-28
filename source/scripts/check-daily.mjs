@@ -134,6 +134,10 @@ function checkEntries(entries, file, ids) {
     if (!entry.note && !entry.image) warnings.push(`${label}：没图也没 note，页面上会只剩标题`);
     if (typeof entry.note === "string" && entry.note.length > 90) warnings.push(`${label}：note 有 ${entry.note.length} 字，一句话最好 60 字内，长的放 why`);
     if (entry.href && !/^https?:\/\//.test(entry.href)) errors.push(`${label}：href 要以 http(s):// 开头`);
+    if (!entry.image) {
+      if (entry.off) warnings.push(`${label}：已下架，没有封面（待补图）`);
+      else errors.push(`${label}：缺封面。上架的图、视频、网站、推文都要有本地 image.file；公开页抓不到就先写 "off": true`);
+    }
     if (entry.image === undefined && entry.more) errors.push(`${label}：有 more 没 image。第一张放 image`);
     if (entry.image !== undefined) checkImage(entry.image, label, entry);
     if (entry.more !== undefined) {
@@ -144,7 +148,6 @@ function checkEntries(entries, file, ids) {
       errors.push(`${label}：body 要是字符串数组`);
     }
     if (entry.image && !entry.source) warnings.push(`${label}：有图没写 source（来源）`);
-    if (entry.line === "beauty" && !entry.image) warnings.push(`${label}：美人线没有图，首页不会上`);
   });
 }
 

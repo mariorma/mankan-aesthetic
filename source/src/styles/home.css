@@ -110,6 +110,12 @@
 .hero-slide {
   max-width: 460px;
 }
+.hero-today {
+  margin: 0 0 8px;
+  font-size: 12px;
+  letter-spacing: 0.28em;
+  color: var(--amber-2);
+}
 .hero-title {
   margin: 12px 0 10px;
   font-size: clamp(24px, 2.3vw, 34px);
@@ -205,18 +211,21 @@
 /* ———————————————— 今日 ———————————————— */
 .today {
   position: relative;
-  padding: 56px var(--gutter) 24px;
+  padding: 88px var(--gutter) 64px;
   background: var(--night);
   color: var(--bone);
 }
 .today-head {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: flex-end;
   gap: 12px 28px;
   max-width: var(--max);
-  margin: 0 auto 26px;
+  margin: 0 auto 40px;
   font-size: 14px;
+}
+.today-head .ghost-btn {
+  margin-left: auto;
 }
 .today-head > p:nth-child(2) {
   flex: 1;
@@ -243,10 +252,10 @@
 }
 .today-row {
   display: flex;
-  gap: 18px;
+  gap: 36px;
   max-width: var(--max);
   margin: 0 auto;
-  padding: 0 0 18px;
+  padding: 8px 0 18px;
   overflow-x: auto;
   list-style: none;
   scroll-snap-type: x mandatory;
@@ -254,7 +263,7 @@
   scrollbar-color: rgba(216, 208, 194, 0.25) transparent;
 }
 .today-item {
-  flex: 0 0 172px;
+  flex: 0 0 220px;
   scroll-snap-align: start;
 }
 .today-item a {
@@ -292,7 +301,7 @@
 
 /* ———————————————— 过渡带：背景随滚动换色温 ———————————————— */
 .band {
-  height: clamp(120px, 24vh, 260px);
+  height: clamp(180px, 30vh, 360px);
 }
 .band-night-paper {
   background: linear-gradient(180deg, var(--night), #3a3934 45%, var(--paper));
@@ -310,7 +319,7 @@
 /* ———————————————— 房间通用 ———————————————— */
 .room {
   position: relative;
-  padding: clamp(32px, 6vh, 80px) var(--gutter) clamp(96px, 16vh, 180px);
+  padding: clamp(56px, 9vh, 120px) var(--gutter) clamp(128px, 20vh, 240px);
 }
 .room > * {
   max-width: var(--max);
@@ -318,19 +327,16 @@
   margin-right: auto;
 }
 .room-head {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  grid-template-areas:
-    "no name tools"
-    "no blurb tools";
-  align-items: end;
-  gap: 8px clamp(18px, 3vw, 40px);
-  margin-bottom: clamp(40px, 8vh, 88px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: clamp(36px, 6vh, 80px);
 }
 .room-no {
   grid-area: no;
   font-family: var(--latin);
-  font-size: clamp(110px, 15vw, 240px);
+  font-size: clamp(72px, 9vw, 140px);
   line-height: 0.78;
   letter-spacing: -0.03em;
   -webkit-text-fill-color: transparent;
@@ -398,14 +404,14 @@
 .taste-grid {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: clamp(28px, 3vw, 48px) clamp(18px, 2.2vw, 36px);
+  gap: clamp(56px, 8vh, 120px) clamp(28px, 3vw, 56px);
   align-items: start;
 }
 .taste-lead {
-  grid-column: 1 / span 8;
+  grid-column: 1 / -1;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 20px;
+  gap: 28px;
 }
 .taste-lead .held {
   aspect-ratio: clamp(1.15, var(--ratio), 1.9);
@@ -413,12 +419,8 @@
 }
 .taste-lead-copy {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 6px 32px;
-}
-.taste-lead-copy > .meta,
-.taste-lead-copy > h3 {
-  grid-column: 1 / -1;
+  gap: 10px;
+  max-width: 36em;
 }
 .taste-lead-copy h3 {
   font-size: clamp(26px, 2.6vw, 38px);
@@ -577,9 +579,8 @@
   z-index: 1;
 }
 .room-restraint .room-head {
-  grid-template-columns: 1fr;
-  grid-template-areas: "no" "name" "blurb" "tools";
-  justify-items: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .room-restraint .room-no {
@@ -601,7 +602,7 @@
 .hangings {
   display: flex;
   flex-direction: column;
-  gap: clamp(88px, 16vh, 180px);
+  gap: clamp(120px, 22vh, 240px);
 }
 .hanging {
   display: grid;
@@ -765,8 +766,8 @@
 }
 .focus-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(20px, 2.4vw, 40px);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(40px, 4vw, 72px);
   align-items: start;
 }
 .focus-card {
@@ -775,8 +776,8 @@
     opacity 0.7s var(--ease-out),
     transform 0.7s var(--ease-out);
 }
-.focus-card:nth-child(3n + 2) {
-  margin-top: clamp(32px, 8vh, 96px);
+.focus-card:nth-child(odd) {
+  margin-top: clamp(48px, 10vh, 120px);
 }
 .focus-card.is-dim {
   filter: blur(5px);
@@ -881,6 +882,15 @@
   .taste-lead {
     grid-column: 1 / -1;
   }
+  .focus-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .focus-card:nth-child(odd) {
+    margin-top: 0;
+  }
+  .focus-card:nth-child(2n) {
+    margin-top: 48px;
+  }
   .taste-quotes {
     grid-column: 1 / -1;
     grid-row: auto;
@@ -926,15 +936,18 @@
     bottom: 18px;
   }
   .room-head {
-    grid-template-columns: 1fr;
-    grid-template-areas: "no" "name" "blurb" "tools";
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .room-restraint .room-head {
+    align-items: center;
   }
   .room-tools {
     align-items: flex-start;
     text-align: left;
   }
-  .taste-lead-copy {
-    grid-template-columns: 1fr;
+  .room-restraint .room-tools {
+    align-items: center;
   }
   .taste-quotes {
     grid-template-columns: 1fr;
@@ -965,11 +978,11 @@
   .focus-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  .focus-card:nth-child(3n + 2) {
+  .focus-card:nth-child(odd) {
     margin-top: 0;
   }
   .focus-card:nth-child(2n) {
-    margin-top: 40px;
+    margin-top: 56px;
   }
   .outro-marks {
     grid-template-columns: 1fr;
