@@ -454,6 +454,10 @@ body[data-tone="paper"] .nav-links a[aria-current="page"] {
 /* ———————————————— 好中差（Uiverse · gharsh11032000 / moody-dog-23 的单选点）———————————————— */
 .rate {
   display: inline-flex;
+  justify-self: start;
+  align-self: start;
+  width: max-content;
+  max-width: 100%;
   gap: 2px;
   margin-top: 16px;
   padding: 3px;

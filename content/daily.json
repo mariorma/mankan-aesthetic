@@ -25,7 +25,7 @@
       "title": "PW Magazine · 青年实践编辑站",
       "note": "编辑列表站——不是灵感瀑布。",
       "why": "Vienna/Berlin/Zurich 青年艺术与表演实践的编辑列表姿态。",
-      "steal": "日更可学城市场景刊语气。",
+      "steal": "城市场景刊的语气：列表本身就是刊面。",
       "source": "PW Magazine",
       "href": "https://archive.pw-magazine.com/",
       "image": {
@@ -345,8 +345,8 @@
       "date": "2026-10-27",
       "line": "taste",
       "title": "B站 · 【审美积累21】滨田英明",
-      "note": "审美积累系列浅记——个人视线课。",
-      "why": "摄影师个人视线课；系列粒度可对标本站「同角换作者」。",
+      "note": "一个摄影师的视线课：看他把人放在画面哪里。",
+      "why": "摄影师个人视线课。同一个角度，换一个作者再看一遍。",
       "source": "B站 · 审美积累21 滨田英明",
       "href": "https://www.bilibili.com/video/BV1i7421N7bR/",
       "image": {
@@ -380,7 +380,7 @@
       "title": "ALBERTINE · Hannibal 摄影美术文",
       "note": "冷青绿与琥珀对照——正式、压得住的色调，不是血腥。",
       "why": "冷青绿/琥珀对照、正式构图、压得住的摄影美术——要的是统一高级色调与情绪，不是血腥意象。",
-      "steal": "压抑条目写色板与镜头礼貌，不写肉；单人侧脸/静物局部也能撑住闷。",
+      "steal": "写色板与镜头礼貌，不写肉；单人侧脸、静物局部也能撑住闷。",
       "source": "ALBERTINE · Hannibal 色调参考",
       "href": "https://www.albertine.live/the-menagerie/hannibal",
       "image": {
@@ -599,7 +599,6 @@
       "title": "MUUUUU · SB OAI Japan SOTD OCT 25, 2026",
       "note": "新于上周的 SOTD——企业站字阶冷静、分区清楚。",
       "why": "OCT 25 新 SOTD（相对 OCT 22 博报堂招聘）；AI/科技企业站字阶冷静、分区清楚。制作 IN FOCUS。",
-      "steal": "SOTD 当周更一例；双挂 MUUUUU 条目 + 对象站。",
       "source": "MUUUUU · SB OAI Japan SOTD OCT 25",
       "href": "https://muuuuu.org/industry/technology/25142.html",
       "image": {
@@ -615,7 +614,7 @@
       "line": "taste",
       "title": "SANKOU · 味覚編集",
       "note": "味觉当编辑立场——站名本身就是判断句。",
-      "why": "味觉=编辑；对象站 mikakuhenshu.com。",
+      "why": "把味觉当编辑立场。",
       "source": "SANKOU · 味覚編集",
       "href": "https://sankoudesign.com/web/mikakuhenshu/",
       "image": {
@@ -663,7 +662,7 @@
       "title": "ArtStation · Alvari Juhola — Selkosanomat / Lätta bladet",
       "note": "约束里做版——字、色、图先过易读底线，插画服务体育跨页的信息。",
       "why": "芬兰易读新闻刊实刊 layout（issues 5–7）：客户模板 + 严格易读规范（字/色/图如何尽量易达）。插画服务信息结构（体育跨页、自定义地图、渔具小图），不是氛围贴图。相对 DuoLife 品牌刊系统——这是「约束里做版」。",
-      "steal": "品味线先定可读性底线再谈氛围。",
+      "steal": "先定可读性底线，再谈氛围。",
       "source": "ArtStation · Alvari Juhola · Selkosanomat / Lätta bladet",
       "href": "https://alvarijuhola.artstation.com/projects/x3mR3O",
       "image": {
@@ -680,7 +679,7 @@
       "title": "Cara · Serra Ataman — KAFKAOKUR「Alphabet of Sacred Flavours」",
       "note": "连载一帧：卷心菜与菊芋并置，服务文章，不换整套视觉语言。",
       "why": "真人编辑食物插画连载——每期两种蔬果并置，服务文章而非壁纸；同系列换物类、不换整套视觉语言。",
-      "steal": "连载粒度对标每日积累。",
+      "steal": "连载的粒度：每期换物，不换视觉语言。",
       "source": "Cara · Serra Ataman · Cabbage & Sunchoke · KAFKAOKUR",
       "href": "https://cara.app/post/486d1762-74ea-411b-95a6-cf599513813e",
       "image": {
@@ -798,7 +797,7 @@
       "title": "美叶 · Mat Voyce 榜样页",
       "note": "跟读单人榜样。美叶的用法是长期名单，不是刷瀑布。",
       "why": "相对首页 pin——今天跟读单人脾气（插画+字+循环短动画）。美叶真正用法是长期榜样名单，不是刷瀑布。",
-      "steal": "日更「本周跟读作者」卡片；字当角色、循环当呼吸。",
+      "steal": "字当角色，循环动画当呼吸。",
       "source": "美叶 · Mat Voyce · 榜样头图",
       "href": "https://www.meiye.art/MasterDesigner/204/1/2307",
       "image": {
@@ -897,7 +896,7 @@
       "title": "Siteinspire → The Surfer's Journal Archives",
       "note": "按年卷把封面排成可翻档案墙（1992 Vol.1 → 2026 Vol.35）。",
       "why": "刊自述 minimalist cover / flat binding / more book than magazine。用期号网格替代无限瀑布。",
-      "steal": "日更做成「期号/批次网格」。",
+      "steal": "用期号网格代替无限瀑布。",
       "href": "https://archives.surfersjournal.com/"
     },
     {
@@ -943,8 +942,7 @@
       "line": "taste",
       "title": "B站 · 【宛堇】一起看杂志｜apartamento / TANK / In Paris / Magazine B",
       "note": "独立杂志实物沉浸翻页——跨页疏密、图注位置、封面→内页第一拍。",
-      "why": "与本站种子刊同族。",
-      "steal": "条目写「翻到第几拍停」；人物时尚图归美人线，品味线写版式与物性。",
+      "steal": "记下翻到第几拍停住；只看版式和纸的物性。",
       "source": "B站",
       "href": "https://www.bilibili.com/video/BV1654y1J7Zk/"
     },
@@ -954,7 +952,7 @@
       "line": "taste",
       "title": "B站 · 我竟从杂志中…悟出了排版的真谛",
       "note": "间距/对比/色彩/视觉动线等可核动作清单，比「十五种风格」合集更贴判断句。",
-      "steal": "作品味线排版词典入口。",
+      "steal": "当排版动作词典用：间距、对比、色彩、动线。",
       "source": "B站",
       "href": "https://www.bilibili.com/video/BV1Vu411S7Yo/"
     },
@@ -982,8 +980,8 @@
       "line": "taste",
       "title": "Pixiv 监修 · VISIONS 2026 年刊 + 特设站",
       "note": "年刊包装——刊名与 KV 分工，策展名单可翻。",
-      "why": "平台监修年度插画年刊：约 170 人成书，特设站把每位创作者做成可翻个页。刊名字阶与 key visual 分工清楚；年刊姿态像「策展名单」而不是散点图墙。品味线记包装与站建，人物主视觉留给美人线。",
-      "steal": "日更可做成「本周关注作者」名单+特设入口，别只堆单图。",
+      "why": "平台监修年度插画年刊：约 170 人成书，特设站把每位创作者做成可翻的一页。刊名字阶与 key visual 分工清楚；年刊姿态像「策展名单」而不是散点图墙。",
+      "steal": "作者名单加特设入口，别只堆单图。",
       "source": "VISIONS 2026 · 特设站 KV",
       "href": "https://visions.pr-pixiv.net/2026/",
       "image": {
@@ -1000,7 +998,7 @@
       "title": "Pixiv · てんぱる1「同人誌のタイトルデザイン」",
       "note": "纯字标题——缩略图里仍可读的层级。",
       "why": "几乎只有字：同人刊名在缩略图尺寸里仍可读——助词缩小、字重对比、一行切节奏。相对「图+字半订表纸」作例，这是纯字层级主挖；标签含タイポグラフィ / タイトルデザイン / 装丁デザイン。系列自述作例只放标题、分卷连载——适合当字墙词典长期跟作者。",
-      "steal": "品味线偷字层级与缩略可读性；人物图仍归裏。可跟系列作者，不单赏立绘。",
+      "steal": "偷字层级和缩略图里的可读性；跟系列作者，不单赏立绘。",
       "source": "Pixiv · てんぱる1 · タイトルデザイン(3)",
       "href": "https://www.pixiv.net/artworks/84497848",
       "image": {
@@ -1016,8 +1014,8 @@
       "line": "taste",
       "title": "SANKOU · YOMA inc.（余间）工作室站",
       "note": "工作室站品味——留白、网格、信用行。",
-      "why": "SANKOU 价值在类目检索（配色/字/布局/业种）后的可复访站墙，不是又一个囤图瀑布。YOMA 练留白节奏、作品网格、信用行克制；对象站 yoma.inc 正文偏壳，以 SANKOU 条目+缩略为核。相对花瓣囤图，这是「可复访的站」级参考。",
-      "steal": "品味线条目可学元数据：来源、角度、可偷课一句——类目墙比散点图好找回。",
+      "why": "SANKOU 的价值在类目检索（配色、字、布局、业种）之后可复访的站墙，不是又一个囤图瀑布。YOMA 练留白节奏、作品网格、信用行克制。",
+      "steal": "给每张图记元数据：来源、角度、可偷一句——类目墙比散点图好找回。",
       "source": "SANKOU · YOMA inc.",
       "href": "https://sankoudesign.com/web/yoma/",
       "image": {
@@ -1033,8 +1031,8 @@
       "line": "taste",
       "title": "MUUUUU SOTD · HAKUHODO RECRUITMENT",
       "note": "招聘站也是编辑刊——大字口号与分栏。",
-      "why": "MUUUUU 改成每日一站（SOTD）+ 制作 credit——和本站「每日品味」同构。博报堂招聘站大字口号「汗かいて、心を動かす。」+ 作品/人/环境分栏；制作 TWOTONE。",
-      "steal": "口号当刊头别促销腔；日更画廊用「今日一站」代替无限瀑布。",
+      "why": "MUUUUU 改成每日一站（SOTD），附制作 credit。博报堂招聘站大字口号「汗かいて、心を動かす。」，作品、人、环境分栏；制作 TWOTONE。",
+      "steal": "口号当刊头，别带促销腔。",
       "source": "HAKUHODO RECRUITMENT / TWOTONE",
       "href": "https://muuuuu.org/color/gray/25126.html",
       "image": {
@@ -1051,7 +1049,7 @@
       "title": "优设 · mina 时尚杂志平面拆解",
       "note": "纸刊版心与出血——杂志化 UI 文没覆盖的课。",
       "why": "以《mina》拆版心/分组/反复对齐/对比/出血/留白/抠图与四方版——纸刊解剖课。",
-      "steal": "纸刊动作清单可印成品味线「怎么看」短栏；B 端版式文仅作网格词典备用。",
+      "steal": "把纸刊动作清单当「怎么看」的短栏。",
       "source": "优设 · mina 时尚杂志拆解",
       "href": "https://www.uisdc.com/magazines-design",
       "image": {
@@ -1066,7 +1064,7 @@
       "date": "2026-10-23",
       "line": "taste",
       "title": "pixiv.co.jp · VISIONS 2026 书讯",
-      "note": "品味线记包装与站建。",
+      "note": "年刊的书讯页：看包装和特设站怎么分工。",
       "href": "https://www.pixiv.co.jp/2025/09/19/120000"
     },
     {
@@ -1082,7 +1080,7 @@
       "date": "2026-10-23",
       "line": "taste",
       "title": "YOMA inc.",
-      "note": "对象站正文偏壳，以 SANKOU 条目和缩略为核。",
+      "note": "工作室站：留白、作品网格、信用行都克制。",
       "href": "https://yoma.inc/"
     },
     {
@@ -1173,7 +1171,7 @@
       "date": "2026-10-21",
       "line": "taste",
       "title": "B站 · 审美积累｜Ryo Nakajima",
-      "note": "同关键词摄影师蒙太奇；品味线偷色与留白。",
+      "note": "同一个关键词下的摄影师蒙太奇；偷色和留白。",
       "source": "B站 · 审美积累｜Ryo Nakajima",
       "href": "https://www.bilibili.com/video/BV1v3zeBnEnK/",
       "image": {
@@ -1188,7 +1186,7 @@
       "date": "2026-10-21",
       "line": "taste",
       "title": "B站 · 灵感系列 VOL.255 Victionary",
-      "note": "出版物封面字阶巡礼，贴品味线字/排版。",
+      "note": "出版物封面的字阶巡礼。",
       "source": "B站 · 灵感系列 VOL.255 Victionary",
       "href": "https://www.bilibili.com/video/BV1wjqRBDEZq/",
       "image": {
@@ -1339,7 +1337,7 @@
       "date": "2026-10-21",
       "line": "taste",
       "title": "七种杂志调子",
-      "note": "标题就是「审美积累」。正文用七种调子定调，工具广告不跟。",
+      "note": "七种杂志调子：先定调，字和图才有方向。",
       "why": "七种：简约现代、文艺清新、创意前卫、数字科技、商务专业、时尚活力、复古怀旧。每种挂了代表刊。有用的一句是：风格是定调，后面的字和配图才有方向。文末在推他们自己的电子刊工具。这条只取前面的七种调子。",
       "steal": "定调用七个名字就够。工具广告不写进判断。",
       "source": "云展网 · 七种杂志调子 · Cereal 封面例",
