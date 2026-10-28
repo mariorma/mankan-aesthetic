@@ -3,6 +3,7 @@ import { CardSpotlight } from "./kit/card-spotlight";
 import { HoverEffect } from "./kit/hover-effect";
 import { useReducedMotion } from "./kit/reduced";
 import { TransitionPanel } from "./kit/transition-panel";
+import { FigureMedia } from "./Figure";
 import type { Figure } from "./figure";
 import { beautyLog, learningLog, tasteLog, type AccumCard, type LogDay, type LogItem } from "./learning-log";
 import { mount, Shell } from "./Shell";
@@ -226,68 +227,47 @@ function TasteCard({ card }: { card: AccumCard }) {
 }
 
 function BeautyFace() {
-  const lead = beautyLog.find((card) => card.figure);
-  const rest = lead ? beautyLog.filter((card) => card.id !== lead.id) : beautyLog;
   return (
     <RiseScope>
-      <Cover
-        face="li"
-        eyebrow="积累 · 裏 · 人"
-        title="美女积累"
-        deck={"日更墙：图和一句说明，按日子往上堆。\n点图进原帖。"}
-        marquee={beautyLog.map((card) => card.title)}
-        spine={beautyLog.map((card) => card.title)}
-        stat={{ value: String(beautyLog.length).padStart(2, "0"), k: "人", s: "一句说明" }}
-        stage={shots(beautyLog.flatMap((card) => (card.figure ? [card.figure] : [])))}
-        note={
-          lead?.figure ? (
-            <>
-              <p className="by">{lead.date}</p>
-              <p className="credit">{lead.figure.credit}</p>
-            </>
-          ) : undefined
-        }
-      />
+      <header className="mast is-slim">
+        <p className="eyebrow">积累 · 裏 · 人</p>
+        <h1 className="display">日更墙</h1>
+        <p className="deck">新的在上。一张图，一句说明。点图进原帖。</p>
+      </header>
       <div className="issue">
-        <Chapter kicker="人" title="其余的">
-          <div className="portraits">
-            {rest.map((card) => (
-              <BeautyCard key={card.id} card={card} />
-            ))}
-          </div>
-        </Chapter>
+        <div className="daywall">
+          {beautyLog.map((card) => (
+            <BeautyCard key={card.id} card={card} />
+          ))}
+        </div>
       </div>
     </RiseScope>
   );
 }
 
 function BeautyCard({ card }: { card: AccumCard }) {
-  if (!card.figure) {
-    return (
-      <article className="portrait rise" id={card.id}>
-        <h3>{card.title}</h3>
-        <p className="by">{card.date}</p>
-        {card.note && <p>{card.note}</p>}
-        {card.imageNote && <p className="img-note">{card.imageNote}</p>}
-        {card.href && (
-          <p className="log-post">
-            <a href={card.href} target="_blank" rel="noreferrer" aria-label={`打开原帖：${card.title}`}>
-              原帖
-            </a>
-          </p>
-        )}
-      </article>
-    );
-  }
-
+  const sentence = card.figure?.caption ?? card.note;
   return (
-    <CardSpotlight id={card.id} className="portrait rise" color={toneSpot("li")}>
+    <article className="wall-card rise" id={card.id}>
+      <time className="wall-date" dateTime={card.date}>
+        {card.date}
+      </time>
+      {card.figure && (
+        <figure className="wall-fig">
+          <FigureMedia page="log" figure={card.figure} linkLabel={card.title} />
+        </figure>
+      )}
       <h3>{card.title}</h3>
-      <Plate page="log" figure={card.figure} linkLabel={card.title}>
-        <span className="by">{card.date}</span>
-      </Plate>
+      {sentence && <p className="wall-note">{sentence}</p>}
       {card.imageNote && <p className="img-note">{card.imageNote}</p>}
-    </CardSpotlight>
+      {!card.figure && card.href && (
+        <p className="log-post">
+          <a href={card.href} target="_blank" rel="noreferrer" aria-label={`打开原帖：${card.title}`}>
+            原帖
+          </a>
+        </p>
+      )}
+    </article>
   );
 }
 
