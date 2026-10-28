@@ -102,20 +102,23 @@
 
 | 来源 | 用在哪 | 为什么合气质 |
 |------|--------|--------------|
-| 自写 WebGL2 shader | 封面：敛色、台灯照亮、墨渗换图、胶片颗粒 | 站名本身 |
-| Aceternity · Lamp Section Header | 压抑房间标题的光锥 | Hopper 的台灯 |
-| Aceternity · Focus Cards | 美人：停在一张上，其余虚掉 | 一次只看一个人 |
-| Magic UI · Lens | 品味：图上的放大镜 | 学审美就是凑近看 |
-| Motion Primitives · Magnetic | 一人房间肖像被鼠标吸住 | 磁场 |
-| Motion Primitives · Text Effect | 房间标题逐字显影 | 慢 |
+| 自写 WebGL2 着色器（`source/src/gl/held-stage.ts`） | 封面：图默认敛着（冷青／琥珀分离色调），鼠标处像台灯照亮、回色；没人动时灯自己慢慢游走；换图用 fbm 噪声墨渗；胶片颗粒 | 站名本身 |
+| Aceternity · Lamp Section Header | 压抑房间：标题站在两道琥珀光锥里 | Hopper 的台灯 |
+| Aceternity · Focus Cards | 美人房间：停在一张上，其余虚掉 | 一次只看一个人 |
+| Magic UI · Lens | 品味房间头条图上的放大镜，镜片里是原色 | 学审美就是凑近看 |
+| Motion Primitives · Magnetic | 一人房间：肖像被鼠标吸过去一点；再加跟手的聚光灯，只有灯下回色 | 磁场 |
+| Motion Primitives · Text Effect | 房间名逐字显影 | 慢 |
 | Motion Primitives · Progressive Blur | 封面底边 | 收着 |
-| React Bits · Noise | 全站胶片颗粒 | 纸感、胶片 |
-| React Bits · Scroll Reveal | 房间导语随滚动去模糊 | 慢慢看清 |
-| Uiverse | 好中差单选、筛选、复制按钮 | 小控件要有手感 |
-| Animista | 刊名 tracking-in、focus-in 关键帧 | 用 CSS，不加 JS |
-| Liquid Glass | 浮动导航 | 夜里的一块玻璃 |
+| React Bits · Noise | 全站胶片颗粒（CSS + SVG 噪声） | 纸感、胶片 |
+| React Bits · Scroll Reveal | 房间导语随滚动逐字去模糊 | 一点点看清 |
+| Uiverse | 好中差单选点、叠层按钮 | 小控件要有手感 |
+| Animista · text-focus-in | 刊名「敛色」、日更大标题入场 | 用 CSS，不加 JS |
+| Liquid Glass（CSS 版） | 浮动导航、提示条；高光跟着鼠标走，纸底时换浅色玻璃 | 夜里的一块玻璃 |
 | View Transitions API | 日更筛选、「换一批」 | 浏览器原生，不加库 |
-| CSS scroll-driven animations + `@property` | 首页色温 | 浏览器原生，不加库 |
+| CSS scroll-driven animations | 房间大编号随滚动漂移、导语逐字显影（不支持时用 IntersectionObserver 补） | 浏览器原生，不加库 |
+| 过渡带渐变 | 首页房间之间的色温：夜 → 纸 → 青黑 → 黑 → 暖暗 | 一天的光 |
+
+退路：窄屏、`prefers-reduced-motion`、不支持 WebGL2 时，封面退回静态的「敛色」图（CSS 滤镜，悬停回色）；所有动效在减少动效时关掉。
 
 ## 7. 禁区
 

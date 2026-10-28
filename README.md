@@ -82,7 +82,7 @@ node source/scripts/check-daily.mjs         # 检查 JSON 语法、必填字段�
 node source/scripts/check-daily.mjs --fix   # 同上，并自动补上图片 width / height
 ```
 
-JSON 写坏（少逗号、多逗号）时会指出第几行；页面上也会提示「日更没读出来」而不是白屏。单条缺字段只跳过那一条。仓库里的 GitHub Actions 也会在每次推送时跑这个检查。
+JSON 写坏（少逗号、多逗号）时会指出第几行；页面上也会提示「日更没读出来」而不是白屏。单条缺字段只跳过那一条。仓库里的 GitHub Actions（「日更校验」）会在每次推送或 PR 改到 `content/`、`images/` 时自动跑这个检查。
 
 ### 条目多了以后
 
