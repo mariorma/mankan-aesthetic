@@ -1,11 +1,13 @@
 import { useState } from "react";
 import type { Figure } from "./figure";
 import { faceMotion, useFaceFlip } from "./flip";
-import { UvMark, UvStack, type Mark } from "./kit/controls";
+import { UvStack, type Mark } from "./kit/controls";
 import { HoverEffect } from "./kit/hover-effect";
 import { useReducedMotion } from "./kit/reduced";
 import { CardSpotlight } from "./kit/card-spotlight";
 import { TransitionPanel } from "./kit/transition-panel";
+import { CopyMarks, HiddenMarks, MarkChoices, useMarkStore } from "./mark-ui";
+import { LI_MARK_KEY, liPieces, liRejectLines, markOf, withOrphans, type MarkMap, type ScoredPiece } from "./marks";
 import { mount, Shell } from "./Shell";
 import { FilmReel } from "./kit/film";
 import type { StageShot } from "./kit/stage3d";
@@ -34,30 +36,12 @@ const featured = beautyEssays.flatMap((essay) => {
 
 const countWord = ["零", "一", "两", "三", "四", "五", "六", "七", "八", "九"];
 
-const markKey = "mankan-li-marks";
-
-function readMarks(): Record<string, Mark> {
-  try {
-    const raw = localStorage.getItem(markKey);
-    if (!raw) return {};
-    const parsed: unknown = JSON.parse(raw);
-    if (!parsed || typeof parsed !== "object") return {};
-    const saved: Record<string, Mark> = {};
-    for (const [file, value] of Object.entries(parsed)) {
-      if (value === "好" || value === "中" || value === "差") saved[file] = value;
-    }
-    return saved;
-  } catch {
-    return {};
-  }
-}
-
-function writeMarks(next: Record<string, Mark>) {
-  try {
-    localStorage.setItem(markKey, JSON.stringify(next));
-  } catch {
-    // 记不住就只留在这一页，不打断翻看。
-  }
+function pieceOf(item: (typeof featured)[number]): ScoredPiece {
+  return {
+    id: item.card.id,
+    label: `${item.card.date} · ${item.card.title}`,
+    legacy: [item.figure.file],
+  };
 }
 
 function Spec({ rows }: { rows: { k: string; v: string }[] }) {
@@ -74,27 +58,26 @@ function Spec({ rows }: { rows: { k: string; v: string }[] }) {
 }
 
 function Home() {
-  const [saved, setSaved] = useState<Record<string, Mark>>(readMarks);
+  const { saved, choose } = useMarkStore(LI_MARK_KEY);
   const { face, flip } = useFaceFlip();
   const reduced = useReducedMotion();
   const motion = faceMotion(reduced);
-
-  function choose(file: string, mark: Mark) {
-    setSaved((current) => {
-      const next = { ...current, [file]: mark };
-      writeMarks(next);
-      return next;
-    });
-  }
-
-  const featuredFiles = featured.map((piece) => piece.figure.file);
-  const rejected = [
-    ...featuredFiles.filter((file) => saved[file] === "差"),
-    ...Object.keys(saved).filter((file) => saved[file] === "差" && !featuredFiles.includes(file)),
-  ];
+  const rejected = liRejectLines(saved);
 
   return (
-    <Shell page="home" face={face} onFlip={flip} footerNote={face === "li" ? <RejectList files={rejected} /> : undefined}>
+    <Shell
+      page="home"
+      face={face}
+      onFlip={flip}
+      footerNote={
+        face === "li" ? (
+          <>
+            <RejectList files={rejected} />
+            <CopyMarks />
+          </>
+        ) : undefined
+      }
+    >
       <TransitionPanel
         activeIndex={face === "biao" ? 0 : 1}
         variants={motion.variants}
@@ -187,10 +170,14 @@ function FaceLi({
   saved,
   onChoose,
 }: {
-  saved: Record<string, Mark>;
-  onChoose: (file: string, mark: Mark) => void;
+  saved: MarkMap;
+  onChoose: (id: string, mark: Mark, legacy?: readonly string[]) => void;
 }) {
-  const n = countWord[featured.length] ?? String(featured.length);
+  const visible = featured.filter((item) => markOf(saved, item.card.id, [item.figure.file]) !== "差");
+  const n = countWord[visible.length] ?? String(visible.length);
+  const reserved = liPieces().flatMap((piece) => [piece.id, ...(piece.legacy ?? [])]);
+  const hiddenPieces = withOrphans(featured.map(pieceOf), saved, reserved);
+
   return (
     <RiseScope>
       <header className="mast">
@@ -199,40 +186,40 @@ function FaceLi({
         <p className="deck">精选{n}张。每张写清楚好看在哪，看完标好、中、差。</p>
       </header>
       <div className="issue">
-        {featured.map((piece, index) => (
-          <article
-            key={piece.figure.file}
-            className={index % 2 === 1 ? "essay rise is-flip" : "essay rise"}
-            id={piece.card.id}
-          >
-            <p className="essay-kicker">{piece.essay.kicker}</p>
-            <h2 className="essay-title">{piece.card.title}</h2>
-            <div className="essay-spread">
-              <p className="judgment">{piece.essay.judgment}</p>
-              <div className="essay-plate">
-                <Plate
-                  page="home"
-                  figure={piece.figure}
-                  linkLabel={piece.card.title}
-                  omitCaption
-                  priority={index === 0}
-                />
+        {visible.map((piece, index) => {
+          const scored = pieceOf(piece);
+          return (
+            <article
+              key={piece.card.id}
+              className={index % 2 === 1 ? "essay rise is-flip" : "essay rise"}
+              id={piece.card.id}
+            >
+              <p className="essay-kicker">{piece.essay.kicker}</p>
+              <h2 className="essay-title">{piece.card.title}</h2>
+              <div className="essay-spread">
+                <p className="judgment">{piece.essay.judgment}</p>
+                <div className="essay-plate">
+                  <Plate
+                    page="home"
+                    figure={piece.figure}
+                    linkLabel={piece.card.title}
+                    omitCaption
+                    priority={index === 0}
+                  />
+                </div>
+                <div className="essay-body">
+                  {piece.essay.lines.map((line) => (
+                    <p key={line}>{line}</p>
+                  ))}
+                </div>
               </div>
-              <div className="essay-body">
-                {piece.essay.lines.map((line) => (
-                  <p key={line}>{line}</p>
-                ))}
+              <div className="essay-mark">
+                <MarkChoices piece={scored} saved={saved} onChoose={onChoose} />
               </div>
-            </div>
-            <div className="essay-mark">
-              <UvMark
-                file={piece.figure.file}
-                value={saved[piece.figure.file] ?? "中"}
-                onChoose={onChoose}
-              />
-            </div>
-          </article>
-        ))}
+            </article>
+          );
+        })}
+        <HiddenMarks pieces={hiddenPieces} saved={saved} onChoose={onChoose} />
       </div>
     </RiseScope>
   );

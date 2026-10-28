@@ -18,6 +18,11 @@ export type LogLink = {
 
 export type LogItem = {
   heading: string;
+  /**
+   * 打分 id。不写时用「日期::标题」。
+   * 改标题会另起一条分；要保住已有分就补这个字段，不必为打分改整份数据。
+   */
+  markId?: string;
   href?: string;
   points: string[];
   steal?: string;
@@ -42,6 +47,8 @@ export type LogDay = {
 
 // 原文级日记录，新的在最前。/log/ 表侧在卡片索引之前按日期倒序渲染。
 // 卡片仍是一张图、一两句；当天短卡片在 tasteLog 最前面。抓不到的图只写说明和外链。
+// 好中差不写在这份数据里（浏览器 mankan-biao-marks / mankan-li-marks）。
+// 日更读到「差」再从对应数组撤出展示；图先留在 images/。这里不因浏览器打分自动改。
 export const learningLog: LogDay[] = [
   {
     date: "2026-10-28",
