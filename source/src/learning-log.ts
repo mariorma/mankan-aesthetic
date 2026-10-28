@@ -49,12 +49,17 @@ export type LogDay = {
 // 卡片仍是一张图、一两句；当天短卡片在 tasteLog 最前面。抓不到的图只写说明和外链。
 // 好中差不写在这份数据里（浏览器 mankan-biao-marks / mankan-li-marks）。
 // 日更读到「差」再从对应数组撤出展示；图先留在 images/。这里不因浏览器打分自动改。
+// 2026-10-28 已撤出展示的短标签（只留在注释，不写进页面）：
+// 表少跟：灵感墙浅 pin、中文海报 tips 种草腔、Are.na 浅 channel、轻小说表紙字阶、优设三率教程式。
+// 表多跟：Ren Hang 机构语境半遮、滨田英明视线课、Quiet Gaze 单人回眸。
+// 裏多跟：enako / iori / amatsu / kokoro / yua 系列气口。
+// 裏少跟：beautybeast cos 那路。
 export const learningLog: LogDay[] = [
   {
     date: "2026-10-28",
     title: "每日学习 · 2026-10-28（例行 14:00）",
     summary:
-      "例行「慢看每日品味学习」。昨天海外批 C + 中文批 2；今日换海外批 D + 中文批 1，并续性压抑 / 单人性张力，另入库里区·前夜美女追更。今日批次：海外批 D（网站画廊/排版）· 中文批 1（花瓣/站酷/美叶）· 性压抑 · 单人性张力 · 里区追更。关键词：「审美积累」/ aesthetic training / taste building / visual taste / design taste / editorial design / magazine layout。不重抄：10-27 Ren Hang / Albertine / Magnetic Presence / Quiet Gaze / Instinct Camille；10-24 批 D The Face#26 / TSJ Archives / Savee UI Editorial 画板 / Are.na Aesthetic。封面见本目录；无商业用途·侵权立删。未改整站版式、未对外推广。",
+      "例行「慢看每日品味学习」。昨天海外批 C + 中文批 2；今日换海外批 D + 中文批 1，并续性压抑 / 单人性张力，另入库里区·前夜美女追更。今日批次：海外批 D（网站画廊/排版）· 中文批 1（花瓣话题入口）· 性压抑 · 单人性张力 · 里区追更。关键词：「审美积累」/ aesthetic training / taste building / visual taste / design taste / editorial design / magazine layout。不重抄：10-27 Ren Hang / Albertine / Magnetic Presence / Quiet Gaze / Instinct Camille；10-24 批 D The Face#26 / TSJ Archives / Savee UI Editorial 画板 / Are.na Aesthetic。封面见本目录；无商业用途·侵权立删。未改整站版式、未对外推广。",
     sections: [
       {
         id: "overseas-2026-10-28",
@@ -140,23 +145,6 @@ export const learningLog: LogDay[] = [
             ],
           },
           {
-            heading: "Are.na · Magazine Layouts channel（浅）",
-            href: "https://www.are.na/fraser-clark/magazine-layouts",
-            points: ["刊面剪贴 channel；相对 10-24 Aesthetic 策展文换角度。"],
-            links: [{ label: "Are.na", href: "https://www.are.na/fraser-clark/magazine-layouts" }],
-            figures: [
-              {
-                file: "log-arena-mag-layouts.webp",
-                alt: "Are.na Magazine Layouts channel OG",
-                width: 1200,
-                height: 630,
-                caption: "刊面 channel——用名单承载 vibe。",
-                credit: "原图 · Are.na · Magazine Layouts · 无商业用途·侵权立删",
-                creditHref: "https://www.are.na/fraser-clark/magazine-layouts",
-              },
-            ],
-          },
-          {
             heading: "Savee · 首页改版 OG（浅）",
             href: "https://savee.com/",
             points: ["相对 10-24 UI Editorial 画板：今天记站本身首页字+三张 save 嵌字。"],
@@ -187,43 +175,6 @@ export const learningLog: LogDay[] = [
             ],
             steal: "入口先挂上；有浏览器再补图。",
             links: [{ label: "花瓣话题", href: "https://huaban.com/topic-board/a-zazhipaiban" }],
-          },
-          {
-            heading: "站酷 · 周妙妍「中文海报这样排」",
-            href: "https://www.zcool.com.cn/article/ZMTc5MjQ3Ng==.html",
-            points: [
-              "为何好看：中文海报字阶、对齐与留白的可执行 tips；写给会排字的人。",
-            ],
-            steal: "中文排版写成短 tips；外链文章页 + og。",
-            links: [{ label: "站酷", href: "https://www.zcool.com.cn/article/ZMTc5MjQ3Ng==.html" }],
-            figures: [
-              {
-                file: "log-zcool-poster-tips.webp",
-                alt: "站酷 · 周妙妍中文海报版式 Tips 封面",
-                width: 800,
-                height: 600,
-                caption: "中文海报 tips——可执行，不是种草。",
-                credit: "原图 · 站酷 · 周妙妍 · 无商业用途·侵权立删",
-                creditHref: "https://www.zcool.com.cn/article/ZMTc5MjQ3Ng==.html",
-              },
-            ],
-          },
-          {
-            heading: "美叶 · 灵感集 pin（浅）",
-            href: "https://meiye.art/inspiration",
-            points: ["公开 pin 示意灵感墙气质；不作广告种草。"],
-            links: [{ label: "美叶", href: "https://meiye.art/inspiration" }],
-            figures: [
-              {
-                file: "log-meiye-pin.webp",
-                alt: "美叶灵感集公开 pin",
-                width: 739,
-                height: 1600,
-                caption: "灵感墙气质示意——只偷构成。",
-                credit: "原图 · 美叶 · inspiration pin · 无商业用途·侵权立删",
-                creditHref: "https://meiye.art/inspiration",
-              },
-            ],
           },
         ],
       },
@@ -611,35 +562,12 @@ export const learningLog: LogDay[] = [
     date: "2026-10-26",
     title: "每日学习 · 2026-10-26（例行 14:00）",
     summary:
-      "例行「慢看每日品味学习」。昨天海外批 A + 中文批 1；今日换海外批 B + 中文批 3。今日批次：海外批 B（Pixiv / DeviantArt / Tumblr 插画向）· 中文批 3（优设 / SANKOU / MUUUUU）。关键词：「审美积累」/ aesthetic training / taste building / visual taste / design taste / editorial design / magazine layout / typography / 杂志排版 / 装帧 / タイトルデザイン。不重抄：VISIONS 2026 / てんぱる1(84497848) / 84433706 / Rock-and-Roar / Katy Dockrill / YOMA / 博报堂招聘 SOTD / mina / 杂志化风格。封面与参考图见本目录；无商业用途·侵权立删。未改整站版式、未对外推广。",
+      "例行「慢看每日品味学习」。昨天海外批 A + 中文批 1；今日换海外批 B + 中文批 3。今日批次：海外批 B（Pixiv / DeviantArt / Tumblr 插画向）· 中文批（SANKOU / MUUUUU）。关键词：「审美积累」/ aesthetic training / taste building / visual taste / design taste / editorial design / magazine layout / typography / 杂志排版 / 装帧 / タイトルデザイン。不重抄：VISIONS 2026 / てんぱる1(84497848) / 84433706 / Rock-and-Roar / Katy Dockrill / YOMA / 博报堂招聘 SOTD / mina / 杂志化风格。封面与参考图见本目录；无商业用途·侵权立删。未改整站版式、未对外推广。",
     sections: [
       {
         id: "overseas-2026-10-26",
         label: "海外",
         items: [
-          {
-            heading: "Pixiv · むなかたきえ「依頼絵、タイトルデザイン」",
-            href: "https://www.pixiv.net/artworks/144091085",
-            points: [
-              "为何好看：轻小说表紙委托把插画与标题字阶一次排成；相对てんぱる1「几乎只有字」——这是图+字一口气的商业竖幅。",
-            ],
-            steal: "字跟着画面呼吸；积累栏写清委托对象；外链作品/作者页。",
-            links: [
-              { label: "Pixiv 作品", href: "https://www.pixiv.net/artworks/144091085" },
-              { label: "むなかたきえ", href: "https://www.pixiv.net/users/3228312" },
-            ],
-            figures: [
-              {
-                file: "log-pixiv-munakata-title.webp",
-                alt: "轻小说表紙：插画与标题字阶一体的竖幅委托作例",
-                width: 845,
-                height: 1200,
-                caption: "表紙一体——图与标题字阶一次排成，字跟着画面呼吸。",
-                credit: "原图 · Pixiv · むなかたきえ · 依頼絵、タイトルデザイン · 无商业用途·侵权立删",
-                creditHref: "https://www.pixiv.net/artworks/144091085",
-              },
-            ],
-          },
           {
             heading: "DeviantArt · SaneKyle「MH Rise for Switch Player Mag」",
             href: "https://www.deviantart.com/sanekyle/art/MH-Rise-for-Switch-Player-Mag-875825170",
@@ -732,26 +660,6 @@ export const learningLog: LogDay[] = [
                 caption: "新于上周的 SOTD——企业站字阶冷静、分区清楚。",
                 credit: "原图 · MUUUUU · SB OAI Japan SOTD OCT 25 · 无商业用途·侵权立删",
                 creditHref: "https://muuuuu.org/industry/technology/25142.html",
-              },
-            ],
-          },
-          {
-            heading: "优设 · layout-design-23「三率一版」",
-            href: "https://www.uisdc.com/layout-design-23",
-            points: [
-              "为何好看：版面率 / 图版率 / 跳跃率，把「高级 / 热闹 / 活泼」变成可调尺；不重抄 mina 拆刊与杂志化七特征。",
-            ],
-            steal: "图注写清是哪一率在起作用。",
-            links: [{ label: "优设文", href: "https://www.uisdc.com/layout-design-23" }],
-            figures: [
-              {
-                file: "log-uisdc-layout-design.webp",
-                alt: "优设三率一版文章封面示意",
-                width: 880,
-                height: 560,
-                caption: "三率当判断句——高级、热闹、活泼各自对应哪一率。",
-                credit: "原图 · 优设 · layout-design-23 三率一版 · 无商业用途·侵权立删",
-                creditHref: "https://www.uisdc.com/layout-design-23",
               },
             ],
           },
@@ -1586,6 +1494,7 @@ export const learningLog: LogDay[] = [
 
 // 表：品味。新的放最前面。每条一张图 + 一两句（写在 caption）。
 // 抓不到原图就留 imageNote「原图未取到。」和 href，不写长摘要。
+// 与日课共用同一 figure.file 的卡，页面图录会跳过。日课已撤的浅记若只留短卡，图录会把原图再贴出来，所以那几张短卡一并撤了；图仍在 images/。
 export const tasteLog: AccumCard[] = [
   {
     id: "log-fiu-mix-interiors",
@@ -1613,20 +1522,6 @@ export const tasteLog: AccumCard[] = [
       caption: "编辑列表站——不是灵感瀑布。",
       credit: "原图 · PW Magazine · 无商业用途·侵权立删",
       creditHref: "https://archive.pw-magazine.com/",
-    },
-  },
-  {
-    id: "log-zcool-poster-tips",
-    date: "2026-10-28",
-    title: "站酷 · 中文海报这样排",
-    figure: {
-      file: "log-zcool-poster-tips.webp",
-      alt: "站酷 · 周妙妍中文海报版式 Tips 封面",
-      width: 800,
-      height: 600,
-      caption: "中文海报 tips——可执行，不是种草。",
-      credit: "原图 · 站酷 · 周妙妍 · 无商业用途·侵权立删",
-      creditHref: "https://www.zcool.com.cn/article/ZMTc5MjQ3Ng==.html",
     },
   },
   {
@@ -1826,20 +1721,6 @@ export const tasteLog: AccumCard[] = [
     },
   },
   {
-    id: "log-pixiv-munakata-title",
-    date: "2026-10-26",
-    title: "Pixiv · むなかたきえ「依頼絵、タイトルデザイン」",
-    figure: {
-      file: "log-pixiv-munakata-title.webp",
-      alt: "轻小说表紙：插画与标题字阶一体的竖幅委托作例",
-      width: 845,
-      height: 1200,
-      caption: "表紙一体——图与标题字阶一次排成，字跟着画面呼吸。",
-      credit: "原图 · Pixiv · むなかたきえ · 依頼絵、タイトルデザイン · 无商业用途·侵权立删",
-      creditHref: "https://www.pixiv.net/artworks/144091085",
-    },
-  },
-  {
     id: "log-da-mh-rise-switchplayer",
     date: "2026-10-26",
     title: "DeviantArt · SaneKyle · Switch Player Mag",
@@ -1865,20 +1746,6 @@ export const tasteLog: AccumCard[] = [
       caption: "新于上周的 SOTD——企业站字阶冷静、分区清楚。",
       credit: "原图 · MUUUUU · SB OAI Japan SOTD OCT 25 · 无商业用途·侵权立删",
       creditHref: "https://muuuuu.org/industry/technology/25142.html",
-    },
-  },
-  {
-    id: "log-uisdc-layout-design",
-    date: "2026-10-26",
-    title: "优设 · 三率一版",
-    figure: {
-      file: "log-uisdc-layout-design.webp",
-      alt: "优设三率一版文章封面示意",
-      width: 880,
-      height: 560,
-      caption: "三率当判断句——高级、热闹、活泼各自对应哪一率。",
-      credit: "原图 · 优设 · layout-design-23 三率一版 · 无商业用途·侵权立删",
-      creditHref: "https://www.uisdc.com/layout-design-23",
     },
   },
   {
@@ -2525,14 +2392,6 @@ export const tasteLog: AccumCard[] = [
     }
   },
   {
-    "id": "2026-10-21-04-杂志排版",
-    "date": "2026-10-21",
-    "title": "04 杂志排版",
-    "imageNote": "话题页打不开（405），原图未取到。",
-    "note": "中文排版的灵感入口。要下判断，得再进子画板挑。",
-    "href": "https://huaban.com/topic-board/a-zazhipaiban"
-  },
-  {
     "id": "log-pixiv-cover-samples",
     "date": "2026-10-21",
     "title": "05 同人志封面作例",
@@ -2616,14 +2475,6 @@ export const tasteLog: AccumCard[] = [
       "credit": "原图 · 云展网 · 七种杂志调子 · Cereal 封面例",
       "creditHref": "https://www.yunzhan365.com/use/digital-magazine/digital-magazine015/"
     }
-  },
-  {
-    "id": "2026-10-21-11-灵感集",
-    "date": "2026-10-21",
-    "title": "11 灵感集",
-    "imageNote": "墙里抽到的一张是空状态界面，不是色和版面，未采用。分享图只是 logo，也未采用。",
-    "note": "色和界面的灵感墙。和优设那篇对照着扫。",
-    "href": "https://meiye.art/inspiration"
   },
   {
     "id": "log-lj-dont-worry-boys",
@@ -3132,14 +2983,6 @@ export const tasteLog: AccumCard[] = [
     }
   },
   {
-    "id": "2026-10-16-X-aperturefnd",
-    "date": "2026-10-16",
-    "title": "X · @aperturefnd",
-    "imageNote": "这条帖没有附图，短名单页打不开。",
-    "note": "10-08：2026 Paris Photo–Aperture PhotoBook Awards，35 本短名单。",
-    "href": "https://x.com/aperturefnd"
-  },
-  {
     "id": "2026-10-16-X-magculture",
     "date": "2026-10-16",
     "title": "X · @magculture",
@@ -3275,22 +3118,6 @@ export const tasteLog: AccumCard[] = [
       "credit": "原图 · Monuments Historiques 封面 via Fonts In Use",
       "creditHref": "https://fontsinuse.com/uses/80713/monuments-historiques-covers-1980-1985"
     }
-  },
-  {
-    "id": "2026-10-15-X-presentcorrect",
-    "date": "2026-10-15",
-    "title": "X · @presentcorrect",
-    "imageNote": "原图未取到（X 需登录，抓不到图）。",
-    "note": "1952 年彩票收藏第 30 张；中世纪日本彩票秋组图；60/80/90 年代办公室器物 4 图静物。",
-    "href": "https://x.com/presentcorrect"
-  },
-  {
-    "id": "2026-10-15-X-aperturefnd",
-    "date": "2026-10-15",
-    "title": "X · @aperturefnd",
-    "imageNote": "原图未取到（X 需登录，抓不到图）。",
-    "note": "2026 Paris Photo–Aperture PhotoBook Awards 35 本短名单。",
-    "href": "https://x.com/aperturefnd"
   }
 ];
 
@@ -3422,20 +3249,6 @@ export const beautyLog: AccumCard[] = [
       "caption": "麻倉瑞季，浅蓝蕾丝，脸贴过来。近，但不挤。",
       "credit": "喜欢名单 · 金曜美人 · 麻倉瑞季 · 点图进原页",
       "creditHref": "https://friday.gold/gravure/article/444633"
-    }
-  },
-  {
-    "id": "li-beautybeast-cos",
-    "date": "2026-10-20",
-    "title": "beautybeast",
-    "figure": {
-      "file": "li-beautybeast-cos.webp",
-      "alt": "beautybeast cos，红裙子和珍珠项链，站在玫瑰拱门下",
-      "width": 800,
-      "height": 1200,
-      "caption": "红裙子，珍珠，玫瑰拱门。cos 贝尔，甜和正式叠在一起。",
-      "credit": "喜欢名单 · beautybeast cos · 点图去找原帖",
-      "creditHref": "https://x.com/search?q=beautybeast%20cos&f=media"
     }
   },
   {
