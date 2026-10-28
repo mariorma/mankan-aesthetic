@@ -44,6 +44,358 @@ export type LogDay = {
 // 卡片仍是一张图、一两句；当天短卡片在 tasteLog 最前面。抓不到的图只写说明和外链。
 export const learningLog: LogDay[] = [
   {
+    date: "2026-10-28",
+    title: "每日学习 · 2026-10-28（例行 14:00）",
+    summary:
+      "例行「慢看每日品味学习」。昨天海外批 C + 中文批 2；今日换海外批 D + 中文批 1，并续性压抑 / 单人性张力，另入库里区·前夜美女追更。今日批次：海外批 D（网站画廊/排版）· 中文批 1（花瓣/站酷/美叶）· 性压抑 · 单人性张力 · 里区追更。关键词：「审美积累」/ aesthetic training / taste building / visual taste / design taste / editorial design / magazine layout。不重抄：10-27 Ren Hang / Albertine / Magnetic Presence / Quiet Gaze / Instinct Camille；10-24 批 D The Face#26 / TSJ Archives / Savee UI Editorial 画板 / Are.na Aesthetic。封面见本目录；无商业用途·侵权立删。未改整站版式、未对外推广。",
+    sections: [
+      {
+        id: "overseas-2026-10-28",
+        label: "海外",
+        items: [
+          {
+            heading: "Fonts In Use · Mix Interiors 改版（深）",
+            href: "https://fontsinuse.com/uses/78765/mix-interiors",
+            points: [
+              "为何好看：英国商业室内刊全编辑改版——封面、字阶、网格重做却留签名栏目。相对 10-24 The Face #26 终刊定制字：今天挖持续在市的垂直刊如何换装不丢识别。",
+            ],
+            steal: "改版＝重分字职；外链 FIU 条目 + cardshot/CDN。",
+            links: [
+              { label: "Fonts In Use", href: "https://fontsinuse.com/uses/78765/mix-interiors" },
+            ],
+            figures: [
+              {
+                file: "log-fiu-mix-interiors.webp",
+                alt: "Fonts In Use · Mix Interiors 改版刊面",
+                width: 1399,
+                height: 933,
+                caption: "垂直刊换装——字职重分，不是换皮。",
+                credit: "原图 · Fonts In Use · Mix Interiors · 无商业用途·侵权立删",
+                creditHref: "https://fontsinuse.com/uses/78765/mix-interiors",
+              },
+            ],
+          },
+          {
+            heading: "PW Magazine · 青年实践编辑站（深 · Siteinspire 降级）",
+            href: "https://archive.pw-magazine.com/",
+            points: [
+              "为何好看：Vienna/Berlin/Zurich 青年艺术与表演实践的编辑列表姿态。Siteinspire 本轮 bot/429，改核活官方 archive + live。",
+            ],
+            steal: "积累栏可学城市场景刊语气；外链官方。",
+            links: [
+              { label: "PW archive", href: "https://archive.pw-magazine.com/" },
+              { label: "PW live", href: "https://www.pw-magazine.com/" },
+            ],
+            figures: [
+              {
+                file: "log-pw-magazine.webp",
+                alt: "PW Magazine 首页编辑列表姿态",
+                width: 1600,
+                height: 900,
+                caption: "编辑列表站——不是灵感瀑布。",
+                credit: "原图 · PW Magazine · 无商业用途·侵权立删",
+                creditHref: "https://archive.pw-magazine.com/",
+              },
+            ],
+          },
+          {
+            heading: "It's Nice That · N-E redesign Odda（浅）",
+            href: "https://www.itsnicethat.com/articles/n-e-studio-odda-magazine-publication-110121",
+            points: ["12 栏 + 三声部字（Baskerville / Akzidenz / OCR-B）；成刊改版访谈角。"],
+            links: [{ label: "It's Nice That", href: "https://www.itsnicethat.com/articles/n-e-studio-odda-magazine-publication-110121" }],
+            figures: [
+              {
+                file: "log-int-odda.webp",
+                alt: "It's Nice That · Odda magazine N-E 改版内页",
+                width: 1440,
+                height: 1080,
+                caption: "三声部字 + 12 栏——成刊改版访谈。",
+                credit: "原图 · It's Nice That · N-E Odda · 无商业用途·侵权立删",
+                creditHref: "https://www.itsnicethat.com/articles/n-e-studio-odda-magazine-publication-110121",
+              },
+            ],
+          },
+          {
+            heading: "Awwwards · Ai in Design Report 2026 SOTD（浅）",
+            href: "https://www.awwwards.com/sites/ai-in-design-report-2026",
+            points: ["只偷章节滚动与信息架构，不跟 AI 营销刷屏。"],
+            links: [{ label: "Awwwards", href: "https://www.awwwards.com/sites/ai-in-design-report-2026" }],
+            figures: [
+              {
+                file: "log-awwwards-ai.webp",
+                alt: "Awwwards SOTD · Ai in Design Report 2026",
+                width: 1600,
+                height: 1200,
+                caption: "日站章节节奏——偷架构不偷话术。",
+                credit: "原图 · Awwwards · Ai in Design Report 2026 · 无商业用途·侵权立删",
+                creditHref: "https://www.awwwards.com/sites/ai-in-design-report-2026",
+              },
+            ],
+          },
+          {
+            heading: "Are.na · Magazine Layouts channel（浅）",
+            href: "https://www.are.na/fraser-clark/magazine-layouts",
+            points: ["刊面剪贴 channel；相对 10-24 Aesthetic 策展文换角度。"],
+            links: [{ label: "Are.na", href: "https://www.are.na/fraser-clark/magazine-layouts" }],
+            figures: [
+              {
+                file: "log-arena-mag-layouts.webp",
+                alt: "Are.na Magazine Layouts channel OG",
+                width: 1200,
+                height: 630,
+                caption: "刊面 channel——用名单承载 vibe。",
+                credit: "原图 · Are.na · Magazine Layouts · 无商业用途·侵权立删",
+                creditHref: "https://www.are.na/fraser-clark/magazine-layouts",
+              },
+            ],
+          },
+          {
+            heading: "Savee · 首页改版 OG（浅）",
+            href: "https://savee.com/",
+            points: ["相对 10-24 UI Editorial 画板：今天记站本身首页字+三张 save 嵌字。"],
+            links: [{ label: "Savee", href: "https://savee.com/" }],
+            figures: [
+              {
+                file: "log-savee-home.webp",
+                alt: "Savee homepage redesign OG",
+                width: 1200,
+                height: 630,
+                caption: "首页嵌字——站本身也是排版课。",
+                credit: "原图 · Savee · homepage OG · 无商业用途·侵权立删",
+                creditHref: "https://savee.com/",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "zh-2026-10-28",
+        label: "中文",
+        items: [
+          {
+            heading: "花瓣 · 话题「杂志排版」（本周露脸 · 降级）",
+            href: "https://huaban.com/topic-board/a-zazhipaiban",
+            points: [
+              "中文灵感墙的刊面专题入口；本周批次必须露脸。本轮仅得 SPA 壳，未抓到可署名 pin——只留官方话题链。",
+            ],
+            steal: "入口先挂上；有浏览器再补图。",
+            links: [{ label: "花瓣话题", href: "https://huaban.com/topic-board/a-zazhipaiban" }],
+          },
+          {
+            heading: "站酷 · 周妙妍「中文海报这样排」",
+            href: "https://www.zcool.com.cn/article/ZMTc5MjQ3Ng==.html",
+            points: [
+              "为何好看：中文海报字阶、对齐与留白的可执行 tips；写给会排字的人。",
+            ],
+            steal: "中文排版写成短 tips；外链文章页 + og。",
+            links: [{ label: "站酷", href: "https://www.zcool.com.cn/article/ZMTc5MjQ3Ng==.html" }],
+            figures: [
+              {
+                file: "log-zcool-poster-tips.webp",
+                alt: "站酷 · 周妙妍中文海报版式 Tips 封面",
+                width: 800,
+                height: 600,
+                caption: "中文海报 tips——可执行，不是种草。",
+                credit: "原图 · 站酷 · 周妙妍 · 无商业用途·侵权立删",
+                creditHref: "https://www.zcool.com.cn/article/ZMTc5MjQ3Ng==.html",
+              },
+            ],
+          },
+          {
+            heading: "美叶 · 灵感集 pin（浅）",
+            href: "https://meiye.art/inspiration",
+            points: ["公开 pin 示意灵感墙气质；不作广告种草。"],
+            links: [{ label: "美叶", href: "https://meiye.art/inspiration" }],
+            figures: [
+              {
+                file: "log-meiye-pin.webp",
+                alt: "美叶灵感集公开 pin",
+                width: 739,
+                height: 1600,
+                caption: "灵感墙气质示意——只偷构成。",
+                credit: "原图 · 美叶 · inspiration pin · 无商业用途·侵权立删",
+                creditHref: "https://meiye.art/inspiration",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "repression-2026-10-28",
+        label: "性压抑",
+        intro: "冷、正式、压得住；不写 gore / 直球色情。不重抄 Ren Hang / Albertine。",
+        items: [
+          {
+            heading: "Edward Hopper · Office at Night（Walker）",
+            href: "https://www.walkerart.org/collections/artwork/office-at-night/",
+            points: [
+              "为何好看：夜办公室、窗、桌、未说破的距离——闷的、停住的欲望；礼教驯过的视线落在文件与台灯。",
+            ],
+            steal: "压抑条写窗/桌/夜与未完成的目光；博物馆藏页外链。",
+            links: [
+              { label: "Walker", href: "https://www.walkerart.org/collections/artwork/office-at-night/" },
+            ],
+            figures: [
+              {
+                file: "log-hopper-office-night.webp",
+                alt: "Edward Hopper Office at Night · Walker Art Center",
+                width: 1400,
+                height: 931,
+                caption: "窗、桌、夜——闷的欲望停在台灯边。",
+                credit: "原图 · Walker Art Center · Hopper Office at Night · 无商业用途·侵权立删",
+                creditHref: "https://www.walkerart.org/collections/artwork/office-at-night/",
+              },
+            ],
+          },
+          {
+            heading: "Francesca Woodman · Untitled（Whitney）",
+            href: "https://whitney.org/collection/works/33724",
+            points: [
+              "为何好看：半遮、自抹消、房间边角——羞耻与消失感；高级干净，不是 gore。",
+            ],
+            steal: "半身入墙/模糊边界；机构藏品页。",
+            links: [
+              { label: "Whitney work", href: "https://whitney.org/collection/works/33724" },
+              { label: "Whitney artist", href: "https://whitney.org/artists/4136" },
+            ],
+            figures: [
+              {
+                file: "log-woodman-whitney.webp",
+                alt: "Francesca Woodman Untitled · Whitney",
+                width: 1284,
+                height: 1600,
+                caption: "半遮与消失——压得住的羞耻感。",
+                credit: "原图 · Whitney · Francesca Woodman Untitled · 无商业用途·侵权立删",
+                creditHref: "https://whitney.org/collection/works/33724",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "tension-2026-10-28",
+        label: "单人性张力",
+        intro: "一人自带磁场；不是情侣戏。不重抄 Magnetic Presence / Quiet Gaze / Camille。",
+        items: [
+          {
+            heading: "Visie · Quiet Power · KEYMAN Magazine Issue 3",
+            href: "https://visie.io/project/various-editorials-quiet-power-for-keyman-magazine-issue-3-2025",
+            points: [
+              "为何好看：建筑剪影、定向光、单色——一人撑满棚拍。Photographer Rambo Ding · Model Ying Ouyang。",
+            ],
+            steal: "剪裁与肩线即权力；外链 Visie 项目页。",
+            links: [
+              {
+                label: "Visie",
+                href: "https://visie.io/project/various-editorials-quiet-power-for-keyman-magazine-issue-3-2025",
+              },
+            ],
+            figures: [
+              {
+                file: "log-visie-quiet-power.webp",
+                alt: "Quiet Power editorial for KEYMAN Magazine Issue 3",
+                width: 800,
+                height: 450,
+                caption: "Quiet Power——单人磁场，不是双人戏。",
+                credit: "原图 · Visie · KEYMAN Quiet Power · 无商业用途·侵权立删",
+                creditHref: "https://visie.io/project/various-editorials-quiet-power-for-keyman-magazine-issue-3-2025",
+              },
+            ],
+          },
+          {
+            heading: "Pascal Uehli · Audé in Monochrome Fashion",
+            href: "https://pascaluehli.com/aude-in-monochrome-fashion/",
+            points: ["苏黎世棚拍单色肖像；光只服务一张脸与衣料，磁场自持。"],
+            steal: "单色统一高级；官方作品页。",
+            links: [{ label: "Pascal Uehli", href: "https://pascaluehli.com/aude-in-monochrome-fashion/" }],
+            figures: [
+              {
+                file: "log-pascal-aude-mono.webp",
+                alt: "Pascal Uehli · Audé in Monochrome Fashion",
+                width: 1440,
+                height: 960,
+                caption: "单色自持——一人填满画幅。",
+                credit: "原图 · Pascal Uehli · Audé Monochrome · 无商业用途·侵权立删",
+                creditHref: "https://pascaluehli.com/aude-in-monochrome-fashion/",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "li-watch-2026-10-28",
+        label: "里区·前夜美女追更",
+        intro: "来源 watch-20261027；跳过校园违规与直球低俗。精选 4 张入 beautyLog。",
+        items: [
+          {
+            heading: "えなこ · ギャバン舞台挨拶",
+            href: "https://x.com/enako_cos/status/2115020589652189470",
+            points: ["舞台问候造型，手势干净、站得住。"],
+            figures: [
+              {
+                file: "li-20261028-enako-gavan.webp",
+                alt: "えなこ，ギャバン舞台挨拶造型",
+                width: 1108,
+                height: 1477,
+                caption: "舞台问候——手势干净，站得住。",
+                credit: "前夜追更 · enako · X · 无商业用途·侵权立删",
+                creditHref: "https://x.com/enako_cos/status/2115020589652189470",
+              },
+            ],
+          },
+          {
+            heading: "kokoro · Young Gangan うさぎ",
+            href: "https://x.com/kokoro777pp/status/2114679117778141586",
+            points: ["刊面兔耳，甜但不挤。"],
+            figures: [
+              {
+                file: "li-20261028-kokoro-usagi.webp",
+                alt: "kokoro，Young Gangan うさぎ",
+                width: 1200,
+                height: 1600,
+                caption: "刊面兔耳——甜，但不挤。",
+                credit: "前夜追更 · kokoro · X · 无商业用途·侵权立删",
+                creditHref: "https://x.com/kokoro777pp/status/2114679117778141586",
+              },
+            ],
+          },
+          {
+            heading: "三上悠亜 · GR pool",
+            href: "https://x.com/yua_mikami/status/2114676656745091283",
+            points: ["泳池边构图稳，光平人亮。"],
+            figures: [
+              {
+                file: "li-20261028-yua-gr.webp",
+                alt: "三上悠亜，GR 泳池边",
+                width: 1066,
+                height: 1600,
+                caption: "泳池边——光是平的，人还是好看。",
+                credit: "前夜追更 · yua · X · 无商业用途·侵权立删",
+                creditHref: "https://x.com/yua_mikami/status/2114676656745091283",
+              },
+            ],
+          },
+          {
+            heading: "あまつ様 · まえとうしろ front",
+            href: "https://x.com/R_Ap8_/status/2115036271051743448",
+            points: ["前后对照刊式泳装前帧，姿态收得住。"],
+            figures: [
+              {
+                file: "li-20261028-amatsu-front.webp",
+                alt: "あまつ様，まえとうしろ front",
+                width: 1200,
+                height: 1600,
+                caption: "前后对照的前帧——姿态收得住。",
+                credit: "前夜追更 · あまつ様 · X · 无商业用途·侵权立删",
+                creditHref: "https://x.com/R_Ap8_/status/2115036271051743448",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     date: "2026-10-27",
     title: "每日学习 · 2026-10-27（例行 14:00）",
     summary:
@@ -1272,6 +1624,104 @@ export const learningLog: LogDay[] = [
 // 表：品味。新的放最前面。每条一张图 + 一两句（写在 caption）。
 // 抓不到原图就留 imageNote「原图未取到。」和 href，不写长摘要。
 export const tasteLog: AccumCard[] = [
+  {
+    id: "log-fiu-mix-interiors",
+    date: "2026-10-28",
+    title: "Fonts In Use · Mix Interiors 改版",
+    figure: {
+      file: "log-fiu-mix-interiors.webp",
+      alt: "Fonts In Use · Mix Interiors 改版刊面",
+      width: 1399,
+      height: 933,
+      caption: "垂直刊换装——字职重分，不是换皮。",
+      credit: "原图 · Fonts In Use · Mix Interiors · 无商业用途·侵权立删",
+      creditHref: "https://fontsinuse.com/uses/78765/mix-interiors",
+    },
+  },
+  {
+    id: "log-pw-magazine",
+    date: "2026-10-28",
+    title: "PW Magazine · 青年实践编辑站",
+    figure: {
+      file: "log-pw-magazine.webp",
+      alt: "PW Magazine 首页编辑列表姿态",
+      width: 1600,
+      height: 900,
+      caption: "编辑列表站——不是灵感瀑布。",
+      credit: "原图 · PW Magazine · 无商业用途·侵权立删",
+      creditHref: "https://archive.pw-magazine.com/",
+    },
+  },
+  {
+    id: "log-zcool-poster-tips",
+    date: "2026-10-28",
+    title: "站酷 · 中文海报这样排",
+    figure: {
+      file: "log-zcool-poster-tips.webp",
+      alt: "站酷 · 周妙妍中文海报版式 Tips 封面",
+      width: 800,
+      height: 600,
+      caption: "中文海报 tips——可执行，不是种草。",
+      credit: "原图 · 站酷 · 周妙妍 · 无商业用途·侵权立删",
+      creditHref: "https://www.zcool.com.cn/article/ZMTc5MjQ3Ng==.html",
+    },
+  },
+  {
+    id: "log-hopper-office-night",
+    date: "2026-10-28",
+    title: "性压抑 · Hopper Office at Night",
+    figure: {
+      file: "log-hopper-office-night.webp",
+      alt: "Edward Hopper Office at Night · Walker",
+      width: 1400,
+      height: 931,
+      caption: "窗、桌、夜——闷的欲望停在台灯边。",
+      credit: "原图 · Walker · Hopper Office at Night · 无商业用途·侵权立删",
+      creditHref: "https://www.walkerart.org/collections/artwork/office-at-night/",
+    },
+  },
+  {
+    id: "log-woodman-whitney",
+    date: "2026-10-28",
+    title: "性压抑 · Woodman Untitled",
+    figure: {
+      file: "log-woodman-whitney.webp",
+      alt: "Francesca Woodman Untitled · Whitney",
+      width: 1284,
+      height: 1600,
+      caption: "半遮与消失——压得住的羞耻感。",
+      credit: "原图 · Whitney · Woodman Untitled · 无商业用途·侵权立删",
+      creditHref: "https://whitney.org/collection/works/33724",
+    },
+  },
+  {
+    id: "log-visie-quiet-power",
+    date: "2026-10-28",
+    title: "单人性张力 · KEYMAN Quiet Power",
+    figure: {
+      file: "log-visie-quiet-power.webp",
+      alt: "Quiet Power editorial for KEYMAN Magazine",
+      width: 800,
+      height: 450,
+      caption: "Quiet Power——单人磁场，不是双人戏。",
+      credit: "原图 · Visie · KEYMAN Quiet Power · 无商业用途·侵权立删",
+      creditHref: "https://visie.io/project/various-editorials-quiet-power-for-keyman-magazine-issue-3-2025",
+    },
+  },
+  {
+    id: "log-pascal-aude-mono",
+    date: "2026-10-28",
+    title: "单人性张力 · Audé Monochrome",
+    figure: {
+      file: "log-pascal-aude-mono.webp",
+      alt: "Pascal Uehli · Audé in Monochrome",
+      width: 1440,
+      height: 960,
+      caption: "单色自持——一人填满画幅。",
+      credit: "原图 · Pascal Uehli · Audé Monochrome · 无商业用途·侵权立删",
+      creditHref: "https://pascaluehli.com/aude-in-monochrome-fashion/",
+    },
+  },
   {
     id: "log-yt-coffee-table-book",
     date: "2026-10-27",
@@ -2885,6 +3335,62 @@ export const tasteLog: AccumCard[] = [
 // 例行美女图、名单追更、以及任何一次找来的可用图，有原帖就填 figure.creditHref。
 // 只收人像短说明，不把刊面、字课、静物写进来。
 export const beautyLog: AccumCard[] = [
+  {
+    id: "li-20261028-enako-gavan",
+    date: "2026-10-28",
+    title: "えなこ · ギャバン舞台挨拶",
+    figure: {
+      file: "li-20261028-enako-gavan.webp",
+      alt: "えなこ，ギャバン舞台挨拶造型",
+      width: 1108,
+      height: 1477,
+      caption: "舞台问候——手势干净，站得住。",
+      credit: "前夜追更 · enako · https://x.com/enako_cos/status/2115020589652189470 · 无商业用途·侵权立删",
+      creditHref: "https://x.com/enako_cos/status/2115020589652189470",
+    },
+  },
+  {
+    id: "li-20261028-kokoro-usagi",
+    date: "2026-10-28",
+    title: "kokoro · Young Gangan うさぎ",
+    figure: {
+      file: "li-20261028-kokoro-usagi.webp",
+      alt: "kokoro，Young Gangan うさぎ",
+      width: 1200,
+      height: 1600,
+      caption: "刊面兔耳——甜，但不挤。",
+      credit: "前夜追更 · kokoro · https://x.com/kokoro777pp/status/2114679117778141586 · 无商业用途·侵权立删",
+      creditHref: "https://x.com/kokoro777pp/status/2114679117778141586",
+    },
+  },
+  {
+    id: "li-20261028-yua-gr",
+    date: "2026-10-28",
+    title: "三上悠亜 · GR pool",
+    figure: {
+      file: "li-20261028-yua-gr.webp",
+      alt: "三上悠亜，GR 泳池边",
+      width: 1066,
+      height: 1600,
+      caption: "泳池边——光是平的，人还是好看。",
+      credit: "前夜追更 · yua · https://x.com/yua_mikami/status/2114676656745091283 · 无商业用途·侵权立删",
+      creditHref: "https://x.com/yua_mikami/status/2114676656745091283",
+    },
+  },
+  {
+    id: "li-20261028-amatsu-front",
+    date: "2026-10-28",
+    title: "あまつ様 · まえとうしろ",
+    figure: {
+      file: "li-20261028-amatsu-front.webp",
+      alt: "あまつ様，まえとうしろ front",
+      width: 1200,
+      height: 1600,
+      caption: "前后对照的前帧——姿态收得住。",
+      credit: "前夜追更 · あまつ様 · https://x.com/R_Ap8_/status/2115036271051743448 · 无商业用途·侵权立删",
+      creditHref: "https://x.com/R_Ap8_/status/2115036271051743448",
+    },
+  },
   {
     "id": "li-enako-gavan",
     "date": "2026-10-27",
