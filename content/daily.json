@@ -78,40 +78,6 @@
       "off": true
     },
     {
-      "id": "hopper-sunday",
-      "date": "2026-10-29",
-      "line": "repression",
-      "title": "Edward Hopper · Sunday",
-      "note": "一个人坐在空街边，店都关着。",
-      "why": "相对昨天 Office at Night 的窗桌夜——今天换白日空街。闷的、停住的、没有人来。",
-      "steal": "压抑条写「店关着」比写情绪形容词更准。",
-      "source": "Phillips Collection · Sunday · 1926",
-      "href": "https://www.phillipscollection.org/collection/sunday",
-      "image": {
-        "file": "log-hopper-sunday.webp",
-        "alt": "Hopper Sunday：空街边独自坐着的男人，店铺紧闭",
-        "width": 1536,
-        "height": 1317
-      }
-    },
-    {
-      "id": "friedrich-woman-window",
-      "date": "2026-10-29",
-      "line": "repression",
-      "title": "Caspar David Friedrich · Woman at a Window",
-      "note": "背影对着窗——看的是外面，停的是里面。",
-      "why": "古典压抑：窗框、背影、室内暗与外景亮。不血腥、不直球。来源 Wikimedia Commons / Google Art Project。",
-      "steal": "压抑用背影与窗框，不写脸。",
-      "source": "Wikimedia Commons · Friedrich · Woman at a Window",
-      "href": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Frau_am_Fenster_-_Google_Art_Project.jpg",
-      "image": {
-        "file": "log-friedrich-window.webp",
-        "alt": "Friedrich 窗边女人：室内暗，背影望向窗外",
-        "width": 1131,
-        "height": 1600
-      }
-    },
-    {
       "id": "int-assistants",
       "date": "2026-10-29",
       "line": "tension",
@@ -128,23 +94,6 @@
         "height": 1600
       },
       "pick": true
-    },
-    {
-      "id": "int-magazine-dreams",
-      "date": "2026-10-29",
-      "line": "tension",
-      "title": "It's Nice That · Max Kessell · Magazine Dreams",
-      "note": "单人硬光——归属感写在站姿上，不是虚荣。",
-      "why": "Max Kessell 英国健美场单人肖像：单色、硬闪、一人撑满。偏纪实张力，仍是单人磁场。",
-      "steal": "一人站满画面＝权力，不必靠双人关系。",
-      "source": "It's Nice That · Magazine Dreams",
-      "href": "https://www.itsnicethat.com/articles/max-kessell-magazine-dreams-photography-project-020226",
-      "image": {
-        "file": "log-int-magazine-dreams.webp",
-        "alt": "Magazine Dreams：单人硬光肖像，站姿撑满画面",
-        "width": 1142,
-        "height": 1600
-      }
     },
     {
       "id": "iori-headband",
@@ -355,23 +304,6 @@
       }
     },
     {
-      "id": "visie-quiet-power",
-      "date": "2026-10-28",
-      "line": "tension",
-      "title": "Visie · Quiet Power · KEYMAN Magazine Issue 3",
-      "note": "Quiet Power——单人磁场，不是双人戏。",
-      "why": "建筑剪影、定向光、单色——一人撑满棚拍。Photographer Rambo Ding · Model Ying Ouyang。",
-      "steal": "剪裁与肩线即权力。",
-      "source": "Visie · KEYMAN Quiet Power",
-      "href": "https://visie.io/project/various-editorials-quiet-power-for-keyman-magazine-issue-3-2025",
-      "image": {
-        "file": "log-visie-quiet-power.webp",
-        "alt": "Quiet Power editorial for KEYMAN Magazine Issue 3",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
       "id": "pascal-aude-mono",
       "date": "2026-10-28",
       "line": "tension",
@@ -386,57 +318,6 @@
         "alt": "Pascal Uehli · Audé in Monochrome Fashion",
         "width": 1440,
         "height": 960
-      }
-    },
-    {
-      "id": "hammershoi-sunlight",
-      "date": "2026-10-28",
-      "line": "repression",
-      "title": "Hammershøi · 斯特兰德街，地板上的阳光",
-      "note": "人背过身坐在角落，光只落在空地板上。",
-      "why": "画里最亮的是一块没人站的地板。女人缩在左下角，背对我们，门关着，墙上两个空框。克制到连光都不肯照人。",
-      "steal": "压抑不靠暗，靠把亮处留给空位。",
-      "source": "SMK 丹麦国家美术馆 · KMS3696 · 1901 · 公有领域",
-      "href": "https://open.smk.dk/artwork/image/KMS3696",
-      "image": {
-        "file": "pd-hammershoi-sunlight.webp",
-        "alt": "灰白的房间，女人穿黑衣背对画面坐在左下角桌边，窗光落在空地板上，右边一扇关着的门",
-        "width": 1600,
-        "height": 1405
-      }
-    },
-    {
-      "id": "hammershoi-reading-night",
-      "date": "2026-10-28",
-      "line": "repression",
-      "title": "Hammershøi · 夜里在桌边读书的人",
-      "note": "整张纸压成黑的，只留一圈暖色的桌面和一张低着的脸。",
-      "why": "炭笔把屋子涂满，只有灯下的桌面是橘色的。人几乎看不见，灯把他和屋子隔开。像 Hopper 夜办公室往前推三十年。",
-      "steal": "一盏灯就够分出里和外。",
-      "source": "The Met · Figure Reading at a Table in an Interior at Night · 约 1891 · 公有领域",
-      "href": "https://www.metmuseum.org/art/collection/search/406969",
-      "image": {
-        "file": "pd-hammershoi-reading-night.webp",
-        "alt": "炭笔画：漆黑的室内，一张圆桌被灯照成暖橘色，桌后一张低着的脸",
-        "width": 1072,
-        "height": 1400
-      }
-    },
-    {
-      "id": "hammershoi-moonlight",
-      "date": "2026-10-28",
-      "line": "repression",
-      "title": "Hammershøi · 月光，斯特兰德街 30 号",
-      "note": "空房间，月光落在地上，门关着。没有人，也像有人刚走。",
-      "why": "没有人物，只有窗格投下的冷光和一扇关着的门。等待感是空出来的，不是画出来的。",
-      "steal": "房间可以替人说话。",
-      "source": "The Met · Moonlight, Strandgade 30 · 1900–1906 · 公有领域",
-      "href": "https://www.metmuseum.org/art/collection/search/441933",
-      "image": {
-        "file": "pd-hammershoi-moonlight.webp",
-        "alt": "昏暗的空房间，窗格的月光投在地板上，右边一扇关着的白门",
-        "width": 1400,
-        "height": 1118
       }
     },
     {
@@ -470,23 +351,6 @@
         "file": "pd-ingres-broglie.webp",
         "alt": "半身肖像：女人穿浅蓝缎面长裙，双臂交叠倚在金色椅背上，目光平视",
         "width": 1201,
-        "height": 1600
-      }
-    },
-    {
-      "id": "hammershoi-ida-teacup",
-      "date": "2026-10-28",
-      "line": "tension",
-      "title": "Hammershøi · 伊达与茶杯",
-      "note": "灰墙、黑衣、一只白杯子。她看着画外，不看你。",
-      "why": "画家给妻子画像，几乎抽掉了所有颜色。手在搅茶，眼睛在别处。人坐得很稳，是一个人的安静，不是两个人的对视。",
-      "steal": "把颜色收到只剩一个白点，人就成了中心。",
-      "source": "SMK 丹麦国家美术馆 · KMS3352 · 1907 · 公有领域",
-      "href": "https://open.smk.dk/artwork/image/KMS3352",
-      "image": {
-        "file": "pd-hammershoi-ida-teacup.webp",
-        "alt": "半身肖像：女人穿黑衣坐在白桌布前，手里搅着白茶杯，目光望向画外",
-        "width": 1273,
         "height": 1600
       }
     },
