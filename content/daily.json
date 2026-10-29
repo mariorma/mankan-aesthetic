@@ -1072,11 +1072,16 @@
       "line": "taste",
       "title": "数英 · 小红书《about关于》MOOK 呼吸感排版",
       "note": "平台杂志书用疏密分层举例（展开插图 vs 注释小版）。",
-      "why": "每期加新板块彩蛋。 待补图：公开页没有可保存的封面，先下架。",
+      "why": "每期加新板块彩蛋。公开页封面已补，疏密分层可对照图注读。",
       "steal": "图注写清「哪块展开、哪块注释」；别空喊呼吸感。",
       "source": "数英",
       "href": "https://www.digitaling.com/articles/1261294.html",
-      "off": true
+      "image": {
+        "file": "log-digitaling-1261294.webp",
+        "alt": "小红书《about关于》MOOK 杂志书封面与内页疏密排版",
+        "width": 640,
+        "height": 400
+      }
     },
     {
       "id": "huaban-25263522",
