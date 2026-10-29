@@ -2,6 +2,232 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "artstation-vision-croisee",
+      "date": "2026-10-29",
+      "line": "taste",
+      "title": "ArtStation · Loud SarG · Vision Croisée",
+      "note": "移民刊——封面露脸，字阶与网格把人留在页上。",
+      "why": "Gautier Sarault / Loud SarG 为 AIEM 做的移民主题刊：版式、字职、视觉层级服务社群叙事。封面有清晰人脸，满足本周海外批露脸。相对昨天 FIU 垂直刊改版——今天挖社区刊如何用刊面说话。",
+      "steal": "社群刊＝信息密度高但仍要一张能站住的脸。",
+      "source": "ArtStation · Loud SarG · Vision Croisée",
+      "href": "https://louds.artstation.com/projects/3ER2DA",
+      "image": {
+        "file": "log-artstation-vision-croisee.webp",
+        "alt": "Vision Croisée 移民刊封面与内页，封面有清晰人脸",
+        "width": 1600,
+        "height": 1317
+      },
+      "pick": true
+    },
+    {
+      "id": "artstation-sayan-sen-editorial",
+      "date": "2026-10-29",
+      "line": "taste",
+      "title": "ArtStation · Sayan Sen · Magazine Editorial",
+      "note": "杂志编辑设计——模糊与清晰的一页呼吸。",
+      "why": "Rumi 向编辑设计：大图、字阶、留白干净。冷、正式，不靠 AI prompt 话术。",
+      "steal": "一页只做一件事：要么字职清楚，要么图先呼吸。",
+      "source": "ArtStation · Sayan Sen",
+      "href": "https://sayansen8.artstation.com/projects/n0gQoE",
+      "image": {
+        "file": "log-artstation-sayan-sen.webp",
+        "alt": "Sayan Sen 杂志编辑设计内页",
+        "width": 1600,
+        "height": 1131
+      }
+    },
+    {
+      "id": "x-koigeorgi-editorial",
+      "date": "2026-10-29",
+      "line": "taste",
+      "title": "X · KoiGeorgi · editorial layout practice",
+      "note": "蓝时练习页——左栏字职，右栏全出血图。",
+      "why": "X 海外批浅记：左右分栏、衬线大字、蓝时摄影。避开 AI prompt 刷屏，留真实练习帖。",
+      "steal": "练习页也要分职：左写、右看。",
+      "source": "X · @KoiGeorgi",
+      "href": "https://x.com/KoiGeorgi/status/2110769418473218420",
+      "image": {
+        "file": "log-x-koigeorgi-editorial.webp",
+        "alt": "蓝时编辑练习页：左栏文字右栏全出血风景",
+        "width": 1600,
+        "height": 1211
+      }
+    },
+    {
+      "id": "bili-paiban60",
+      "date": "2026-10-29",
+      "line": "taste",
+      "title": "B站 · 【排版60集】版式基本功",
+      "note": "中文排版课——网格、留白、对齐可执行。",
+      "why": "今日中文批 B站深挖候选。云端抓封面 412，公开页封面未落盘。待补图：先下架，不空壳上首页。",
+      "steal": "版式基本功先对齐再谈花活。",
+      "source": "B站 · 排版60集",
+      "href": "https://www.bilibili.com/video/BV1oPHgeiEgb/",
+      "off": true
+    },
+    {
+      "id": "bili-zazhi-flow",
+      "date": "2026-10-29",
+      "line": "taste",
+      "title": "B站 · 杂志制作流程",
+      "note": "成刊流程——从选题到印刷的中文视角。",
+      "why": "今日中文批 B站第二条。云端抓封面 412，公开页封面未落盘。待补图：先下架。",
+      "steal": "流程课偷节点，不偷片头特效。",
+      "source": "B站 · 杂志制作流程",
+      "href": "https://www.bilibili.com/video/BV1os411J782/",
+      "off": true
+    },
+    {
+      "id": "hopper-sunday",
+      "date": "2026-10-29",
+      "line": "repression",
+      "title": "Edward Hopper · Sunday",
+      "note": "一个人坐在空街边，店都关着。",
+      "why": "相对昨天 Office at Night 的窗桌夜——今天换白日空街。闷的、停住的、没有人来。",
+      "steal": "压抑条写「店关着」比写情绪形容词更准。",
+      "source": "Phillips Collection · Sunday · 1926",
+      "href": "https://www.phillipscollection.org/collection/sunday",
+      "image": {
+        "file": "log-hopper-sunday.webp",
+        "alt": "Hopper Sunday：空街边独自坐着的男人，店铺紧闭",
+        "width": 1536,
+        "height": 1317
+      }
+    },
+    {
+      "id": "friedrich-woman-window",
+      "date": "2026-10-29",
+      "line": "repression",
+      "title": "Caspar David Friedrich · Woman at a Window",
+      "note": "背影对着窗——看的是外面，停的是里面。",
+      "why": "古典压抑：窗框、背影、室内暗与外景亮。不血腥、不直球。来源 Wikimedia Commons / Google Art Project。",
+      "steal": "压抑用背影与窗框，不写脸。",
+      "source": "Wikimedia Commons · Friedrich · Woman at a Window",
+      "href": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Frau_am_Fenster_-_Google_Art_Project.jpg",
+      "image": {
+        "file": "log-friedrich-window.webp",
+        "alt": "Friedrich 窗边女人：室内暗，背影望向窗外",
+        "width": 1131,
+        "height": 1600
+      }
+    },
+    {
+      "id": "int-assistants",
+      "date": "2026-10-29",
+      "line": "tension",
+      "title": "It's Nice That · Assistants photobook",
+      "note": "助手一人撑满棚——奢侈包与口红别针，冷白底。",
+      "why": "Virginie Benarroch / Lola Raban《Assistants》：单人全身、白棚、道具过载却表情收。单人性张力，不是双人戏。",
+      "steal": "张力＝道具多、人仍站得住。",
+      "source": "It's Nice That · Assistants",
+      "href": "https://www.itsnicethat.com/articles/virginie-bennarroch-lola-raban-assistants-photography-project-040326",
+      "image": {
+        "file": "log-int-assistants.webp",
+        "alt": "Assistants：白棚里一人抱着多只包，表情克制",
+        "width": 1300,
+        "height": 1600
+      },
+      "pick": true
+    },
+    {
+      "id": "int-magazine-dreams",
+      "date": "2026-10-29",
+      "line": "tension",
+      "title": "It's Nice That · Max Kessell · Magazine Dreams",
+      "note": "单人硬光——归属感写在站姿上，不是虚荣。",
+      "why": "Max Kessell 英国健美场单人肖像：单色、硬闪、一人撑满。偏纪实张力，仍是单人磁场。",
+      "steal": "一人站满画面＝权力，不必靠双人关系。",
+      "source": "It's Nice That · Magazine Dreams",
+      "href": "https://www.itsnicethat.com/articles/max-kessell-magazine-dreams-photography-project-020226",
+      "image": {
+        "file": "log-int-magazine-dreams.webp",
+        "alt": "Magazine Dreams：单人硬光肖像，站姿撑满画面",
+        "width": 1142,
+        "height": 1600
+      }
+    },
+    {
+      "id": "iori-headband",
+      "date": "2026-10-29",
+      "line": "beauty",
+      "title": "伊織もえ · 发箍自拍",
+      "note": "礼物发箍，近景自拍，眼神收着。",
+      "why": "前夜追更：发箍当道具，不是硬撩。脸干净，背景不抢。",
+      "body": [
+        "发箍贴着额发，两只手还在框里。光平，皮肤亮，不是棚拍硬闪。",
+        "表情是告知不是撒娇：看镜头一下就够。"
+      ],
+      "source": "伊織もえ · 发箍",
+      "href": "https://x.com/iorimoe_five/status/2115094438636851706",
+      "image": {
+        "file": "li-20261029-iori-headband.webp",
+        "alt": "伊織もえ戴礼物发箍近景自拍",
+        "width": 1200,
+        "height": 1600
+      },
+      "pick": true
+    },
+    {
+      "id": "kokoro-cap",
+      "date": "2026-10-29",
+      "line": "beauty",
+      "title": "篠崎こころ · 金发棒球帽",
+      "note": "棒球帽压金发，自拍角度干净。",
+      "why": "前夜追更：帽檐把脸收进阴影一半，甜但不挤。",
+      "body": [
+        "金发从帽檐两边漏出来。自拍距离近，背景虚掉。",
+        "好看在帽檐切出来的半边光。"
+      ],
+      "source": "篠崎こころ · 棒球帽",
+      "href": "https://x.com/kokoro777pp/status/2115052611925893426",
+      "image": {
+        "file": "li-20261029-kokoro-cap.webp",
+        "alt": "篠崎こころ戴棒球帽金发自拍",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "koike-enshu",
+      "date": "2026-10-29",
+      "line": "beauty",
+      "title": "小池里奈 · 円熟写真集封面",
+      "note": "円熟数字写真集封面——刊面感，站姿稳。",
+      "why": "名单新 #17。封面是告知不是花絮。",
+      "body": [
+        "刊面字体和人同框。姿态收，肩线平。",
+        "色调偏暖刊，但人是干净的。"
+      ],
+      "source": "小池里奈 · 円熟",
+      "href": "https://x.com/KoikeRina0903/status/2114482578204041308",
+      "image": {
+        "file": "li-20261029-koike-enshu.webp",
+        "alt": "小池里奈円熟数字写真集封面",
+        "width": 959,
+        "height": 1600
+      }
+    },
+    {
+      "id": "koike-offshot",
+      "date": "2026-10-29",
+      "line": "beauty",
+      "title": "小池里奈 · 週プレオフショット",
+      "note": "週プレ幕后——还没上妆完的那一下。",
+      "why": "前夜追更 offshot：比封面松一点，仍是刊面气质。",
+      "body": [
+        "幕后光比封面软。表情松，但站姿还在。",
+        "好看在「还没演完」的瞬间。"
+      ],
+      "source": "小池里奈 · 週プレオフショット",
+      "href": "https://x.com/KoikeRina0903/status/2114872712795652162",
+      "image": {
+        "file": "li-20261029-koike-offshot.webp",
+        "alt": "小池里奈週プレオフショット",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
       "id": "fiu-mix-interiors",
       "date": "2026-10-28",
       "line": "taste",
