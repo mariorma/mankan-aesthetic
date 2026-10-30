@@ -2,6 +2,288 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "da-pansaldi-bauhaus",
+      "date": "2026-10-30",
+      "line": "taste",
+      "title": "DeviantArt · pansaldi · Typographic Chaos Meets Bauhaus Order",
+      "note": "红橙黑叠字——包豪斯秩序压住字灾。",
+      "why": "海外批 B · DeviantArt 插画／平面向：重叠字母与几何色块仍守网格，色调统一高级，干净不脏。相对昨天 ArtStation 刊面——今天挖字职实验如何仍可读。",
+      "steal": "字可以炸，但色板与对齐轴要死钉。",
+      "source": "DeviantArt · pansaldi",
+      "href": "https://www.deviantart.com/pansaldi/art/Typographic-Chaos-Meets-Bauhaus-Order-1287970325",
+      "image": {
+        "file": "log-da-pansaldi-bauhaus.webp",
+        "alt": "包豪斯感红橙黑叠字海报",
+        "width": 1194,
+        "height": 669
+      },
+      "pick": true
+    },
+    {
+      "id": "tumblr-zara-magazine",
+      "date": "2026-10-30",
+      "line": "taste",
+      "title": "Tumblr · Zara Picken · magazine editorial",
+      "note": "科学刊封面插画——CRISPR 一切一贴也要刊面站得住。",
+      "why": "海外批 B · Tumblr @zaraillustrates #magazine：编辑插画服务杂志封面与跨页，色调干净、信息层级清楚。Texas Scientist「Cut, Paste, Cure」封面是刊面而非刷屏 AI。",
+      "steal": "编辑插画＝一图一事，封面先站住再讲科学。",
+      "source": "Tumblr · zaraillustrates · magazine",
+      "href": "https://www.tumblr.com/zaraillustrates/tagged/magazine",
+      "image": {
+        "file": "log-tumblr-zara-magazine.webp",
+        "alt": "Zara Picken 为 Texas Scientist 做的 CRISPR 封面插画",
+        "width": 1236,
+        "height": 1600
+      },
+      "pick": true
+    },
+    {
+      "id": "pixiv-doujin-covers",
+      "date": "2026-10-30",
+      "line": "taste",
+      "title": "Pixiv · てんぱる1 · 同人誌表紙作例集",
+      "note": "半オーダー表紙——字职与插画边界一次看清。",
+      "why": "海外批 B · Pixiv 插画向深挖：同人志封面作例把标题字阶、出血与主视觉关系摊开。避开むなかた类刷屏；看的是版式可偷点。",
+      "steal": "封面＝主视觉呼吸 + 标题死位，不要两者抢。",
+      "source": "Pixiv · てんぱる1 · セミオーダー同人誌表紙作例集",
+      "href": "https://www.pixiv.net/artworks/84433706",
+      "image": {
+        "file": "log-pixiv-doujin-covers.webp",
+        "alt": "同人誌表紙作例集封面预览",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "id": "sankou-decarbook",
+      "date": "2026-10-30",
+      "line": "taste",
+      "title": "SANKOU · DECARBOOK",
+      "note": "纸刊气质的站——字与图像翻页一样喘气。",
+      "why": "中文批 3 · SANKOU 杂志风站：DECARBOOK 把书／刊的阅读节奏搬进网页。色调克制，网格清楚，官方页封面可下。",
+      "steal": "网页杂志化＝页与页之间留呼吸，不要一屏塞满。",
+      "source": "SANKOU · DECARBOOK",
+      "href": "https://sankoudesign.com/web/decarbook/",
+      "image": {
+        "file": "log-sankou-decarbook.webp",
+        "alt": "SANKOU 收录的 DECARBOOK 站点截图",
+        "width": 1000,
+        "height": 873
+      },
+      "pick": true
+    },
+    {
+      "id": "uisdc-contrast-principle",
+      "date": "2026-10-30",
+      "line": "taste",
+      "title": "优设 · 对比原则（版式四大原则）",
+      "note": "大小／粗细／疏密——对比把层级钉死。",
+      "why": "中文批 3 · 优设：把「对比」从口号拆成文字编排手法。相对已收的 mina 拆解与杂志化 UI——今天补原则课。封面取自官方页。",
+      "steal": "要不同就拉大反差；对比不够＝画面太平。",
+      "source": "优设 · 对比原则",
+      "href": "https://www.uisdc.com/contrast-principle",
+      "image": {
+        "file": "log-uisdc-contrast.webp",
+        "alt": "优设对比原则文章封面",
+        "width": 440,
+        "height": 280
+      }
+    },
+    {
+      "id": "muuuuu-and-dsgn",
+      "date": "2026-10-30",
+      "line": "taste",
+      "title": "MUUUUU · 合同会社アンド（SOTD 2026-10-28）",
+      "note": "工作室站当 SOTD——信息密度高仍干净。",
+      "why": "中文批 3 · MUUUUU：10-28 SOTD 合同会社アンド（制作 DDD）。官方详情页有清晰封面图，可学工作室站如何用留白与字阶说话。",
+      "steal": "SOTD 站也要一张能缩略图站住的主视觉。",
+      "source": "MUUUUU · 合同会社アンド",
+      "href": "https://muuuuu.org/taglist/topjs/25160.html",
+      "image": {
+        "file": "log-muuuuu-and.webp",
+        "alt": "MUUUUU 收录 合同会社アンド 站点截图",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "id": "wing-shya-solace",
+      "date": "2026-10-30",
+      "line": "repression",
+      "title": "AnOther · Wing Shya · Solace（花样年华场记）",
+      "note": "旗袍与粉房——欲碰未碰的场记照。",
+      "why": "性压抑：王家卫《花样年华》场记摄影。情欲被礼教与已婚身份拧住，说不出口；饱和色与旗袍高领把「想碰」锁在距离里。性从哪来＝未完成的私情与欲触未触的走廊／房间，不是空街忧郁。",
+      "steal": "压抑条写「欲触未触」与衣领／距离，不写肉。",
+      "source": "AnOther · Wing Shya · Solace",
+      "href": "https://www.anothermag.com/art-photography/15814/solace-book-wing-shya-photographer-wong-kar-wai-film-stills-in-the-mood-for-love",
+      "image": {
+        "file": "log-wing-shya-solace.webp",
+        "alt": "Wing Shya Solace 书封／花样年华场记气质图",
+        "width": 1200,
+        "height": 800
+      },
+      "pick": true
+    },
+    {
+      "id": "vogue-mood-cheongsam",
+      "date": "2026-10-30",
+      "line": "repression",
+      "title": "Vogue · In the Mood for Love · 旗袍即克制",
+      "note": "高领旗袍——性感被规矩穿在身上。",
+      "why": "性压抑：William Chang 明说旗袍「all about restraint」。性欲／情欲被衣领、剪裁与礼教驯过的视线压住；张曼玉不说破的渴望全在布料与步态。性从哪来＝被锁住的身体欲望，不是雨天空镜。",
+      "steal": "压抑可用「穿得越规矩越烫」——写剪裁与说不出口。",
+      "source": "Vogue · In the Mood for Love fashion",
+      "href": "https://www.vogue.com/article/in-the-mood-for-love-20th-anniversary-fashion",
+      "image": {
+        "file": "log-vogue-mood-love.webp",
+        "alt": "花样年华旗袍时尚长文配图",
+        "width": 1280,
+        "height": 720
+      },
+      "pick": true
+    },
+    {
+      "id": "lena-emery-rie",
+      "date": "2026-10-30",
+      "line": "tension",
+      "title": "AnOther · Lena C. Emery · Rie",
+      "note": "一人回看镜头——软色气里的性磁场。",
+      "why": "单人性张力：封面女子回视，半解衣却自持。性从哪来＝一人身上的目光与肌肤气场，不是「画面只有一个人」；Emery 追问裸体何时带上性含义——磁场在软光与自我意识，非双人戏。",
+      "steal": "张力看回视与衣料边缘，不靠第二个人。",
+      "source": "AnOther · Lena C. Emery · Rie",
+      "href": "https://www.anothermag.com/art-photography/9298/lena-c-emerys-tender-exploration-of-the-female-gaze",
+      "image": {
+        "file": "log-lena-emery-rie.webp",
+        "alt": "Lena C. Emery《Rie》封面女子回视",
+        "width": 999,
+        "height": 666
+      },
+      "pick": true
+    },
+    {
+      "id": "enako-guitar-20261030",
+      "date": "2026-10-30",
+      "line": "beauty",
+      "title": "えなこ · 金发吉他 Cos",
+      "note": "舞台红幕前抱吉他，眨眼一记干净。",
+      "why": "前夜追更：ネコトリ 宣传照。金发双马尾与黄吉他，舞台感足但不脏。",
+      "body": [
+        "红幕与鼓组把人推到前景。眨眼与侧身站姿是舞台姿态，不是硬撩。",
+        "衣服是水手服短裙线，重点在表演道具与表情收束。"
+      ],
+      "source": "えなこ · 金发吉他",
+      "href": "https://x.com/enako_cos/status/2115746508436107696",
+      "image": {
+        "file": "li-20261030-enako-guitar.webp",
+        "alt": "えなこ金发吉他 Cos 舞台照",
+        "width": 933,
+        "height": 1400
+      },
+      "pick": true
+    },
+    {
+      "id": "iori-fate-20261030",
+      "date": "2026-10-30",
+      "line": "beauty",
+      "title": "伊織もえ · Fate キャスター Cos",
+      "note": "狐耳粉发前倾——Canon 合作宣传。",
+      "why": "前夜追更：Fate/EXTRA Record キャスター。粉发狐耳与蓝白衣装，眼神软，活动背板不抢脸。",
+      "body": [
+        "前倾半身，目光对镜头。狐耳与大蝴蝶结是角色件，不是乱堆。",
+        "光平，妆干净，适合裏区名单积累。"
+      ],
+      "source": "伊織もえ · Fate Cos",
+      "href": "https://x.com/iorimoe_five/status/2115737601693176089",
+      "image": {
+        "file": "li-20261030-iori-fate.webp",
+        "alt": "伊織もえ Fate キャスター Cos",
+        "width": 1050,
+        "height": 1400
+      },
+      "pick": true
+    },
+    {
+      "id": "kokoro-maid-20261030",
+      "date": "2026-10-30",
+      "line": "beauty",
+      "title": "篠崎こころ · MAID 透明女仆",
+      "note": "绿透女仆与蛋糕——多图里选较干净的一张。",
+      "why": "前夜追更：ヤングアニマルデジタル『MAID & BEAST』。选女仆侧单人（非兽装比基尼）——甜、道具完整，避开更直球的 beast 泳装。",
+      "body": [
+        "手托腮，蛋糕在前景。透明材质是企划设定，构图仍以脸与甜点为主。",
+        "背景线稿窗，棚拍干净。"
+      ],
+      "source": "篠崎こころ · MAID",
+      "href": "https://x.com/kokoro777pp/status/2115727121725493262",
+      "image": {
+        "file": "li-20261030-kokoro-maid.webp",
+        "alt": "篠崎こころ透明绿女仆与蛋糕",
+        "width": 1050,
+        "height": 1400
+      }
+    },
+    {
+      "id": "asuka-myhood-20261030",
+      "date": "2026-10-30",
+      "line": "beauty",
+      "title": "齋藤飛鳥 · my hood 发售纪念",
+      "note": "回眸条纹 Polo——15 周年 neighbourhood。",
+      "why": "前夜追更：staff 发售纪念照。街景虚化，字块干净，脸与回眸是主。",
+      "body": [
+        "低马尾回看镜头。条纹 Polo 日常，不像硬棚。",
+        "右侧排版说明场次，刊感强。"
+      ],
+      "source": "齋藤飛鳥 STAFF · my hood",
+      "href": "https://x.com/asuka3110_staff/status/2115710224774365605",
+      "image": {
+        "file": "li-20261030-asuka-myhood.webp",
+        "alt": "齋藤飛鳥 my hood 宣传回眸照",
+        "width": 1400,
+        "height": 787
+      },
+      "pick": true
+    },
+    {
+      "id": "koike-pink-20261030",
+      "date": "2026-10-30",
+      "line": "beauty",
+      "title": "小池里奈 · 粉色睡裙席地",
+      "note": "暗角里的粉裙早安帖。",
+      "why": "前夜追更：粉色睡裙席地自拍。光软、表情收，不是竞艇／纯文字帖。",
+      "body": [
+        "高机位俯看，一腿虚在前景。粉裙黑蕾丝边，暗背景托脸。",
+        "私密感有，但不直球低俗。"
+      ],
+      "source": "小池里奈 · 粉色睡裙",
+      "href": "https://x.com/KoikeRina0903/status/2115546647279403434",
+      "image": {
+        "file": "li-20261030-koike-pink.webp",
+        "alt": "小池里奈粉色睡裙席地自拍",
+        "width": 933,
+        "height": 1400
+      }
+    },
+    {
+      "id": "yua-camisole-20261030",
+      "date": "2026-10-30",
+      "line": "beauty",
+      "title": "三上悠亜 · 夜间吊带街拍",
+      "note": "夜街吊带与格纹外套——短视频缩略。",
+      "why": "前夜追更：夜间吊带街拍缩略。生活方式感，未到直球低俗线，收入裏区作名单方向。",
+      "body": [
+        "暖路灯，黑吊带与臂弯外套。背景虚成夜城。",
+        "表情浅笑，站姿稳。"
+      ],
+      "source": "三上悠亜 · 夜间吊带",
+      "href": "https://x.com/yua_mikami/status/2115411238880747980",
+      "image": {
+        "file": "li-20261030-yua-camisole.webp",
+        "alt": "三上悠亜夜间吊带街拍缩略",
+        "width": 675,
+        "height": 1200
+      }
+    },
+    {
       "id": "artstation-vision-croisee",
       "date": "2026-10-29",
       "line": "taste",
