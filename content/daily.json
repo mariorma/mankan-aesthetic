@@ -2,6 +2,195 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "yt-dan-perri-titles",
+      "date": "2026-10-31",
+      "line": "taste",
+      "title": "YouTube · Dan Perri · Title Design: The Making of Movie Titles",
+      "note": "片头字职手绘——灯下改稿的过程感。",
+      "why": "海外批 C · YouTube 主挖：片头设计师 Dan Perri 讲字如何贴合影片节奏与情绪。色调统一高级，过程干净可读。相对昨天刊面插画——今天挖片头字如何从手稿长成银幕。",
+      "steal": "片头字要先服务情绪与剪辑节拍，再炫技。",
+      "source": "YouTube · Title Design: The Making of Movie Titles",
+      "href": "https://www.youtube.com/watch?v=Ggw8Gqi4-Z0",
+      "image": {
+        "file": "log-yt-dan-perri-titles.webp",
+        "alt": "Dan Perri 在灯下手绘片头字的纪录片封面",
+        "width": 1280,
+        "height": 720
+      },
+      "pick": true
+    },
+    {
+      "id": "vimeo-threshold-forward",
+      "date": "2026-10-31",
+      "line": "taste",
+      "title": "Vimeo · Found Studio · Forward Festival Main Titles「Threshold」",
+      "note": "模块化字体拆合——虚实边界的主视觉片头。",
+      "why": "海外批 C · Vimeo：Found Studio 为 Forward Festival 做主标题，字是英雄角色。Coanda 被拆成水平／垂直／对角模块再高速合拢。色调冷净统一，实验感强但不脏。",
+      "steal": "选一款笔画方向干净的字，才能做模块化开合。",
+      "source": "Vimeo · Found Studio · Threshold",
+      "href": "https://vimeo.com/522316715",
+      "image": {
+        "file": "log-vimeo-threshold.webp",
+        "alt": "Forward Festival Threshold 片头字模块视觉",
+        "width": 1600,
+        "height": 900
+      },
+      "pick": true
+    },
+    {
+      "id": "zcool-meimei-books-2025",
+      "date": "2026-10-31",
+      "line": "taste",
+      "title": "站酷 · 2025「最美的书」获奖作品揭晓",
+      "note": "黑白金书函——整体性压过单页花活。",
+      "why": "中文批 1 · 站酷精选资讯：中国「最美的书」强调封面／排版／纸张／装订统一。Kafka 100TH 书函几何与金箔脊字，色调高级干净。相对昨天优设原则课——今天挖纸书整体气质。",
+      "steal": "书装先统一气质，再谈单页花活。",
+      "source": "站酷资讯 · 2025最美的书",
+      "href": "https://www.zcool.com.cn/article/ZMTY4MjY4OA==.html",
+      "image": {
+        "file": "log-zcool-meimei-books.webp",
+        "alt": "2025最美的书 Kafka 书函黑白金封面",
+        "width": 913,
+        "height": 685
+      },
+      "pick": true
+    },
+    {
+      "id": "meiye-neiye-layout",
+      "date": "2026-10-31",
+      "line": "taste",
+      "title": "美叶 · 内页排版灵感",
+      "note": "展陈目录跨页——双语栅格与柠檬绿点睛。",
+      "why": "中文批 1 · 美叶设计灵感：展览图录内页，韩英双语栏、平面图与艺术家名单同栅格。白底＋柠檬绿点睛，干净高级，适合偷「信息多仍透气」。",
+      "steal": "信息密的跨页靠统一栅格与一个点睛色救命。",
+      "source": "美叶 · 内页排版",
+      "href": "https://meiye.art/pic/cmocmucez4mh4r9oat783kmoa",
+      "image": {
+        "file": "log-meiye-neiye.webp",
+        "alt": "美叶内页排版：展览图录双语跨页",
+        "width": 1024,
+        "height": 683
+      },
+      "pick": true
+    },
+    {
+      "id": "turbeville-bathhouse",
+      "date": "2026-10-31",
+      "line": "repression",
+      "title": "AnOther · Deborah Turbeville · Bathhouse（1975）",
+      "note": "雾面澡堂——情欲被静滞与半遮拧住。",
+      "why": "性压抑：Turbeville 反 Helmut Newton。性欲不直给，被雾面玻璃感、灰阶颗粒与身体静滞拧住；澡堂里的袍与半敞是半遮，羞于／惮于说出口的情欲悬在目光错开里。性从哪来＝被礼教视线与雾面压住的身体张力，不是空房忧郁。",
+      "steal": "压抑条用雾面／半遮／错开目光写「性」，不写肉。",
+      "source": "AnOther · Deborah Turbeville: The Fashion Pictures",
+      "href": "https://www.anothermag.com/art-photography/1349/deborah-turbeville-the-fashion-pictures",
+      "image": {
+        "file": "log-turbeville-bathhouse.webp",
+        "alt": "Deborah Turbeville Bathhouse 1975 雾面澡堂群像",
+        "width": 1200,
+        "height": 800
+      },
+      "pick": true
+    },
+    {
+      "id": "nomura-room416",
+      "date": "2026-10-31",
+      "line": "repression",
+      "title": "AnOther · Sakiko Nomura · Room 416",
+      "note": "旅馆编号化的亲密——情欲只许碎片示人。",
+      "why": "性压抑：野村佐纪子旅馆宝丽来。情欲被「Room 416」这种匿名编号与暗黄灯光压住，亲密说不出口，只许以颗粒与沉默示人；床单与目光是欲触未触的余温。性从哪来＝不敢大声的旅馆私情，不是空床忧郁。",
+      "steal": "压抑可写「编号／门卡／暗灯」把性欲关进房间。",
+      "source": "AnOther · Sakiko Nomura · Room 416",
+      "href": "https://www.anothermag.com/art-photography/15270/sakiko-nomura-polaroids-room-416",
+      "image": {
+        "file": "log-nomura-room416.webp",
+        "alt": "Sakiko Nomura Room 416 旅馆宝丽来气质图",
+        "width": 1200,
+        "height": 800
+      },
+      "pick": true
+    },
+    {
+      "id": "roversi-gemma-storie",
+      "date": "2026-10-31",
+      "line": "tension",
+      "title": "Vogue · Paolo Roversi · Gemma（Storie）",
+      "note": "侧脸软光——一人身上的安静性磁场。",
+      "why": "单人性张力：Roversi 谈自己的镜头「有强烈情色感却仍保天使般克制」。Gemma 侧脸与蓬发在绿调软光里自带性磁场——性从哪来＝一个人目光、唇线与发缘的气场，不是「画面只有一个人」，更非情侣双人戏。",
+      "steal": "张力看软光侧脸与发缘，情色要克制不直球。",
+      "source": "Vogue · Paolo Roversi Storie",
+      "href": "https://www.vogue.com/article/paolo-roversi-vogue-photo-festival",
+      "image": {
+        "file": "log-roversi-gemma.webp",
+        "alt": "Paolo Roversi Gemma 侧脸软光肖像",
+        "width": 1120,
+        "height": 630
+      },
+      "pick": true
+    },
+    {
+      "id": "enako-dhalo-20261031",
+      "date": "2026-10-31",
+      "line": "beauty",
+      "title": "えなこ · Dハロ Judy＆Nick 奔跑背影",
+      "note": "乐园低机位奔跑——刊感动态背影。",
+      "why": "前夜追更：Dハロ Cos 背影奔跑。色彩干净、动作利落，偏舞台／乐园刊感，不脏。",
+      "body": [
+        "低机位追背影，兔耳与狐尾剪影清楚。",
+        "建筑与树作热闹底，人仍是主视觉。"
+      ],
+      "source": "えなこ · Dハロ",
+      "href": "https://x.com/enako_cos/status/2115764558648472055",
+      "image": {
+        "file": "li-20261031-enako-dhalo.webp",
+        "alt": "えなこ Dハロ Judy＆Nick 奔跑背影",
+        "width": 1050,
+        "height": 1400
+      },
+      "pick": true
+    },
+    {
+      "id": "yua-majette-20261031",
+      "date": "2026-10-31",
+      "line": "beauty",
+      "title": "三上悠亜 · Majette 近脸宣传",
+      "note": "粉调近脸——美瞳宣发仍收在刊感。",
+      "why": "前夜追更：Majette マジェスティックブラウン近脸。精心修过的近脸与软粉衣缘，干净好看；跳过同帖折扣拼贴与渔网酒店床拍（偏直球／营销）。",
+      "body": [
+        "托腮近脸与金粉字职，宣发但不脏。",
+        "重点在五官与眼神，不靠渔网床戏。"
+      ],
+      "source": "三上悠亜 · Majette",
+      "href": "https://x.com/yua_mikami/status/2116056996734771261",
+      "image": {
+        "file": "li-20261031-yua-majette.webp",
+        "alt": "三上悠亜 Majette 粉调近脸",
+        "width": 1171,
+        "height": 1400
+      },
+      "pick": true
+    },
+    {
+      "id": "asuka-window-20261031",
+      "date": "2026-10-31",
+      "line": "beauty",
+      "title": "齋藤飛鳥 · まめとむぎ 窗边",
+      "note": "窗边托颊——剧宣刊感侧影。",
+      "why": "前夜追更：STAFF 窗边宣传照。白衬衫＋背心、侧脸望屋顶，刊感优先；场面写真双人／三人剧照未收（偏抓拍群戏）。",
+      "body": [
+        "金属窗框切出侧脸，室外屋顶作浅景。",
+        "姿态安静，适合裏区美女列表。"
+      ],
+      "source": "齋藤飛鳥 STAFF · まめとむぎ",
+      "href": "https://x.com/asuka3110_staff/status/2116122957634584701",
+      "image": {
+        "file": "li-20261031-asuka-window.webp",
+        "alt": "齋藤飛鳥 まめとむぎ 窗边侧影",
+        "width": 1050,
+        "height": 1400
+      },
+      "pick": true
+    },
+    {
       "id": "da-pansaldi-bauhaus",
       "date": "2026-10-30",
       "line": "taste",
