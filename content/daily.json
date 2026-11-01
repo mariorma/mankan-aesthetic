@@ -2,6 +2,192 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "fiu-casabella-2024-25",
+      "date": "2026-11-01",
+      "line": "taste",
+      "title": "Fonts In Use · Casabella 2024–25 刊号字体轮换",
+      "note": "刊号字换脸——主视觉仍压得住。",
+      "why": "海外批 D · Fonts In Use：Casabella 2024–25 每期只换刊号字体与图形处理，刊头与版心气质不变。色调冷静正式，高级干净；相对昨天片头字过程——今天偷「系列刊面如何用字号轮换保持统一」。",
+      "steal": "系列刊可只换一个数字字脸，主气质别散。",
+      "source": "Fonts In Use · Casabella magazine, 2024–25",
+      "href": "https://fontsinuse.com/uses/75286/casabella-magazine-2024-25",
+      "image": {
+        "file": "log-fiu-casabella.webp",
+        "alt": "Casabella 2024–25 刊号字体轮换封面拼贴",
+        "width": 1600,
+        "height": 800
+      },
+      "pick": true
+    },
+    {
+      "id": "int-magazine-c-chairs",
+      "date": "2026-11-01",
+      "line": "taste",
+      "title": "It's Nice That · Magazine C · 一刊一椅",
+      "note": "椅子纪录片式刊面——图文分栏透气。",
+      "why": "海外批 D · It's Nice That：首尔 Magazine C 每期只挖一把经典椅，图文分开、节奏干净。FK Roman 与留白压出正式感；相对 FIU 刊号字——今天偷「专题深度仍保持编辑呼吸」。",
+      "steal": "专题刊把图与字分开栏，信息密也不闷。",
+      "source": "It's Nice That · Magazine C",
+      "href": "https://www.itsnicethat.com/articles/minjung-kim-grandeclip-magazine-c-publication-project-131025",
+      "image": {
+        "file": "log-int-magazine-c.webp",
+        "alt": "Magazine C 椅子专题刊封面",
+        "width": 1080,
+        "height": 1080
+      },
+      "pick": true
+    },
+    {
+      "id": "bili-bookbind-13",
+      "date": "2026-11-01",
+      "line": "taste",
+      "title": "B站 · 设计维他命 · 13种书籍装帧",
+      "note": "装帧类型总览——结构先于花活。",
+      "why": "中文批 2 · B站官方页：设计维他命梳理卷轴到活页等 13 种装帧。封面信息清楚、偏编辑课；相对昨天站酷最美的书——今天补「装帧结构词典」便于偷整体书装。",
+      "steal": "先认装帧结构名，再谈封面炫技。",
+      "source": "B站 · 设计维他命 7° · BV1WS4y1m7cJ",
+      "href": "https://www.bilibili.com/video/BV1WS4y1m7cJ/",
+      "image": {
+        "file": "log-bili-bookbind-13.webp",
+        "alt": "B站 13种书籍装帧设计视频封面",
+        "width": 1600,
+        "height": 1000
+      },
+      "pick": true
+    },
+    {
+      "id": "bili-donghe-book",
+      "date": "2026-11-01",
+      "line": "taste",
+      "title": "B站 · 东合社 · 如何设计一本书",
+      "note": "从结构到开本——书装入门课。",
+      "why": "中文批 2 · B站官方页：东合社讲如何设计一本书，开本／版心／装订链条清楚。色调干净不营销刷屏；与装帧 13 种互补，偷「整书流程感」。",
+      "steal": "书装课按开本→版心→装订讲，比单页灵感更稳。",
+      "source": "B站 · 东合社 · BV1tf4y1e7FK",
+      "href": "https://www.bilibili.com/video/BV1tf4y1e7FK/",
+      "image": {
+        "file": "log-bili-donghe-book.webp",
+        "alt": "B站东合社如何设计一本书封面",
+        "width": 1146,
+        "height": 716
+      },
+      "pick": true
+    },
+    {
+      "id": "sarah-moon-passing",
+      "date": "2026-11-01",
+      "line": "repression",
+      "title": "AnOther · Sarah Moon · 雾面时装肖像",
+      "note": "雾面软焦——情欲被颗粒与半遮拧住。",
+      "why": "性压抑：Sarah Moon 把身体溶进颗粒与长曝光残影。性欲不直给——被礼教驯过的视线只能透过雾面与下垂目光去碰；半遮的帽檐与层层纱是欲触未触。性从哪来＝被柔焦拧住、说不出口的情欲，不是空房忧郁或哥特冷感。",
+      "steal": "压抑条用雾面／残影／下垂目光写「性」，不写肉。",
+      "source": "AnOther · Sarah Moon fashion photographer",
+      "href": "https://www.anothermag.com/art-photography/17177/sarah-moon-fashion-photographer-interview-michael-hoppen-gallery",
+      "image": {
+        "file": "log-sarah-moon-yue.webp",
+        "alt": "Sarah Moon 雾面时装肖像：黑帽与纱衣",
+        "width": 1200,
+        "height": 800
+      },
+      "pick": true
+    },
+    {
+      "id": "bassman-its-a-cinch",
+      "date": "2026-11-01",
+      "line": "repression",
+      "title": "AnOther · Lillian Bassman · It's a Cinch（1951）",
+      "note": "束腰抽绳——情欲被衣物勒住。",
+      "why": "性压抑：Bassman《It's a Cinch》里 Carmen 弓背自抽胸衣绳。性欲被束腰勒成一条线——羞耻与礼教目光压在收紧的腰线上，绳在手与背之间是欲触未触。性从哪来＝被衣物与视线共同拧住的欲望，不是空街雨天。",
+      "steal": "压抑可写「束带／抽绳／弓背」把性欲勒进轮廓。",
+      "source": "AnOther · In Memory of Lillian Bassman",
+      "href": "https://www.anothermag.com/art-photography/gallery/1734/in-memory-of-lillian-bassman/0",
+      "image": {
+        "file": "log-bassman-cinch.webp",
+        "alt": "Lillian Bassman It's a Cinch 1951 束腰抽绳",
+        "width": 690,
+        "height": 460
+      },
+      "pick": true
+    },
+    {
+      "id": "mclellan-kate-never-enough",
+      "date": "2026-11-01",
+      "line": "tension",
+      "title": "AnOther · Alasdair McLellan · Kate Moss（Never Enough）",
+      "note": "软光近脸——一人身上的安静性磁场。",
+      "why": "单人性张力：McLellan 乡间软光里 Kate 微张唇、直视镜头。性从哪来＝一个人目光、唇线与乱发的气场／体态，不是「画面只有一个人」，更非情侣黏腻双人戏。",
+      "steal": "张力看软光近脸与微张唇，克制不直球。",
+      "source": "AnOther · Kate Moss, Never Enough A/W14",
+      "href": "https://www.anothermag.com/fashion-beauty/3864/kate-moss-never-enough-another-magazine-a-w14",
+      "image": {
+        "file": "log-mclellan-kate.webp",
+        "alt": "Alasdair McLellan 拍摄 Kate Moss 软光近脸封面",
+        "width": 800,
+        "height": 533
+      },
+      "pick": true
+    },
+    {
+      "id": "senta-simond-miu-miu",
+      "date": "2026-11-01",
+      "line": "tension",
+      "title": "AnOther · Senta Simond · Miu Miu 侧脸肖像",
+      "note": "贴墙侧脸——软色气一人磁场。",
+      "why": "单人性张力：Senta Simond 为 Miu Miu 拍的贴墙侧脸，垂眸与水晶耳坠把软色气收在一人身上。性从哪来＝侧脸、皮肤光泽与体态的性磁场，不是独照凑数，也非双人差一点接吻。",
+      "steal": "张力可偷贴墙侧脸＋垂眸的软色气，不靠裸宣。",
+      "source": "AnOther · Miu Miu × Senta Simond portraits",
+      "href": "https://www.anothermag.com/fashion-beauty/12041/miu-miu-lotta-volkova-senta-simond-portraits-2019",
+      "image": {
+        "file": "log-senta-simond.webp",
+        "alt": "Senta Simond Miu Miu 贴墙侧脸肖像",
+        "width": 1200,
+        "height": 800
+      },
+      "pick": true
+    },
+    {
+      "id": "koike-glass-20261101",
+      "date": "2026-11-01",
+      "line": "beauty",
+      "title": "小池里奈 · 玻璃反射回眸",
+      "note": "窗玻璃叠影——刊感回眸。",
+      "why": "前夜追更：玻璃反射＋绿植叠影的回眸写真，构图精心；同批万圣节活动／宣发照跳过。",
+      "body": [
+        "透过玻璃的雾面叠影压住直球。",
+        "回眸与花边颈饰成主视觉。"
+      ],
+      "source": "小池里奈 · X",
+      "href": "https://x.com/KoikeRina0903/status/2116473635376595439",
+      "image": {
+        "file": "li-20261101-koike-glass.webp",
+        "alt": "小池里奈玻璃反射回眸写真",
+        "width": 1366,
+        "height": 2048
+      },
+      "pick": true
+    },
+    {
+      "id": "yua-bambie-20261101",
+      "date": "2026-11-01",
+      "line": "beauty",
+      "title": "三上悠亜 · ばんびちゃん 夜座",
+      "note": "鹿纹大衣夜座——窗光刊感。",
+      "why": "前夜追更：ばんびちゃん外套夜座窗边。暖窗光与姿态收在刊感；跳过同批直球／活动拼贴。",
+      "body": [
+        "窗内暖灯作底，人仍是主视觉。",
+        "大衣质感与盘腿姿态干净。"
+      ],
+      "source": "三上悠亜 · X",
+      "href": "https://x.com/yua_mikami/status/2116481043993923869",
+      "image": {
+        "file": "li-20261101-yua-bambie.webp",
+        "alt": "三上悠亜ばんびちゃん夜座窗边",
+        "width": 1536,
+        "height": 2048
+      },
+      "pick": true
+    },
+    {
       "id": "yt-dan-perri-titles",
       "date": "2026-10-31",
       "line": "taste",
