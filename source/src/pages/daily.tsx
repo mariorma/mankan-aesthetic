@@ -105,7 +105,7 @@ function DailyBody({ entries, latest, problems }: { entries: DailyEntry[]; lates
   const options: { key: Filter; label: string }[] = [
     { key: "all", label: "全部" },
     ...LINE_KEYS.map((line) => ({ key: line as Filter, label: LINES[line].name })),
-    { key: "good", label: "只看好" },
+    { key: "good", label: "只看「好」" },
   ];
 
   return (
@@ -116,7 +116,7 @@ function DailyBody({ entries, latest, problems }: { entries: DailyEntry[]; lates
           日更 <i>Daily</i>
         </h1>
         <p className="daily-lede">
-          每天往上加一层：一张图，一句话，写清谁出的。看完标<b data-mark="好">好</b>、中、<b data-mark="差">差</b>——差的马上从全站撤下，好的更常上首页。
+          按日往上叠：一张图，一句话，注明出处。看完随手标<b data-mark="好">好</b>、中、<b data-mark="差">差</b>——标差的当即撤下，标好的常留首页。
         </p>
         <p className="daily-latest">
           最后更新 <time dateTime={latest}>{latest}</time> {latest && weekday(latest)} · 共 {entries.length} 条
@@ -147,11 +147,11 @@ function DailyBody({ entries, latest, problems }: { entries: DailyEntry[]; lates
           </button>
         ))}
         <a className="chip is-link" href="#marks">
-          打分与已下架
+          打分与已撤下
         </a>
       </nav>
       <div className="days" data-tone="paper">
-        {groups.length === 0 && <p className="days-empty">{filter === "good" ? "还没有标成好的。" : "这一线还没有内容。"}</p>}
+        {groups.length === 0 && <p className="days-empty">{filter === "good" ? "还没有标为「好」的条目。" : "这一栏暂未归入条目。"}</p>}
         {groups.slice(0, days).map(([date, list]) => (
           <section key={date} className="day" aria-label={date}>
             <div className="day-mark">
@@ -172,7 +172,7 @@ function DailyBody({ entries, latest, problems }: { entries: DailyEntry[]; lates
         {groups.length > days && (
           <div className="more-days">
             <button type="button" className="ghost-btn" onClick={() => setDays((d) => d + PAGE_DAYS)}>
-              再往前 {Math.min(PAGE_DAYS, groups.length - days)} 天
+              再往前翻 {Math.min(PAGE_DAYS, groups.length - days)} 天
             </button>
           </div>
         )}
@@ -212,7 +212,7 @@ function EntryCard({ entry }: { entry: DailyEntry }) {
         ))}
         {entry.steal && (
           <p className="steal">
-            <span>可偷</span>
+            <span>可偷师</span>
             {entry.steal}
           </p>
         )}

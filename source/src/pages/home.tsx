@@ -143,7 +143,7 @@ function Hero({
             <p>
               No.{String(issueNo).padStart(2, "0")} · {latest} {latest && weekday(latest)}
             </p>
-            <p className="hero-tag">颜色收住，目光不躲。</p>
+            <p className="hero-tag">把颜色压低，目光不移开。</p>
           </div>
         </div>
         {slide && (
@@ -168,7 +168,7 @@ function Hero({
                   换一批
                 </button>
                 <a className="ghost-btn" href={dailyHref(slide)}>
-                  在日更里看
+                  去日更里看
                 </a>
               </div>
             </motion.article>
@@ -190,8 +190,8 @@ function Hero({
         </ol>
       </div>
       <p className="hero-hint" aria-hidden="true">
-        <span className="hint-wide">移动鼠标，像举着一盏灯</span>
-        <span className="hint-narrow">往下</span>
+        <span className="hint-wide">挪动光标，往暗处照</span>
+        <span className="hint-narrow">往下翻</span>
       </p>
       <ProgressiveBlur className="hero-blur" direction="bottom" />
     </section>
@@ -403,7 +403,7 @@ function Outro() {
   return (
     <section className="outro" data-tone="night">
       <div className="outro-inner">
-        <h2 className="outro-title">每天往上加一层。</h2>
+        <h2 className="outro-title">每天往上叠一页。</h2>
         <div className="outro-actions">
           <StackButton href="./daily/">去日更</StackButton>
         </div>

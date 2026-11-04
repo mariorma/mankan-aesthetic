@@ -107,9 +107,9 @@ export function Held({
           type="button"
           className="held-play glass"
           onClick={() => openVideo(video, entry.title, entry.href)}
-          aria-label={`在站内播放：${entry.title}`}
+          aria-label={`站内展开：${entry.title}`}
         >
-          <span aria-hidden="true">▶</span> 在站内看
+          <span aria-hidden="true">▶</span> 站内展开
         </button>
       )}
       {children}

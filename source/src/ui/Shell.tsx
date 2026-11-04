@@ -88,11 +88,11 @@ export function Shell({
           <p className="footer-brand">
             <span>敛色</span> <i>Held Colour</i>
           </p>
-          <p className="footer-tag">颜色收住，目光不躲。</p>
+          <p className="footer-tag">把颜色压低，目光不移开。</p>
           {footer}
-          <p className="footer-small">零额外成本：GitHub Pages 静态托管，没有后端、统计和广告。不卖课，不收邮箱。</p>
+          <p className="footer-small">全站为静态页面，挂在 GitHub Pages 上，不设后台、追踪与广告。不卖课，也不索取邮箱。</p>
           <p className="footer-small">
-            图与封面只作个人学习与品味记录，版权归原作者，每张都写了出处、点图进原帖；无商业用途，侵权联系即删。公有领域作品注明馆藏。
+            站内图像与封面仅作私人剪报与审美品读。版权归原作者所有，每帧均注明出处，点击可访原帖；公有领域作品另注馆藏。全站无商业用途，若涉侵权请联系撤下。
           </p>
         </div>
       </footer>
@@ -114,14 +114,14 @@ export function LoadState({ state }: { state: { status: "loading" } | { status: 
     return (
       <div className="load-state" data-tone="night">
         <p className="load-mark">敛色</p>
-        <p>正在取日更……</p>
+        <p>正在展开日更……</p>
       </div>
     );
   }
   return (
     <div className="load-state is-error" data-tone="night">
       <p className="load-mark">敛色</p>
-      <p>日更没读出来：{state.message}</p>
+      <p>日更暂未读出：{state.message}</p>
       <p className="load-hint">维护者：在 source/ 下跑 npm run check，按提示改 content/daily.json。</p>
     </div>
   );

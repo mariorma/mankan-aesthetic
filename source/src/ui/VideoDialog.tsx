@@ -51,14 +51,14 @@ export function VideoDialog() {
           />
           <div className="video-bar">
             <strong>{value.title}</strong>
-            <span>{BY[value.video.kind]} 官方播放器</span>
+            <span>{BY[value.video.kind]} 原生播放器</span>
             {value.href && (
               <a href={value.href} target="_blank" rel="noreferrer">
                 原页 ↗
               </a>
             )}
             <button type="button" onClick={close}>
-              关
+              收起
             </button>
           </div>
         </div>
