@@ -2,6 +2,159 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "as-vincentix-motive",
+      "date": "2026-11-04",
+      "line": "taste",
+      "title": "ArtStation · Vincentix · MOTIVE 汽车编辑封面",
+      "note": "刊头—主图—coverline 解剖课，干净压得住。",
+      "why": "海外批 A · ArtStation：假想刊 MOTIVE 把 masthead、导语、两侧 coverline、条码与签名拆开练「封面解剖学」。中性色＋高对比衬线／无衬线，冷静正式；相对昨天 Casabella 换字脸——今天偷「单期封面如何用层级把车与字一起压住」。",
+      "steal": "封面先钉 masthead 与主图呼吸，再往两侧塞 coverline。",
+      "source": "ArtStation · vincentix · Škoda Octavia Wagon Magazine Cover / MOTIVE",
+      "href": "https://vincentix.artstation.com/projects/ZlvXO8",
+      "image": {
+        "file": "log-as-vincentix-motive.webp",
+        "alt": "MOTIVE 杂志风格汽车封面：刊头与 Octavia Wagon 主图",
+        "width": 1280,
+        "height": 1600
+      }
+    },
+    {
+      "id": "eye-levine-agi-comic",
+      "date": "2026-11-04",
+      "line": "taste",
+      "title": "Eye · Gillian Levine · AGI 十三页漫画",
+      "note": "研究型漫画当编辑设计——信息图表也能压得住。",
+      "why": "海外批 A · X／Eye：Gillian Levine 把 AGI 批判写成十三页＋tear-out 信息页。黑白网格、角色对话与图标咬合，色调冷静；相对昨天装帧结构词典——今天偷「长文论点如何拆成可翻的编辑单元」。",
+      "steal": "论点先做成可撕下的一页信息图，再铺叙事页。",
+      "source": "Eye Magazine · Tech bro takedown / Gillian Levine",
+      "href": "https://www.eyemagazine.com/blog/post/tech-bro-takedown",
+      "image": {
+        "file": "log-eye-levine-agi.webp",
+        "alt": "Gillian Levine AGI 漫画封面与内页拼贴",
+        "width": 927,
+        "height": 1200
+      }
+    },
+    {
+      "id": "x-andrew-editorial-ui",
+      "date": "2026-11-04",
+      "line": "taste",
+      "title": "X · @andrew_silvaux · Editorial UI",
+      "note": "产品界面借编辑排版：大字与破格，仍要能用。",
+      "why": "海外批 A · X 浅记：Andrew Silva 谈 Web／产品向编辑设计借大字、强艺术指导与破网格。画面干净高级；偷「表达感进产品时别伤可用性」——浅记一条即可。",
+      "steal": "破格大字可以借，交互路径别跟着破。",
+      "source": "X · @andrew_silvaux",
+      "href": "https://x.com/andrew_silvaux/status/2086542267142058363",
+      "image": {
+        "file": "log-x-editorial-ui.webp",
+        "alt": "Editorial UI 示例：大字与破网格产品界面",
+        "width": 1200,
+        "height": 900
+      }
+    },
+    {
+      "id": "zcool-lixiaojiang-covers",
+      "date": "2026-11-04",
+      "line": "taste",
+      "title": "站酷 · 李小江性别研究书系封面",
+      "note": "学术书系封面——统一骨架里换题图与色。",
+      "why": "中文批 1 · 站酷：性别研究书系多册封面，刊感来自统一字区／色带与每册题图轮换。冷静干净；相对昨天「最美的书」获奖合集——今天偷「系列学术封面如何用同一骨架换脸」。花瓣 WAF 未进，深挖改站酷。",
+      "steal": "系列书先锁字区与色带，再只换题图。",
+      "source": "站酷 · 舒子桐 · 李小江性别研究书系封面设计",
+      "href": "https://www.zcool.com.cn/work/ZNzQzNDU4NzI=.html",
+      "image": {
+        "file": "log-zcool-lixiaojiang.webp",
+        "alt": "李小江性别研究书系多册封面拼贴",
+        "width": 1040,
+        "height": 780
+      }
+    },
+    {
+      "id": "meiye-ticket-poster",
+      "date": "2026-11-04",
+      "line": "taste",
+      "title": "美叶 · 票根式海报排版（小红书）",
+      "note": "票根撕边当网格——中文海报也能正式。",
+      "why": "中文批 1 · 美叶转载小红书 Radish Design：票根撕边、序号与栏位把海报收成「凭证感」。色块干净、层级清楚；偷「用物什隐喻（票根）代替空装饰线」。花瓣本周须露脸：话题页／画板均 WAF／405，笔记降级写明。",
+      "steal": "先定一个物什隐喻当网格，再往里填字。",
+      "source": "美叶 · 票根式海报设计排版（Radish Design／小红书）",
+      "href": "https://meiye.art/pic/cmocmuc9t4kznr9oak3ba39c1",
+      "image": {
+        "file": "log-meiye-ticket.webp",
+        "alt": "票根式竖版海报排版示例",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "neshat-offered-eyes",
+      "date": "2026-11-04",
+      "line": "repression",
+      "title": "Shirin Neshat · Offered Eyes（Women of Allah）",
+      "note": "只露一只眼——情欲与话都写在允许露出的地方。",
+      "why": "性压抑：面纱只留下眼与诗句，身体被礼教／教规驯过的视线拧住；Farrokhzad 式欲望只能绕着虹膜转圈，说不出口。性从哪来＝被许可的局部（眼）与被禁止的全身之间的闷感。非空房忧郁。",
+      "steal": "半遮时让「唯一出口」承载全部情欲，别散到全身。",
+      "source": "Shirin Neshat · Offered Eyes, Women of Allah（Burger Collection／Hood Museum）",
+      "href": "https://www.burgercollection.org/artworks/727-shirin-neshat-offered-eyes-from-the-series-women-of-allah-1994/",
+      "image": {
+        "file": "log-neshat-offered-eyes.webp",
+        "alt": "Shirin Neshat Offered Eyes：面纱中一只写满诗句的眼睛",
+        "width": 461,
+        "height": 700
+      }
+    },
+    {
+      "id": "diekgerdes-isabeli-another",
+      "date": "2026-11-04",
+      "line": "repression",
+      "title": "AnOther · Horst Diekgerdes · Isabeli Fontana",
+      "note": "血墙、锁骨开缝、凶眼神——色气被压成「绝不俗」。",
+      "why": "性压抑：摄影师自述要「更柔、更隐晦的性，绝不要俗」；三道真丝开缝只咬住锁骨，欲望停在欲触未触的衣缘与对视。性从哪来＝被剪裁勒住的局部裸露＋被目光拧住却不下流的对视。",
+      "steal": "隐晦色气靠开缝位置与眼神，不靠脱。",
+      "source": "AnOther · Horst Diekgerdes monograph / Isabeli Fontana A/W05",
+      "href": "https://www.anothermag.com/art-photography/8235/satisfyingly-unorthodox-the-legacy-of-horst-diekgerdes",
+      "image": {
+        "file": "log-diekgerdes-isabeli.webp",
+        "alt": "Isabeli Fontana 红墙肖像：锁骨真丝开缝与对视",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "id": "hugo-comte-cara-taylor",
+      "date": "2026-11-04",
+      "line": "tension",
+      "title": "AnOther · Hugo Comte · Cara Taylor",
+      "note": "像她在看穿镜头——一人暖色磁场。",
+      "why": "单人性张力：Comte 要「她不是被拍，而是看穿相机」，暖饱和与直视把色气收在一张脸上。性从哪来＝一人回视／穿透镜头的亲密，不靠第二人，也不是普通独照凑数。",
+      "steal": "肖像先问：她是在被看，还是在看回来。",
+      "source": "AnOther · Hugo Comte book / Cara Taylor",
+      "href": "https://www.anothermag.com/art-photography/13137/celebrating-the-dreamy-photography-of-hugo-comte-book-2021",
+      "image": {
+        "file": "log-hugo-comte.webp",
+        "alt": "Hugo Comte 拍摄的 Cara Taylor 暖色近脸肖像",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "id": "harley-weir-simone-rocha",
+      "date": "2026-11-04",
+      "line": "tension",
+      "title": "AnOther · Harley Weir · Simone Rocha A/W19",
+      "note": "女摄影师的私密回视——一人身上的轻邪气场。",
+      "why": "单人性张力：Weir 的「挑衅又敏感的女性目光」拍 Rocha 缪斯近脸／贴身织物；灵感来自 Tichý 的偷看与 Bourgeois 衣物亲密，色气在一人体态与织物边缘。性从哪来＝独处身体的磁场与衣缘，不是双人黏腻。",
+      "steal": "轻邪气场用贴身织物边缘，不靠第二人入画。",
+      "source": "AnOther · Harley Weir × Simone Rocha A/W19 book",
+      "href": "https://www.anothermag.com/fashion-beauty/12011/simone-rocha-harley-weir-limited-edition-book-autumn-winter-2019",
+      "image": {
+        "file": "log-harley-weir-rocha.webp",
+        "alt": "Harley Weir 为 Simone Rocha 拍摄的女性近脸肖像书页",
+        "width": 1197,
+        "height": 798
+      }
+    },
+    {
       "id": "fiu-casabella-2024-25",
       "date": "2026-11-01",
       "line": "taste",
