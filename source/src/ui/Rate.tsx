@@ -19,9 +19,9 @@ export function Rate({ entry, compact = false }: { entry: DailyEntry; compact?: 
     const before = value;
     setMark(entry.id, next);
     if (next === "差") {
-      toast(`已下架「${entry.title}」`, { label: "撤销", run: () => setMark(entry.id, before) });
+      toast(`已撤下「${entry.title}」`, { label: "撤销", run: () => setMark(entry.id, before) });
     } else if (next === "好") {
-      toast(`记下了：「${entry.title}」更常上首页`, undefined, 2600);
+      toast(`已记下，「${entry.title}」会更常留在首页`, undefined, 2600);
     }
   }
 

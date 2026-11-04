@@ -66,8 +66,8 @@ export function CopyMarks({ entries }: { entries: readonly DailyEntry[] }) {
         <span data-mark="好">好 {payload.good.length}</span>
         <span data-mark="差">差 {payload.bad.length}</span>
       </p>
-      <p className="copy-marks-note">分只存在这台浏览器，不进仓库。复制后贴给日更，用来清理差的、多找好的那一路。</p>
-      <StackButton onClick={copy}>{state === "copied" ? "已复制" : state === "failed" ? "没复制成" : "复制打分"}</StackButton>
+      <p className="copy-marks-note">打分只留在这台浏览器的本地缓存里，不直接写入代码库。复制记录发回日更工作流，即可清掉差图、顺着好图的方向继续找。</p>
+      <StackButton onClick={copy}>{state === "copied" ? "已复制" : state === "failed" ? "复制未成功" : "复制打分记录"}</StackButton>
     </div>
   );
 }
@@ -78,11 +78,11 @@ export function HiddenDrawer({ entries, id = "hidden" }: { entries: readonly Dai
   return (
     <details className="hidden-drawer" id={id}>
       <summary>
-        已下架 <b>{hidden.length}</b>
+        已撤下 <b>{hidden.length}</b>
       </summary>
-      <p>标成「差」的条目先从页面撤下。点「放回」改回中，马上回来。</p>
+      <p>标为「差」的条目已从版面撤下。点「放回」即改回「中」，重新归入页面。</p>
       {hidden.length === 0 ? (
-        <p className="hidden-empty">还没有标成差的。</p>
+        <p className="hidden-empty">还没有标为「差」的条目。</p>
       ) : (
         <ul>
           {hidden.map((entry) => (
