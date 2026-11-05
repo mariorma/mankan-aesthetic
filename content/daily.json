@@ -2,6 +2,171 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "date": "2026-11-05",
+      "line": "taste",
+      "id": "pixivision-magazine-covers",
+      "title": "Pixivision · Drawings Styled Like Magazine Covers",
+      "note": "刊头、期号与两侧 coverline 压上画框，画里的人像被收进真杂志的封面网格。",
+      "href": "https://www.pixivision.net/en/a/7148",
+      "source": "Pixivision · Drawings Styled Like Magazine Covers（Pixiv 特辑）",
+      "image": {
+        "file": "log-pixivision-magcovers.webp",
+        "alt": "假想偶像杂志 BLOOM 封面：刊头、期号与人物主图",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "line": "taste",
+      "id": "tumblr-cornelia-editorial",
+      "title": "Tumblr · Cornelia Li · Editorial Illustration",
+      "note": "冷蓝卧室里开出一扇剪影的窗，把暖色的脑海风景直接切进同一页。",
+      "href": "https://www.tumblr.com/cornelia-li/tagged/editorialillustration",
+      "source": "Tumblr · @cornelia-li · #editorialillustration",
+      "image": {
+        "file": "log-tumblr-cornelia.webp",
+        "alt": "编辑插画：卧室墙面人头剪影通向夕阳旷野",
+        "width": 1080,
+        "height": 747
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "line": "taste",
+      "id": "uisdc-title-groups-douban",
+      "title": "优设 · 5组标题组排版（豆瓣8.0书封临摹）",
+      "note": "红底白框里拆开五组书封标题，竖排、衬线与无衬线错落咬合，只靠一枚刀叉符号定住重心。",
+      "href": "https://www.uisdc.com/group/610919.html",
+      "source": "优设9图 · 5组标题组排版设计！豆瓣8.0书籍封面临摹！",
+      "image": {
+        "file": "log-uisdc-titles.webp",
+        "alt": "优设标题组练习封面：红底与五组书名排版示例",
+        "width": 1080,
+        "height": 1438
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "line": "taste",
+      "id": "sankou-land-sapporo",
+      "title": "SANKOU · LAND 札幌カルチャーマガジン",
+      "note": "方格纸底、裁边不齐的相片与一盘居酒屋热菜，字号退后，把版面让给札幌的日常。",
+      "href": "https://landsapporo.jp/",
+      "source": "SANKOU! · LAND｜札幌発のカルチャーマガジン（收录页 https://sankoudesign.com/web/land/）",
+      "image": {
+        "file": "log-sankou-land.webp",
+        "alt": "LAND 杂志风双栏：方格纸撕贴街景与居酒屋菜品特写",
+        "width": 1000,
+        "height": 874
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "line": "repression",
+      "id": "arndt-mask-selfportraits",
+      "title": "AnOther · Gertrud Arndt · Maskenselbstporträts",
+      "note": "蕾丝与蜂巢网半遮住嘴唇，Gertrud Arndt 隔着一身合乎礼教的淑女扮相直视镜头，情欲还在眼里，却被体面的穿戴拧住了出口。",
+      "href": "https://www.anothermag.com/art-photography/8976/the-many-disguises-of-bauhaus-photographer-gertrud-arndt",
+      "source": "AnOther · The Many Disguises of Bauhaus Photographer Gertrud Arndt",
+      "image": {
+        "file": "log-arndt-masks.webp",
+        "alt": "Gertrud Arndt 蒙面自画像：网纱与蕾丝罩住面部",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "line": "repression",
+      "id": "bourdin-sighs-whispers",
+      "title": "AnOther · Guy Bourdin · Sighs and Whispers",
+      "note": "粉缎内衣半掩在家居壁纸前，模特垂下侧脸、双手交叠，欲触未触；Guy Bourdin 把本该直白的情欲关进房间，收成不能做声的叹息与耳语。",
+      "href": "https://www.anothermag.com/fashion-beauty/2694/sighs-and-whispers-bloomingdales-by-guy-bourdin",
+      "source": "AnOther · Sighs and Whispers Bloomingdales, by Guy Bourdin",
+      "image": {
+        "file": "log-bourdin-sighs.webp",
+        "alt": "Bourdin 式室内：粉缎内衣侧影贴着花壁纸",
+        "width": 690,
+        "height": 460
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "line": "tension",
+      "id": "seklaoui-penelope-ternes",
+      "title": "AnOther · Anthony Seklaoui · Penelope Ternes",
+      "note": "短发的 Penelope Ternes 直视镜头，西装滑落露出胸腹，白衫在腰间团成一簇；单人的性磁场直接从穿脱之间的体态与目光里生出来。",
+      "href": "https://www.anothermag.com/fashion-beauty/15634/model-penelope-ternes-strips-down-and-layers-up-for-another-magazine",
+      "source": "AnOther · Model Penelope Ternes Strips Down and Layers Up（Anthony Seklaoui）",
+      "image": {
+        "file": "log-seklaoui-penelope.webp",
+        "alt": "Penelope Ternes：黑色西装敞开、白衫团在腰间的单人肖像",
+        "width": 1200,
+        "height": 1565
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "line": "tension",
+      "id": "collier-schorr-august",
+      "title": "AnOther · Collier Schorr · August",
+      "note": "硬挺的军帽下是赤膊与一圈羽毛围巾，那股单人的性磁场来自制服的冷硬、擦过皮肤的软羽，以及夹在两种角色之间的直视目光。",
+      "href": "https://www.anothermag.com/art-photography/14227/collier-schorr-photography-august-book-mack-interview",
+      "source": "AnOther · Collier Schorr on Her New Photo Book August（MACK）",
+      "image": {
+        "file": "log-collier-schorr.webp",
+        "alt": "Collier Schorr 肖像：军帽、羽毛围巾与赤膊直视",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "line": "beauty",
+      "id": "alisa-muffler-20261105",
+      "title": "坂巻有紗 · マフラーデビュー",
+      "note": "白瓷砖墙角立着绿植，坂巻有紗把今年第一条厚围巾拢到下巴，背景与光线都收得干干净净。",
+      "href": "https://x.com/alisa2525_10923/status/2115368078825689281",
+      "source": "坂巻有紗 · X · マフラーデビュー",
+      "image": {
+        "file": "li-20261105-alisa-muffler.webp",
+        "alt": "坂巻有紗围浅灰围巾靠白瓷砖墙的自拍",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "line": "beauty",
+      "id": "koike-calendar-20261105",
+      "title": "小池里奈 · カレンダー席地",
+      "note": "小池里奈席地坐进日历写真的室内布景里，漫进来的窗光刚好斜切过小腿与地板。",
+      "href": "https://x.com/KoikeRina0903/status/2117224501855547513",
+      "source": "小池里奈 · X · カレンダー",
+      "image": {
+        "file": "li-20261105-koike-cal.webp",
+        "alt": "小池里奈坐在花纹椅上、窗光打在腿侧的写真",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "line": "beauty",
+      "id": "asuka-another-sky-20261105",
+      "title": "齋藤飛鳥 · ANOTHER SKY",
+      "note": "深绿树列前的一件浅黄衬衫，齋藤飛鳥把镜头前的手势与神情都收得很轻。",
+      "href": "https://x.com/asuka3110_staff/status/2116491845266178398",
+      "source": "齋藤飛鳥 STAFF · X · ANOTHER SKY",
+      "image": {
+        "file": "li-20261105-asuka-another.webp",
+        "alt": "齋藤飛鳥浅黄衬衫站在树列前的宣传肖像",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
       "id": "as-vincentix-motive",
       "date": "2026-11-04",
       "line": "taste",
