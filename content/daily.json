@@ -2,6 +2,156 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "date": "2026-11-06",
+      "line": "taste",
+      "id": "yt-hodinkee-magazine-vol10",
+      "title": "YouTube · HODINKEE · Making the Magazine Vol.10",
+      "note": "暗墙钉满整期跨页样张，编辑背着手站在网格前，看字与图如何在装订成册前先在一面墙上对齐。",
+      "href": "https://www.youtube.com/watch?v=wS2vWDfoGSs",
+      "source": "YouTube · HODINKEE · Documentary Short: How We Made HODINKEE Magazine, Volume 10（亦见 hodinkee.com 文）",
+      "image": {
+        "file": "log-yt-hodinkee-vol10.webp",
+        "alt": "工作室暗墙上钉满 HODINKEE Vol.10 内页样张，两人背手校对",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "line": "taste",
+      "id": "vimeo-film-before-film",
+      "title": "Vimeo · THE FILM before THE FILM",
+      "note": "正片亮起之前的那几分钟，银幕上的字如何作为第一道帘子替故事拉开。",
+      "href": "https://vimeo.com/60964497",
+      "source": "Vimeo · THE FILM before THE FILM（Nora Thös & Damian Pérez；频道 vimeo.com/thefilmbeforethefilm）",
+      "image": {
+        "file": "log-vimeo-film-before.webp",
+        "alt": "THE FILM before THE FILM 纪录片缩略：片头设计史视觉静帧",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "line": "taste",
+      "id": "zcool-ziwu-vol004",
+      "title": "站酷 ·《字物》Vol.004 李取中 × 李君慈",
+      "note": "竖排刊名下撕开一层纸，编辑与设计师隔着毛糙的纸边在同一开本里照面。",
+      "href": "https://www.zcool.com.cn/article/ZMTE3OTkyMA==.html",
+      "source": "站酷文章 ·《字物》Vol.004 李取中×李君慈：交锋编辑与设计思维（文鼎字库）",
+      "image": {
+        "file": "log-zcool-ziwu-vol004.webp",
+        "alt": "《字物》Vol.04 封面：米色撕纸层下露出编辑与设计师肖像与竖排刊名",
+        "width": 720,
+        "height": 540
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "line": "taste",
+      "id": "uisdc-type-scale-16",
+      "title": "优设 · 16组字号比例案例",
+      "note": "品红标尺压住黑体字，主标题、副标题到正文的缩放倍率在同一张网格里交代得清清楚楚。",
+      "href": "https://www.uisdc.com/group/687965.html",
+      "source": "优设9图 · 排版有救了！16组字号比例案例，教你做出高级感文字排版",
+      "image": {
+        "file": "log-uisdc-typescale.webp",
+        "alt": "优设字号比例封面：品红网格线与「如何设定字号比例」主标题",
+        "width": 1080,
+        "height": 1441
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "line": "repression",
+      "id": "deteneuille-lace-coast",
+      "title": "AnOther · Marie Deteneuille · The Many Ways of Wearing Lace",
+      "note": "她垂眼把蕾丝按在赤裸胸前，想被看见的身体欲望，全被这层合乎礼数的网眼布拦在锁骨下。",
+      "href": "https://www.anothermag.com/fashion-beauty/16808/marie-deteneuille-raphael-hirsch-the-many-ways-of-wearing-lace",
+      "source": "AnOther · The Many Ways of Wearing Lace（Marie Deteneuille × Raphael Hirsch；A/W 2025）",
+      "image": {
+        "file": "log-deteneuille-lace.webp",
+        "alt": "黑白肖像：女子低头双臂抱紧白色蕾丝贴在胸前",
+        "width": 1087,
+        "height": 724
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "line": "repression",
+      "id": "boulos-sexual-fantasies",
+      "title": "Dazed · Myriam Boulos · Sexual Fantasies",
+      "note": "闪光灯直接打在镜边的半透蕾丝上，那些被黎巴嫩日常礼教按住的欲念，只能在锁好门的私密房间里短暂露面。",
+      "href": "https://www.dazeddigital.com/art-photography/article/56570/1/myriam-boulos-portraits-explore-the-sexual-fantasies-of-lebanese-women",
+      "source": "Dazed · Myriam Boulos’ portraits explore the sexual fantasies of Lebanese women",
+      "image": {
+        "file": "log-boulos-fantasies.webp",
+        "alt": "女子穿白色蕾丝连体内衣靠镜框，闪光直打面部与身后阴影",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "line": "tension",
+      "id": "sicher-vanessa-moody",
+      "title": "AnOther · Zora Sicher · Vanessa Moody",
+      "note": "硬挺皮衣遮不住折进橙色沙发的身体曲线，俯拍压紧的臀线、黑丝与尖跟鞋跟把人的视线生生拽过去。",
+      "href": "https://www.anothermag.com/fashion-beauty/16100/boots-buckles-and-briefs-see-zora-sicher-s-fashion-story-for-another",
+      "source": "AnOther · Boots, Buckles and Briefs（Zora Sicher × Nell Kalonji；Vanessa Moody）",
+      "image": {
+        "file": "log-sicher-vanessa.webp",
+        "alt": "Vanessa Moody 蜷在橙沙发上，橄榄皮衣与黑丝、芥末高跟鞋",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "line": "tension",
+      "id": "vivier-fierce-femininity",
+      "title": "AnOther · Camille Vivier · Fierce Femininity",
+      "note": "湿背头、方形耳夹与高领皮草把五官收得很冷，偏偏水亮的唇泽与一段裸肩还在往外放着勾人的热气。",
+      "href": "https://www.anothermag.com/fashion-beauty/16779/camille-vivier-portrait-of-fierce-femininity-agata-belcen-autumn-winter-2025",
+      "source": "AnOther · Camille Vivier’s Portrait of Fierce Femininity（Agata Belcen 造型；A/W 2025）",
+      "image": {
+        "file": "log-vivier-fierce.webp",
+        "alt": "湿背头女子穿深棕皮草、黑金方耳夹，直视镜头",
+        "width": 825,
+        "height": 550
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "line": "beauty",
+      "id": "koike-green-20261106",
+      "title": "小池里奈 · 室内窗光泳装",
+      "note": "白昼窗光平铺在室内的阔叶绿植与碎花泳衣上，留出了纸质挂历般干净的空气感。",
+      "href": "https://x.com/KoikeRina0903/status/2118087717712208239",
+      "source": "小池里奈 · X · 室内写真",
+      "image": {
+        "file": "li-20261106-koike-green.webp",
+        "alt": "小池里奈穿绿底粉花比基尼蹲在浅色地毯，旁有绿植与玻璃灯",
+        "width": 800,
+        "height": 1200
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "line": "beauty",
+      "id": "yua-lamp-20261106",
+      "title": "三上悠亚 · 夜景灯柱大衣",
+      "note": "街角灯柱与悬垂花篮把暖光拢在驼色大衣上，夜色里的光线与镜头距离都算得分寸刚好。",
+      "href": "https://x.com/yua_mikami/status/2118284280040501434",
+      "source": "三上悠亜 · X · 夜景灯柱",
+      "image": {
+        "file": "li-20261106-yua-lamp.webp",
+        "alt": "三上悠亚夜景靠绿色灯柱，驼色大衣与角色毛绒帽，花篮与建筑灯轮廓",
+        "width": 1536,
+        "height": 2048
+      }
+    },
+    {
       "date": "2026-11-05",
       "line": "taste",
       "id": "pixivision-magazine-covers",
