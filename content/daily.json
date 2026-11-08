@@ -2,6 +2,201 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "date": "2026-11-08",
+      "line": "taste",
+      "id": "pixivision-binding-popup",
+      "title": "Pixivision · 立体书装帧特辑",
+      "note": "白桌上摊开的同人本，纸页随折痕立起棋盘、拱门与穿行其间的人影。",
+      "href": "https://www.pixivision.net/en/a/6730",
+      "source": "pixivision · Binding Covers and Book Designs You Should Use For Your Doujinshis（Ryokuyou 印刷访谈；封面取文内立体弹起书实拍）",
+      "image": {
+        "file": "log-pixiv-binding-popup.webp",
+        "alt": "白桌上摊开的立体弹起书：暗红棋盘、哥特拱门、白礼服女子与高背椅人物从书页立起，手扶在页边",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "line": "taste",
+      "id": "da-amnd-carbuncles",
+      "title": "DeviantArt · Architect Magazine · Carbuncles",
+      "note": "混凝土立面被粗黑线切作跨页的几何残块，大号标题直接压在灰墙上。",
+      "href": "https://www.deviantart.com/amndesigns/art/Architect-Magazine-Layout---Editorial-Article-279359921",
+      "source": "DeviantArt · AMNdesigns · Architect Magazine Layout — Editorial Article（《Hooray for CARBUNCLES》；战后英国粗野主义／Tricorn Centre）",
+      "image": {
+        "file": "log-da-carbuncles.webp",
+        "alt": "建筑刊跨页：左页混凝土外立面被粗黑线裁成几何块，衬线标题 CARBUNCLES 压在墙上；右页留白与短文",
+        "width": 900,
+        "height": 583
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "line": "taste",
+      "id": "meiye-wang-betrayal",
+      "title": "美叶 · 王志弘 · 《背叛指南》",
+      "note": "大片的纸白上只有一摊红渍，和一条从一九四九垂向一九八〇的细竖线。",
+      "href": "https://meiye.art/pic/cmocmucf24mrer9oac4y0nlc0",
+      "source": "美叶 · 王志弘书籍装帧设计作品（哈金《背叛指南》／A Map of Betrayal；分类：书籍封面）",
+      "image": {
+        "file": "log-meiye-wang-betrayal.webp",
+        "alt": "白封面精装书：中心一摊干涸红渍，右侧竖线标一九四九至一九八〇，竖排书名背叛指南，英文书名压在左下",
+        "width": 1000,
+        "height": 1400
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "line": "taste",
+      "id": "zcool-idea-355",
+      "title": "站酷 · BranD · 《idea》355「淺葉克己の記」",
+      "note": "芥末黄铆钉铁门前伫着一个背影与一双手，竖排专题名与期号沿门框一并落下。",
+      "href": "https://www.zcool.com.cn/article/ZODQ5Mzg0.html",
+      "source": "站酷 · BranD《idea》杂志，凭什么能火 65 年？（封面取文内 idea 355／2012.11「淺葉克己の記」完整刊用封面）",
+      "image": {
+        "file": "log-zcool-idea-355.webp",
+        "alt": "idea 355 封面：芥末黄铆钉门前，戴草帽白外套男子背对镜头双手交握，两侧紫花，刊名与竖排专题名同框",
+        "width": 776,
+        "height": 1024
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "line": "repression",
+      "id": "juno-calypso-green",
+      "title": "i-D · Juno Calypso · A Dream in Green",
+      "note": "赤身的女人以维纳斯的姿态站在蜜月心形浴缸里，迎向四面镜墙的皮肉却被一层绿面膜严密裹住，把取悦他人的情欲困成一桩独自完成的美容工序。",
+      "href": "https://i-d.co/article/june-calypsos-photographs-explore-beauty-rituals-behind-bathroom-doors/",
+      "source": "i-D · Juno Calypso’s photographs explore beauty rituals behind bathroom doors（Joyce／The Honeymoon；主图 A Dream in Green）",
+      "image": {
+        "file": "log-juno-calypso-green.webp",
+        "alt": "粉色心形按摩浴缸中央，通体薄荷绿的红发女子背对站立举手插发，身后一圈竖镜把同一身体复制成一排",
+        "width": 1500,
+        "height": 1000
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "line": "repression",
+      "id": "aldridge-love-me",
+      "title": "Miles Aldridge · I Only Want You To Love Me",
+      "note": "鹅黄紧身针织裹住的身体坐在打翻的晚餐旁，不乱分毫的妆发与主妇体面，把那道直视镜头的索求按在厨房地板上。",
+      "href": "https://milesaldridge.com/i-only-want-you-to-love-me_1_4000px/",
+      "source": "Miles Aldridge 官网作品页 · I Only Want You To Love Me #1（2011 chromogenic print）",
+      "image": {
+        "file": "log-aldridge-love-me.webp",
+        "alt": "黄橙橱柜与粉黄棋盘厨房地板上，金发女子穿紧身鹅黄高领套装坐在翻倒托盘、碎盘与青豆旁，平视镜头",
+        "width": 1900,
+        "height": 1308
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "line": "tension",
+      "id": "porodina-veil-eyes",
+      "title": "Dazed · Elizaveta Porodina · Found Dreams",
+      "note": "她双臂向两侧拉开薄纱将身体正面敞开，叠印在腰侧的巨眼直逼镜头，由自己掌管被揭开与被凝视的尺度。",
+      "href": "https://www.dazeddigital.com/fashion/article/71126/1/photographer-elizaveta-porodina-interview-found-dreams-photo-book",
+      "source": "Dazed · photographer Elizaveta Porodina interview · Found Dreams photo book",
+      "image": {
+        "file": "log-porodina-found-dreams.webp",
+        "alt": "黑白双重曝光：短发女子正面展开双臂拉开半透明纱，腰侧叠着一双巨大的眼睛看向镜头",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "line": "tension",
+      "id": "green-bombshell",
+      "title": "Dazed · Ethan James Green · Bombshell",
+      "note": "赤裸的上身以交叉双臂拢住胸口，遮挡的动作反而推高了肉体的体积，爆炸头下的侧目自己握着迎拒的节奏。",
+      "href": "https://www.dazeddigital.com/art-photography/article/56940/1/ethan-james-green-bombshell-photography-interview",
+      "source": "Dazed · Ethan James Green · Bombshell photography interview（纽约成年肖像）",
+      "image": {
+        "file": "log-green-bombshell.webp",
+        "alt": "黑白棚拍：成年黑人女子未着衣，浓密爆炸头如云从肩上涌出，双臂交叉护胸，眼神看向镜头外侧",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "line": "beauty",
+      "id": "enako-onsen-20261108",
+      "title": "えなこ · 温泉和室与几何纹内衣",
+      "note": "红条纹浴衣滑落肩下，几何纹内衣与身后的和室圆窗、榻榻米一同停在清晨的室内光里。",
+      "href": "https://x.com/enako_cos/status/2118824290477052140",
+      "source": "X · @enako_cos · 2026-11-07（おはよ；温泉和室）",
+      "image": {
+        "file": "li-20261108-enako-onsen.webp",
+        "alt": "温泉和室里えなこ穿几何纹内衣，红条浴衣挂在小臂上，眨眼比耶，身后圆窗与富士额",
+        "width": 2160,
+        "height": 2880
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "line": "beauty",
+      "id": "enako-gingham-20261108",
+      "title": "えなこ · 粉沙发与蓝白格制服",
+      "note": "蓝白格纹袖口靠着玫红铆钉沙发，制服裙摆与粉墙在棚光下分成几块干净的色面。",
+      "href": "https://x.com/enako_cos/status/2119016609276907649",
+      "source": "X · @enako_cos · 2026-11-07（C109 配置帖附写真）",
+      "image": {
+        "file": "li-20261108-enako-gingham.webp",
+        "alt": "粉墙前えなこ穿蓝白格短袖与玫红内衣斜倚玫红铆钉沙发，一手扶帽檐",
+        "width": 2000,
+        "height": 2667
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "line": "beauty",
+      "id": "kokoro-pool-20261108",
+      "title": "篠崎こころ · 泳池畔蓝白泳装",
+      "note": "她穿蓝白分体泳装坐在池沿，身后满版的马赛克池水将腰腿轮廓托得清清楚楚。",
+      "href": "https://x.com/kokoro777pp/status/2118668732935651598",
+      "source": "X · @kokoro777pp · 2026-11-07（ヤングガンガン本刊相关；取同帖泳池帧）",
+      "image": {
+        "file": "li-20261108-kokoro-pool.webp",
+        "alt": "金发篠崎こころ穿蓝白分体泳装坐在泳池沿，身后蓝色马赛克池水",
+        "width": 1804,
+        "height": 2048
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "line": "beauty",
+      "id": "koike-mesh-20261108",
+      "title": "小池里奈 · 黑网纱连体衣肖像",
+      "note": "青绿背景墙前，黑色网纱连体衣沿脊背敞开一道长缝，转头的一瞬留出光洁的肩背线。",
+      "href": "https://x.com/KoikeRina0903/status/2118815241090068482",
+      "source": "X · @KoikeRina0903 · 2026-11-07（立冬おはよ）",
+      "image": {
+        "file": "li-20261108-koike-mesh.webp",
+        "alt": "小池里奈穿黑色薄纱袖露背连体，在青绿墙前回眸，双手叉腰",
+        "width": 1360,
+        "height": 2048
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "line": "beauty",
+      "id": "yua-carousel-20261108",
+      "title": "三上悠亜 · 夜旋转木马肖像",
+      "note": "旋转木马的暖黄灯串在身后亮着，她指尖捏住毛绒帽穗，隔着游乐场的夜色平视镜头。",
+      "href": "https://x.com/yua_mikami/status/2118673565356900541",
+      "source": "X · @yua_mikami · 2026-11-07（彼女感夜游乐园；取同帖 02，非露点）",
+      "image": {
+        "file": "li-20261108-yua-carousel.webp",
+        "alt": "夜色里三上悠亜穿大衣戴毛绒护耳帽，双手捏着帽穗，身后旋转木马灯串",
+        "width": 1536,
+        "height": 2048
+      }
+    },
+    {
       "date": "2026-11-06",
       "line": "taste",
       "id": "yt-hodinkee-magazine-vol10",
