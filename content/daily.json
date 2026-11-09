@@ -2,6 +2,126 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "date": "2026-11-09",
+      "line": "taste",
+      "id": "as-huenito-grimm",
+      "title": "ArtStation · João Gabriel · Irmãos Grimm 书衣",
+      "note": "缠住面孔的白发从封面一路漫过书脊、封底与两侧勒口，红字书名直接压在发丝上。",
+      "href": "https://huenito.artstation.com/projects/rdlEO",
+      "source": "ArtStation · huenito / João Gabriel · Editorial: Irmão Grimm - Contos Originais（护封展开图：封面、书脊、封底与勒口）",
+      "image": {
+        "file": "log-as-huenito-grimm.webp",
+        "alt": "横向书衣展开：青绿底上铺满流动的白发，封面处一张被发丝缠住的面孔，红字 IRMÃOS GRIMM 压在发上；书脊竖排书名，封底有社标与条码，两侧勒口是说明文字",
+        "width": 1920,
+        "height": 914
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "line": "taste",
+      "id": "as-vincentix-scoop",
+      "title": "ArtStation · Vincentix · SCOOP 草莓刊",
+      "note": "浅红底色与衬线体刊头下，一只被手托起的草莓甜筒站在了原本属于封面模特的位置。",
+      "href": "https://vincentix.artstation.com/projects/qJGBOL",
+      "source": "ArtStation · vincentix · SCOOP. Strawberry Issue（单张编辑海报／假想时尚刊封面）",
+      "image": {
+        "file": "log-vincentix-scoop.webp",
+        "alt": "浅红底杂志封面：顶栏细字 VOL. 02 / STRAWBERRY SEASON，大衬线刊头 SCOOP，一只手举起融化的草莓冰淇淋甜筒居中，左侧两条白色导语，左下角二维码与 Design by VINCENTIX",
+        "width": 1413,
+        "height": 2000
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "line": "taste",
+      "id": "zcool-shuowu-liuhen",
+      "title": "站酷 · 张志奇 · 《说舞留痕》",
+      "note": "黄绿半透明皱纹纸叠在橙色内页与红绿秧歌照之间，翻页时像一截被手带起的绸带。",
+      "href": "https://www.zcool.com.cn/article/ZMTM5OTQxNg==.html",
+      "source": "站酷策划 · 让书籍成为身心的奇遇（GDC2021 书籍金奖访谈；封面取文内《说舞留痕：山东“非遗”舞蹈口述史》／张志奇 实拍跨页）",
+      "image": {
+        "file": "log-zcool-shuowu.webp",
+        "alt": "黑底上摊开的书：左页橙底竖排「济宁·尚寨竹马」图文，黄绿半透明皱纹纸斜盖过来；右页蓝边框内是红绿秧歌服装的现场照片，红纸条带从书口垂下",
+        "width": 1200,
+        "height": 900
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "line": "taste",
+      "id": "zcool-huaping-gdc",
+      "title": "站酷 · 姜嵩 · 《画屏》套合装",
+      "note": "灰色布封里收着三册不同开本，手卷彩页与传统经折在同一套当代连订里彼此咬合。",
+      "href": "https://www.zcool.com.cn/article/ZMTM5OTQxNg==.html",
+      "source": "站酷策划 · 让书籍成为身心的奇遇（GDC2021 书籍银奖访谈；封面取文内《画屏—传统与未来》／姜嵩 结构实拍）",
+      "image": {
+        "file": "log-zcool-huaping.webp",
+        "alt": "浅灰封套摊开的两套书影：左侧对折册露出内文，中间连着几本不同厚度的分册，一段彩页卷起；右下另放一本打开的双栏图文内页，可见屏风照片",
+        "width": 1200,
+        "height": 600
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "line": "tension",
+      "id": "alexa-demie-petra-zine",
+      "title": "i-D · Petra Collins · Alexa Demie",
+      "note": "金橙缎带顺着裸肩垂下，她按在胸前的手既遮挡又留出余地，平视镜头的眼神自己定下了暴露的尺度。",
+      "href": "https://i-d.co/article/alexa-demie-petra-collins-ottessa-moshfegh-zine/",
+      "source": "i-D · Alexa Demie by Petra Collins for i-D Zine（刊用封面肖像；拍摄对象为公开成年演员 Alexa Demie）",
+      "image": {
+        "file": "log-alexa-demie-petra.webp",
+        "alt": "暖色圆形光里，Alexa Demie 长发微侧，一只手挡在胸前，肩头系着金色与橙色缎带，目光平视镜头",
+        "width": 1575,
+        "height": 1045
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "line": "beauty",
+      "id": "kokoro-snow-20261109",
+      "title": "篠崎こころ · 雪中制服全身像",
+      "note": "透明伞下是深蓝外套、格纹领结与黑手套，落雪把整套冬日制服收进一帧安静的街角肖像。",
+      "href": "https://x.com/kokoro777pp/status/2119026710494802213",
+      "source": "X · @kokoro777pp · 2026-11-08（C109 预告帖；取同帖雪景站立全身帧 01，未取坐姿 02 与内衣帧 03）",
+      "image": {
+        "file": "li-20261109-kokoro-snow.webp",
+        "alt": "落雪里金发短发的篠崎こころ撑一把透明伞，穿海军蓝外套、白衬衫、格纹领结、深色针织背心与格纹裙，黑手套握住伞柄，肩上黑色书包，微笑看向镜头",
+        "width": 1400,
+        "height": 2000
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "line": "beauty",
+      "id": "enako-lilac-20261109",
+      "title": "えなこ · 浅紫白蕾丝室内肖像",
+      "note": "侧窗光擦过浅紫肩带与白蕾丝，身后的旧木门替这帧室内自拍压住了深色背景。",
+      "href": "https://x.com/enako_cos/status/2119382648107979240",
+      "source": "X · @enako_cos · 2026-11-08（前夜追更；浅紫白蕾丝靠沙发自拍）",
+      "image": {
+        "file": "li-20261109-enako-lilac.webp",
+        "alt": "えなこ穿浅紫肩带与白蕾丝内衣，靠在白色织物沙发边回看镜头，身后是剥落漆面的旧木门",
+        "width": 3024,
+        "height": 4032
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "line": "beauty",
+      "id": "koike-window-20261109",
+      "title": "小池里奈 · 和室窗边红内衣与渔网",
+      "note": "面孔隐进和室窗边的逆光里，红内衣与渔网贴着木窗框，比表情更早亮出身体的轮廓。",
+      "href": "https://x.com/KoikeRina0903/status/2119174057044365386",
+      "source": "X · @KoikeRina0903 · 2026-11-08（前夜追更；和室窗边红内衣渔网造型肖像）",
+      "image": {
+        "file": "li-20261109-koike-window.webp",
+        "alt": "和室窗边，小池里奈双手撑在窗台上，面向窗外，脸落在暗部；红内衣与黑色渔网袜贴着窗框和榻榻米",
+        "width": 932,
+        "height": 1577
+      }
+    },
+    {
       "date": "2026-11-08",
       "line": "taste",
       "id": "pixivision-binding-popup",
