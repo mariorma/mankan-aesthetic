@@ -2,6 +2,111 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "date": "2026-11-10",
+      "line": "taste",
+      "id": "pixivision-shimaya-foil",
+      "title": "Pixivision · しまや出版 · 全頁箔本",
+      "note": "金箔与银箔从封面一路包进书口和内页，同一版猫脸特写与密排铅字分别压在两册书的金属面上。",
+      "href": "https://www.pixivision.net/en/a/11309",
+      "source": "Pixivision · しまや出版访谈「コミケと歩んで50年！全ページ箔押しに刺しゅう加工…」（2025.12.18）· 全頁箔本金／银实拍",
+      "image": {
+        "file": "log-pixivision-shimaya-foil.webp",
+        "alt": "两本并排的全页箔书，左金右银，黑带上写「全頁箔本」，封面是同一只猫的特写和密排文字",
+        "width": 1200,
+        "height": 742
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "line": "taste",
+      "id": "pixivision-shimaya-marble",
+      "title": "Pixivision · しまや出版 · 小口マーブル",
+      "note": "三册书叠在一起，切口逐一浸过浮着颜料的液面，留住米底红褐石纹、黄底彩纹与蓝底粉红泼点，没有两册能蘸出同一道纹路。",
+      "href": "https://www.pixivision.net/en/a/11309",
+      "source": "Pixivision · しまや出版访谈「コミケと歩んで50年！」· 小口マーブル手蘸云纹实拍",
+      "image": {
+        "file": "log-pixivision-shimaya-marble.webp",
+        "alt": "三本书叠放，只看见切口：上本是米底红褐石纹，中本是黄底彩色纹理，下本是蓝底粉红泼点",
+        "width": 1200,
+        "height": 675
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "line": "taste",
+      "id": "bili-tianyi-quartet",
+      "title": "B站 · 赵清／清门引 · 《天一阁四重奏》",
+      "note": "写藏书楼的书只用一块本色粗麻布包起，封面上压着「天一閣」「四重奏」两行竖排字，树影直接落在布纹里。",
+      "href": "https://www.bilibili.com/video/BV1JmiKBGECR/",
+      "source": "B站 · 雅昌文化《最美的书开箱｜当亚洲最古老的私人藏书楼，交出一本2025最美的书》BV1JmiKBGECR · 赵清／清门引设计，宁波出版社，2025最美的书《天一阁四重奏》",
+      "image": {
+        "file": "log-bili-tianyi.webp",
+        "alt": "本色麻布精装书立在木桌上，封面竖排「天一閣」「四重奏」，布纹上有植物的影子，前面是两只灰陶杯和一盆枯枝",
+        "width": 749,
+        "height": 928
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "line": "taste",
+      "id": "bili-shishan-hekao",
+      "title": "B站 · 曲闵民、蒋茜 · 《诗山河考》",
+      "note": "暗红封面上只用一根细线折出山脊，小字顺着坡度落点，底边压一道波纹作河。",
+      "href": "https://www.bilibili.com/video/BV1XDCeBtEHF/",
+      "source": "B站 · 雅昌文化《抢先看！2025年度“最美的书”》BV1XDCeBtEHF · 曲闵民、蒋茜设计，江苏凤凰美术出版社《诗山河考》封面实拍帧",
+      "image": {
+        "file": "log-bili-shishanhekao.webp",
+        "alt": "暗红封面立在白桌上，一根细线勾出山峰，沿线有小字，底部一道波纹；右侧是书名、设计者和出版社说明",
+        "width": 960,
+        "height": 540
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "line": "repression",
+      "id": "horst-mainbocher-corset",
+      "title": "V&A · Horst P. Horst · Mainbocher Corset",
+      "note": "她背对镜头低头坐着，始终不露正脸；裸背与腰身的情欲被骨撑束腰紧紧箍住，只留两条没系完的缎带垂到地上，停在将解未解之间。",
+      "href": "https://collections.vam.ac.uk/item/O143940/mainbocher-corset-photograph-horst/",
+      "source": "V&A 馆藏 Horst P. Horst《Mainbocher Corset》（1939，模特 Madame Bernon，Detolle 为 Mainbocher 制作的粉红缎胸衣；法国 Vogue 1939年12月刊出）",
+      "image": {
+        "file": "log-horst-mainbocher.webp",
+        "alt": "黑白照片：女人背对镜头坐在木凳上，双臂抬起，头垂向左肩，紧身胸衣后背的系带只束到一半，两条长缎带从凳面垂到地面，投下长影",
+        "width": 1338,
+        "height": 1666
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "line": "tension",
+      "id": "galiegue-loli-dior-lace",
+      "title": "AnOther · Robin Galiegue · Loli Bahia",
+      "note": "Loli Bahia 压低黑帽，双手把深色 Dior 裙幅向两侧拉开；她身上的性磁场来自透出肌肤的薄蕾丝、主动划定观看范围的双手，以及那道平视而不闪躲的目光。",
+      "href": "https://www.anothermag.com/fashion-beauty/16981/robin-galiegue-robbie-spencer-collections-spring-summer-2026",
+      "source": "AnOther Magazine Spring/Summer 2026 Issue 50 collections story · Robin Galiegue 摄影、Robbie Spencer 造型 · Loli Bahia（Women Management Paris）着 Dior embellished lace dress",
+      "image": {
+        "file": "log-loli-bahia-dior.webp",
+        "alt": "黑白肖像：Loli Bahia 戴黑帽，穿近乎透明的蕾丝裙，肩带细薄，双手把深色蕾丝裙幅向外拉开，目光平视略偏低",
+        "width": 1471,
+        "height": 1920
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "line": "beauty",
+      "id": "koike-satin-20261110",
+      "title": "小池里奈 · 暖光红缎露肩肖像",
+      "note": "暖光从高处打下来，小池里奈倚着白色方台眨眼，红缎顺着裸肩滑落，松松堆在手臂弯里。",
+      "href": "https://x.com/KoikeRina0903/status/2119525676508422180",
+      "source": "小池里奈 X @KoikeRina0903 · 2026-11-09「おはよう月曜日」暖光红缎露肩肖像（前夜 watch-20261109）",
+      "image": {
+        "file": "li-20261110-koike-satin.webp",
+        "alt": "俯拍暖色室内：小池里奈靠在白色方台上，一眼轻眨，红色缎面露肩上衣堆在前臂，细肩带和玫红高跟鞋也在画面里",
+        "width": 800,
+        "height": 1200
+      }
+    },
+    {
       "date": "2026-11-09",
       "line": "taste",
       "id": "as-huenito-grimm",
