@@ -33,36 +33,6 @@
     },
     {
       "date": "2026-11-11",
-      "line": "taste",
-      "id": "zcool-isay-editor-note",
-      "title": "站酷 · I-Say · 编者按",
-      "note": "满版黑底上只亮一行橘色中英标题，正文背后压着一枚巨大的半透明字母，小刊《I-Say》的第一页不放图，先立住口气。",
-      "href": "https://www.zcool.com.cn/article/ZMTY3ODYyMA==.html",
-      "source": "中文批 1 · 站酷文章《I-Say | 国际主义的理性之光（上期）》（ChuanBDL，约一年前）· 小杂志《I-Say》第 1 页编者按",
-      "image": {
-        "file": "log-zcool-isay-editor.webp",
-        "alt": "竖版杂志内页：黑底，顶部橘色「编者 按 Editor's Note」，中部是白色中文编者按，背后卧着一个巨大的半透明字母，页码 1",
-        "width": 840,
-        "height": 1400
-      }
-    },
-    {
-      "date": "2026-11-11",
-      "line": "taste",
-      "id": "zcool-isay-ruder-hofmann",
-      "title": "站酷 · I-Say · Ruder 与 Hofmann 教材页",
-      "note": "巴塞尔学派的正文落到栏底，并排摆开 Emil Ruder《Typographie》与 Armin Hofmann《Graphic Design Manual》两册实拍书影，右缘切一道橘色渐变。",
-      "href": "https://www.zcool.com.cn/article/ZMTY3ODYyMA==.html",
-      "source": "中文批 1 · 同一篇站酷 I-Say 国际主义特辑第 9 页：Emil Ruder《Typographie》（1967）与 Armin Hofmann《Graphic Design Manual》（1965）书影并置",
-      "image": {
-        "file": "log-zcool-isay-ruder.webp",
-        "alt": "竖版杂志内页：上半是关于巴塞尔学派的正文，右缘一道橘色渐变；栏底并排两本书影，左为黑白大字母拼成的 Typographie 封面，右为 Hofmann Graphic Design Manual 深色封面，页码 9",
-        "width": 840,
-        "height": 1400
-      }
-    },
-    {
-      "date": "2026-11-11",
       "line": "repression",
       "id": "newton-tied-up-torso",
       "title": "Getty · Helmut Newton · Tied up Torso",
