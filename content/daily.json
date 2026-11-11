@@ -2,6 +2,126 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "date": "2026-11-11",
+      "line": "taste",
+      "id": "casa-brutus-seoul-202610",
+      "title": "X · Casa BRUTUS · 2026年10月号 Seoul Lifestyle Guide",
+      "note": "草书刊名贴着原木天花板的空隙，下面是蓝桌、圆洞木椅与穿粉裤的 Min Hee-jin，整间屋子直接做了十月号的封面。",
+      "href": "https://x.com/CasaBRUTUS/status/2119767828224221331",
+      "source": "海外批 A · X @CasaBRUTUS（2026-11-09）· 月刊 Casa BRUTUS 2026年10月号 vol.318 封面，特集 Seoul Lifestyle Guide，feat. Min Hee-jin",
+      "image": {
+        "file": "log-casa-seoul-2026.webp",
+        "alt": "Casa BRUTUS 2026年10月号封面：原木天花板下，大草书写着 Casa；房间里有蓝色塑料桌椅、穿粉裤坐着翻杂志的人、带圆洞的木椅和绿植，底部标题 Seoul Lifestyle Guide",
+        "width": 950,
+        "height": 1199
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "line": "taste",
+      "id": "casa-koganeyu-shinjuku",
+      "title": "X · Casa BRUTUS · 黄金湯 新宿店",
+      "note": "永山祐子留住上半墙的旧壁画，下方新砌薄荷绿瓷砖、拱形镜与黄白浴凳，把老钱汤洗浴的位置重新归拢。",
+      "href": "https://x.com/CasaBRUTUS/status/2119774557032550559",
+      "source": "海外批 A · X @CasaBRUTUS（2026-11-09）· 永山祐子改造新宿黄金湯；刊文 https://casabrutus.com/categories/design/490471",
+      "image": {
+        "file": "log-casa-koganeyu.webp",
+        "alt": "澡堂内景：浅绿瓷砖洗身台与拱形镜排成一行，黄白凳子对着两口池水，整面墙是城堡、彩虹与山的壁画",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "line": "taste",
+      "id": "zcool-isay-editor-note",
+      "title": "站酷 · I-Say · 编者按",
+      "note": "满版黑底上只亮一行橘色中英标题，正文背后压着一枚巨大的半透明字母，小刊《I-Say》的第一页不放图，先立住口气。",
+      "href": "https://www.zcool.com.cn/article/ZMTY3ODYyMA==.html",
+      "source": "中文批 1 · 站酷文章《I-Say | 国际主义的理性之光（上期）》（ChuanBDL，约一年前）· 小杂志《I-Say》第 1 页编者按",
+      "image": {
+        "file": "log-zcool-isay-editor.webp",
+        "alt": "竖版杂志内页：黑底，顶部橘色「编者 按 Editor's Note」，中部是白色中文编者按，背后卧着一个巨大的半透明字母，页码 1",
+        "width": 840,
+        "height": 1400
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "line": "taste",
+      "id": "zcool-isay-ruder-hofmann",
+      "title": "站酷 · I-Say · Ruder 与 Hofmann 教材页",
+      "note": "巴塞尔学派的正文落到栏底，并排摆开 Emil Ruder《Typographie》与 Armin Hofmann《Graphic Design Manual》两册实拍书影，右缘切一道橘色渐变。",
+      "href": "https://www.zcool.com.cn/article/ZMTY3ODYyMA==.html",
+      "source": "中文批 1 · 同一篇站酷 I-Say 国际主义特辑第 9 页：Emil Ruder《Typographie》（1967）与 Armin Hofmann《Graphic Design Manual》（1965）书影并置",
+      "image": {
+        "file": "log-zcool-isay-ruder.webp",
+        "alt": "竖版杂志内页：上半是关于巴塞尔学派的正文，右缘一道橘色渐变；栏底并排两本书影，左为黑白大字母拼成的 Typographie 封面，右为 Hofmann Graphic Design Manual 深色封面，页码 9",
+        "width": 840,
+        "height": 1400
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "line": "repression",
+      "id": "newton-tied-up-torso",
+      "title": "Getty · Helmut Newton · Tied up Torso",
+      "note": "抬起的手臂让裸露的胸口毫无遮掩，细绳却在皮肤上勒出规整菱格，黑皮长手套封过手肘，把坦露的情欲按回皮革与绳结里。",
+      "href": "https://www.getty.edu/art/collection/object/109NG2",
+      "source": "Getty Museum · Helmut Newton《Tied up Torso》（负片 1980，拉马蒂埃勒；约 1984 年印本）。馆藏页未具名模特，为牛顿此系列公开时装／艺术摄影中的职业成年模特。",
+      "image": {
+        "file": "log-newton-tied-torso.webp",
+        "alt": "黑白照片印本：短发女人侧身站在浅色灰泥墙前，上身裸露，细绳在胸口勒成菱格，双臂套着长至上臂的黑皮手套，一只手臂抬起，下身是深色裙子，墙上有锯齿状的影子",
+        "width": 902,
+        "height": 1200
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "line": "tension",
+      "id": "sieff-adriana-dress",
+      "title": "AnOther · Jeanloup Sieff · Adriana",
+      "note": "头与四肢皆裁在画外，石墙前只留 Dolce & Gabbana 黑裙紧裹的腰臀；拉链沿后背正中一路切到底，身体的性引力全从这根紧绷的背线里生出来。",
+      "href": "https://www.anothermag.com/art-photography/2336/jeanloup-sieffs-women",
+      "source": "AnOther 文《Jeanloup Sieff's Women》刊载的时装写真：Adriana，Dolce & Gabbana 裙，诺曼底，Elle US。文中只记名前，为公开时装杂志刊出的成年模特写真。",
+      "image": {
+        "file": "log-sieff-adriana-dress.webp",
+        "alt": "黑白照片：女人背对镜头，画面从后腰裁到膝上，黑色紧身裙的拉链沿中线向下，面料贴着臀部的轮廓，背景是石墙",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "line": "beauty",
+      "id": "koike-bath-20261111",
+      "title": "小池里奈 · 浴缸湿发大笑",
+      "note": "湿发一缕缕贴在脸颊边，她双手抓着白瓷浴缸的缸沿仰头大笑，亮白光线把肩头的水珠照得很清楚。",
+      "href": "https://x.com/KoikeRina0903/status/2119894504560075169",
+      "source": "美女列表（裏）·前夜 watch-20261110 · 小池里奈本人 X @KoikeRina0903 浴缸湿发写真，名单第 17 条，生日 1993-09-03，已核成年",
+      "image": {
+        "file": "li-20261111-koike-bath.webp",
+        "alt": "小池里奈在浴缸里面向镜头大笑，湿发贴着脸颊和肩，浅绿色内衣，双手抓着白色缸沿，背后是米色瓷砖",
+        "width": 930,
+        "height": 1400
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "line": "beauty",
+      "id": "koike-shower-20261111",
+      "title": "小池里奈 · 淋浴蕾丝回眸",
+      "note": "逆光穿过淋浴间的水雾，她半侧着身子回头，被打湿的蓝灰色蕾丝贴在皮肤上，边缘还挂着水珠。",
+      "href": "https://x.com/KoikeRina0903/status/2120098427090747413",
+      "source": "美女列表（裏）·前夜 watch-20261110 · 小池里奈本人 X 所附 MySPA 提名淋浴蕾丝写真，与浴缸帖为不同原帖，已核成年",
+      "image": {
+        "file": "li-20261111-koike-shower.webp",
+        "alt": "小池里奈在淋浴间侧身回眸，马尾，蓝灰色蕾丝内衣，双手握着花洒，水雾和逆光打在身上，背景是窗与木色墙",
+        "width": 934,
+        "height": 1400
+      }
+    },
+    {
       "date": "2026-11-10",
       "line": "taste",
       "id": "pixivision-shimaya-foil",
