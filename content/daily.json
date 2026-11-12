@@ -2,6 +2,112 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "date": "2026-11-12",
+      "line": "taste",
+      "id": "int-tiquismiquis-odda-29",
+      "title": "It's Nice That · Tiquismiquis Club · Odda 第29期",
+      "note": "六条白书脊只竖排 ODDA 与嘉宾名，封面把大写刊名压在 Britney Spears 牛仔短裤的膝下，近七百页纸在桌上立成一排。",
+      "href": "https://www.itsnicethat.com/articles/tiquismiquis-club-odda-graphic-design-project-300626",
+      "source": "海外批 D · It's Nice That · Tiquismiquis Club 设计 Odda 第29期 The Way We Are",
+      "image": {
+        "file": "log-odda-tiquismiquis-29.webp",
+        "alt": "左为六条白色书脊，统一竖排 ODDA，下方分别是 Britney Spears 等嘉宾名；右为封面，Britney Spears 穿老鹰图案短上衣和牛仔短裤，大写 ODDA 压在膝下",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "line": "taste",
+      "id": "fiu-porter-jessica-2026",
+      "title": "Fonts In Use · PORTER · The Other Jessica Chastain",
+      "note": "PORTER 把新刊头收成左上角一枚巨大的白色 Triomf「P」，左下角标题顺着 Jessica Chastain 交叉的缎面手臂走同一条斜线。",
+      "href": "https://fontsinuse.com/uses/80674/porter-magazine",
+      "source": "海外批 D · Fonts In Use · PORTER 2026 新标识（GS Triomf），Jessica Chastain 黑白封面",
+      "image": {
+        "file": "log-fiu-porter-jessica.webp",
+        "alt": "黑白杂志封面：左上角巨大白色字母 P，竖排 PORTER Powered by NET-A-PORTER；Jessica Chastain 穿缎面裹身裙双臂交叉，左下角叠着 THE OTHER JESSICA CHASTAIN",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "line": "repression",
+      "id": "blumenfeld-wet-silk",
+      "title": "東京都写真美術館 · Erwin Blumenfeld · Nude under Wet Silk",
+      "note": "湿透的薄绢紧贴胸口显出起伏，往上却把整张脸蒙进重褶里：情欲刚浮到表面，又被同一块布捂住。",
+      "href": "https://collection.topmuseum.jp/Publish/detailPage/25716/",
+      "source": "東京都写真美術館藏 Erwin Blumenfeld《nude undre wet silk》（1937，巴黎）。封面取同一印本的公开画廊页高清图（馆藏公开最大约 195×250 且带水印，L 档提示未公开）。",
+      "image": {
+        "file": "log-blumenfeld-wet-silk.webp",
+        "alt": "黑白照片：湿绢紧贴女性胸口，乳房轮廓清楚，同一块布把面部蒙进皱褶，只隐约看见眉眼与嘴唇的位置",
+        "href": "https://huxleyparlourandco.com/artworks/8380-erwin-blumenfeld-nude-under-wet-silk-1937/",
+        "width": 1239,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "line": "tension",
+      "id": "steichen-gloria-swanson",
+      "title": "Getty · Edward Steichen · Gloria Swanson",
+      "note": "Gloria Swanson 隔着一整幅密织的黑色花叶蕾丝直视镜头，性磁场全从网眼与绣花空隙里露出的眼睛和嘴唇里来。",
+      "href": "https://www.getty.edu/art/collection/object/106H2M",
+      "source": "Getty Museum · Edward Steichen《Gloria Swanson》（1924，纽约）。Gloria Swanson 生于 1899 年，拍摄时已成年。馆藏 IIIF 公共最大 466×600，按 /full/max 再 2× LANCZOS 做封面。",
+      "image": {
+        "file": "log-steichen-swanson.webp",
+        "alt": "近乎方形的黑白肖像：Gloria Swanson 的整张脸罩在密织的黑色花叶蕾丝下，眼睛和嘴唇从网眼与绣花的空隙里看出来",
+        "width": 932,
+        "height": 1200
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "line": "beauty",
+      "id": "kokoro-dolce-green-20261112",
+      "title": "篠崎こころ · DOLCE 柠檬绿蕾丝",
+      "note": "篠崎こころ穿柠檬绿蕾丝与同色缎带跪坐在米色床单上，身后的木板墙把整个房间收进一片暖色里。",
+      "href": "https://x.com/kokoro777pp/status/2120114146717176100",
+      "source": "美女列表（裏）·前夜 watch-20261111 · 篠崎こころ 杂志《DOLCE》柠檬绿蕾丝坐床肖像",
+      "image": {
+        "file": "li-20261112-kokoro-green.webp",
+        "alt": "短发浅粉金的女性跪坐在米色床单上，穿着柠檬绿蕾丝内衣，胸前和裤侧有同色缎带，身后是浅色木墙",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "line": "beauty",
+      "id": "kokoro-dolce-wall-20261112",
+      "title": "篠崎こころ · DOLCE 涂鸦墙白蕾丝",
+      "note": "篠崎こころ把双臂举过头顶，白蕾丝贴着身体，身后是一面流着蓝漆的涂鸦白墙。",
+      "href": "https://x.com/kokoro777pp/status/2120114146717176100",
+      "source": "美女列表（裏）·前夜 watch-20261111 · 同一条《DOLCE》原帖：白蕾丝靠蓝色涂鸦墙",
+      "image": {
+        "file": "li-20261112-kokoro-wall.webp",
+        "alt": "同一人双臂举过头顶靠在白墙上，穿白色蕾丝内衣，墙面有向下流淌的蓝色涂鸦，墙角有一小丛绿植",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "line": "beauty",
+      "id": "koike-teal-20261112",
+      "title": "小池里奈 · 柜前青绿蕾丝坐姿",
+      "note": "小池里奈抱膝坐在开裂的水泥地上笑，身后是网纹门板的木柜，身上的青绿蕾丝镶着一圈米色花边。",
+      "href": "https://x.com/KoikeRina0903/status/2120253607396458733",
+      "source": "美女列表（裏）·前夜 watch-20261111 · 小池里奈柜前青绿蕾丝坐姿笑",
+      "image": {
+        "file": "li-20261112-koike-teal.webp",
+        "alt": "棕色中长发的女性抱膝坐在灰色开裂水泥地上微笑，穿青绿色蕾丝内衣，身后是深木色网纹门板柜子，柜上有几何纹花瓶、琥珀色杯子和绿植",
+        "width": 800,
+        "height": 1200
+      }
+    },
+    {
       "date": "2026-11-11",
       "line": "taste",
       "id": "casa-brutus-seoul-202610",
