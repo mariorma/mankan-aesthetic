@@ -2,6 +2,141 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "date": "2026-11-13",
+      "line": "taste",
+      "id": "yt-monocle-april-2025",
+      "title": "YouTube · Monocle · 2025年4月号预告",
+      "note": "「Paris—Tokyo Style Top 25」的黑底封面密铺成整面墙纸，粗白刊头与红细线在重复里成了底纹。",
+      "href": "https://www.youtube.com/watch?v=4lBc_K-TnPg",
+      "source": "海外批 C · YouTube · Monocle Films《Monocle preview: April issue, 2025》官方预告海报（封面墙纸）",
+      "image": {
+        "file": "log-yt-monocle-paris-tokyo.webp",
+        "alt": "黑底上，Monocle 2025年4月号封面「Paris—Tokyo Style Top 25」被反复铺成墙纸，粗白刊头、红细条和人物小图一起重复",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "line": "taste",
+      "id": "vimeo-selvedge-133-kin",
+      "title": "Vimeo · Selvedge · Issue 133 Kin",
+      "note": "浅灰页框里，「selvedge」衬线刊名压住一节红卧铺车厢，车窗刚好框进峡湾与黄房子。",
+      "href": "https://vimeo.com/1238370843",
+      "source": "海外批 C · Vimeo · Selvedge Issue 133 Kin 官方预告片封面（即该期封面，摄影 Pranoy Sarkar）",
+      "image": {
+        "file": "log-vimeo-selvedge-133.webp",
+        "alt": "浅灰边框的 Selvedge 封面：衬线刊名压在红色卧铺车厢上方，下铺四人坐着，上铺两人靠着花枕，窗中是峡湾、黄房子和红色小屋，底部一行 The Fabric of Your Life",
+        "width": 918,
+        "height": 943
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "line": "taste",
+      "id": "morisawa-fonts-2026",
+      "title": "SANKOU · モリサワ Morisawa Fonts · 新書体 2026",
+      "note": "黄底页心摊开一本线描册子，放大镜压住「新書体 2026」里的 0，四周是被页边切开的巨幅汉字。",
+      "href": "https://new.morisawafonts.com/2026/",
+      "source": "中文批 3 · SANKOU／モリサワ官方特设页 Morisawa Fonts 2026 新書体",
+      "image": {
+        "file": "log-morisawa-fonts-2026.webp",
+        "alt": "黄底网页：居中一本打开的线描书，书上写着 Morisawa Fonts、新書体、New Typefaces、2026，放大镜压在 0 上，四周是被裁进画面的巨大汉字和直排说明",
+        "width": 1200,
+        "height": 750
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "line": "taste",
+      "id": "hello-beauty-mag-01",
+      "title": "SANKOU · Hello Beauty & Mag. · Issue 01",
+      "note": "浅奶油色底页挖出一扇不规则的窗，细衬线刊名直接印在窗里的海面与粉白小花上。",
+      "href": "https://mag.hello-beauty-wellness.com/",
+      "source": "中文批 3 · SANKOU／Hello Beauty & Mag. Issue 01 Autumn 2026 官方首页",
+      "image": {
+        "file": "log-hello-beauty-mag.webp",
+        "alt": "浅奶油色网页：左上角 10 标识，中间一块有机形窗口里是海岸、山与粉白小花，细衬线刊名 Hello Beauty & Mag. 压在海面上，左下角写 Issue 01 / Autumn 2026",
+        "width": 1200,
+        "height": 750
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "line": "repression",
+      "id": "manray-violon-dingres",
+      "title": "Centre Pompidou · Man Ray · Le Violon d'Ingres",
+      "note": "她侧过脸不看镜头，裸露的脊背与臀线带着肉感，却被后腰两道黑色 f 孔按进一件提琴的规矩里。",
+      "href": "https://www.centrepompidou.fr/en/ressources/oeuvre/cz9nA9",
+      "source": "性压抑 · Centre Pompidou · Man Ray《Le Violon d'Ingres》（1924，Kiki de Montparnasse）",
+      "image": {
+        "file": "log-manray-violon.webp",
+        "alt": "黑白照片：一名包着花纹头巾的裸背女子侧坐，脸转到左边，腰上画着两个黑色小提琴 f 孔，下身围着落在棋盘格上的织物",
+        "width": 1278,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "line": "tension",
+      "id": "schorr-pamela-red-polo",
+      "title": "AnOther · Collier Schorr · Pamela Anderson",
+      "note": "大号红色长袖 polo 当裙子穿，下摆刚及腿根；单人的性引力全从她抬起的一只膝、裸腿与偏开的视线里出来。",
+      "href": "https://www.anothermag.com/fashion-beauty/gallery/14539/pamela-anderson-for-another-magazine-spring-summer-2026/19",
+      "source": "单人性张力 · AnOther SS2026 · Collier Schorr 拍摄 Pamela Anderson 红 polo 抬膝侧脸",
+      "image": {
+        "file": "log-pamela-red-polo.webp",
+        "alt": "金发女子穿一件过大的红色长袖 polo 当裙子，下摆到腿根，一只膝抬起，目光看向左侧，身后是浅灰墙和一道影子",
+        "width": 1277,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "line": "beauty",
+      "id": "enako-cardigan-20261113",
+      "title": "えなこ · 条纹开衫庭园肖像",
+      "note": "蓝驼相间的毛绒条纹开衫扣到胸口，她站在竹篱与深树影前，松软的针织把全身裹住。",
+      "href": "https://x.com/enako_cos/status/2120644831122948518",
+      "source": "美女列表（裏）·前夜 watch-20261112 · えなこ庭园条纹开衫全身像",
+      "image": {
+        "file": "li-20261113-enako-cardigan.webp",
+        "alt": "短发女性站在竹篱与绿树前，穿着蓝、浅蓝与棕色条纹的毛绒开衫，下身是米白长裙，一手扶着竹栏",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "line": "beauty",
+      "id": "koike-flower-20261113",
+      "title": "小池里奈 · 绿花近景肖像",
+      "note": "一簇浅黄绿的花挡住嘴唇与下颌，她从花瓣上方抬起眼，直直看向镜头。",
+      "href": "https://x.com/KoikeRina0903/status/2120655581589696797",
+      "source": "美女列表（裏）·前夜 watch-20261112 · 小池里奈绿花近景",
+      "image": {
+        "file": "li-20261113-koike-flower.webp",
+        "alt": "棕色长发女性近景，面前几朵浅黄绿色雏菊挡住嘴唇，眼睛从花瓣上方看向镜头，肩头露出深色衣边",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "line": "beauty",
+      "id": "asuka-chair-20261113",
+      "title": "齋藤飛鳥 · 灰墙窗边坐姿",
+      "note": "她穿白衫与墨绿长裤，侧坐在深灰墙边的木椅里，窗外是一层安静的树影。",
+      "href": "https://x.com/asuka3110_staff/status/2120800012506484963",
+      "source": "美女列表（裏）·前夜 watch-20261112 · 齋藤飛鳥灰墙窗边木椅坐姿",
+      "image": {
+        "file": "li-20261113-asuka-chair.webp",
+        "alt": "黑发女性侧坐在深灰墙前的木椅上，穿着白衬衫和墨绿长裤，右手搭在宽椅面上，右侧落地窗外是绿叶和一只白灯笼",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
       "date": "2026-11-12",
       "line": "taste",
       "id": "int-tiquismiquis-odda-29",
