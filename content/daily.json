@@ -2,6 +2,126 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "date": "2026-11-14",
+      "line": "taste",
+      "id": "brutus-eiga-textbook-2026",
+      "title": "BRUTUS No.1066 · 映画選びの教科書 2026年版",
+      "note": "玫红刊名压住一排黑字竖排导读，粉字「映画選びの教科書」横切版心；下半页的黑白剧照里，两个穿西装戴礼帽的男人沉沉睡着。",
+      "href": "https://x.com/BRUTUS_mag/status/2121408017220370486",
+      "source": "海外批 A · X @BRUTUS_mag（2026-11-14）· 月刊 BRUTUS No.1066（2026.12.1）表紙解禁，《映画選びの教科書 2026年版》。刊文 https://brutus.jp/magazine/issue/1066/",
+      "image": {
+        "file": "log-brutus-eiga-1066.webp",
+        "alt": "BRUTUS 杂志封面：上方是玫红粗刊名和一排黑色竖排导读，中间横排粉字「映画選びの教科書」和「2026年版」，下半页是两名戴帽穿西装的男人躺在床上睡着的黑白剧照，左下角写 No.1066",
+        "width": 1183,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "line": "taste",
+      "id": "popeye-utamaru-form",
+      "title": "POPEYE · 僕らにちょうどいい映画 · パニック・フライト",
+      "note": "宇多丸在印刷表格的 TITLE、DIR、YR 空栏里手写填进《パニック・フライト》，下半页配着机场公路上奔跑的剧照。",
+      "href": "https://x.com/POPEYE_Magazine/status/2121187137991377400",
+      "source": "海外批 A · X @POPEYE_Magazine（2026-11-13）· 连载「僕らにちょうどいい映画」，宇多丸推荐韦斯·克雷文《パニック・フライト》（Red Eye，2005）",
+      "image": {
+        "file": "log-popeye-utamaru-form.webp",
+        "alt": "POPEYE 内页：上方蓝字标题「「感動NG」でもちょうどいい映画」，左侧是戴墨镜的推荐人小肖像，右侧是手写填入的印刷表格，写着片名パニック・フライト、导演ウェス・クレイヴン、年份2005；下半页是一名女子在机场道路上奔跑、旁边一辆黄色出租车的剧照",
+        "width": 1309,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "line": "taste",
+      "id": "zcool-kagero-nikki",
+      "title": "站酷 · 《蜻蛉日记》书籍设计",
+      "href": "https://www.zcool.com.cn/work/ZNjg3OTcwMjg=.html",
+      "note": "灰云纹函套沿套口裁出起伏，正中挖一扇椭圆窗；白封皮上的青绿渐变假名，从窗口与云状切口两处一起透出来。",
+      "source": "中文批 1 · 站酷书籍/画册检索作品页（作品页本轮仍为加密壳，封面取站酷官方 CDN 原图并已目视）《蜻蛉日记／书籍设计 封面设计 书籍装帧 印刷工艺》",
+      "image": {
+        "file": "log-zcool-kagero-nikki.webp",
+        "alt": "一本白色封面的书斜放在白背景上，封面是青绿渐变的日文假名；前面罩着灰色云纹函套，函套边缘做成云状起伏，中间挖出椭圆窗，露出里面的字",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "line": "taste",
+      "id": "zcool-bencao-longlin",
+      "title": "站酷 · 《本草纲目》龙鳞装",
+      "href": "https://www.zcool.com.cn/work/ZNjcwNjkxNTI=.html",
+      "note": "书页按龙鳞装层层错开，每页切口拼出左侧的长须人像与右侧的山水红花，摊平便连成一幅横卷。",
+      "source": "中文批 1 · 站酷书籍/画册检索作品页（作品页本轮仍为加密壳，封面取站酷官方 CDN 原图并已目视）《本草纲目》龙鳞装书籍装帧设计",
+      "image": {
+        "file": "log-zcool-bencao-longlin.webp",
+        "alt": "一本龙鳞装的书被翻开，层层书页像鳞片一样错开，画面连成一条横幅：左侧是长须人物，右侧是山水与红花，纸色偏旧",
+        "width": 1600,
+        "height": 992
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "line": "repression",
+      "id": "bernhard-in-the-box",
+      "title": "V&A · Ruth Bernhard · In the Box - Horizontal",
+      "note": "侧卧的裸体弧线、微收的膝与伸直的手臂被四壁浅纸箱严实卡住；她合着眼不交出视线，身体里的情欲被硬纸板收束成一件静物。",
+      "href": "https://collections.vam.ac.uk/item/O144634/in-the-box---photograph-ruth-bernhard/",
+      "source": "性压抑 · V&A 藏 Ruth Bernhard《In the Box - Horizontal》（1962，1992 年印本）。馆藏页未具名模特，为伯恩哈德此系列公开艺术摄影中的职业成年模特。封面取馆藏页 framemark /full/!1600，并裁去色卡与外框。",
+      "image": {
+        "file": "log-bernhard-in-the-box.webp",
+        "alt": "黑白照片：一名裸体女子侧躺在一只浅而长的纸箱里，双膝收起，双臂向上伸直，眼睛闭着，箱子像一道框把身体卡住",
+        "width": 1500,
+        "height": 652
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "line": "tension",
+      "id": "penn-harlequin-dress",
+      "title": "V&A · Irving Penn · Harlequin Dress · Lisa Fonssagrives-Penn",
+      "note": "宽檐帽、毛皮领与黑白棋盘格裙将她严整裹住；身上的性磁场全部聚在长手套举起的那支烟、深色嘴唇，以及直逼镜头的目光里。",
+      "href": "https://collections.vam.ac.uk/item/O1055727/photograph-penn-irving/",
+      "source": "单人性张力 · V&A 藏 Irving Penn《Harlequin Dress (Lisa Fonssagrives-Penn), New York》（1950，1979 年铂钯印本）。Lisa Fonssagrives-Penn 生于 1911 年，拍摄时已成年。刊于 American Vogue，1950 年 4 月 1 日。裙为 Jerry Parnis。封面取馆藏页 framemark /full/!1600。",
+      "image": {
+        "file": "log-penn-harlequin.webp",
+        "alt": "黑白照片：一名女子坐在浅色背景前，戴宽檐黑帽和长手套，一手举着香烟，穿黑白菱格裙和毛皮领，珠项链，深色嘴唇，眼睛直视镜头",
+        "width": 1524,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "line": "beauty",
+      "id": "kokoro-dolce-lying-20261114",
+      "title": "篠崎こころ · DOLCE 浅绿蕾丝卧姿",
+      "note": "米白床单上她侧身卧着，一条腿向后微扬；自然窗光擦过浅绿蕾丝，把同一道身体轮廓映进床边的镜面里。",
+      "href": "https://x.com/kokoro777pp/status/2120852581887119586",
+      "source": "美女列表（裏）·前夜 watch-20261113 · 篠崎こころ DOLCE 浅绿蕾丝卧姿新切，与 11-12 已收坐姿、涂鸦墙为同系列不同原帖与构图",
+      "image": {
+        "file": "li-20261114-kokoro-lying.webp",
+        "alt": "短发粉色头发的女性侧卧在米色床单上，穿浅绿色蕾丝内衣，一条腿向上扬起，身后是落地窗和一面镜子，镜里映出抬起的腿",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "line": "beauty",
+      "id": "koike-ribbon-20261114",
+      "title": "小池里奈 · 粉红解丝带",
+      "note": "浅粉背景前，她的手指正将一层薄纱从肩头拨开；均匀的棚光落在皮肤上，粉色比基尼只留几根细线。",
+      "href": "https://x.com/KoikeRina0903/status/2120980681744617900",
+      "source": "美女列表（裏）·前夜 watch-20261113 · 小池里奈粉色解丝带写真",
+      "image": {
+        "file": "li-20261114-koike-ribbon.webp",
+        "alt": "棕色长发女性站在浅粉色背景前，穿着细带粉色比基尼，双手把一层半透明的粉红纱从肩上拉开，看向镜头",
+        "width": 800,
+        "height": 1200
+      }
+    },
+    {
       "date": "2026-11-13",
       "line": "taste",
       "id": "yt-monocle-april-2025",
