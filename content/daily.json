@@ -2,6 +2,126 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "date": "2026-11-15",
+      "line": "taste",
+      "id": "pixivision-archive-shell",
+      "title": "Pixivision · BALCOLONY. · pixiv archive 2007-2017 · 白壳与蓝本体",
+      "note": "几乎无字的白盒分作盖与身，拆开后蓝皮书平放，书名只剩一行极小的白字。",
+      "href": "https://www.pixivision.net/ja/a/3333",
+      "source": "海外批 B · Pixivision · BALCOLONY. × 共立印刷，《pixiv archive 2007-2017》装丁访谈。封面取文内已目视实物照片。",
+      "image": {
+        "file": "log-pixiv-archive-shell.webp",
+        "alt": "白色外箱的盖和身分成两块几乎无字的长方体，前面平放着一本蓝色封面的书，书名 pixiv archive 2007-2017 只是一行很小的白字",
+        "width": 1480,
+        "height": 986
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "line": "taste",
+      "id": "pixivision-archive-flush",
+      "title": "Pixivision · pixiv archive 2007-2017 · チリなし切口",
+      "note": "蓝封面与白书口一刀齐平，没有精装书壳外探的那圈台阶（チリなし），六个面像一块刚切出来的立方体。",
+      "href": "https://www.pixivision.net/ja/a/3333",
+      "source": "海外批 B · 同一篇 Pixivision 访谈。封面取文内已目视的チリなし切口特写。",
+      "image": {
+        "file": "log-pixiv-archive-flush.webp",
+        "alt": "特写：蓝色封面与白色书口齐平，没有通常精装书壳高出书心的台阶，书口呈干净的长方形",
+        "width": 1480,
+        "height": 986
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "line": "taste",
+      "id": "huaban-pillow-book",
+      "title": "花瓣 · 王志弘 · 文景《枕草子》The Pillow Book",
+      "note": "白底右侧竖排「枕草子」三字，细碎的黑点与金点在笔画与左侧的 The Pillow Book 之间聚散。",
+      "href": "https://huaban.com/pins/4234766886",
+      "source": "中文批 1 · 花瓣搜索「书籍设计」· 王志弘为文景设计的《枕草子》实物封面（清少纳言著，周作人译，上海人民出版社 / Horizon）。pin 详情页本轮 curl 为 EO_Bot，封面取花瓣官方 CDN 原图并已目视。对照说明见优设盘点文 https://www.uisdc.com/history/wangzhihong 。",
+      "image": {
+        "file": "log-huaban-pillow-book.webp",
+        "alt": "一本白色封面的精装书放在浅灰背景上，右侧竖排大字枕草子，黑点与金点从字里向左散开，左侧有英文 The Pillow Book 和文景标志",
+        "width": 1143,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "line": "repression",
+      "id": "brandt-campden-1947",
+      "title": "V&A · Bill Brandt · Campden Hill, London 1947",
+      "note": "她赤身抱住椅背，不把脸交给镜头；前景巨大的暗椅与厚落地帘挡住视线，把情欲困在维多利亚客厅规整的家具秩序里。",
+      "href": "https://collections.vam.ac.uk/item/O1061590/nude-photograph-brandt-bill/",
+      "source": "性压抑 · V&A 藏 Bill Brandt《Campden Hill, London 1947》（1976 年印本）。馆藏页未具名模特，为 Brandt 室内裸体系列中的成年模特。封面取馆藏页 framemark /full/!1600，并裁去白色装裱与签名。",
+      "image": {
+        "file": "log-brandt-campden-1947.webp",
+        "alt": "黑白照片：前景一把巨大的暗椅子几乎挡住画面，远处一名裸体女子坐在另一把椅子上，双臂抱住椅背，身边是落地帘、门和地毯",
+        "width": 1379,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "line": "tension",
+      "id": "bruehl-dietrich-reflection",
+      "title": "V&A · Anton Bruehl · Women and her Reflection · Marlene Dietrich",
+      "note": "她握着红花俯身靠近，从低处抬眼，桌面将同一张脸再映一次；整场性张力不靠第二个人，全从这道逼近的视线与倒影里生出。",
+      "href": "https://collections.vam.ac.uk/item/O1755033/women-and-her-reflection-photograph-bruehl-anton/",
+      "source": "单人性张力 · V&A 藏 Anton Bruehl《Women and her Reflection (Marlene Dietrich)》，约 1935 年，曾刊于 Condé Nast《Color Sells》。Marlene Dietrich 生于 1901 年，拍摄时已成年。封面取馆藏页 framemark /full/!1600，并裁去装裱与签名。",
+      "image": {
+        "file": "log-bruehl-dietrich-reflection.webp",
+        "alt": "彩色肖像：金发女子穿深色衣服俯身靠近，一手握着红花抬眼看向镜头，前景的桌面上映出她的倒影",
+        "width": 1263,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "line": "beauty",
+      "id": "enako-ol-20261115",
+      "title": "えなこ · 蓝衬衫办公室侧影",
+      "note": "百叶窗的窄光切开蓝衬衫与黑长裤，她侧身读一页文件，一只脚松松地踮在另一只高跟鞋上。",
+      "href": "https://x.com/enako_cos/status/2121550572612669742",
+      "source": "美女列表（裏）· 前夜追更 watch-20261114 · X @enako_cos",
+      "image": {
+        "file": "li-20261115-enako-ol.webp",
+        "alt": "短发女子穿蓝衬衫和黑裤，侧身站在百叶窗前读文件，一只脚踮在另一只黑色高跟鞋上，旁边有绿植",
+        "width": 1066,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "line": "beauty",
+      "id": "yua-lakeside-20261115",
+      "title": "三上悠亜 · 暮色湖边菱格背心",
+      "note": "湖对岸压着一线暮色，她穿粉灰菱格高领背心站在白栏杆前，双手插袋，晚风把耳侧的长发吹散。",
+      "href": "https://x.com/yua_mikami/status/2121245439790096390",
+      "source": "美女列表（裏）· 前夜追更 watch-20261114 · X @yua_mikami",
+      "image": {
+        "file": "li-20261115-yua-lakeside.webp",
+        "alt": "暮色湖边，女子穿粉灰菱格高领背心和牛仔裤，双手插袋站在白色栏杆前，风吹起头发，对岸是城市轮廓",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "line": "beauty",
+      "id": "yua-lakeside-turn-20261115",
+      "title": "三上悠亜 · 暮色湖边回眸",
+      "note": "仍在同一道白栏杆前，她侧身回头，指尖抬到耳际；身后是整片暗下来的湖水与刚刚亮起的城市天际线。",
+      "href": "https://x.com/yua_mikami/status/2121245439790096390",
+      "source": "美女列表（裏）· 前夜追更 watch-20261114 · X @yua_mikami 同帖回眸帧",
+      "image": {
+        "file": "li-20261115-yua-lakeside-turn.webp",
+        "alt": "暮色湖边，同一名女子侧身回看镜头，一只手靠近耳际，身后是白色栏杆、湖水和对岸灯火",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
       "date": "2026-11-14",
       "line": "taste",
       "id": "brutus-eiga-textbook-2026",
