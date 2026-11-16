@@ -2,6 +2,96 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "ginza-jurin-2026-12",
+      "date": "2026-11-16",
+      "line": "taste",
+      "title": "GINZA 12月号 · JURIN（XG）",
+      "note": "米色底上，手写大红 G 压住左上角；JURIN 托腮斜看，眼尾与针织袖口把刊头那一笔红又应了一遍。",
+      "href": "https://ginzamag.com/categories/magazine/609689",
+      "source": "海外批 A · X @GINZA_magazine（2026-11-15）· GINZA 2026年12月号（ISSUE 354）表紙解禁，特集「服と響き合う、メイクアップ。」封面人物 JURIN（XG）。刊文 https://ginzamag.com/categories/magazine/609689 ；X 原帖 https://x.com/GINZA_magazine/status/2120456518994685967 。封面取官方图 GN12WH001G 并已目视。JURIN（XG）生于 2002-06-19，公开履历已核成年。",
+      "image": {
+        "file": "log-ginza-jurin-2026-12.webp",
+        "alt": "GINZA 2026年12月号封面：米色底，左上角巨大手写红字 G 和 GINZA 标志，右侧是 JURIN 托腮近景，红色眼妆，红白针织袖口，底部大红标题「服と響き合う、メイクアップ。」",
+        "width": 1239,
+        "height": 1600
+      }
+    },
+    {
+      "id": "eye-kitching-obi",
+      "date": "2026-11-16",
+      "line": "taste",
+      "title": "Eye · Alan Kitching · 999 Books 腰封",
+      "note": "同一本白封并排对照：左边束着日英双语腰封，右边抽去纸带，露出活版满印的巨大粉红色字母 A。",
+      "href": "https://www.eyemagazine.com/blog/post/kitching-in-kyoto",
+      "source": "海外批 A · X @eyemagazine · Eye Magazine 博文《Kitching in Kyoto》（京都 ddd gallery《Alan Kitching: Living Legacy of Letterpress》展，2026-08-28–10-21）文内 999 Books—146 图录实物照片：左为日英双语腰封，右为揭开后的活版粉红色大写 A。X 原帖 https://x.com/eyemagazine/status/2112814367347478906 。封面取文内已目视实物照片。",
+      "image": {
+        "file": "log-eye-kitching-obi.webp",
+        "alt": "并排两本白色封面的书放在木桌上：左边一本罩着白色腰封，写着「視覚的奇跡の数々」和英文 The visual fruits of Kitching's long career；右边同一本书揭开腰封，露出活版印出的巨大粉红色字母 A，顶部是 ALAN KITCHING 和片假名",
+        "width": 1600,
+        "height": 1051
+      }
+    },
+    {
+      "id": "bilibili-huabu",
+      "date": "2026-11-16",
+      "line": "taste",
+      "title": "雅昌 · 尹琳琳《花布》",
+      "note": "红底花鸟织锦直接包做书封，绿字书名下，一条翠绿腰封托住底端的 Red Print，像从旧被面上裁下的一块。",
+      "href": "https://www.bilibili.com/video/BV1HnXhBREiw",
+      "source": "中文批 2 · B站 · 雅昌《花布》书籍设计展示（BV1HnXhBREiw）。装帧 尹琳琳，入选 2025 中国最美的书、2026 世界最美的书。封面取视频里已目视的实物书（大红织锦纹与翠绿腰封），并裁去宣传字。桌面 www 页本轮 HTTP 412，画面核自 m.bilibili.com 与 videoshot 帧。",
+      "image": {
+        "file": "log-bilibili-huabu.webp",
+        "alt": "大红背景上立着一本精装书：封面是红底花鸟织锦纹样，右上横排绿字「花布」，底部一条翠绿腰封上印着英文书名 Red Print: A Memory of the Daughters' Quilts and Their Surface Pattern",
+        "width": 1320,
+        "height": 1600
+      }
+    },
+    {
+      "id": "bilibili-liang-shaoji",
+      "date": "2026-11-16",
+      "line": "taste",
+      "title": "雅昌 · 白凤鹍《梁绍基》",
+      "note": "半透明的蚕丝纸裹住书口，撕开的毛边带着霜感；书名隔着白纤维，只往外透出一层灰影。",
+      "href": "https://www.bilibili.com/video/BV1UpW968ESg",
+      "source": "中文批 2 · B站 · 雅昌《梁绍基》书籍设计展示（BV1UpW968ESg）。装帧 白凤鹍，入选 2026 中国最美的书。封面取视频里已目视的蚕丝纸包书特写，并裁去宣传字。桌面 www 页本轮 HTTP 412，画面核自 m.bilibili.com 与 videoshot 帧。",
+      "image": {
+        "file": "log-bilibili-liang-shaoji.webp",
+        "alt": "特写：一本用半透明白色蚕丝纸包住的书，书口毛边像霜，封面字只剩一层灰色的影子，从撕开的纤维底下透出来",
+        "width": 1467,
+        "height": 1600
+      }
+    },
+    {
+      "id": "horst-lisa-talbot-1939",
+      "date": "2026-11-16",
+      "line": "tension",
+      "title": "V&A · Horst · Lisa Fonssagrives · Talbot 网纱帽",
+      "note": "黑网纱罩住半张脸，她侧眼斜看，涂深色甲油的手按在解剖手绘图上。这里的性磁场不靠第二个人，全从半透的纱与按住纸面的指尖里来。",
+      "href": "https://collections.vam.ac.uk/item/O1293747/",
+      "source": "单人性张力 · V&A 藏 Horst P. Horst 1939 年摄影，Suzanne Talbot 帽，Lisa Fonssagrives 出镜。变体刊于 American Vogue，1940 年 1 月 15 日，p.38《Fashion: Your Next Hat》。Lisa Fonssagrives 生于 1911 年，拍摄时已成年。封面取馆藏页 framemark /full/!1600，并裁去灰色装裱与底片边（含编号 H697-149）。此为 1939 年网纱帽与解剖手稿的构图，与 11-14 已收的 Penn《Harlequin Dress》（1950）不是同一张。",
+      "image": {
+        "file": "log-horst-lisa-talbot-1939.webp",
+        "alt": "黑白照片：女子戴黑色网纱帽和头顶的花，网纱罩住半张脸，侧眼看向右侧；她俯身靠近一本打开的解剖手绘图，一只涂了深色甲油的手按在页上的手稿旁边",
+        "width": 1295,
+        "height": 1600
+      }
+    },
+    {
+      "id": "koike-sit-20261116",
+      "date": "2026-11-16",
+      "line": "beauty",
+      "title": "小池里奈 · 席地托腮",
+      "note": "宽松的米色卫衣下露出蓝白格衬衫，她赤足屈膝坐在地上，双手托住下巴，目光偏过镜头。",
+      "href": "https://x.com/KoikeRina0903/status/2121714928625328451",
+      "source": "美女列表（裏）· 前夜追更 watch-20261115 · X @KoikeRina0903。室内棚光全身坐地写真，不是街拍或活动媒体照。小池里奈生于 1993-09-03，已核成年。非露点。",
+      "image": {
+        "file": "li-20261116-koike-sit.webp",
+        "alt": "棕色长发女子坐在浅色木地板上，穿着敞开的米色卫衣和蓝白格子衬衫，双膝收起，双手托住下巴，赤足，看向镜头左侧",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
       "date": "2026-11-15",
       "line": "taste",
       "id": "pixivision-archive-shell",
