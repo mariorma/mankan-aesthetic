@@ -2,6 +2,81 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "huaban-sugiura-ginka-59",
+      "date": "2026-11-17",
+      "line": "taste",
+      "title": "花瓣 · 杉浦康平 ·《季刊銀花》第59号",
+      "note": "大红朝颜与斑叶从白底右上蔓开，刊名收进右上角蓝框，竖排「紙燭殘影」与封面字句顺着花叶的空隙落位。",
+      "href": "https://huaban.com/pins/5939033141",
+      "source": "中文批 1 · 花瓣。杉浦康平为文化出版局《季刊銀花》第59号（1984）装帧。封面取官方 CDN（gd-hbimg.huaban.com）实物照片并已目视：右上蓝框「季刊銀花 1984 第五十九号」，特集朝貌，大红朝颜与斑叶铺在版心，左列竖排「紙燭殘影」。href 仍指向 pin 页；pin 详情本轮仍为 EO_Bot，已注明详情受限。",
+      "image": {
+        "file": "log-huaban-ginka-59.webp",
+        "alt": "白色桌面上的一本杂志：《季刊銀花》1984年第59号封面，右上蓝框刊名，大红朝颜与斑叶铺在版心，左列竖排「紙燭殘影」，下方有「藝」字、镜台和一排小图。",
+        "width": 1201,
+        "height": 1600
+      }
+    },
+    {
+      "id": "huaban-zhuyingchun-feirou",
+      "date": "2026-11-17",
+      "line": "taste",
+      "title": "花瓣 · 朱赢椿 ·《肥肉》",
+      "note": "整本书印成红白相间的五花肉，用透明塑料膜连书脊一并裹紧；封面贴着「一级带皮五花肉」条码价签，紫色检验章盖在书脊上。",
+      "href": "https://huaban.com/pins/7146050738",
+      "source": "中文批 1 · 花瓣。朱赢椿装帧的散文集《肥肉》，南京师范大学出版社，2014 年初版、2020 年增订。封面取官方 CDN 实物照片并已目视，已裁掉原图下方三视图与说明字，只留裹膜中的书。href 仍指向 pin 页；pin 详情本轮仍为 EO_Bot，已注明详情受限。",
+      "image": {
+        "file": "log-huaban-feirou.webp",
+        "alt": "白底上斜放着一本被透明塑料膜裹住的书：封面印成红白相间的五花肉层理，贴着「一级带皮五花肉」和 56.00 元的条码价签，书脊上有社名和紫色检验章。",
+        "width": 1600,
+        "height": 1344
+      }
+    },
+    {
+      "id": "osborne-charlize-cape",
+      "date": "2026-11-17",
+      "line": "repression",
+      "title": "AnOther · Sharna Osborne · Charlize Theron（白斗篷）",
+      "note": "白缎立领箍住喉咙，近乎封死的白斗篷将身体严密收拢；她目光平直，情欲被礼仪般的白布拧住，只从胸前一道竖缝漏出一线皮肤。",
+      "href": "https://www.anothermag.com/fashion-beauty/gallery/14531/charlize-theron-for-another-magazine-spring-summer-2026/14",
+      "source": "性压抑。AnOther Magazine SS2026，摄影 Sharna Osborne，造型 Emma Wyman，画廊第 14 帧。Charlize Theron 生于 1975 年，拍摄时已成年。封面取画廊官方图 469960 并已目视。性在胸前那道裂开的皮肤和被立领箍住的喉咙；压住它的是近乎封死的白斗篷与缎面高领。不是空房间或普通忧郁独照。",
+      "image": {
+        "file": "log-osborne-charlize-cape.webp",
+        "alt": "Charlize Theron 穿一件白色斗篷正面站立，缎面高领箍住喉咙，斗篷胸前裂开一道细缝，露出一线皮肤，目光平视镜头。",
+        "width": 1280,
+        "height": 1600
+      }
+    },
+    {
+      "id": "osborne-charlize-chair",
+      "date": "2026-11-17",
+      "line": "tension",
+      "title": "AnOther · Sharna Osborne · Charlize Theron（椅上）",
+      "note": "她交叠双腿坐在曲木椅上，仰头拉直喉线；灰连身衣的银白荷叶边深开至胸口，性磁场全聚在绷紧的脖颈与这道敞开的深襟里。",
+      "href": "https://www.anothermag.com/fashion-beauty/gallery/14531/charlize-theron-for-another-magazine-spring-summer-2026/1",
+      "source": "单人性张力。AnOther Magazine SS2026，摄影 Sharna Osborne，造型 Emma Wyman，画廊第 1 帧。Charlize Theron 生于 1975 年，拍摄时已成年。封面取画廊官方图 469946 并已目视。性从仰起的喉线和深开至胸口的银白荷叶边来，不靠第二个人入画。与同组白斗篷帧（走性压抑）不是同一张。",
+      "image": {
+        "file": "log-osborne-charlize-chair.webp",
+        "alt": "Charlize Theron 坐在曲木椅上仰头，灰色连身衣的银白荷叶边开到胸口，一条腿交叠，一只手按在小腿上。",
+        "width": 1280,
+        "height": 1600
+      }
+    },
+    {
+      "id": "kokoro-catear-20261117",
+      "date": "2026-11-17",
+      "line": "beauty",
+      "title": "篠崎こころ · 猫耳蓝白格蕾丝",
+      "note": "白色猫耳头箍配蓝白细格蕾丝内衣，她在近镜头前眨起一只眼，把毛绒猫爪轻轻垫在脸侧。",
+      "href": "https://x.com/kokoro777pp/status/2121927063439626313",
+      "source": "美女列表（裏）·前夜追更。来源 /workspace/sexy-x/watch-20261116/，X @kokoro777pp 2026-11-15 原帖。蓝白格蕾丝猫耳近自拍，造形完整，不是活动媒体照。名单第 6 条，生日 1993-07-07，已核成年。本地文件与站上既有こころ条目哈希不同。",
+      "image": {
+        "file": "li-20261117-kokoro-catear.webp",
+        "alt": "篠崎こころ近景自拍：浅金短发，白色猫耳头箍，蓝白小格蕾丝内衣与蝴蝶结，右手戴毛绒猫爪手套垫在脸侧，眨眼看向镜头。",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
       "id": "ginza-jurin-2026-12",
       "date": "2026-11-16",
       "line": "taste",
