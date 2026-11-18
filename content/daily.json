@@ -2,6 +2,81 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "pixivision-pornographer-manuscript",
+      "date": "2026-11-18",
+      "line": "taste",
+      "title": "Pixivision · 円と球 · 丸木戸マキ『ポルノグラファー』原稿用紙",
+      "note": "牛皮纸色的内页印着手写原稿格，翻起一页，底下的扉页仍是同一套方格，只在栏内直行印着书名与丸木戸マキ。",
+      "href": "https://www.pixivision.net/ja/a/4914",
+      "source": "海外批 B · Pixivision。设计事务所「円と球」白川为丸木戸マキ《ポルノグラファー》（祥传社）所做装帧。封面取文内实物照片并已目视：左手边是印成原稿用紙的扉页，直行「ポルノグラファー / 丸木戸マキ」；右手翻起的一页是牛皮纸色、印着手写字的原稿格。访谈写为做出文库本纸感，并请祥传社男性营业手写文稿作为素材。",
+      "image": {
+        "file": "log-pixivision-pornographer-manuscript.webp",
+        "alt": "木桌上，一只手翻开《ポルノグラファー》：被翻起的牛皮纸页印成手写原稿格，下面露出另一页同样的格子，直行印着书名和作者丸木戸マキ。",
+        "width": 1600,
+        "height": 1067
+      }
+    },
+    {
+      "id": "uisdc-lv-zhuxi",
+      "date": "2026-11-18",
+      "line": "taste",
+      "title": "优设 · 吕敬人 ·《朱熹榜书千字文》",
+      "note": "可开合的桐木书函正面反雕满版千字文，正中竖落书名，左右以皮带扣住。",
+      "href": "https://www.uisdc.com/history/lv-jing-ren",
+      "source": "中文批 3 · 优设。吕敬人《朱熹榜书千字文》实物。文内说明模仿宋代印刷，以桐木板反雕千字文，皮带串联、如意木扣合。封面取优设文内实物照片并已目视，已裁掉原图底部一条黑边。",
+      "image": {
+        "file": "log-uisdc-lv-zhuxi.webp",
+        "alt": "一函浅色桐木书盒正面：满版反雕细字，中间竖牌写着「朱熹榜书千字文」，左右四角用深色皮带扣住。",
+        "width": 1100,
+        "height": 792
+      }
+    },
+    {
+      "id": "uisdc-lv-meilanfang-edge",
+      "date": "2026-11-18",
+      "line": "taste",
+      "title": "优设 · 吕敬人 ·《梅兰芳全传》切口",
+      "note": "向左翻起书页，切口显出戏曲扮相；换右手翻开，切口变成生活照，封面上的竖排书名也一并露出来。",
+      "href": "https://www.uisdc.com/history/lv-jing-ren",
+      "source": "中文批 3 · 同一篇优设吕敬人文章。《梅兰芳全传》切口：向右翻是生活照，向左翻是舞台照。封面取文内对照实物照片并已目视。",
+      "image": {
+        "file": "log-uisdc-lv-meilanfang-edge.webp",
+        "alt": "左右两张对照：左手把书翻向一边，切口上是戏曲装扮的人物；右手翻向另一边，切口上是旗袍生活照，封面露出竖排书名「梅兰芳全传」。",
+        "width": 1600,
+        "height": 1105
+      }
+    },
+    {
+      "id": "id-sophie-candle",
+      "date": "2026-11-18",
+      "line": "tension",
+      "title": "i-D · Chad Moore · Sophie Thatcher（烛火）",
+      "note": "她闭着眼，把舌尖凑向一根点燃的蜡烛；碎花高领衫把身体收严，人身上的性磁场全悬在舌头将触未触火苗之间。",
+      "href": "https://i-d.co/article/sophie-thatcher-interview-her-private-hell/",
+      "source": "单人性张力 · i-D 377，摄影 Chad Moore，造型 Sam Knoll。Sophie Thatcher 生于 2000-10-18（英语维基百科），拍摄时已成年。封面取官方原稿 RE_SOPHIE_ID_HIGH_21 并已目视。",
+      "image": {
+        "file": "log-id-sophie-candle.webp",
+        "alt": "侧面近景：Sophie Thatcher 闭着眼，把舌头伸向一只烛台上的烛火，火光打在脸上；她穿着一件碎花高领、胸前系带的白衫。",
+        "width": 1278,
+        "height": 1600
+      }
+    },
+    {
+      "id": "alisa-selfie-20261118",
+      "date": "2026-11-18",
+      "line": "beauty",
+      "title": "坂巻有紗 · 近自拍",
+      "note": "室内近景里她靠着墙，浅棕长发落在肩头，视线略偏开镜头，一枚银色小挂钩项链贴在锁骨上。",
+      "href": "https://x.com/alisa2525_10923/status/2122639478171021435",
+      "source": "坂巻有紗 · X · 近自拍（watch-20261117）。名单生日 2000-09-23，已核成年。",
+      "image": {
+        "file": "li-20261118-alisa-selfie.webp",
+        "alt": "坂巻有紗近景自拍：浅棕长发，靠着浅色墙，目光略偏向一侧，锁骨上有一条银色小挂钩项链，黑色肩带可见。",
+        "width": 1150,
+        "height": 1600
+      }
+    },
+    {
       "id": "huaban-sugiura-ginka-59",
       "date": "2026-11-17",
       "line": "taste",
