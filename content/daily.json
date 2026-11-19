@@ -2,6 +2,156 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "as-zagornov-shifted-islands",
+      "date": "2026-11-19",
+      "line": "taste",
+      "title": "ArtStation · Rostyslav Zagornov · Shifted Islands",
+      "note": "村落泡在浅绿的水里，木屋歪向水面，枯树干戳进雾中，残桩与倒木一并映在水面。",
+      "href": "https://attemme.artstation.com/projects/P4Oro1",
+      "source": "海外批 A · ArtStation。Rostyslav Zagornov（attemme）《Shifted Islands》，为 GFC Hunger 所做的气氛与光线探索。项目页与 CDN 大图已目视：涨水后的村落，歪斜木屋、枯树，浅绿色水面映着残桩和倒木，无宣传字。主视觉为游戏环境概念，不是书衣。",
+      "image": {
+        "file": "log-as-zagornov-shifted-islands.webp",
+        "alt": "薄雾里一片被水淹过的村落：歪斜的木屋沿土坡排开，枯树干戳向天空，浅绿色的水面映着残桩、倒木和远处的屋顶。",
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "id": "as-idildursun-dont-look-down",
+      "date": "2026-11-19",
+      "line": "taste",
+      "title": "ArtStation · Idil Dursun · Don't Look Down",
+      "note": "高层窄阳台两侧是砖墙、晾衣和铁皮屋顶，边沿坐着一个向下看的人；黄色铁轨弯过垂直的城市，金色阳光从对面楼缝打过来。",
+      "href": "https://idildursun.artstation.com/projects/kl822l",
+      "source": "海外批 A · ArtStation。Idil Dursun《Don't Look Down》。CDN 大图已目视：从高层窄阳台俯看，黄色铁轨弯过垂直城市，金色阳光从楼缝打下，右下角有一名坐在阳台边缘的人。主视觉为游戏环境概念。",
+      "image": {
+        "file": "log-as-idildursun-dont-look-down.webp",
+        "alt": "从高层窄阳台俯拍的垂直城市：黄色铁轨弯向远方，夕阳光从楼缝打下，右下角有人坐在阳台边缘向下看，两侧是砖墙、晾衣和铁皮屋顶。",
+        "width": 1600,
+        "height": 1600
+      }
+    },
+    {
+      "id": "zcool-xiyouji",
+      "date": "2026-11-19",
+      "line": "taste",
+      "title": "站酷 · 可乐艾斯 ·《西游记》",
+      "note": "金甲孙悟空在左侧侧身抬手，对面苍白巨人举起烧着金焰的长兵器，红披风横飞过两人之间。",
+      "href": "https://www.zcool.com.cn/work/ZNzQ0MTg5ODQ=.html",
+      "source": "中文批 1 · 站酷。可乐艾斯《西游记》插画。作品页本轮仍为加密壳，封面取官方 CDN 原图并已目视：孙悟空侧身抬手，对面巨人举起带金焰的兵器，红披风横飞。主视觉为绘画／插画，不是装帧。",
+      "image": {
+        "file": "log-zcool-xiyouji.webp",
+        "alt": "孙悟空侧身站在画面左侧，金甲红披风，抬起左手；右侧一个肤色苍白的巨人举起燃烧着金焰的长兵器，红巾从两人之间横着飞过。",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "id": "dazed-emeline-satin",
+      "date": "2026-11-19",
+      "line": "tension",
+      "title": "Dazed · Zora Sicher · Emeline Hoareau（缎面外套）",
+      "note": "只用一件银色缎面外套抱在胸前挡着身体，红颈圈贴在喉咙上；一个人的性张力，就在抱紧的缎面与看着镜头的眼睛里。",
+      "href": "https://www.dazeddigital.com/fashion/article/70832/1/emeline-hoareau-dazed-autumn-2026-issue-cover-model",
+      "source": "单人性张力。Dazed Autumn 2026，摄影 Zora Sicher，造型 Danielle Emerson。文章写明 Emeline Hoareau 为 23 岁模特（Select），拍摄时已成年。封面取文内无刊头大字的官方帧并已目视，不是带 DAZED 刊头的表纸。性从她自己抱紧缎面外套的动作、红颈圈和直视镜头的目光来，不靠第二个人入画。",
+      "image": {
+        "file": "log-dazed-emeline-satin.webp",
+        "alt": "Emeline Hoareau 靠着白墙站着，身上没有穿衣，只用一件浅银色缎面外套抱在胸前；脖子上是一圈红色颈圈，金色耳环，眼睛看着镜头。",
+        "width": 1227,
+        "height": 1600
+      }
+    },
+    {
+      "id": "enako-uruha-20261119",
+      "date": "2026-11-19",
+      "line": "beauty",
+      "title": "えなこ · 一ノ瀬うるは cos",
+      "note": "棚内近景：深蓝短发与浅紫瞳，黑蓝皮衣罩在白衬衫外，一条细链斜挂在胸前。",
+      "href": "https://x.com/enako_cos/status/2122989804543770761",
+      "source": "えなこ · X · 一ノ瀬うるは cos 近景（watch-20261118）。名单生日约 1994-01-22，已核成年。棚内完整妆面，不是活动现场照。",
+      "image": {
+        "file": "li-20261119-enako-uruha.webp",
+        "alt": "えなこ深蓝短发浅紫瞳的近景：白色无袖衬衫外罩黑蓝皮衣，胸前斜挂细链，左手抬到耳边，灰白背景。",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "kokoro-leopard-20261119",
+      "date": "2026-11-19",
+      "line": "beauty",
+      "title": "篠崎こころ · 豹纹夹克近自拍",
+      "note": "浅金短发，她在室内蹲着看镜头，敞开的白底豹纹夹克里是灰色背心和牛仔短裤。",
+      "href": "https://x.com/kokoro777pp/status/2122672982170771513",
+      "source": "篠崎こころ · X · 豹纹夹克近自拍（watch-20261118）。名单生日 1993-07-07，已核成年。同帖集体杂志表纸未收。",
+      "image": {
+        "file": "li-20261119-kokoro-leopard.webp",
+        "alt": "篠崎こころ浅金短发蹲着自拍：白底黑豹纹夹克敞开，内搭灰色背心和牛仔短裤，黑色短靴，背景是浅色墙和一扇门。",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "yua-lobby-20261119",
+      "date": "2026-11-19",
+      "line": "beauty",
+      "title": "三上悠亜 · 酒店大堂浅紫连衣裙",
+      "note": "拱廊吊灯一路排到门口；深色柱边，她穿着浅紫针织连衣裙，手提一只浅色包。",
+      "href": "https://x.com/yua_mikami/status/2122663590935371941",
+      "source": "三上悠亜 · X · 酒店大堂浅紫连衣裙（watch-20261118 同帖四帧之大厅肖像）。名单生日 1993-08-16，已核成年，非露点。同帖商场走廊与中庭俯视因背景杂、有路人未收。",
+      "image": {
+        "file": "li-20261119-yua-lobby.webp",
+        "alt": "三上悠亜站在酒店大堂深色柱旁，穿浅紫色无袖针织连衣裙，手握浅色包；身后是一排拱廊和向下延伸的吊灯，通向明亮门口。",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
+      "id": "koike-lookback-20261119",
+      "date": "2026-11-19",
+      "line": "beauty",
+      "title": "小池里奈 · 彩条上衣回眸",
+      "note": "她穿彩色横条上衣和白色内裤跪坐在桌沿，回过头笑，窗光从背后漏下来。",
+      "href": "https://x.com/KoikeRina0903/status/2122698807779758191",
+      "source": "小池里奈 · X · 室内回眸（watch-20261118）。名单生日 1993-09-03，已核成年，非露点。",
+      "image": {
+        "file": "li-20261119-koike-lookback.webp",
+        "alt": "小池里奈跪坐在深色桌沿回眸微笑，穿着彩色横条短袖上衣和白色内裤，身后是大窗和浅色沙发，顶上是剥落的天花板。",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
+      "id": "koike-bath-20261119",
+      "date": "2026-11-19",
+      "line": "beauty",
+      "title": "小池里奈 · 浴缸湿发近景",
+      "note": "双手抓紧白瓷边缘，下巴搁在浴缸沿上，湿发贴着脸颊，她看着镜头。",
+      "href": "https://x.com/KoikeRina0903/status/2122814572558266674",
+      "source": "小池里奈 · X · 浴缸湿发近景（watch-20261118）。名单生日 1993-09-03，已核成年，非露点。与站上 11-11 浴缸湿发大笑为不同帖。",
+      "image": {
+        "file": "li-20261119-koike-bath.webp",
+        "alt": "小池里奈在浴缸里的近景：湿发贴着脸颊，下巴靠近白瓷浴缸沿，双手抓着边缘，穿着深橄榄绿内衣，看着镜头。",
+        "width": 1062,
+        "height": 1600
+      }
+    },
+    {
+      "id": "koike-pool-20261119",
+      "date": "2026-11-19",
+      "line": "beauty",
+      "title": "小池里奈 · 庭院充气泳池",
+      "note": "蓝色充气小泳池边沿，她穿橙红色比基尼趴着朝外笑，身后是草地和白木篱笆。",
+      "href": "https://x.com/KoikeRina0903/status/2122997047783752041",
+      "source": "小池里奈 · X · 庭院充气泳池（watch-20261118）。名单生日 1993-09-03，已核成年，非露点。",
+      "image": {
+        "file": "li-20261119-koike-pool.webp",
+        "alt": "小池里奈趴在庭院里蓝色充气小泳池的边沿向外笑，穿着橙红色比基尼，身后是草地、绿篱和白色木篱笆。",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
       "id": "pixivision-pornographer-manuscript",
       "date": "2026-11-18",
       "line": "taste",
