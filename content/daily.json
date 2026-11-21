@@ -2,6 +2,66 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "youtube-herpen-teal",
+      "date": "2026-11-21",
+      "line": "taste",
+      "title": "YouTube · Brooklyn Museum · Iris van Herpen（青绿褶裙试装）",
+      "note": "木梁工坊里，她穿青绿百褶长裙配金色镂空胸衣，宽褶袖垂在肩侧。右侧白墙钉着一排设计稿，黑衣人俯身，手伸向裙摆附近。",
+      "href": "https://www.youtube.com/watch?v=9YEfXii7lEA",
+      "source": "海外批 C · YouTube。Brooklyn Museum 官方短片《Iris van Herpen: Sculpting the Senses》，片长约 3:33。封面取实看视频约 3:14 的一帧（已裁播放器顶栏），不是标题海报。已目视：木梁工坊，青绿百褶长裙与金色镂空胸衣，右侧墙上钉着设计稿，一名黑衣人俯身、手伸向裙摆附近。主视觉为服装。出镜者未见与本人对应的出生年记录；画面上为明显成年的工作人员与试装者，未见未成年人。",
+      "image": {
+        "file": "log-youtube-herpen-teal.webp",
+        "alt": "木梁工坊里，一名短发盘起的人穿着青绿百褶长裙和金色镂空胸衣站着，右侧墙上钉着一排服装设计稿，一名黑衣人俯身伸手到裙摆附近。",
+        "width": 1600,
+        "height": 925
+      }
+    },
+    {
+      "id": "huaban-miao-butterfly",
+      "date": "2026-11-21",
+      "line": "taste",
+      "title": "花瓣 · 中国丝绸博物馆 · 黄平苗族挑绣蝴蝶纹背带花块",
+      "note": "深色底上，红、紫、蓝、橙的菱格、回纹与十字花，密密铺满整块绣面。",
+      "href": "https://huaban.com/pins/7327777502/",
+      "source": "中文批 1 · 花瓣。图录跨页出自中国丝绸博物馆「霓裳银装——贵州苗族服饰艺术展」相关图录；封面只取右侧织物特写并裁去页码，再 2× LANCZOS，不是整页图录排版。左侧说明已目视：挑绣蝴蝶纹背带花块，编号 B.1.15049，来源黄平苗族，贵州省博物馆藏。馆方展页 https://www.chinasilkmuseum.com/yz/info_18.aspx?itemid=26654 已打开对照。主视觉为服装／纺织，不是装帧。花瓣 pin 详情或仍受限，href 指向 pin 页。",
+      "image": {
+        "file": "log-huaban-miao-butterfly.webp",
+        "alt": "深色底上铺满红、紫、蓝、橙色的几何菱格、回纹和十字花刺绣。",
+        "width": 868,
+        "height": 1074
+      }
+    },
+    {
+      "id": "another-pamela-cdg",
+      "date": "2026-11-21",
+      "line": "tension",
+      "title": "AnOther · Collier Schorr · Pamela Anderson（白棉裙）",
+      "note": "黑地前，她穿抽褶 V 领白棉裙，不笑地看着镜头，双手把宽松裙幅拢在腰前；一个人的性张力，全在这道目光和拢住衣料的手上。",
+      "href": "https://www.anothermag.com/fashion-beauty/gallery/14539/pamela-anderson-for-another-magazine-spring-summer-2026/3",
+      "source": "单人性张力。AnOther Magazine Spring/Summer 2026 画廊，摄影 Collier Schorr，造型 Rebecca Perlmutar。图注为 Dress in cotton from the Spring/Summer 1984 collection by COMME DES GARÇONS from 20AGE ARCHIVE；耳环、手镯与她本人的刻字手链和戒指为 PANDORA。Pamela Anderson 英文维基出生日期 1967-07-01，拍摄时已成年。已目视：黑色背景，她不笑地看着镜头，白色抽褶 V 领泡泡袖棉裙，双手把裙幅拢在腰前。性从注视和拢住衣料的手来，不靠第二个人。不是同一组里的真丝睡衣裙帧。",
+      "image": {
+        "file": "log-another-pamela-cdg.webp",
+        "alt": "黑色背景前，Pamela Anderson 穿着宽松的白色泡泡袖棉裙看着镜头，双手把裙幅拢在腰前，腕上有金镯。",
+        "width": 1277,
+        "height": 1600
+      }
+    },
+    {
+      "id": "koike-futon-20261121",
+      "date": "2026-11-21",
+      "line": "beauty",
+      "title": "小池里奈 · 窗边白被",
+      "note": "白色房间一侧是网格磨砂玻璃窗；她裹着皱起的白被坐在床上，目光低垂看向一旁，右侧被角露出一只裸脚。",
+      "href": "https://x.com/KoikeRina0903/status/2123377131657056416",
+      "source": "美女列表（裏）·前夜追更：watch-20261120。原帖为《ENTAME 36℃ vol.08》特别版表纸预告之一，本帧无刊头字。名单生日 1993-09-03，已核成年，非露点。已目视：白色房间，磨砂玻璃窗，她裹着皱起的白被坐在床上，低头看向一旁，不是看镜头；一只裸脚从画面右侧的被角露出。",
+      "image": {
+        "file": "li-20261121-koike-futon.webp",
+        "alt": "白色房间里，磨砂玻璃窗下，小池里奈裹着一床皱起的白被坐在床上，低头看向一旁，一只裸脚从画面右侧的被角露出来。",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
       "id": "casa-yatsugatake-ongakudo",
       "date": "2026-11-20",
       "line": "taste",
