@@ -2,6 +2,96 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "casa-yoshirotten-neon",
+      "date": "2026-11-22",
+      "line": "taste",
+      "title": "Casa BRUTUS · YOSHIROTTEN · 彼方との交信（霓虹环）",
+      "note": "空展厅的格栅下，红、蓝、绿、橙的细霓虹环交叠悬空，后方大屏是暗圆与彩色光斑，深红异形毯上落着几处发白的光。",
+      "href": "https://casabrutus.com/categories/art/495772",
+      "source": "海外批 D · Casa BRUTUS。刊文《YOSHIROTTENが描く、まだ見ぬ宇宙へ。》，2026-11-12，摄影 Nanako Ono。个展『彼方との交信／BEYOND EARTH』，地点〈TOKYO NODE〉。封面取文内原图 1105yoshirotten_1312_06-1，已目视：格栅吊顶，彩色霓虹细环交叠悬挂，后方LED大屏有彩色光斑和一颗暗圆，木地板上深红色异形毯，毯面有几处发白光斑；画面无人。主视觉为雕塑／装置。不用同文东京塔窗外景，也不用带人物站在彩色大屏前的那一帧。11-20 用过 Casa BRUTUS 建筑条，本条是不同文章与不同主视觉。",
+      "image": {
+        "file": "log-casa-yoshirotten-neon.webp",
+        "alt": "空展厅的格栅吊顶下，红、蓝、绿、橙的细霓虹环交叠悬挂，后方大屏有暗圆和彩色光斑，深红异形毯上落着几处发白的光。",
+        "width": 1280,
+        "height": 1600
+      }
+    },
+    {
+      "id": "bilibili-huayang-door",
+      "date": "2026-11-22",
+      "line": "taste",
+      "title": "B站 · 王家卫《花样年华》（门洞旗袍）",
+      "note": "斑驳墙面与发黄窗框旁，张曼玉侧身立在门洞里，高髻、一只耳环、青绿底红花旗袍，只露侧脸，门里的房间暗而暖。",
+      "href": "https://www.bilibili.com/video/BV13U4y187mc",
+      "source": "中文批 2 · B站。艺术说明书《【提升审美02】全面解读！王家卫《花样年华》中的视觉美感》，BV13U4y187mc，约 19:35。桌面页未作为核图依据；画面核自 m.bilibili.com 与 videoshot 帧。封面取 videoshot 帧 c025，已裁掉上下黑边和左上角「《花样年华》」标，再 3× LANCZOS，不是视频标题海报，也没有解说字幕。已目视：左侧发黄窗框与斑驳墙面，张曼玉侧身站在门洞里，高盘发髻，青绿底红花旗袍，一只耳环，室内暗暖。出镜张曼玉（英文维基出生日期 1964-09-20）、梁朝伟（英文维基出生日期 1962-06-27），2000 年拍摄时均已成年。本帧只有张曼玉，梁朝伟不在画中。主视觉为电影画面。同片其他带解说黄字或字幕的帧不收。",
+      "image": {
+        "file": "log-bilibili-huayang-door.webp",
+        "alt": "发黄窗框和斑驳墙面旁，张曼玉侧身立在门洞里，发髻很高，穿着青绿底红花旗袍，只看见侧脸和一只耳环，门里的房间暗而暖。",
+        "width": 1440,
+        "height": 636
+      }
+    },
+    {
+      "id": "another-helena-grass",
+      "date": "2026-11-22",
+      "line": "tension",
+      "title": "AnOther · Lina Scheynius · Helena Olmedo（红裙与草）",
+      "note": "她穿毛茸茸的无袖红裙躺开在干草里，一臂枕头侧，另一只手伸进草穗，草扫过脸颊；性张力来自敞开的身体、红裙与皮肤的对比，和草隙间看过来的眼睛。",
+      "href": "https://www.anothermag.com/fashion-beauty/17563/lina-scheynius-nell-kalonji-dance-another-magazine-autumn-winter-2026",
+      "source": "单人性张力。AnOther Magazine Autumn/Winter 2026《Movement in Colour》，摄影 Lina Scheynius，造型 Nell Kalonji。图注对应 Right: Dress by BOTTEGA VENETA（同页拼图右幅与本帧为同一张，封面只用单帧，不用四格或床上拼图）。Model: Helena Olmedo at Next Management（London Women，非 newfaces）。Anne of Carversville 转述 Madame Figaro 访谈，称她与舞伴当时「mutual life ages of 25」；该页标注 2022-03-28，文内又写 March 2026 issue，年份表述不一致，但按 2022 或 2026 计她都已成年。未核到精确出生年。已目视：俯拍，她躺在干草与金黄草穗里，毛茸茸无袖红裙，一只手臂枕在头侧，另一只手伸进草里，草扫过脸颊，眼睛从草间看向镜头附近。性从这道透过草的注视、躺开的身体和红裙与皮肤的对比来，不靠第二个人。不是同一组里床上黑短裤薄纱或薰衣草田腿部那几帧。",
+      "image": {
+        "file": "log-another-helena-grass.webp",
+        "alt": "俯拍里，一名女子穿着毛茸茸的无袖红裙躺在干草中，一只手臂枕在头侧，另一只手伸进金黄的草穗，几根草扫过脸颊，眼睛从草间看过来。",
+        "width": 1227,
+        "height": 1600
+      }
+    },
+    {
+      "id": "koike-mint-20261122",
+      "date": "2026-11-22",
+      "line": "beauty",
+      "title": "小池里奈 · 窗边薄荷针织",
+      "note": "白窗框边，她穿宽领薄荷色镂空针织，肩线外露，衣下隐约见内衣；玻璃上有一块白色反光，她隔窗浅笑看镜头，背景是绿植与砖地。",
+      "href": "https://x.com/KoikeRina0903/status/2123891377813770583",
+      "source": "美女列表（裏）·前夜追更：watch-20261121。原帖窗边薄荷镂空针织写真，非活动媒体照。名单生日 1993-09-03，已核成年，非露点。已目视：白窗框，她穿宽领薄荷色镂空针织，肩线露出，针织下隐约有内衣，隔着玻璃浅笑看镜头；玻璃上有一块近乎纸飞机形的白色反光，不是实物纸飞机。背景有绿植和砖地。未把同日 kitson 卫衣镜自拍收入——后景杂、有他人入镜，偏产品到货随手自拍。",
+      "image": {
+        "file": "li-20261122-koike-mint.webp",
+        "alt": "白窗框边，小池里奈穿着宽领薄荷色镂空针织，肩线外露，衣下隐约看见内衣，隔着玻璃浅笑看镜头，玻璃上有一块白色反光，背景是绿植与砖地。",
+        "width": 800,
+        "height": 1200
+      }
+    },
+    {
+      "id": "alisa-look-20261122",
+      "date": "2026-11-22",
+      "line": "beauty",
+      "title": "坂巻有紗 · 窗边抬眼",
+      "note": "落地高窗旁、绿色球形吊灯下，她穿灰毛衣黑裤坐在米色座椅上，肩上有深色包带，一手搁在木扶手上，抬头看镜头，嘴微张。",
+      "href": "https://x.com/alisa2525_10923/status/2124088959584391355",
+      "source": "美女列表（裏）·前夜追更：watch-20261121。原帖咖啡店窗边自拍组中的抬眼一帧。名单生日 2000-09-23，已核成年，非露点。已目视：落地高窗与窗外楼宇，绿色球形吊灯，她坐在米色座椅上，灰色毛衣、黑裤，肩上有一条深色包带，一只手搁在木扶手上，腕上有手链，抬头看镜头，嘴微张。同组侧影与低头近重复帧未收。",
+      "image": {
+        "file": "li-20261122-alisa-look.webp",
+        "alt": "落地高窗旁、绿色球形吊灯下，坂巻有紗穿灰毛衣黑裤坐在米色座椅上，肩上有深色包带，一只手搁在木扶手上，抬头看向镜头，嘴微张。",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
+      "id": "alisa-coffee-20261122",
+      "date": "2026-11-22",
+      "line": "beauty",
+      "title": "坂巻有紗 · 蓝色咖啡杯",
+      "note": "同一扇窗边，灰毛衣，她双手端着一只蓝白杯子，侧脸看向窗外；杯身有红色标志，写着 Anniversary。",
+      "href": "https://x.com/alisa2525_10923/status/2124088959584391355",
+      "source": "美女列表（裏）·前夜追更：watch-20261121。与「窗边抬眼」同一原帖的另一帧。名单生日 2000-09-23，已核成年，非露点。已目视：落地窗与窗外楼宇，绿色吊灯，她双手端着蓝白杯子侧脸看向窗外，灰色毛衣，手指上有戒指，腕上有手链；杯身可见红色标志与 Anniversary 字样。不要把杯子写成未看清的品牌。",
+      "image": {
+        "file": "li-20261122-alisa-coffee.webp",
+        "alt": "窗边，坂巻有紗穿着灰色毛衣，双手端着一只蓝白杯子，侧脸看向窗外，杯身上有红色标志和 Anniversary 字样。",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
       "id": "youtube-herpen-teal",
       "date": "2026-11-21",
       "line": "taste",
