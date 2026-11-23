@@ -2,6 +2,81 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "as-wangchen-yuyao",
+      "date": "2026-11-23",
+      "line": "taste",
+      "title": "ArtStation · 王琛 · Phantom Blade Zero · Yu Yao",
+      "note": "黑底上，紫黑湿发贴着额与颊，眉心微蹙，琥珀色眼睛直看过来；深色嘴唇下方，灰色毛呢高领里露出一圈金边。",
+      "href": "https://wangchen-cg.artstation.com/projects/lEro0e",
+      "source": "海外批 A · ArtStation。项目《Phantom Blade Zero – Yu Yao》，角色原案 MICHAEL CHANG，头部模型与材质、UE5 实时渲染由王琛（wangchen-cg）完成。搜索 API 与官方 CDN large 图已目视；项目页与 projects/lEro0e.json 本轮 Cloudflare 403，不写成项目页已目视。原封面 1500×1500 底部有「影之刃零／PHANTOM BLADE 0」字标，封面已裁至 y=1175，只留面部与灰毛呢领、颈间金边，不含字。已目视：黑底，紫黑湿发贴着额与颊，发丝有紫意，琥珀色眼睛看向镜头，深色嘴唇，眉心微蹙，灰色毛呢高领，领口里一圈金边。主视觉为游戏美术。同作者《Mu Xiao Kui》头像同样带字标，未另收。",
+      "image": {
+        "file": "log-as-yuyao.webp",
+        "alt": "黑底上，一名女子紫黑湿发贴着额与颊，眉心微蹙，琥珀色眼睛直看过来，灰色毛呢高领里露出一圈金边。",
+        "width": 1500,
+        "height": 1175
+      }
+    },
+    {
+      "id": "zcool-sanzhang-soushen-red",
+      "date": "2026-11-23",
+      "line": "taste",
+      "title": "站酷 · 弎丈 ·《搜神记》系列插画（红衣与枫）",
+      "note": "她闭眼向后仰，面色苍白、唇红，长发直垂；白衣外铺开大片红衣，皱褶上落着橙褐枫叶，右侧停着一只白色长颈小鸟。",
+      "href": "https://www.zcool.com.cn/work/ZNzI1MzE2OTI=.html",
+      "source": "中文批 1 · 站酷。作者弎丈，作品《搜神记》系列插画，作品页 https://www.zcool.com.cn/work/ZNzI1MzE2OTI=.html。作者页给出的官方 CDN 原图已目视并下载；作品页按既有经验多为加密壳，本轮未声称已核内页。已目视：单幅完整插画，不是四联拼图。女子闭眼，头向后仰，面部苍白、唇红，长发垂直向下；头与上身有白衣／白巾，近额处一条红边；大面积红衣铺开，皱褶清楚，上面落着多片橙褐枫叶；右侧皱褶里有一只白色长颈小鸟。左下是暗地与更多枫叶。主视觉为绘画／插画。同作者「插图系列2026」封面是四条拼图且其中一条人物偏幼，不收；《系列插画二》白马开弓是完整单幅，本轮不用以免两条同题。",
+      "image": {
+        "file": "log-zcool-soushen-red.webp",
+        "alt": "一名女子闭眼向后仰，面色苍白、唇红，长发直垂，白衣外铺开红衣，皱褶上落着枫叶，右侧有一只白色长颈小鸟。",
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "id": "another-seydoux-pool",
+      "date": "2026-11-23",
+      "line": "tension",
+      "title": "AnOther · Shelby Duncan · Léa Seydoux（泳池重影）",
+      "note": "蓝紫水面没到肩头，湿发向后，同一张脸在双重曝光里叠出一正一侧；性磁场不靠第二个人，就在湿皮肤、露出的肩与这双重注视里。",
+      "href": "https://www.anothermag.com/fashion-beauty/17299/shelby-duncan-interview-house-of-love-photobook-hollywood-",
+      "source": "单人性张力。AnOther 刊文《Portraits of Hollywood’s Bright Young Things》（2026-07-06），介绍 Shelby Duncan 摄影书与 Arles 展览《House of Love》。图注：13 Léa Seydoux (1), 2010。英文维基出生日期 1985-07-01，拍摄时约 25 岁，已核成年。已目视官方图（images-prod 2000 边长）：暗褐红的背景，水面呈蓝紫，水没到肩头，右肩（画面右侧的肩）湿而露出；同一张脸以双重曝光叠成两道，左边更正、右边微侧，都看向镜头附近，头发湿而向后。性从湿的皮肤、露出的肩，和这双重的注视来，不靠第二个人。不是同文派对群像、接吻或双人燃火柴那几帧。不要把双重曝光写成两个人。",
+      "image": {
+        "file": "log-another-seydoux-pool.webp",
+        "alt": "蓝紫水面没到肩头，一名女子湿发向后，同一张脸叠出一正一侧，肩膀露出，都看向这边。",
+        "width": 1600,
+        "height": 1394
+      }
+    },
+    {
+      "id": "kokoro-catear-black-20261123",
+      "date": "2026-11-23",
+      "line": "beauty",
+      "title": "篠崎こころ · 黑猫耳连体衣",
+      "note": "工作室全身镜前，后景有灯伞，脚下是人字拼木地板；她戴黑猫耳，穿腰侧开洞的亮面黑连体衣和蕾丝过膝袜，系着粉缎带，手机挡在脸中部，眼睛仍看得见。",
+      "href": "https://x.com/kokoro777pp/status/2124107513591390549",
+      "source": "美女列表（裏）·前夜追更：watch-20261122。原帖工作室镜自拍，造形完整，非活动媒体照。名单生日 1993-07-07，已核成年，非露点。已目视：黑猫耳，深发尾端带粉红，黑色有光泽连体衣，前襟拉链，腰侧开洞，离肩泡泡袖，袖侧与腰侧有粉色缎带，蕾丝花边过膝袜，黑色尖头鞋，鞋带一枚金色扣；她举着手机挡在脸的中部，眼睛仍可见。镜中有衣架、叠放的白凳、灯伞、窗边纱帘、人字拼木地板，右侧有藤编椅。不是 2026-11-17 已收的蓝白格蕾丝猫耳那张。",
+      "image": {
+        "file": "li-20261123-kokoro-catear.webp",
+        "alt": "全身镜前一名女子戴着黑猫耳，穿着腰侧开洞的亮面黑连体衣和蕾丝过膝袜，系着粉缎带，手机挡在脸中部，眼睛仍看得见。",
+        "width": 1022,
+        "height": 1600
+      }
+    },
+    {
+      "id": "yua-furhat-20261123",
+      "date": "2026-11-23",
+      "line": "beauty",
+      "title": "三上悠亜 · 白绒帽与红裙",
+      "note": "白色毛绒帽下是棕色刘海、一侧发辫与透明耳饰；细肩带红裙胸前有一朵布玫瑰，她一手托着下巴看向镜头，背景是浅色地砖。",
+      "href": "https://x.com/yua_mikami/status/2124432944676933779",
+      "source": "美女列表（裏）·前夜追更：watch-20261122。原帖近自拍，造形完整，非活动媒体照，非露点。名单生日 1993-08-16，已核成年。已目视：白色毛绒帽，棕色刘海与一侧发辫，透明耳饰，红裙胸前有一朵布做的玫瑰，细肩带，一手托着下巴看镜头，浅色地砖。同日另一帖是带「酔っ払い」字的吃面视频封面，不收。",
+      "image": {
+        "file": "li-20261123-yua-furhat.webp",
+        "alt": "一名女子戴着白色毛绒帽，棕色刘海与一侧发辫，细肩带红裙胸前有一朵布玫瑰，一手托着下巴看向镜头。",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
       "id": "casa-yoshirotten-neon",
       "date": "2026-11-22",
       "line": "taste",
