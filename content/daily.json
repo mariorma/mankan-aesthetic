@@ -2,6 +2,66 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "pixivision-kagari-wall",
+      "date": "2026-11-24",
+      "line": "taste",
+      "title": "Pixivision · カガリユウスケ · 壁写真（浅草橋）",
+      "note": "浅蓝灰墙板大半剥落，锈沿着横缝走。右侧披檐下的凹处挂着电盒与垂下的导管，一根松弛的线从左上角进来。",
+      "href": "https://www.pixivision.net/ja/a/1264",
+      "source": "海外批 B · Pixivision。刊文《街へ出よ、テクスチャ素材を探そう。壁の質感でかばんを作るアーティストと街歩きしてきた》（2016-05-14，やってみた），第 3 页图注「まずこちらは、カガリさんが撮った壁写真。」摄影 カガリユウスケ（文内介绍 1984 年大阪府生まれ；本帧无人物）。官方 imgaz https://i.pximg.net/imgaz/upload/20160427/183816346.jpg 已用 Referer: https://www.pixivision.net/ 下载并目视，公开最大约 720×480，封面 2× LANCZOS 至 1440×960。已目视：横构图墙面特写，浅蓝色与灰白的小块墙板大部分剥落，锈沿着横向接缝走，右侧一个浅锈褐的披檐下方是更深的凹进，挂着浅色电盒和垂下的导管；左上角有一根松弛的线进来。无人物、无水印、无字。同页「こちらが私が撮った壁写真」是撰稿人井口エリ所拍的同一面墙，不收；胶带剥落的「グラフィカルな壁」是更碎的特写，本轮不用。pixiv.net 本机 curl 为 Cloudflare 403，浏览器标签页未登录也没有作品结果，未写成作品页已目视。主视觉为摄影（墙面特写），不是装帧，也不是他做的皮包。",
+      "image": {
+        "file": "log-pixivision-kagari-wall.webp",
+        "alt": "浅蓝灰墙板大半剥落，锈沿着横缝走，右侧披檐下的凹处挂着电盒与垂下的导管，一根线从左上角进来。",
+        "width": 1440,
+        "height": 960
+      }
+    },
+    {
+      "id": "huaban-langen-corridor",
+      "date": "2026-11-24",
+      "line": "taste",
+      "title": "花瓣 · 安藤忠雄 · Langen Foundation（玻璃廊道）",
+      "note": "玻璃顶下，带模板孔的混凝土墙对着窗外草地，窗格影子打在墙和地上。穿白衣深裤的人背向镜头，往偏暗的尽头走远。",
+      "href": "https://huaban.com/pins/3429749593/",
+      "source": "中文批 1 · 花瓣。安藤忠雄 Langen Foundation（德国 Neuss，2004）玻璃廊道照片，pin https://huaban.com/pins/3429749593/ 。api.huaban.com 搜索后，官方 CDN https://gd-hbimg.huaban.com/{key} 原图（1280×1996 JPEG）已下载并目视；花瓣详情页按既有经验可能受限，不写成详情页已目视。本轮未核到与此帧对应的摄影师署名，不写成 Tomas Riehle 或其他人已确认。已目视：左侧整面浅色混凝土墙，有模板孔和窗格子投下的影子；右侧落地玻璃与白色／银色竖框，玻璃外是草地和远处一道矮混凝土墙；顶上是玻璃天棚与交叉斜撑，挂着几盏灯；地面是平整的浅灰地面，影子一直铺到远处。廊道尽头偏暗，一个长发、白衣深色裤子的人背向镜头走远。此人不是具名肖像，未核到身份与出生年，体态看起来是成年人，只作尺度，主视觉是建筑／室内。封面取原图，长边缩至 1600，未裁。",
+      "image": {
+        "file": "log-huaban-langen.webp",
+        "alt": "玻璃顶下，带模板孔的混凝土墙对着窗外草地，窗格影子打在墙和地上，一个穿白衣深裤的人背向镜头往偏暗的尽头走远。",
+        "width": 1026,
+        "height": 1600
+      }
+    },
+    {
+      "id": "another-kunnath-bhumika",
+      "date": "2026-11-24",
+      "line": "tension",
+      "title": "AnOther · Keerthana Kunnath · Bhumika（2024）",
+      "note": "她赤脚蹲在干草土路上，黄绿细带裙的裙尾拖在身后，一侧手臂屈起，另一只手垂在膝旁；性磁场来自近乎透明的裙子、蹲下的身体和看向镜头的目光。",
+      "href": "https://www.anothermag.com/art-photography/17491/keerthana-kunnath-not-what-you-saw-foam-amsterdam-exhibition-interview",
+      "source": "单人性张力。AnOther 刊文《Keerthana Kunnath’s Majestic Portraits of Bodybuilders》（2026-09-22），图注 Bhumika, 2024 © Keerthana Kunnath。官方图 images-prod 2000 边长已目视。出镜 Bhumika Senthilkumar：The Week 2025-11-22 报道称其为 23 岁，故 2024 年拍摄时已成年；未见更精确的出生日。已目视：她蹲在干草色的草与土路上，裸足；黄绿色近乎透明的细带裙，有粉红色细条纹，在腰侧打结，网纱裙尾拖在她身后的草上；一侧手臂屈起露出上臂线条，另一只手垂在膝旁；深色头发，鼻侧有一枚饰物，看向镜头。后景有棕榈、阴天，左侧远处有红瓦小屋。不是同文四人群像，也不用公交站旁有疑似校服与少年的那张。不要把未标明的手臂写成「左手／右手」，不要发明裙子品牌。性从这件几乎透明的裙子、蹲下来的身体和这个注视来，不靠第二个人。专名保持 AnOther、Keerthana Kunnath、Bhumika。",
+      "image": {
+        "file": "log-another-kunnath-bhumika.webp",
+        "alt": "一名女子赤脚蹲在干草土路上，黄绿细带裙的裙尾拖在身后，一侧手臂屈起，另一只手垂在膝旁，看着镜头。",
+        "width": 1205,
+        "height": 1600
+      }
+    },
+    {
+      "id": "enako-neon-20261124",
+      "date": "2026-11-24",
+      "line": "beauty",
+      "title": "えなこ · 霓虹猫耳",
+      "note": "俯拍下，她坐在银色管架里，穿粉边黑短上衣与短裙和长靴，腿上有粉卡扣带；戴猫耳耳机，一手抓横杆，另一手朝镜头笑着竖起拇指，地面与后景是粉青霓虹。",
+      "href": "https://x.com/enako_cos/status/2124817345856356770",
+      "source": "美女列表（裏）·前夜追更：watch-20261123。原帖棚内完整 Cos，不是活动现场或节目宣传图。名单生日约 1994-01-22，已核成年，非露点。已目视：高角度俯拍。她坐在银色金属管搭成的架子里，地面和后景是粉与青的几何霓虹（方形、三角、菱形）；黑色短上衣与短裙，边缘有粉色包边，腰间有粉色皮带和金属扣，小腹露出；戴黑粉猫耳耳机，深色头发有刘海，耳侧发丝带一点粉；一只手抓着头顶的横杆，另一只手伸向镜头做拇指向上，对着镜头笑。腿上有一条粉色卡扣带，脚上是黑色长靴。同日 SASUKE 节目宣传图带大量 UI，不收。",
+      "image": {
+        "file": "li-20261124-enako-neon.webp",
+        "alt": "俯拍里一名女子坐在银色管架中，穿着粉边黑短上衣与短裙和长靴，腿上有粉卡扣带，戴着猫耳耳机，一手抓横杆，另一手朝镜头竖起拇指。",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
       "id": "as-wangchen-yuyao",
       "date": "2026-11-23",
       "line": "taste",
