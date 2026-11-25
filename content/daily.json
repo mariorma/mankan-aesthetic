@@ -2,6 +2,141 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "dazed-vivier-bhavitha-stripe",
+      "date": "2026-11-25",
+      "line": "taste",
+      "title": "Dazed · Camille Vivier · Bhavitha Mandava（红白条纹针织）",
+      "note": "红白竖条针织帽带绕在颌下，护耳、领下、衣襟和袖口都是花瓣褶边；帽前黑色双 C、胸袋红底双 C 扣，她一只手托颊，另一只手臂横在身前，眼线外拉看向镜头。",
+      "href": "https://www.dazeddigital.com/fashion/article/71374/1/bhavitha-mandava-model-interview-diya-joukani-designer-conversation-india",
+      "source": "海外批 A · X。由 @Dazed 2026-11-24 帖 https://x.com/Dazed/status/2125247426009166295 发现，源头与 href 为 Dazed 刊文《Bhavitha Mandava and Diya Joukani on why fashion is waking up to India》（2026-11-24），不是把推文当作品页。摄影 Camille Vivier，造型 Imruh Asha。刊文写明全身衣鞋配件均为 Chanel Cruise 2026/27。出镜 Bhavitha Mandava，英文维基出生日期 2000-02-03，已核成年。官方图 images-prod 2000 边长已目视（1459674）。已目视：红白竖条针织套装，帽子前方有黑色双 C，两侧有褶边护耳，帽带绕在颌下；一只手托着脸颊（未标明左右）；袖口、衣襟和领下都是花瓣状褶边；胸前口袋有一粒红底双 C 扣；眼线向外拉长，看向镜头。本帧只有 Bhavitha，Diya Joukani 不在画中。主视觉为服装／纺织。同组雏菊眼饰近景、带大字的刊头，以及误入的广告帧不收。",
+      "image": {
+        "file": "log-dazed-bhavitha-stripe.webp",
+        "alt": "一名女子戴着红白竖条针织帽，帽带绕在颌下，护耳和衣襟袖口是花瓣褶边，一只手托颊，另一只手臂横在身前，看向镜头。",
+        "width": 1227,
+        "height": 1600
+      }
+    },
+    {
+      "id": "bili-yuxing-pyramid",
+      "date": "2026-11-25",
+      "line": "taste",
+      "title": "B站 ·「愚行」自然剧场（黄昏尖塔）",
+      "note": "蓝紫天空近地平有一条粉带；带竖条纹的深色尖塔装置从画面中下部升起，左下是积雪与一座矮白屋，远处是暗林地。",
+      "href": "https://www.bilibili.com/video/BV1NSzYBiEH4/",
+      "source": "中文批 2 · B站。视频《「愚行」——玛丽黛佳自然剧场III·参与式艺术实验现场》，BV1NSzYBiEH4，记录 2025-12-10 长白山脚下的装置与现场。桌面页未作为核图依据；画面核自 m.bilibili.com 与 videoshot 帧 c033，不是标题海报。封面取该帧 3× LANCZOS 至 1440×810，本帧无字幕、无台标。已目视：蓝紫的黄昏天空，靠近地平有一条粉带；一座深色、表面有竖向条纹的尖塔形装置从画面中下部升起；左下是积雪和一座矮的白屋，远处是暗的林地。近处看不见人。主视觉为雕塑／装置。同片带字幕的红伞、三角装置内景等帧不收。",
+      "image": {
+        "file": "log-bili-yuxing-pyramid.webp",
+        "alt": "蓝紫天空近地平有一条粉带，一座带竖条纹的深色尖塔从画面中下部升起，左下是积雪与一座矮白屋。",
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "id": "another-giovanelli-adastra",
+      "date": "2026-11-25",
+      "line": "repression",
+      "title": "AnOther · Louise Giovanelli · Ad Astra（帘中的脸）",
+      "note": "两幅并置的画里，墨绿到青紫的垂帘缀满细亮点；左幅几乎不见人，右幅女人闭眼微仰、红唇微张的情欲神色，被帘褶半遮着。",
+      "href": "https://www.anothermag.com/art-photography/17652/louise-giovanelli-in-the-light-of-false-suns-white-cube",
+      "source": "性压抑。AnOther 刊文《Louise Giovanelli: Shimmering and Cinematic》（2026-11-23），介绍个展《In the Light of False Suns》（White Cube Mason's Yard）。作品《Ad Astra》（2026），官方展览摄影已目视。已目视：并置的两幅画。左幅是缀满细亮点的垂帘，颜色从墨绿到青紫，几乎不见人；右幅是同类的帘子，一张女人的脸闭着眼、头微仰、红唇微张，被帘褶挡住一半。性在这张闭眼、唇微张的脸上，压住它的是这层亮晶晶的舞台帘，人只剩下被半遮的面孔。不要写成两个人或电影剧照，这是画。画家 Louise Giovanelli，1993 年生于伦敦，已成年；画中面孔未具名，是绘画中的女人，不是需另核出生年的出镜者。同文《Astrobleme》为双人亲吻，不收。",
+      "image": {
+        "file": "log-another-giovanelli-adastra.webp",
+        "alt": "两幅并置的画里垂帘缀满细亮点，左幅几乎不见人，右幅一张闭眼、红唇微张的脸被帘褶半遮着。",
+        "width": 1600,
+        "height": 999
+      }
+    },
+    {
+      "id": "dazed-hemingway-anya-leather",
+      "date": "2026-11-25",
+      "line": "tension",
+      "title": "Dazed · Jordan Hemingway · Anya Taylor-Joy（黑皮革）",
+      "note": "浅发后梳，黑皮革高领无袖胸衣肩头向外翘，两条长带垂下来，配黑蕾丝短裤与靴沿；按在胸衣上的双手、偏去侧上方的目光，连同皮革与蕾丝自成性磁场。",
+      "href": "https://www.dazeddigital.com/film-tv/article/71359/1/anya-taylor-joy-dune-part-three-alia-atriedes-interview-winter-2026-issue",
+      "source": "单人性张力。Dazed 刊文《Anya Taylor-Joy: ‘For most of my life, I felt like such an alien’》（2026-11-23，Winter 2026 Issue），摄影 Jordan Hemingway，造型 Danielle Emerson。出镜 Anya Taylor-Joy，英文维基出生日期 1996-04-16，已核成年。刊文图注：Leather gilet Whitaker Malem，cotton and lace briefs Agent Provocateur，Tiffany 耳饰，leather boots Hermès。官方图 images-prod 2000 边长已目视（1459638）。已目视：浅色头发向后梳紧；黑色皮革无袖高领胸衣，肩头向外翘起，两条黑色长带垂到腿前；黑色蕾丝短裤；靴筒只露出最上沿；双手按在胸衣上（未标明左右）；深色唇、深色指甲，一侧有长耳饰；目光看向画面一侧上方，不是看镜头。性磁场来自这件贴身的黑皮革、蕾丝短裤、按在胸上的手，和这个侧过去的注视，不靠第二个人。带大字的刊头与同组透明外套全身不收。",
+      "image": {
+        "file": "log-dazed-anya-leather.webp",
+        "alt": "一名浅发后梳的女子穿着肩头外翘的黑皮革高领无袖胸衣和黑蕾丝短裤，两条长带垂下来，双手按在胸衣上，目光看向侧上方。",
+        "width": 1227,
+        "height": 1600
+      }
+    },
+    {
+      "id": "enako-overalls-20261125",
+      "date": "2026-11-25",
+      "line": "beauty",
+      "title": "えなこ · 画家背带裤",
+      "note": "窗边深色毛皮垫上，她穿蓝色牛仔背带裤与花色三角上衣，一条肩带落下；一只手按垫，另一只手将宽画笔递向镜头笑，身旁黄桶里有毛巾和笔，旁边是木调色板，脚上白鞋。",
+      "href": "https://x.com/enako_cos/status/2124969808752156675",
+      "source": "美女列表（裏）·前夜追更：watch-20261124。原帖棚内写真，造形完整，非活动媒体照。名单生日约 1994-01-22，已核成年，非露点。已目视：白色窗框与白砖墙，木地板上铺着深色毛皮垫。她盘发、有刘海，穿着蓝色牛仔背带裤，一条肩带落下来，里面是彩色图案的三角上衣；一只手拿着宽头画笔伸向镜头（未标明左右），另一只手按在垫上；身边有黄色塑料桶、毛巾和木调色板，脚上是白鞋，对着镜头笑。",
+      "image": {
+        "file": "li-20261125-enako-overalls.webp",
+        "alt": "一名女子坐在窗边毛皮垫上，穿着牛仔背带裤和花色三角上衣，一条肩带落下，一只手按垫，另一只手把画笔递向镜头。",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "yua-lace-lookback-20261125",
+      "date": "2026-11-25",
+      "line": "beauty",
+      "title": "三上悠亜 · 蕾丝露肩毛衣回眸",
+      "note": "室内铺着水磨石地面，她坐在青绿椅子上回头看向镜头；棕色长发、小耳环，浅褐灰露肩毛衣的领口是一圈白蕾丝，下身是牛仔裤。",
+      "href": "https://x.com/yua_mikami/status/2124841211462889975",
+      "source": "美女列表（裏）·前夜追更：watch-20261124。原帖沙龙室内照，非活动媒体照。名单介绍写 1993-08-16 生，已核成年，非露点。已目视：水磨石地面，后景有青绿椅子和灯。她坐在一张青绿椅子上，棕色长发，回头看向镜头；浅褐灰色毛衣，领口有一圈白色蕾丝，双肩露出；下面是牛仔裤，耳朵上有小耳环。同帖 sidelook 与此过近，不收。",
+      "image": {
+        "file": "li-20261125-yua-lace-lookback.webp",
+        "alt": "一名女子坐在青绿椅子上回头看向镜头，浅褐灰露肩毛衣的领口是一圈白蕾丝，下身是牛仔裤。",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
+      "id": "yua-lace-smile-20261125",
+      "date": "2026-11-25",
+      "line": "beauty",
+      "title": "三上悠亜 · 蕾丝露肩毛衣近笑",
+      "note": "后景有镜子和灯箱，她正面坐在青绿椅子上对镜头笑，双手放在身前；浅褐灰毛衣露出双肩、领口一圈白蕾丝，下身穿着牛仔裤。",
+      "href": "https://x.com/yua_mikami/status/2124841211462889975",
+      "source": "美女列表（裏）·前夜追更：watch-20261124。与回眸为同一帖另一张。名单介绍写 1993-08-16 生，已核成年，非露点。已目视：她正面坐在青绿椅子上，对镜头笑；浅褐灰毛衣，领口白色蕾丝，双肩露出；牛仔裤；双手放在身前（未标明左右）。后景有镜子和灯箱。",
+      "image": {
+        "file": "li-20261125-yua-lace-smile.webp",
+        "alt": "一名女子正面坐在青绿椅子上对镜头笑，双手放在身前，浅褐灰毛衣领口是一圈白蕾丝，下身是牛仔裤。",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
+      "id": "alisa-tilt-20261125",
+      "date": "2026-11-25",
+      "line": "beauty",
+      "title": "坂巻有紗 · 墙边侧头",
+      "note": "浅墙边，她穿灰色长袖 Polo、深棕百褶裙和深色袜子，戴细项链、头顶架墨镜；带白色字母的棕色托特包里搭着深棕外套，歪头看向镜头。",
+      "href": "https://x.com/alisa2525_10923/status/2125168298925121537",
+      "source": "美女列表（裏）·前夜追更：watch-20261124。原帖日常出门照，非活动媒体照。名单生日 2000-09-23，已核成年，非露点。已目视：浅色墙，灰色长袖 Polo，深棕色百褶裙，深色袜子；墨镜架在头顶；棕色托特包上有白色字母，包里搭着深棕色外套；一条细项链；头向一侧歪，看向镜头。不把未完全看清的包上字母写成品牌，也不写成校服。",
+      "image": {
+        "file": "li-20261125-alisa-tilt.webp",
+        "alt": "一名女子靠着浅墙，穿着灰长袖 Polo 和深棕百褶裙，头顶架着墨镜，棕色包里搭着外套，歪头看向镜头。",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
+      "id": "alisa-xmas-20261125",
+      "date": "2026-11-25",
+      "line": "beauty",
+      "title": "坂巻有紗 · 圣诞树前",
+      "note": "木质天花下的近景里，她穿灰色长袖 Polo、戴细项链，一只手抬到耳边对镜头笑；身后圣诞树挂着暖灯、圆球和格子蝴蝶结。",
+      "href": "https://x.com/alisa2525_10923/status/2125168298925121537",
+      "source": "美女列表（裏）·前夜追更：watch-20261124。与墙边为同一帖另一张。名单生日 2000-09-23，已核成年，非露点。已目视：灰色长袖 Polo 近景，细项链，一只手抬到耳边（未标明左右），对镜头笑；身后是圣诞树，有暖灯、圆球和格子蝴蝶结，木质天花。",
+      "image": {
+        "file": "li-20261125-alisa-xmas.webp",
+        "alt": "一名女子穿着灰色 Polo，一只手抬到耳边对镜头笑，身后圣诞树挂着暖灯、圆球和格子蝴蝶结。",
+        "width": 1067,
+        "height": 1600
+      }
+    },
+    {
       "id": "pixivision-kagari-wall",
       "date": "2026-11-24",
       "line": "taste",
