@@ -17,21 +17,6 @@
       }
     },
     {
-      "id": "bili-yuxing-pyramid",
-      "date": "2026-11-25",
-      "line": "taste",
-      "title": "B站 ·「愚行」自然剧场（黄昏尖塔）",
-      "note": "蓝紫天空近地平有一条粉带；带竖条纹的深色尖塔装置从画面中下部升起，左下是积雪与一座矮白屋，远处是暗林地。",
-      "href": "https://www.bilibili.com/video/BV1NSzYBiEH4/",
-      "source": "中文批 2 · B站。视频《「愚行」——玛丽黛佳自然剧场III·参与式艺术实验现场》，BV1NSzYBiEH4，记录 2025-12-10 长白山脚下的装置与现场。桌面页未作为核图依据；画面核自 m.bilibili.com 与 videoshot 帧 c033，不是标题海报。封面取该帧 3× LANCZOS 至 1440×810，本帧无字幕、无台标。已目视：蓝紫的黄昏天空，靠近地平有一条粉带；一座深色、表面有竖向条纹的尖塔形装置从画面中下部升起；左下是积雪和一座矮的白屋，远处是暗的林地。近处看不见人。主视觉为雕塑／装置。同片带字幕的红伞、三角装置内景等帧不收。",
-      "image": {
-        "file": "log-bili-yuxing-pyramid.webp",
-        "alt": "蓝紫天空近地平有一条粉带，一座带竖条纹的深色尖塔从画面中下部升起，左下是积雪与一座矮白屋。",
-        "width": 1440,
-        "height": 810
-      }
-    },
-    {
       "id": "another-giovanelli-adastra",
       "date": "2026-11-25",
       "line": "repression",
