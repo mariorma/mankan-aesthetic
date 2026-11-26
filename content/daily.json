@@ -2,6 +2,66 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "filmgrab-zeman-munchausen-ball",
+      "date": "2026-11-26",
+      "line": "taste",
+      "title": "Film-grab · Karel Zeman · The Fabulous Baron Munchausen（橙空圆球）",
+      "note": "橙黄天空里，穿青灰礼服、白领饰与深色靴的白发人骑在深色圆球上，一手按住球面，另一手扶着球侧，身后扬起衣摆与细线。",
+      "href": "https://film-grab.com/2026/11/22/the-fabulous-baron-munchausen/",
+      "source": "海外批 D · Film-grab（出版社／静帧库站）。Karel Zeman《The Fabulous Baron Munchausen》（捷克片名 Baron Prášil，1962）作品页，2026-11-22 上架。封面取官方静帧 The-Fabulous-Baron-Munchausen-52.jpg（1480×1080，长边 1600 LANCZOS），已目视；不是标题海报。已目视：几乎空的橙黄天空，右下略转深橙；一个白发人穿着青灰色礼服、白色领饰，骑在深色圆球上；一只手按在球体正面，另一只手扶着球的一侧（未标明左右）；深色靴子，身后有飞起的衣摆和一条细线。近处没有第二个人，也没有小孩。本帧骑手为成年演员造型，影片为 1962 年成人向奇幻片。主视觉为电影画面。同站 Cyrano 近景、Discreet Charm 公路群像、Happy Hour 阳台背影本轮已目视，未选作封面。本轮后段对 gallery 大图出现 429，封面只用已下到并目视的 52 号官方原图。",
+      "image": {
+        "file": "log-filmgrab-munchausen-ball.webp",
+        "alt": "橙黄天空里，一个穿青灰礼服、白领饰与深色靴的白发人骑在深色圆球上，一手按住球面，另一手扶着球侧。",
+        "width": 1600,
+        "height": 1168
+      }
+    },
+    {
+      "id": "huaban-feiyi-jianzhi",
+      "date": "2026-11-26",
+      "line": "taste",
+      "title": "花瓣 · 遇见非遗（剪纸插画）",
+      "note": "米色底插画，两名女子分坐高木凳与低处，前者托红剪纸，后者低头剪着手里的红纸；木框里是老虎与亭子红剪纸，下方有红柄剪刀、碎纸与鱼莲。",
+      "href": "https://huaban.com/pins/5371685279",
+      "source": "中文批 1 · 花瓣。pin 5371685279，文案为「遇见非遗插画」。pin 详情页与 pins API 本轮仍受限（API 405），未核到原作者或原作品页，不署名。封面取 https://gd-hbimg.huaban.com/6d40464b0e08ab9a909cdd2b6340ff37aea7f6145d98c8-V69JAH （3508×4961，长边 1600 LANCZOS），已目视。已目视：米色布纹底。左上竖排「剪紙」和英文 traditional handicraft intangible cultural heritage；右下印「非遺傳承」。两个成年女子：一个坐在高木凳上，穿暗赤上衣、浅色裙和褐色披巾，短发或盘发，手里托着红剪纸；一个坐得更低，穿红上衣、浅色裙，低头剪着手里的红纸。中间雕花木框里是老虎、树木和亭子的红剪纸，右侧圆框里是兔子坐车的红剪纸；四周有福字灯笼、桃花、红鸟、游出的鱼、莲和蝴蝶；底部是红柄剪刀和碎纸。画中人是成年女子，没有小孩。主视觉为绘画／插画。不要把未核到的作者写成阿邦邦或其他名字。同轮花瓣「太湖石」为黑底抠图、「十二月令图轴」远景人物年龄难核、「故宫日出」有水印、「故宫春」官方标在画内，未选作封面。",
+      "image": {
+        "file": "log-huaban-jianzhi.webp",
+        "alt": "米色底插画里，一个女子坐在高木凳上托着红剪纸，另一个低头剪红纸，中间木框是老虎与亭子的红剪纸，下方有红柄剪刀和鱼莲。",
+        "width": 1131,
+        "height": 1600
+      }
+    },
+    {
+      "id": "dazed-vieira-summer-fur",
+      "date": "2026-11-26",
+      "line": "tension",
+      "title": "Dazed · Guilherme Vieira · Summer Dirx（毛皮与黑柜）",
+      "note": "她侧倚在黑色雕花柜面上，灰棕黑大毛皮裹住上身，黑透丝袜、大腿吊带与深色高跟鞋，一只手臂顺柜面伸在腿侧，直视镜头，性磁场只在她一人身上。",
+      "href": "https://www.dazeddigital.com/fashion/article/71373/1/dazed-winter-2026-issue-feel-the-fantasy-guilherme-vieira-toariki-dexter",
+      "source": "单人性张力。Dazed 刊文《Baroque and roll! Dazed storms Versailles for the winter 2026 issue》（2026-11-25），摄影 Guilherme Vieira，造型 Toariki Dexter。出镜 Summer Dirx：Interview Magazine 2026-06-16 文中称其为 19-year-old（https://www.interviewmagazine.com/fashion/summer-dirx-walks-the-walk-and-talks-the-talk），至本轮已满 19 或 20 岁，已核成年。刊文另有 Louis Vuitton shearling shawl、Fifi Chachnil、Falke tights 等图注，品牌名只留在 source，画面上看不见这些字就不写进 note。官方图 images-prod 2000 边长已目视（1459658）。已目视：历史宅邸室内，左侧有铁艺楼梯栏杆和浅粉石墙；一座黑色雕花柜，上扇有圆形浮雕，下抽有金色花形拉手。她侧倚在柜面上，躯干较直，浅金短波浪发，看向镜头；一件灰棕黑色的大毛皮裹住上身；腿向前伸，黑色透明丝袜，大腿上能看见吊带，脚上是深色高跟鞋；一只手臂顺柜面伸在腿侧（未标明左右）。性磁场来自这件裹住身体的毛皮、丝袜和吊带、伸在腿侧的手臂，以及她看向镜头的注视，不靠第二个人。不要把未看见的内衣写进 note。不要把品牌名塞进 note。不要写成带 DAZED 刊头的封面。同组双人贴面、群像、Aker Ajak 独照（出生年仅见 FashionDB 估计，未采用）、以及跪姿帧（壁龛雕像偏幼态，不用作封面）不收。",
+      "image": {
+        "file": "log-dazed-summer-fur.webp",
+        "alt": "一名浅金头发的女子侧倚在黑色雕花柜面上，灰棕毛皮裹住上身，腿上是黑色丝袜、吊带和深色高跟鞋，一只手臂顺柜面伸在腿侧，看向镜头。",
+        "width": 1600,
+        "height": 1043
+      }
+    },
+    {
+      "id": "enako-earmuffs-20261126",
+      "date": "2026-11-26",
+      "line": "beauty",
+      "title": "えなこ · 白色耳罩与毛领外套",
+      "note": "木屋前，日光打在橙色暖帘上。她戴白色毛耳罩，穿前排黑扣的米色外套，领口、衣襟和袖口有厚毛、露出深色内袖，一手抬到耳边看向镜头。",
+      "href": "https://x.com/enako_cos/status/2125375947654533445",
+      "source": "美女列表（裏）·前夜追更：watch-20261125。原帖户外自拍，写真集拍摄中，非活动媒体拼图。名单生日约 1994-01-22，已核成年，非露点。已目视：传统木屋前，日光打在一扇橙色暖帘上，帘上有深色标记；石板路，右侧地上有白灯笼和树干。她黑发有刘海，戴着白色毛耳罩，穿着米色外套，前面一排黑扣，领口、衣襟和袖口都有厚白毛，袖口里能看见深色内袖；一只手抬到耳边（未标明左右），看向镜头，嘴唇带光泽。",
+      "image": {
+        "file": "li-20261126-enako-earmuffs.webp",
+        "alt": "一名女子站在木屋前，戴着白色毛耳罩，穿着前排黑扣、领口衣襟和袖口有厚毛的米色外套，一只手抬到耳边，身后是橙色暖帘。",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
       "id": "dazed-vivier-bhavitha-stripe",
       "date": "2026-11-25",
       "line": "taste",
