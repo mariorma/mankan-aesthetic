@@ -2,6 +2,96 @@
   "$schema": "./daily.schema.json",
   "entries": [
     {
+      "id": "colossal-amine-mountain-desert",
+      "date": "2026-11-28",
+      "line": "taste",
+      "title": "Colossal · Amine El Gotaibi · Mountain and Desert（钢板上的羊毛）",
+      "note": "白墙前三块竖向深锈色钢板，一块结团的米色羊毛横贯板面，起伏处投下阴影；下方浅色木地板有一道裂缝与日光影子。",
+      "href": "https://www.thisiscolossal.com/2026/11/amine-el-gotaibi-wind-from-the-north/",
+      "source": "海外批 D · Colossal（出版社／杂志站）。刊文 Abstract Wool Compositions Cascade from Weathered Metal in Amine El Gotaibi's Sculptures（2026-11-06），展览 Wind From the North，Southern Guild 纽约，至 2027-01-09。封面取文内官方图 new-amine.jpg，作品《Mountain and Desert》（2026），耐候钢与羊毛，244 x 394 x 50 cm，摄影致谢 Joseph Ouechen and Southern Guild，已目视；2000×1784，长边 1600 LANCZOS。已目视：白墙前三块竖向深锈色钢板，一块结成团的米色羊毛从左向右横贯三块钢板，中段和下沿起伏，在板面上投下阴影；下方是浅色木地板，有一道裂缝，地面有日光影子。没有人物。主视觉为雕塑／装置（羊毛为材料）。同文 Desert Wind、Reflection 等已目视；本条封面只用这张全景，不用局部特写。",
+      "image": {
+        "file": "log-colossal-amine-mountain.webp",
+        "alt": "白墙前三块深锈色钢板上，一团结成结的米色羊毛横贯过去，下方是浅色木地板。",
+        "width": 1600,
+        "height": 1427
+      }
+    },
+    {
+      "id": "colossal-amine-desert-wind",
+      "date": "2026-11-28",
+      "line": "taste",
+      "title": "Colossal · Amine El Gotaibi · Desert Wind（锈红羊毛）",
+      "note": "白墙前，带锈斑的锈褐色长方形钢板前，锈红色羊毛上半为垂直长丝，下半向前折出垂落，纤维更密、颜色更深。",
+      "href": "https://www.thisiscolossal.com/2026/11/amine-el-gotaibi-wind-from-the-north/",
+      "source": "海外批 D · 同一篇 Colossal 刊文。封面取文内官方图 amine-9.jpg，作品《Desert Wind》（2026），耐候钢与羊毛，200 x 130 x 50 cm，已目视；2000×2603，长边 1600 LANCZOS。已目视：白墙前一块长方形锈褐色钢板，表面有深浅不等的锈斑；钢板前方固定一块锈红色羊毛，上半是垂直垂下的长丝，下半向前折出并垂落，纤维更密、颜色更深。斜侧面拍摄，能看出作品离开墙面。没有人物。主视觉为雕塑／装置。正面平视图 amine-10 已目视，封面用这张斜侧面，以留下体积。制作过程照未用作封面。",
+      "image": {
+        "file": "log-colossal-amine-desertwind.webp",
+        "alt": "锈褐色钢板前，锈红色羊毛上半是垂下的长丝，下半折出来，纤维更密更深。",
+        "width": 1229,
+        "height": 1600
+      }
+    },
+    {
+      "id": "lavie-stella-geode",
+      "date": "2026-11-28",
+      "line": "taste",
+      "title": "La Vie · Stella ·《成石記》（簇绒雕塑）",
+      "note": "白台座上，橙褐条纹外壳的剖开簇绒雕塑露出黑、米、绿、黄圈层与青绿绒面；右后方白台另有一件深绿圆环纹、带黄绿绒球的同类雕塑，略虚。",
+      "href": "https://www.wowlavie.com/article/260027596",
+      "source": "中文批 3 · La Vie（设计／生活杂志站）。刊文《踏入白盒子裡的神秘石窟！Stella個展《成石記》…》（2026-11-04），展览于 Whimsy Works 奇想會，刊文写展期至 2026-11-08。封面取文内官方图 atl_27596_20261104160122_214.jpg（1200×800，长边 1600 LANCZOS），已目视。文内各图共用文章标题作说明，未对上单件作品名，不给前景作品另起名；文中提到〈Crystal Cave〉是与 ROSO 合作的 3D 列印系列，不能把眼前这两件未具名的簇绒剖石写成 Crystal Cave。已目视：白墙展厅。前景白台座上立着一件剖开的矿石形雕塑，外壳是橙褐色条纹，内壁是簇绒层带，可见黑、米、绿、黄等圈层，正中一块偏青绿的绒面；右后方白台／层板上另有一件深绿色、带圆环纹和黄绿绒球的同类雕塑，略虚。没有人物。主视觉为雕塑／装置（毛线簇绒）。同文展场全景、毛线树枝特写、两图拼贴页已目视，拼贴页不作用封面，全景管道与安全出口标较杂，本条只用这一张双件近景。优设本轮仍为 AI 教程，不收；澎湃朱炳仁熔铜图边长约 900 且属新闻站、部分隔着玻璃，不拿来充中文批。",
+      "image": {
+        "file": "log-lavie-stella-geode.webp",
+        "alt": "白台座上一件橙褐外壳、青绿内心的簇绒雕塑，右后方还有一件绿色圆环纹样的同类作品。",
+        "width": 1600,
+        "height": 1067
+      }
+    },
+    {
+      "id": "another-hosoe-mishima-forest",
+      "date": "2026-11-28",
+      "line": "repression",
+      "title": "AnOther · Eikoh Hosoe · Yukio Mishima（壁画前）",
+      "note": "黑白画面里，他赤膊、穿深色贴身短裤，赤脚站在大树与林间路壁画前，侧目避开镜头；左前一块深色人影半遮他身侧，情欲被遮挡与假风景一并压住。",
+      "href": "https://www.anothermag.com/art-photography/17637/eikoh-hosoe-yukio-mishima-leslie-lohman-museum",
+      "source": "性压抑。AnOther 刊文 Eikoh Hosoe’s Nude Photographs of Literary Rebel Yukio Mishima（2026-11-13），介绍 Leslie-Lohman Museum 展览 Props from Barakei，作品出自细江英公 1961 年系列 Barakei（Ordeal by Roses），在三岛由纪夫东京宅中拍摄。出镜 Yukio Mishima（三岛由纪夫／平冈公威），英文维基 https://en.wikipedia.org/wiki/Yukio_Mishima 记出生 1925-01-14，拍摄时 36 岁。封面取官方 images-prod 2000 边长 480310.jpg，长边 1600 LANCZOS，已目视。已目视：黑白照片。他赤脚站在画有大树、云和林间路的风景壁画前，上身赤裸，下身是深色贴身短裤，目光看向画面右侧，不看镜头；双手位置被身体和暗部挡住，不能写成背剪或握物。画面左侧前景有一块深色的人影轮廓，挡住部分壁画和他身体的左侧，看不清这团影子的面孔和衣服，不能指认是谁。情欲在几乎裸露的身体和田园壁画的对照里；压住它的是前景那块挡住视线的深色人影，以及把他放进室内假风景、不看镜头的安排。同文绳索与石膏头像帧、倒置拥抱帧、星座地面持槌帧已目视，本条不用作封面（双人／绳缚不是这条的画面）。不要把未入画的玫瑰、绳索、自杀或政治事件写进 note。不要写成全裸。",
+      "image": {
+        "file": "log-another-hosoe-mishima-forest.webp",
+        "alt": "黑白照片中，一名赤膊、穿深色贴身短裤的男子赤脚站在画有大树的风景壁画前，左侧前景有一块深色人影挡住部分画面。",
+        "width": 1147,
+        "height": 1600
+      }
+    },
+    {
+      "id": "chloe-sims-schiffer-silk",
+      "date": "2026-11-28",
+      "line": "tension",
+      "title": "Chloé · David Sims · Claudia Schiffer（丝绸吊带裙）",
+      "note": "她倚在黑色绒面沙发上，浅香槟丝绸吊带裙仅胸前有黑蕾丝，垂着细金链；一手按在裙面，一手垂在带金锁的黑手袋旁，性磁场在倚姿、丝绸与移开镜头的视线里。",
+      "href": "https://www.chloe.com/en-us/news/chloe-festive-campaign.html",
+      "source": "单人性张力。Chloé 官方新闻页 CHLOÉ UNVEILS ITS FESTIVE CAMPAIGN STARRING CLAUDIA SCHIFFER（标注 11/02/2026），摄影 David Sims，创意总监 Chemena Kamali。出镜 Claudia Schiffer，英文维基 https://en.wikipedia.org/wiki/Claudia_Schiffer 记出生 1970-08-25，至 2026-11-28 已 56 岁。封面取官方无字文件 260927_CHLOE_FESTIVE26_CROPS_16x9_NOLOGO_4.jpg（1920×1080，长边 1600 LANCZOS），已目视；Dazed 节日盘点里的同一姿势带有大号 Chloé 字标，不用作封面。已目视：她倚在黑色绒面沙发上，金发披散，目光看向画面左侧，不看镜头，嘴唇微张；浅香槟色丝绸吊带裙，细肩带，黑色蕾丝只在胸前一块，下摆是素丝绸，不要写成下摆也有蕾丝；胸前垂着好几条细金链。一只手按在身侧的裙面上，手指戴戒指；另一只手垂在一只黑色手袋旁，手袋有金色锁扣和铆钉，这只手指上也有戒指。不要把未标明的手写成左手或右手。不要把品牌名 Chloé 写进 note（这张无字封面上看不见这个字）。背景是带亮光的金属墙板，右侧有白色墙线脚和门。性磁场来自丝绸和胸前蕾丝、倚靠的姿势、看向一侧而不看镜头的视线，不靠第二个人。同组牛仔裤配金项链遮胸、粉裙旋转、黑色亮片套装等已目视，本条只用这张无字丝绸裙。",
+      "image": {
+        "file": "log-chloe-schiffer-silk.webp",
+        "alt": "一名金发女子倚在黑色沙发上，穿着胸前有黑色蕾丝的浅香槟丝绸吊带裙，一只手按在裙面上，另一只手垂在带金锁的黑色手袋旁，目光看向一侧。",
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "id": "koike-plaid-20261128",
+      "date": "2026-11-28",
+      "line": "beauty",
+      "title": "小池里奈 · 格纹泳衣",
+      "note": "她坐在户外风化的木面上，穿深底浅蓝灰格纹三角上装与侧系带泳裤，腰侧有深色蝴蝶结；一手靠近下巴，另一手按在身前木头上，嘴唇微张，看向镜头。",
+      "href": "https://x.com/KoikeRina0903/status/2126038326335729928",
+      "source": "美女列表（裏）·前夜追更：watch-20261127。原帖为 ENTAME 相关，同帖刊头封面已作旧图跳过，本张是新的特典明信片静帧，画面无字。出镜小池里奈，日文维基 https://ja.wikipedia.org/wiki/小池里奈 记生年月日 1993年9月3日，至 2026-11-28 已 33 岁，非露点。封面取 watch picks/koike_212603832_entame_postcard.jpg（676×1000，2× LANCZOS 至 1352×2000），已目视。已目视：户外，她坐在一块风化的木面上，身后是虚化的混凝土地面、一条白线和灰色构筑物；深色底、带浅蓝和灰色条的格纹比基尼，上是三角泳装、下是侧边系带，腰侧有深色蝴蝶结；一头齐肩深棕发，有刘海，看向镜头，嘴唇微张。一只手靠近下巴和锁骨，另一只手按在身前的木头上，未标明左右。肚脐可见。不要把未标明的手写成左手或右手。不要发明泳装品牌。同夜えなこ Champion 52 刊头和球衣墨镜自拍、三上一日店长活动海报因字压在画面上或宣传感不足不收；伊織もえ、あまつ様仍缺与本人对应的出生年，不新收。",
+      "image": {
+        "file": "li-20261128-koike-plaid.webp",
+        "alt": "一名女子坐在户外木面上，穿着深色格纹三角上装与侧系带泳裤，一只手靠近下巴，另一只手按在木头上，看向镜头。",
+        "width": 1352,
+        "height": 2000
+      }
+    },
+    {
       "id": "filmgrab-zeman-munchausen-ball",
       "date": "2026-11-26",
       "line": "taste",
